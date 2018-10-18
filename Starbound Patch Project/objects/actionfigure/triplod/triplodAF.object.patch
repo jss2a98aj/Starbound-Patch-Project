@@ -2,6 +2,6 @@
     {
         "op": "add",
         "path": "/collectablesOnPickup",
-        "value": { "actionfigures": "triplodaf" }
+        "value": { "actionfigures": "triplod" }
     }
 ]
