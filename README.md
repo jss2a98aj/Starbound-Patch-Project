@@ -14,6 +14,8 @@ The type of things this aims to fix:
 •	Items with bad or inconsistent values 
 (e.g.: inconsistent/missing prices, bad hand positioning, wrong food values)
 
+This includes fixes for unobtainable items because so many people use commands or mods to get ahold of them.
+
 # Permissions
 All included material within this repository is intended for use with Starbound in the form of a mod.
 Anyone may use included material in their own mods for Starbound if the content of their mod cannot function as intended without it.
