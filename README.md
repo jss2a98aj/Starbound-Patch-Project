@@ -17,5 +17,5 @@ The type of things this aims to fix:
 # Permissions
 All included material within this repository is intended for use with Starbound in the form of a mod.
 Anyone may use included material in their own mods for Starbound if the content of their mod cannot function as intended without it.
-Uses outside of Starbound mods are prohibited.
+Uses outside of Starbound mods is prohibited.
 Chucklefish LTD is granted the right to use included materials without restrictions.
