@@ -1,6 +1,11 @@
 [
     {
         "op": "replace",
+        "path": "/shortdescription",
+        "value": "Fungus Stim Pack"
+    },
+    {
+        "op": "replace",
         "path": "/price",
         "value": 100
     },

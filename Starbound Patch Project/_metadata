@@ -1,0 +1,9 @@
+{
+  "version" : "1.0.0",
+  "author" : "jss2a98aj",
+  "description" : "Starbound Patch Project Github: https://github.com/jss2a98aj/Starbound-Patch-Project",
+  "name" : "StarboundPatchProject",
+  "friendlyName" : "Starbound Patch Project",
+  "tags" : "Crafting and Building|Miscellaneous|NPCs and Creatures|Furniture and Objects|Armor and Clothes",
+  "includes" : ["ztarbound"]
+}
