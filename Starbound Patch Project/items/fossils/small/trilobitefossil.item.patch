@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/description",
+        "value": "Triolbites are one of the more well preserved fossil groups thanks to their exoskeleton."
+    }
+]
