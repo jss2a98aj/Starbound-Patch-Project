@@ -1,5 +1,5 @@
-# Starbound-Patch-Project
-A collection of patches and bug-fixes for Starbound
+# Starbound Patch Project
+The Starbound Patch Project is a collection of patches and bug-fixes for Starbound.
 
 The type of things this aims to fix:
 
@@ -12,7 +12,7 @@ The type of things this aims to fix:
 (e.g.: boat.lua had both of those things)
 
 •	Items with bad or inconsistent values 
-(e.g.: inconsistent/missing prices, bad hand positioning, wrong food values)
+(e.g.: inconsistent/missing prices, bad hand positioning, wrong drops)
 
 This includes fixes for unobtainable items because so many people use commands or mods to get ahold of them.
 
