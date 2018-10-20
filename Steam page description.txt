@@ -8,6 +8,7 @@ Typos fixed:
     Bandit's Bandana - description - bandana was misspelled
     Fungus Stim - name should be Fungus Stim Pack
     Po, Po Golem - assigned proper names
+    Protectorate Toilet Roll Holder - name had period at the end
     Trilobite (display) - description had a random quotation mark
     T-Rex Upper Tail - name had semicolon at the end
 
@@ -49,6 +50,7 @@ Placholder icons replaced:
     Protectorate Games Console
     Protectorate Garden Wind Chimes
     Protectorate Hologlobe
+    Protectorate Toilet Roll Holder
     Protectorate Water Dispenser
     Red Toolbox
     Shroom Disguise
