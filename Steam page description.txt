@@ -17,12 +17,14 @@ Textures fixed:
     Sewing Machine - had incorrectly colored pixels on one frame
     Shroom Disguise - had extra pixel
     Silver Chestpiece - corrected a frame from the back arm
-    Soldier's Leg Armour - had missing knee plate
+    Soldier's Leg Armour - had missing knee plate on a idle frame
     Thorny Plant - first frame was placed twice with 1px of offset
     random gen axe handle 46 - caused gap
     random gen dagger blade 11, 15, 16, 17 - caused gap
 
 Hair masks fixed:
+    Camo Helmet
+    Desert Head Scarf
     Demon Horn Wig
     Dog Hat
     Flowery Mask
@@ -40,6 +42,7 @@ Hair masks fixed:
     Slime Mask
     Vanguard's Helm
     Viking Helm
+    Voyager's Helm
 
 Placholder icons replaced:
     Protectorate Books (both types)
