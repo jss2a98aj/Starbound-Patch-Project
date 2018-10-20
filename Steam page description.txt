@@ -40,11 +40,19 @@ Hair masks fixed:
     Vanguard's Helm
     Viking Helm
 
-Icons fixed:
+Placholder icons replaced:
+    Protectorate Books (both types)
+    Protectorate Games Console
+    Protectorate Garden Wind Chimes
+    Protectorate Hologlobe
+    Protectorate Water Dispenser
+    Red Toolbox
+    Shroom Disguise
+    Thorny Plant
+    
+Icons improved:
     Metal Barrel - slight tweak
     Radioactive Barrel (both types) - slight tweak
-    Shroom Disguise - was a placeholder
-    Thorny Plant - was a placeholder
 
 Other Fixes:
     Fungus Stim Pack - corrected hand position and  price
