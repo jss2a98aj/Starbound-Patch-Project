@@ -1,5 +1,4 @@
-Welcone to Starbound Patch Project!
-This project was made to fix bugs present in Starbound. Currently it fixes around twenty issues.
+This project was made to fix bugs present in Starbound. Currently fixes around twenty bugs.
 
 Supports [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1465571894]Ztarbound[/url] in-game changelogs if it or FU is present.
 
@@ -16,11 +15,30 @@ Textures fixed:
     S.A.I.L (Apex ship console) - corrected glow map
     Scientist Pants - had hole in leg on specific idle frame
     Sewing Machine - had incorrectly colored pixels on one frame
-    Shroom Disguise - had extra pixel and wrong hair masking
+    Shroom Disguise - had extra pixel
     Silver Chestpiece - corrected a frame from the back arm
     Thorny Plant - first frame was placed twice with 1px of offset
     random gen axe handle 46 - caused gap
     random gen dagger blade 11, 15, 16, 17 - caused gap
+
+Hair masks fixed:
+    Demon Horn Wig
+    Dog Hat
+    Flowery Mask
+    Fluorescent Helmet
+    Geode Mask
+    George's Foxy Glasses
+    Horned Tricorn
+    Ice Cube Mask
+    Insurgent's Mask
+    Outrider's Helm
+    Pioneer's Helm
+    Predatory Head
+    Sabertooth Helm
+    Shroom Disguise
+    Slime Mask
+    Vanguard's Helm
+    Viking Helm
 
 Icons fixed:
     Metal Barrel - slight tweak
