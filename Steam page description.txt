@@ -1,7 +1,7 @@
 Welcone to Starbound Patch Project!
 This project was made to fix bugs present in Starbound. Currently it fixes around twenty issues.
 
-Supports [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1465571894]Ztarbound[/url] in-game changelogs if that mod or FU is present.
+Supports [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1465571894]Ztarbound[/url] in-game changelogs if it or FU is present.
 
 As of now the fixes included are as follows:
 
