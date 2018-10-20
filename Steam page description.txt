@@ -16,7 +16,7 @@ Textures fixed:
     Scientist Pants - had hole in leg on specific idle frame
     Sewing Machine - had incorrectly colored pixels on one frame
     Shroom Disguise - had extra pixel
-    Silver Chestpiece - corrected a frame from the back arm
+    Silver Chestpiece - corrected a frame of the back arm
     Soldier's Leg Armour - had missing knee plate on a idle frame
     Thorny Plant - first frame was placed twice with 1px of offset
     random gen axe handle 46 - caused gap
@@ -57,6 +57,9 @@ Placholder icons replaced:
 Icons improved:
     Metal Barrel - slight tweak
     Radioactive Barrel (both types) - slight tweak
+
+Wiring node placement fixed:
+    Club Lights (Blue, Green, Red, and Yellow)
 
 Other Fixes:
     Fungus Stim Pack - corrected hand position and  price
