@@ -92,9 +92,9 @@ Some unobtainable items have fixes included. This is intentional. Many people sp
 This will not make unobtainable items obtainable, that is not the goal of the mod.
 PNGGauntlet has been used on all textures modified by SBPP to reduce file size and improve load times.
 
-Starbound Patch Project Github: https://github.com/jss2a98aj/Starbound-Patch-Project
+[url=https://github.com/jss2a98aj/Starbound-Patch-Project]Starbound Patch Project Github[/url]
 
 Credits:
 Bug hunters: Clank8138
 
-Permissions: see https://github.com/jss2a98aj/Starbound-Patch-Project/blob/master/README.md
+Permissions: see the [url=https://github.com/jss2a98aj/Starbound-Patch-Project/blob/master/README.md]readme[/url]
