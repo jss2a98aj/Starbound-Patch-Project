@@ -1,0 +1,12 @@
+[
+    {
+        "op": "replace",
+        "path": "/shortdescription",
+        "value": "Alpaca Guard Real Torso"
+    },
+    {
+        "op": "replace",
+        "path": "/price",
+        "value": 2500
+    }
+]

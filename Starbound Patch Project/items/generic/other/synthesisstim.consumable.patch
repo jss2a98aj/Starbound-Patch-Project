@@ -2,12 +2,12 @@
     {
         "op": "replace",
         "path": "/shortdescription",
-        "value": "Fungus Stim Pack"
+        "value": "Synthesis Stim Pack"
     },
     {
         "op": "replace",
         "path": "/description",
-        "value": "This stimpack has natural healing properties."
+        "value": "A stimpack full of tree sap, has beneficial healing properties."
     },
     {
         "op": "replace",
