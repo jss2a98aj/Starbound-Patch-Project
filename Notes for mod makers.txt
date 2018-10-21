@@ -1,5 +1,5 @@
 If you want your mod to load after Starbound Patch Project add
-"StarboundPatchProject" to the includes fierld of your _metadata file.
+"StarboundPatchProject" to the includes field of your _metadata file.
 
 e.g.:
 
