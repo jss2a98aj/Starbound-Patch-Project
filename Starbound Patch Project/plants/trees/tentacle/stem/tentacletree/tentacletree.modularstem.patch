@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/dropConfig/drops/0/0/count",
+        "value": 3
+    }
+]
