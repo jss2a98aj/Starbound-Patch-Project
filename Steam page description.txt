@@ -118,7 +118,7 @@ boat.lua - fixed a typo and incorrect value
 
 
 
-Some unobtainable items have fixes included. This is intentional. Many people spawn items in or have mods that allow them to get them.
+Some unobtainable items have fixes included. This is intentional. Many people spawn items in or have mods that add ways to get them.
 This will not make unobtainable items obtainable, that is not the goal of the mod.
 PNGGauntlet has been used on all textures modified by SBPP to reduce file size and improve load times.
 
