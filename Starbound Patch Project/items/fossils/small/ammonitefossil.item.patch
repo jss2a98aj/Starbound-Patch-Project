@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/completeSetDescriptions/shortdescription",
+        "value": "Ammonite Fossil"
+    }
+]

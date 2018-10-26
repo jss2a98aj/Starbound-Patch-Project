@@ -2,11 +2,11 @@
     {
         "op": "replace",
         "path": "/shortdescription",
-        "value": "T. Rex Upper Tail"
+        "value": "T. Rex Lower Tail"
     },
     {
         "op": "replace",
         "path": "/description",
-        "value": "A fossilised T. rex tail fragment."
+        "value": "A fossilised T. rex tail tip."
     }
 ]

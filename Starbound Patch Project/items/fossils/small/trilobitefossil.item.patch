@@ -1,6 +1,11 @@
 [
     {
         "op": "replace",
+        "path": "/completeSetDescriptions/shortdescription",
+        "value": "Triolbite Fossil"
+    },
+    {
+        "op": "replace",
         "path": "/completeSetDescriptions/description",
         "value": "Triolbites are one of the more well preserved fossil groups thanks to their exoskeleton."
     }
