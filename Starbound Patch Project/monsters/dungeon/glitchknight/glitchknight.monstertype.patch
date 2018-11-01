@@ -1,0 +1,12 @@
+[
+    {
+        "op" : "add",
+        "path" : "/damageTeam",
+        "value" : 2    
+    },
+    {
+        "op": "replace",
+        "path": "/baseParameters/damageTeam",
+        "value": 2
+    }
+]
