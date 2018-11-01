@@ -1,6 +1,6 @@
 This project was made to fix bugs present in Starbound. Currently fixes over 50 issues.
 
-Supports [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1465571894]Ztarbound[/url] in-game changelogs if it or FU is present.
+Supports [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1465571894]Ztarbound[/url] in-game changelogs if it or Frackin' Universe is present.
 
 It is safe to install or uninstall this mod at any time.
 
