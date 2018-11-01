@@ -1,8 +1,18 @@
 [
     {
-        "op" : "add",
-        "path" : "/damageTeam",
-        "value" : 2    
+        "op": "add",
+        "path": "/shortdescription",
+        "value": "Glitch Knight's Horse"
+    },
+    {
+        "op": "add",
+        "path": "/description",
+        "value": "This metal horse is commonly used by Glitch Knights for jousting."
+    },
+    {
+        "op": "add",
+        "path": "/damageTeam",
+        "value": 2    
     },
     {
         "op": "replace",
