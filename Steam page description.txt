@@ -1,11 +1,23 @@
-This project was made to fix bugs present in Starbound. Currently fixes over 50 issues.
+This project was made to fix bugs present in Starbound. Currently fixes over 60 issues.
 
-Supports [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1465571894]Ztarbound[/url] in-game changelogs if it or FU is present.
+Supports in-game changelogs if [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1465571894]Ztarbound[/url] or Frackin' Universe is present.
 
 It is safe to install or uninstall this mod at any time.
 
 Recent Changelogs:
 
+  ------ 1.0.5 ------
+Notable fixes:
+    Limeted Watering Can stack sizes to one
+    -prevents a auto-sort interaction from corrupting saves.
+
+    Corrected the damage team of mounted Glicth knights
+    -mounted Glicth knights will no longer damage other Glitch.
+
+Missing names/descriptions added:
+    Mounted Glicth Knights were missing a name and description
+
+    
   ------ 1.0.4 ------
 Recipe fixes:
     The recipe for Classic Wallpaper was incorrect
@@ -51,27 +63,6 @@ Other fixes:
     Synthesis Stim Pack - corrected hand position and price
 
 
-  ------ 1.0.2 ------
-Typos fixed:
-    Protectorate Toilet Roll Holder - name had period at the end
-
-Textures fixed:
-    Disguise Trousers - had missing and incorrectly colored pixels
-    Soldier's Leg Armour - had missing knee plate on a idle frame
-
-Hair masks fixed:
-    Camo Helmet
-    Desert Head Scarf
-    Voyager's Helm
-    
-Wiring node placement fixed:
-    Club Lights (Blue, Green, Red, and Yellow)
-
-Placholder icons replaced:
-    Protectorate Clock
-    Protectorate Toilet Roll Holder
-
-
 I will be making a nicer list of every fix SBPP has (sorted by catigory) soon.
 
 Some unobtainable items have fixes included. This is intentional. Many people spawn items in or have mods that add ways to get them.
@@ -81,6 +72,7 @@ PNGGauntlet has been used on all textures modified by SBPP to reduce file size a
 [url=https://github.com/jss2a98aj/Starbound-Patch-Project]Starbound Patch Project Github[/url]
 
 Credits:
+Contributors: Ralek_Basa
 Bug hunters: Clank8138
 
 Permissions: see the [url=https://github.com/jss2a98aj/Starbound-Patch-Project/blob/master/README.md]readme[/url]
