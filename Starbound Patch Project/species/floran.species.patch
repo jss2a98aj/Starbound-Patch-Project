@@ -1,12 +1,12 @@
 [
     {
-        "op":"add",
-        "path":"/defaultBlueprints/tier1/-"
-        "value":{"item":"floransurvivalistchest"}
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": { "item": "floransurvivalistchest" }
     },
     {
-        "op":"add",
-        "path":"/defaultBlueprints/tier1/-",
-        "value":{"item":"floransurvivalistlegs"}
+        "op": "add",
+        "path": "/defaultBlueprints/tier1/-",
+        "value": { "item": "floransurvivalistlegs" }
     }
 ]
