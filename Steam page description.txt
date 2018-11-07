@@ -63,7 +63,7 @@ Other fixes:
     Synthesis Stim Pack - corrected hand position and price
 
 
-I will be making a nicer list of every fix SBPP has (sorted by catigory) soon.
+I will be making a nicer list of every fix SBPP has (sorted by category) soon.
 
 Some unobtainable items have fixes included. This is intentional. Many people spawn items in or have mods that add ways to get them.
 This will not make unobtainable items obtainable, that is not the goal of the mod.
@@ -72,7 +72,7 @@ PNGGauntlet has been used on all textures modified by SBPP to reduce file size a
 [url=https://github.com/jss2a98aj/Starbound-Patch-Project]Starbound Patch Project Github[/url]
 
 Credits:
-Contributors: Ralek_Basa
+Contributors: Ralek_Basa, Prototype99, Yanazake
 Bug hunters: Clank8138
 
 Permissions: see the [url=https://github.com/jss2a98aj/Starbound-Patch-Project/blob/master/README.md]readme[/url]
