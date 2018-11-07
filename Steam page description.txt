@@ -8,14 +8,14 @@ Recent Changelogs:
 
   ------ 1.0.5 ------
 Notable fixes:
-    Limeted Watering Can stack sizes to one
+    Limited Watering Can stack sizes to one
     -prevents a auto-sort interaction from corrupting saves.
 
-    Corrected the damage team of mounted Glicth knights
-    -mounted Glicth knights will no longer damage other Glitch.
+    Corrected the damage team of mounted Glitch knights
+    -mounted Glitch knights will no longer damage other Glitch.
 
 Missing names/descriptions added:
-    Mounted Glicth Knights were missing a name and description
+    Mounted Glitch Knights were missing a name and description
 
     
   ------ 1.0.4 ------
@@ -58,7 +58,7 @@ Other fixes:
     Barrel (Chestwear) - corrected price
     Cardboard Box Armor - corrected rarity and price
     George's Foxy Glasses - corrected price
-    Protectorate Poptop Toy - name now relfects what it is
+    Protectorate Poptop Toy - name now reflects what it is
     Shroom Remedy - corrected hand position
     Synthesis Stim Pack - corrected hand position and price
 
