@@ -6,6 +6,16 @@ It is safe to install or uninstall this mod at any time.
 
 Recent Changelogs:
 
+  ------ 1.0.6 ------
+Recipe fixes:
+    Added Survivalist starter clothing to Floran recipe lists
+    -all other starter sets were craftable by thier
+    respective races, this corrects that oversight.
+
+Texture fixes:
+    Huge Primitive Cabinet - added missing bone post
+
+    
   ------ 1.0.5 ------
 Notable fixes:
     Limited Watering Can stack sizes to one
@@ -32,38 +42,7 @@ Typos fixed:
     Triolbite fossils display names were missing the fossil suffix
 
 
-  ------ 1.0.3 ------
-Notable fixes:
-    Tentacle trees had improperly configured drops
-    -Raw Tentacle will now drop from it as intended
-    Two kelp variations with saplings were not dropping them
-    The script randomblueprint.lua was not functioning as intended
-    -unknown mech BPs will now drop much more than known ones.
-
-Typos fixed:
-    Fungus Stim Pack - description - stim should be stimpack
-    Synthesis Stim - name should be Synthesis Stim Pack
-    Synthesis Stim - description now matches other stimpacks
-
-Placholder icons replaced:
-    Alpaca Guard (cosmetic set)
-    Protectorate Poptop Toy
-    Protectorate Wall Banner (three versions)
-    Smashable Rock (Copper, Diamond, Gold, Platnium, Silver)
-    Small Smashable Rock (Copper, Diamond, Gold, Platnium, Silver)
-
-Other fixes:
-    Alpaca Guard Set - some names and all prices corrected
-    Barrel Lid (Headwear) - corrected price
-    Barrel (Chestwear) - corrected price
-    Cardboard Box Armor - corrected rarity and price
-    George's Foxy Glasses - corrected price
-    Protectorate Poptop Toy - name now reflects what it is
-    Shroom Remedy - corrected hand position
-    Synthesis Stim Pack - corrected hand position and price
-
-
-I will be making a nicer list of every fix SBPP has (sorted by category) soon.
+I will be making a proper list of every fix SBPP has (sorted by category) soon.
 
 Some unobtainable items have fixes included. This is intentional. Many people spawn items in or have mods that add ways to get them.
 This will not make unobtainable items obtainable, that is not the goal of the mod.
