@@ -6,6 +6,23 @@ It is safe to install or uninstall this mod at any time.
 
 Recent Changelogs:
 
+  ------ 1.0.7 ------
+Script Error Fixes:
+    Random Fountain: fixed script error caused by missing audio
+    -It now activates like it should when interacted with.
+
+Texture Fixes:
+    Huge Primitive Cabinet: further texture fixes
+    Pig pet(three types): Fixed wrong colors on inspect frame
+    Predatory Trousers: corrected the colors of several frames
+    -The foot covers will no longer randomly change colors.
+    Toucan Breastplate: Added missing glove to crouching frame
+
+Other fixes:
+    Decorative Support Beam: fixed placement parameters
+    -It can now be placed in lower right corners.
+
+    
   ------ 1.0.6 ------
 Recipe fixes:
     Added Survivalist starter clothing to Floran recipe lists
@@ -26,20 +43,6 @@ Notable fixes:
 
 Missing names/descriptions added:
     Mounted Glitch Knights were missing a name and description
-
-    
-  ------ 1.0.4 ------
-Recipe fixes:
-    The recipe for Classic Wallpaper was incorrect
-    -It will make Classic Wallpaper as intended.
-
-Sound fixes:
-    Asphalt used mud footstep sounds, it now uses stone ones.
-
-Typos fixed:
-    Ammonite fossils display names were missing the fossil suffix
-    T. rex was misspelled T-Rex 12 times.
-    Triolbite fossils display names were missing the fossil suffix
 
 
 I will be making a proper list of every fix SBPP has (sorted by category) soon.
