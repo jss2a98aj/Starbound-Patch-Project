@@ -2,11 +2,11 @@
     {
         "op": "add",
         "path": "/shortdescription",
-        "value": "Micro Po"
+        "value": "Sewer Fly"
     },
     {
         "op": "add",
         "path": "/description",
-        "value": "A very small pile of animated poo."
+        "value": "This species of fly may be why some sewer systems are in such disrepair."
     }
 ]

@@ -6,7 +6,7 @@ The type of things this aims to fix:
 •	Spelling, grammar, and punctuation errors.
 
 •	Sprites with missing or extra pixels
-(e.g.: random out of place pixel, hole in a single frame of a clothing item)
+(e.g.: random out of place pixel, hole in a frame of a clothing item)
 
 •	LUA files with errors or incorrect values
 (e.g.: boat.lua had both of those things)

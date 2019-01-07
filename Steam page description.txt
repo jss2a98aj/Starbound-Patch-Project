@@ -1,10 +1,35 @@
-This project was made to fix bugs present in Starbound. Currently fixes over 60 issues.
+This project was made to fix bugs present in Starbound. Currently fixes over 70 issues.
 
 Supports in-game changelogs if [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1465571894]Ztarbound[/url] or Frackin' Universe is present.
 
 It is safe to install or uninstall this mod at any time.
 
 Recent Changelogs:
+[code]
+  ------ 1.0.8 ------
+Parallax Fixes:
+    All fixes from the Parallax Fixes mod are now included
+    -Thanks to Dracyoshi and Xaliber for allowing this.
+
+Crash Fixes:
+    Big Unusual Gift Box: created missing treasurepool
+    -The mob spawned by the item will no longer cause a crash
+    when killed.
+    
+Tile fixes:
+    Matter Blocks: background blocks are no longer occluded
+
+Mob fixes:
+    Po variations: Added descriptions
+    
+    Po Golem: Added description
+    
+    Sewer Fly: Fixed animations, added name and description
+    
+Texture fixes:
+    An ocean horizon mask file was missing part of an island
+    -Some ocean planets looked odd from the player ship.
+    
 
   ------ 1.0.7 ------
 Script Error Fixes:
@@ -31,21 +56,7 @@ Recipe fixes:
 
 Texture fixes:
     Huge Primitive Cabinet - added missing bone post
-
-    
-  ------ 1.0.5 ------
-Notable fixes:
-    Limited Watering Can stack sizes to one
-    -prevents a auto-sort interaction from corrupting saves.
-
-    Corrected the damage team of mounted Glitch knights
-    -mounted Glitch knights will no longer damage other Glitch.
-
-Missing names/descriptions added:
-    Mounted Glitch Knights were missing a name and description
-
-
-I will be making a proper list of every fix SBPP has (sorted by category) soon.
+[/code]
 
 Some unobtainable items have fixes included. This is intentional. Many people spawn items in or have mods that add ways to get them.
 This will not make unobtainable items obtainable, that is not the goal of the mod.
@@ -55,7 +66,7 @@ PNGGauntlet has been used on all textures modified by SBPP to reduce file size a
 
 Credits:
 Contributors: Ralek_Basa, Prototype99, Yanazake,
-lunapanshiel
+lunapanshiel, Xaliber, Dracyoshi
 
 Bug hunters: Clank8138
 

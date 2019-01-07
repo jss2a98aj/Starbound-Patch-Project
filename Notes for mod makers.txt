@@ -6,5 +6,5 @@ e.g.:
 "includes" : ["StarboundPatchProject"]
 
 
-If you are depending on fixes SBPP provides you can include them in your mod so SBPP is not required by it.
+If you are depending on fixes SBPP provides you can include them in your mod so SBPP is not a hard requirement
 
