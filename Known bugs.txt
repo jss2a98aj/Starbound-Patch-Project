@@ -1,0 +1,266 @@
+This document lists almost every bug fixed by the the Starbound Patch Project.
+The file paths are included to make it easier for the problems to be verified and fixed.
+
+
+Planets:
+  celestial\system\terrestrial\horizon\masks\ocean\22_l.png
+  celestial\system\terrestrial\horizon\masks\ocean\22_r.png
+    There is a line between the l and r parts of this mask where an island is cut off.
+
+
+Collections:
+  collections\fossils.collection
+    "Ammonite" should be "Ammonite Fossil"
+    "Trilobite" should be "Trilobite Fossil"
+    "T-Rex Fossil" should be "T. Rex Fossil"
+
+Items:
+  items\active\unsorted\wateringcan\wateringcan.activeitem
+    Can corrupt saves under specific conditions:
+     1. Two stacks that can be stacked into a sigle stack are present.
+     2. Each stack is in a seperate hand.
+     3. Both cans are being actively used.
+     4. The auto-sort button is used duiring this.
+    Loading a save that has crashed from this will crash on every consecutive load.
+    Changing the stack size to one, matching the "Wooden Watering Can"(woodenwateringcan) keep the crash from being triggered.
+
+  items\active\weapons\melee\axe\handle\46.png
+  items\active\weapons\melee\dagger\blade\11.png
+  items\active\weapons\melee\dagger\blade\15.png
+  items\active\weapons\melee\dagger\blade\16.png
+  items\active\weapons\melee\dagger\blade\17.png
+    Randomly generated weapons using the above parts will have a gap between the handle and blade.
+    
+  items\armors\apex\apex-tier3\mask.png
+  items\armors\backerhats\demonhorns\mask.png
+  items\armors\backerhats\doghat\mask.png
+  items\armors\backerhats\tricornhat\mask.png
+  items\armors\biome\Bioluminescence\lighthelm\mask.png
+  items\armors\biome\geode\geode\mask.png
+  items\armors\biome\icecaves\icecubehat\mask.png
+  items\armors\biome\slime\slime\mask.png
+  items\armors\biome\spring\flowery\mask.png
+  items\armors\biome\tar\sabertoothhelm\mask.png
+  items\armors\decorative\costumes\mrclaus\mask.png
+  items\armors\decorative\costumes\predatory\mask.png
+  items\armors\decorative\hats\georgedev\mask.png
+  items\armors\decorative\hats\shroomdisguise\mask.png
+  items\armors\decorative\hats\vikinghelmet\mask.png
+  items\armors\human\human-tier3\mask.png
+  items\armors\human\human-tier4\mask.png
+  items\armors\human\human-tier5accelerator\mask.png
+  items\armors\other\bedouin\mask.png
+  items\armors\other\camo\mask.png
+  items\armors\other\voyager\mask.png
+    The above mask.png files make hair not appear in the expected way.
+
+  items\armors\avian\avian-tier6separator\FSleeve.png
+    The crouching frame is missing its glove.
+
+  items\armors\decorative\costumes\barrel\barrel.chest
+  items\armors\decorative\costumes\barrel\barrel.head
+    The above items should have a price of 2500.
+
+  items\armors\decorative\costumes\betty\pants.png
+  items\armors\decorative\costumes\predatory\pants.png
+    The above sprites have some incorrectly colored spots.
+
+  items\armors\decorative\costumes\cardboard\cardboard.chest
+    Should have a price of 5000.
+    Should be legendary.
+
+  items\armors\decorative\costumes\scientist\pants.png
+    One idle frame has a hole in its leg.
+
+  items\armors\decorative\hats\bandithat1\bandithat1.head
+    "bandanna" should be spelled "bandanna" in the description.
+
+  items\armors\decorative\hats\georgedev\georgedev.head
+    Should have a price of 5000.
+  
+  items\armors\decorative\hats\shroomdisguise\head.png
+    Has a incorrect pixel near the bottom.
+  
+  items\armors\decorative\hats\shroomdisguise\icons.png
+    Icon looks like blank paper bag but should have a mushroom on it.
+
+  items\armors\other\silverarmor\bsleeve.png
+    The holding item frame is using a incorrect sleeve.
+
+  items\armors\other\soldier\pants.png
+    Some frames are missing kneecaps.
+
+  items\fossils\large\trexfossil\trexfossil1.item
+  items\fossils\large\trexfossil\trexfossil2.item
+  items\fossils\large\trexfossil\trexfossil3.item
+  items\fossils\large\trexfossil\trexfossil4.item
+  items\fossils\large\trexfossil\trexfossil5.item
+    "T. rex" is incorrectly spelled "T-Rex" in every place it is used.
+    One name also had a ";" at the end.
+
+  items\fossils\small\ammonitefossil.item
+    "/completeSetDescriptions/shortdescription" should be "Ammonite Fossil" not "Ammonite"
+
+  items\fossils\small\trilobitefossil.item
+    "/completeSetDescriptions/shortdescription" should be "Trilobite Fossil" not "Trilobite"
+
+  items\generic\other\fungusstim.consumable
+  items\generic\other\shroomremedy.consumable
+  items\generic\other\synthesisstim.consumable
+    The above items should have "/handPosition" removed so the they are held properly.
+
+  items\generic\other\orangestim.consumable
+    "/handPosition" should be removed so the item is held properly. (Affects the "Orange Chemist" crew type)
+    "/price" should be set to 100 to match other stimpacks.
+    Other stimpack recipes are taught by the "Bio Sample"(biosample) item, but not this one. Its recipe is in the game files.
+
+
+Monsters:
+  monsters\dungeon\glitchknight\glitchknight.monstertype
+    Missing name
+    Missing description
+    Missing "/damageTeam", should be 2
+    Wrong "/baseParameters/damageTeam", should be 2
+    Currently attacks other Glitch because of this.
+  
+  monsters\dungeon\po\megapo.monstertype
+  monsters\dungeon\po\micropo.monstertype
+  monsters\dungeon\po\po.monstertype
+  monsters\dungeon\pogolem\pogolem.monstertype
+    Above monster types have no name or description.
+
+  monsters\dungeon\sewerfly\sewerfly.animation
+    Head has no windup frames assigned causing it to disappear before spitting.
+    Might be why it was replaced with Agrobats in the sewer dungeon.
+
+  monsters\pets\piglett\parts\black.png
+  monsters\pets\piglett\parts\brown.png
+  monsters\pets\piglett\parts\pink.png
+    The above sprites have an incorrectly colored nose on the inspect frame.
+  
+  treasure\npcdrops.treasurepools
+    Empty "giftMonsterBoxTreasure" and "smallGiftMonsterBoxTreasure" pools are needed to
+    keep "giftmonster" and "giftmonstersmall" from causing a crash when killed.
+  OR
+  monsters\dungeon\giftmonster\giftmonster.monstertype
+  monsters\dungeon\giftmonster\giftmonstersmall.monstertype
+    could have the "dropPools" paramiter removed.
+
+Objects:
+  objects\actionfigure\triplod\triplodAF.object
+    collectablesOnPickup was not assigned, making it impossible to complete a collection.
+    "actionfigures": "triplod" is the matching value.
+
+  objects\crafting\upgradeablecraftingobjects\craftingwheel\craftingwheel2.png
+    One frame has incorrectly colored pixels on the bottom.
+    
+  objects\farmables\thornplant\thornplant.png
+    The first frame appears to have been placed twice, with one pixel of offset.
+
+  objects\floran\florancabinet3\florancabinet3.png
+    The back leg was missing and one other leg was partly cut off.
+  
+  objects\generic\metalbarrel2\metalbarrel2.object
+  objects\generic\metalbarrel2b\metalbarrel2b.object
+   The above objects should be in the "decorative" category.
+   
+  objects\generic\randomfountain\randomfountain.animation
+    No sound is assigned, causing a script error when interacted with.
+  
+  objects\generic\randomfountain\randomfountain.object
+    Several invalid projectiles were assigned.
+
+  objects\glitch\barrel\barrel.object
+  objects\glitch\barrellarge\barrellarge.object
+    The small barrel is stacked in a ocean dungeon, but cannot actually be stacked cauing it to break.
+    Making it have a platform collision type fixes this.
+    The large barrel should be changed to match.
+
+  objects\human\prisoncorner\prisoncorner.object
+    The anchor for the botton right is not setup properly, making it impossible to place on the bottom left side of a wall.
+
+  objects\hylotl\clubceilinglights\clubceilinglights.object
+  objects\hylotl\clubceilinglightsgreen\clubceilinglightsgreen.object
+  objects\hylotl\clubceilinglightsred\clubceilinglightsred.object
+  objects\hylotl\clubceilinglightsyellow\clubceilinglightsyellow.object
+    The wireing points are floating rather far off of the lights.
+
+  objects\protectorate\objects\protectoratedormtoiletroll
+    "Protectorate Toilet Roll Holder" should not have a "." at the end.
+    
+  objects\ship\techstation\techstationlit.png
+    Almost every frame has problems around the "text" and S.A.I.L. face.
+
+
+Parallax:
+  parallax\images\grass9\base\1.png
+  parallax\images\grass9\base\2.png
+  parallax\images\grassrare\base\1.png
+  parallax\images\grassrare\base\2.png
+  parallax\images\grassrare\base\3.png
+  parallax\images\grassrare\base\4.png
+  parallax\images\moon9\base\1.png
+  parallax\images\moonglow\base\1.png
+  parallax\images\moonpeach\base\1.png
+    The above .png files have several visual issues.
+
+  parallax\surface\magma.parallax
+    Background lava appears yellow, while the ocean of lava is orange.
+
+
+Plants:
+  plants\trees\seatrees\foliage\bubbles\bubbles.modularfoliage
+  plants\trees\seatrees\foliage\flowy\flowy.modularfoliage
+  plants\trees\seatrees\foliage\kelpy\kelpy.modularfoliage
+  plants\trees\seatrees\foliage\leafy\leafy.modularfoliage
+  plants\trees\seatrees\foliage\wavy\wavy.modularfoliage
+    The above foliage cannot drop saplings, but "plants\trees\seatrees\foliage\toxickelpy\toxickelpy.modularfoliage" can.
+
+  plants\trees\tentacle\stem\tentacletree\tentacletree.modularstem
+  plants\trees\tentacle\stem\tentacletreetwo\tentacletreetwo.modularstem
+    Above "trees" have drops assigned, but are set to give zero of the drop. 
+
+
+Tiles:
+  tiles\materials\asphalt.material
+    "/sfx/blocks/footstep_stone.ogg" is a better step sound.
+    Asphalt roads should not make "splat" sounds when stepped on.
+    
+  tiles\materials\matterblock.material
+    Set occludesBelow to false so that ackground walls whould not be invisible.
+
+
+Recipes:
+  recipes\furniture1\materials\wallpaper.recipe
+    Should make "Classic Wallpaper"(wallpaper) not "Smooth Tomb Brick"(tombbrick5)
+  
+  species/floran.species
+    "floransurvivalistchest" and "floransurvivalistlegs" starting items are missing from the default blueprints.
+    All other clothing items avalible to each race can be crafted by there respective race, barring this one.
+
+
+Lua:
+  vehicles\boat\boat.lua
+    Line 216: Timer was mispelled TImer
+    Line 226: windMaxAngle was used instead of windAngle
+
+  items\active\randomblueprint\randomblueprint.lua
+    The code used to pick an unknown blueprint does not work well, and gives duplicates frequently.
+    rewriting that snippet of code is a possible soloution
+
+
+Things not fixed by the main SBPP files:
+
+  humanoid\novakid\malebody.png
+    Some pixels on a few frames do not color with the rest of the body.
+
+  humanoid\apex\femalebody.png
+    Feet are missing fur on one frame.
+
+Things not fixed by SBPP:    
+  Textures are not well optimised. PNGauntlet yields a lossles compression of 25% to 85% per texture.
+  Improvements include reduced file size, less RAM usage, and less disk usage.
+  
+  Starbound has stuttering issues caused by disk read/write usage on my system if it is not installed on my SSD.
+  One of my friends had excesive stuttering and his framerate was stuck at ~30 before moving it to his SSD.
+  Most of it appears to be caused by write operations. Storing world and player saves that are being used in memory and writing at set intevals could help resolve this.
