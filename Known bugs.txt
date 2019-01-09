@@ -1,5 +1,5 @@
-This document lists almost every bug fixed by the the Starbound Patch Project.
-The file paths are included to make it easier for the problems to be verified and fixed.
+This document lists almost every bug fixed by the Starbound Patch Project.
+The file paths are included to make it easier for the problems to be verified and fixed officially.
 
 
 Planets:
@@ -17,10 +17,10 @@ Collections:
 Items:
   items\active\unsorted\wateringcan\wateringcan.activeitem
     Can corrupt saves under specific conditions:
-     1. Two stacks that can be stacked into a sigle stack are present.
-     2. Each stack is in a seperate hand.
+     1. Two stacks that can be stacked into a single stack are present.
+     2. Each stack is in a separate hand.
      3. Both cans are being actively used.
-     4. The auto-sort button is used duiring this.
+     4. The auto-sort button is used during this.
     Loading a save that has crashed from this will crash on every consecutive load.
     Changing the stack size to one, matching the "Wooden Watering Can"(woodenwateringcan) keep the crash from being triggered.
 
@@ -144,7 +144,7 @@ Monsters:
   OR
   monsters\dungeon\giftmonster\giftmonster.monstertype
   monsters\dungeon\giftmonster\giftmonstersmall.monstertype
-    could have the "dropPools" paramiter removed.
+    could have the "dropPools" parameter removed.
 
 Objects:
   objects\actionfigure\triplod\triplodAF.object
@@ -172,18 +172,18 @@ Objects:
 
   objects\glitch\barrel\barrel.object
   objects\glitch\barrellarge\barrellarge.object
-    The small barrel is stacked in a ocean dungeon, but cannot actually be stacked cauing it to break.
+    The small barrel is stacked in an ocean dungeon, but cannot actually be stacked causing the top one to break.
     Making it have a platform collision type fixes this.
     The large barrel should be changed to match.
 
   objects\human\prisoncorner\prisoncorner.object
-    The anchor for the botton right is not setup properly, making it impossible to place on the bottom left side of a wall.
+    The anchor for the bottom right is not setup properly, making it impossible to place on the bottom left side of a wall.
 
   objects\hylotl\clubceilinglights\clubceilinglights.object
   objects\hylotl\clubceilinglightsgreen\clubceilinglightsgreen.object
   objects\hylotl\clubceilinglightsred\clubceilinglightsred.object
   objects\hylotl\clubceilinglightsyellow\clubceilinglightsyellow.object
-    The wireing points are floating rather far off of the lights.
+    The wiring points are floating rather far off of the lights.
 
   objects\protectorate\objects\protectoratedormtoiletroll
     "Protectorate Toilet Roll Holder" should not have a "." at the end.
@@ -227,7 +227,7 @@ Tiles:
     Asphalt roads should not make "splat" sounds when stepped on.
     
   tiles\materials\matterblock.material
-    Set occludesBelow to false so that ackground walls whould not be invisible.
+     occludesBelow needs to be to false so that background walls are not invisible.
 
 
 Recipes:
@@ -236,17 +236,17 @@ Recipes:
   
   species/floran.species
     "floransurvivalistchest" and "floransurvivalistlegs" starting items are missing from the default blueprints.
-    All other clothing items avalible to each race can be crafted by there respective race, barring this one.
+    All other clothing items available to each race can be crafted by there respective race, barring this one.
 
 
 Lua:
   vehicles\boat\boat.lua
-    Line 216: Timer was mispelled TImer
+    Line 216: Timer was misspelled TImer
     Line 226: windMaxAngle was used instead of windAngle
 
   items\active\randomblueprint\randomblueprint.lua
     The code used to pick an unknown blueprint does not work well, and gives duplicates frequently.
-    rewriting that snippet of code is a possible soloution
+    rewriting that snippet of code is a possible solution.
 
 
 Things not fixed by the main SBPP files:
@@ -258,9 +258,9 @@ Things not fixed by the main SBPP files:
     Feet are missing fur on one frame.
 
 Things not fixed by SBPP:    
-  Textures are not well optimised. PNGauntlet yields a lossles compression of 25% to 85% per texture.
+  Textures are not well optimizedPNGauntlet yields a lossless compression of 25% to 85% per texture.
   Improvements include reduced file size, less RAM usage, and less disk usage.
   
   Starbound has stuttering issues caused by disk read/write usage on my system if it is not installed on my SSD.
-  One of my friends had excesive stuttering and his framerate was stuck at ~30 before moving it to his SSD.
-  Most of it appears to be caused by write operations. Storing world and player saves that are being used in memory and writing at set intevals could help resolve this.
+  One of my friends had excessive stuttering and his framerate was stuck at ~30 before moving it to his SSD.
+  Most of it appears to be caused by write operations. Storing world and player saves that are being used in memory and writing at set intervals could help resolve this.
