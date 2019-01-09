@@ -19,7 +19,7 @@ Crash Fixes:
 Tile fixes:
     Matter Blocks: background blocks are no longer occluded
 
-Mob fixes:
+Monster fixes:
     Po variations: Added descriptions
     
     Po Golem: Added description
@@ -51,7 +51,7 @@ Other fixes:
   ------ 1.0.6 ------
 Recipe fixes:
     Added Survivalist starter clothing to Floran recipe lists
-    -all other starter sets were craftable by thier
+    -all other starter sets were craftable by their
     respective races, this corrects that oversight.
 
 Texture fixes:
