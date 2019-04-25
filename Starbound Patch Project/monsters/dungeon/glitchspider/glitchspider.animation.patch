@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/particleEmitters/levelUp",
+        "value": { "particles": [ { "particle": "monsterlevelup" } ] }
+    }//,
+    //{
+    //    "op": "add",
+    //    "path": "/sounds/fire",
+    //    "value": [ "/sfx/gun/flamethrower_stop.ogg" ]
+    //}
+]

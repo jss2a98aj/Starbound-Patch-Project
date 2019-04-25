@@ -1,4 +1,4 @@
-This project was made to fix bugs present in Starbound. Currently fixes over 70 issues.
+Fixes dozens of typos, incorrect item properties, texture issues, and even some rare crashes.
 
 Supports in-game changelogs if [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1465571894]Ztarbound[/url] or Frackin' Universe is present.
 
@@ -6,6 +6,20 @@ It is safe to install or uninstall this mod at any time.
 
 Recent Changelogs:
 [code]
+  ------ 1.0.9 ------
+NOTE: This is the last update until Starbound 1.4 drops.
+Most issues SBPP fixes have been officially reported.
+Thank [CF]healthire for putting up with me.
+
+Tile fixes:
+    Matter Blocks: Added missing color variations
+    -Matter Blocks no longer turn invisible when colored.
+
+Tenant fixes:
+    Chef Merchant Tenant: removed drops
+    -Fixes infinite resource dupe.
+
+
   ------ 1.0.8 ------
 Parallax Fixes:
     All fixes from the Parallax Fixes mod are now included
@@ -15,21 +29,21 @@ Crash Fixes:
     Big Unusual Gift Box: created missing treasurepool
     -The mob spawned by the item will no longer cause a crash
     when killed.
-    
+
 Tile fixes:
     Matter Blocks: background blocks are no longer occluded
 
 Monster fixes:
     Po variations: Added descriptions
-    
+
     Po Golem: Added description
-    
+
     Sewer Fly: Fixed animations, added name and description
-    
+
 Texture fixes:
     An ocean horizon mask file was missing part of an island
     -Some ocean planets looked odd from the player ship.
-    
+
 
   ------ 1.0.7 ------
 Script Error Fixes:
@@ -46,16 +60,6 @@ Texture Fixes:
 Other fixes:
     Decorative Support Beam: fixed placement parameters
     -It can now be placed in lower right corners.
-
-    
-  ------ 1.0.6 ------
-Recipe fixes:
-    Added Survivalist starter clothing to Floran recipe lists
-    -all other starter sets were craftable by their
-    respective races, this corrects that oversight.
-
-Texture fixes:
-    Huge Primitive Cabinet - added missing bone post
 [/code]
 
 Some unobtainable items have fixes included. This is intentional. Many people spawn items in or have mods that add ways to get them.
