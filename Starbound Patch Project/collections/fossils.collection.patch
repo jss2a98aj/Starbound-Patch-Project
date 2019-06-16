@@ -8,10 +8,5 @@
         "op": "replace",
         "path": "/collectables/trilobite/title",
         "value": "Trilobite Fossil"
-    },
-    {
-        "op": "replace",
-        "path": "/collectables/trex/title",
-        "value": "T. Rex Fossil"
     }
 ]

@@ -213,7 +213,7 @@ function updateFloating(waterFactor, moving, facing)
   if (floating) then
     self.rockingTimer = self.rockingTimer + script.updateDt()
     if self.rockingTimer > self.rockingInterval then
-      self.rockingTimer = self.rockingTimer - self.rockingInterval--jss - TImer -> Timer
+      self.rockingTimer = self.rockingTimer - self.rockingInterval--SBPP - TImer -> Timer
     end
 
     local speedAngle = mcontroller.xVelocity() * self.speedRotationMultiplier
@@ -223,7 +223,7 @@ function updateFloating(waterFactor, moving, facing)
     local windMaxAngle = self.rockingWindAngleMultiplier * windLevel
     local windAngle = windMaxAngle * (math.sin(self.rockingTimer / self.rockingInterval * (math.pi * 2)))
 
-    targetAngle = windAngle + speedAngle--jss - use windAngle not windMaxAngle
+    targetAngle = windAngle + speedAngle--SBPP - use windAngle not windMaxAngle
   else
     targetAngle = calcGroundCollisionAngle(self.waterBounds[2]) --pass in the water surface
   end

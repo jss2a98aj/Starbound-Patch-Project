@@ -6,6 +6,28 @@ It is safe to install or uninstall this mod at any time.
 
 Recent Changelogs:
 [code]
+  ------ 1.1.0 ------
+Fixes:
+    Mulled Fruit Drink: Fixed a typo in the Avian description
+    
+Adjusted fixes:
+    Big Unusual Gift Box: Now patches the monstertype file
+
+Removed fixes (as made obsolete by Starbound 1.4):
+    Triplod Figurine collection fix
+    
+    Chef Merchant Tenant drop dupe fix
+    
+    T. rex fossil spelling fix
+    
+    Triolbite set description punctuation fix
+    
+Removed fixes:
+    Glitch Spider fixes
+    -Will be moved to a separate mod and fixed
+    in a less compatible, but better way.
+
+
   ------ 1.0.9 ------
 NOTE: This is the last update until Starbound 1.4 drops.
 Most issues SBPP fixes have been officially reported.
@@ -43,23 +65,6 @@ Monster fixes:
 Texture fixes:
     An ocean horizon mask file was missing part of an island
     -Some ocean planets looked odd from the player ship.
-
-
-  ------ 1.0.7 ------
-Script Error Fixes:
-    Random Fountain: fixed script error caused by missing audio
-    -It now activates like it should when interacted with.
-
-Texture Fixes:
-    Huge Primitive Cabinet: further texture fixes
-    Pig pet(three types): Fixed wrong colors on inspect frame
-    Predatory Trousers: corrected the colors of several frames
-    -The foot covers will no longer randomly change colors.
-    Toucan Breastplate: Added missing glove to crouching frame
-
-Other fixes:
-    Decorative Support Beam: fixed placement parameters
-    -It can now be placed in lower right corners.
 [/code]
 
 Some unobtainable items have fixes included. This is intentional. Many people spawn items in or have mods that add ways to get them.
