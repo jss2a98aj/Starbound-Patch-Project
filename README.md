@@ -6,7 +6,7 @@ The type of things this aims to fix:
 •	Spelling, grammar, and punctuation errors.
 
 •	Sprites with missing or extra pixels
-(e.g.: random out of place pixel, hole in a single frame of a clothing item)
+(e.g.: random out of place pixel, hole in a frame of a clothing item)
 
 •	LUA files with errors or incorrect values
 (e.g.: boat.lua had both of those things)
@@ -21,3 +21,8 @@ All included materials within this repository are intended for use with Starboun
 That said, anyone may use included materials in their own mods for Starbound.
 Use of included material in things other than Starbound mods is prohibited.
 Chucklefish LTD is granted the right to use included materials without restriction.
+
+# Links
+Starbound Patch Project on Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=1543219534
+
+Starbound Patch Project on the Nexus: https://www.nexusmods.com/starbound/mods/842

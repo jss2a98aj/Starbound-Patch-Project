@@ -1,0 +1,7 @@
+[
+    {
+        "op": "add",
+        "path": "/sounds",
+        "value": { "use": [ "/sfx/objects/bardoor_open.ogg" ] }
+    }
+]

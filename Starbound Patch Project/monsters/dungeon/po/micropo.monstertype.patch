@@ -3,5 +3,10 @@
         "op": "add",
         "path": "/shortdescription",
         "value": "Micro Po"
+    },
+    {
+        "op": "add",
+        "path": "/description",
+        "value": "A very small pile of animated poo."
     }
 ]

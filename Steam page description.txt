@@ -1,78 +1,84 @@
-This project was made to fix bugs present in Starbound. Currently fixes over 60 issues.
+Fixes dozens of typos, incorrect item properties, texture issues, and even some rare crashes.
 
 Supports in-game changelogs if [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1465571894]Ztarbound[/url] or Frackin' Universe is present.
 
 It is safe to install or uninstall this mod at any time.
 
 Recent Changelogs:
-
-  ------ 1.0.5 ------
-Notable fixes:
-    Limeted Watering Can stack sizes to one
-    -prevents a auto-sort interaction from corrupting saves.
-
-    Corrected the damage team of mounted Glicth knights
-    -mounted Glicth knights will no longer damage other Glitch.
-
-Missing names/descriptions added:
-    Mounted Glicth Knights were missing a name and description
-
+[code]
+  ------ 1.1.0 ------
+Fixes:
+    Mulled Fruit Drink: Fixed a typo in the Avian description
     
-  ------ 1.0.4 ------
-Recipe fixes:
-    The recipe for Classic Wallpaper was incorrect
-    -It will make Classic Wallpaper as intended.
+Adjusted fixes:
+    Big Unusual Gift Box: Now patches the monstertype file
 
-Sound fixes:
-    Asphalt used mud footstep sounds, it now uses stone ones.
-
-Typos fixed:
-    Ammonite fossils display names were missing the fossil suffix
-    T. rex was misspelled T-Rex 12 times.
-    Triolbite fossils display names were missing the fossil suffix
-
-
-  ------ 1.0.3 ------
-Notable fixes:
-    Tentacle trees had improperly configured drops
-    -Raw Tentacle will now drop from it as intended
-    Two kelp variations with saplings were not dropping them
-    The script randomblueprint.lua was not functioning as intended
-    -unknown mech BPs will now drop much more than known ones.
-
-Typos fixed:
-    Fungus Stim Pack - description - stim should be stimpack
-    Synthesis Stim - name should be Synthesis Stim Pack
-    Synthesis Stim - description now matches other stimpacks
-
-Placholder icons replaced:
-    Alpaca Guard (cosmetic set)
-    Protectorate Poptop Toy
-    Protectorate Wall Banner (three versions)
-    Smashable Rock (Copper, Diamond, Gold, Platnium, Silver)
-    Small Smashable Rock (Copper, Diamond, Gold, Platnium, Silver)
-
-Other fixes:
-    Alpaca Guard Set - some names and all prices corrected
-    Barrel Lid (Headwear) - corrected price
-    Barrel (Chestwear) - corrected price
-    Cardboard Box Armor - corrected rarity and price
-    George's Foxy Glasses - corrected price
-    Protectorate Poptop Toy - name now relfects what it is
-    Shroom Remedy - corrected hand position
-    Synthesis Stim Pack - corrected hand position and price
+Removed fixes (as made obsolete by Starbound 1.4):
+    Triplod Figurine collection fix
+    
+    Chef Merchant Tenant drop dupe fix
+    
+    T. rex fossil spelling fix
+    
+    Triolbite set description punctuation fix
+    
+Removed fixes:
+    Glitch Spider fixes
+    -Will be moved to a separate mod and fixed
+    in a less compatible, but better way.
 
 
-I will be making a nicer list of every fix SBPP has (sorted by catigory) soon.
+  ------ 1.0.9 ------
+NOTE: This is the last update until Starbound 1.4 drops.
+Most issues SBPP fixes have been officially reported.
+Thank [CF]healthire for putting up with me.
+
+Tile fixes:
+    Matter Blocks: Added missing color variations
+    -Matter Blocks no longer turn invisible when colored.
+
+Tenant fixes:
+    Chef Merchant Tenant: removed drops
+    -Fixes infinite resource dupe.
+
+
+  ------ 1.0.8 ------
+Parallax Fixes:
+    All fixes from the Parallax Fixes mod are now included
+    -Thanks to Dracyoshi and Xaliber for allowing this.
+
+Crash Fixes:
+    Big Unusual Gift Box: created missing treasurepool
+    -The mob spawned by the item will no longer cause a crash
+    when killed.
+
+Tile fixes:
+    Matter Blocks: background blocks are no longer occluded
+
+Monster fixes:
+    Po variations: Added descriptions
+
+    Po Golem: Added description
+
+    Sewer Fly: Fixed animations, added name and description
+
+Texture fixes:
+    An ocean horizon mask file was missing part of an island
+    -Some ocean planets looked odd from the player ship.
+[/code]
 
 Some unobtainable items have fixes included. This is intentional. Many people spawn items in or have mods that add ways to get them.
 This will not make unobtainable items obtainable, that is not the goal of the mod.
 PNGGauntlet has been used on all textures modified by SBPP to reduce file size and improve load times.
 
-[url=https://github.com/jss2a98aj/Starbound-Patch-Project]Starbound Patch Project Github[/url]
+[url=https://github.com/jss2a98aj/Starbound-Patch-Project]Starbound Patch Project on GitHub[/url]
+[url=https://www.nexusmods.com/starbound/mods/842]Starbound Patch Project on the Nexus[/url]
 
 Credits:
-Contributors: Ralek_Basa
+Contributors: Ralek_Basa, Prototype99, Yanazake,
+lunapanshiel, Xaliber, Dracyoshi
+
 Bug hunters: Clank8138
+
 
 Permissions: see the [url=https://github.com/jss2a98aj/Starbound-Patch-Project/blob/master/README.md]readme[/url]
