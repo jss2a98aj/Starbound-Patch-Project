@@ -8,15 +8,10 @@
         "op": "add",
         "path": "/description",
         "value": "This metal horse is commonly used by Glitch Knights for jousting."
-    },
-    {
-        "op": "add",
-        "path": "/damageTeam",
-        "value": 2    
-    },
-    {
-        "op": "replace",
-        "path": "/baseParameters/damageTeam",
-        "value": 2
-    }
+    }//,
+    //{
+    //    "op": "replace",
+    //    "path": "/baseParameters/damageTeam",
+    //    "value": 2
+    //}
 ]

@@ -1,7 +1,0 @@
-[
-    {
-        "op": "replace",
-        "path": "/orientations/3/anchors/1",
-        "value": "bottom"
-    }
-]

@@ -3,9 +3,5 @@
         "op": "replace",
         "path": "/price",
         "value": 100
-    },
-    {
-        "op": "remove",
-        "path": "/handPosition"
     }
 ]

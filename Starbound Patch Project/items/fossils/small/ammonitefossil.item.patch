@@ -1,6 +1,11 @@
 [
     {
         "op": "replace",
+        "path": "shortdescription",
+        "value": "Ammonite Fossil"
+    },
+    {
+        "op": "replace",
         "path": "/completeSetDescriptions/shortdescription",
         "value": "Ammonite Fossil"
     }

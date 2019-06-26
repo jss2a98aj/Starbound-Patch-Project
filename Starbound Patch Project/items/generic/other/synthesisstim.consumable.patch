@@ -7,7 +7,7 @@
     {
         "op": "replace",
         "path": "/description",
-        "value": "A stimpack full of tree sap with beneficial healing properties."
+        "value": "This stimpack is full of tree sap. It has beneficial healing properties."
     },
     {
         "op": "replace",

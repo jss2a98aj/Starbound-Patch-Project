@@ -1,7 +1,0 @@
-[
-    {
-        "op": "replace",
-        "path": "/footstepSound",
-        "value": "/sfx/blocks/footstep_stone.ogg"
-    }
-]
