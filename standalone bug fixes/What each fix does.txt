@@ -1,0 +1,68 @@
+
+Ammonite and Trilobite fossil naming
+	All fossils barring Ammonite and Trilobite fossils have fossil after their names.
+
+Barrel stacking
+	One of the barrel types are stacked in an ocean dungeon, but the top one breaks because they are not setup for it.
+	The other barrel type should also be changed to be consistent.
+
+Club Lights wiring node placement
+	Wiring nodes on Club Lights float far above the lights.
+	It was mentioned on discord that fixing this would break wiring for existing lights, but in-game testing shows that it is fine to change it.
+
+Floran Player Ship T7 missing wall
+	The upper level is made much wider at T7 but no temporary hazard block wall is placed during the upgrade.
+
+Floran Survivalist Clothing NPC consistency
+	Floran Survivalist clothing Is a starter option for Floran and can be crafted by Floran players, but it is not used by any NPCs.
+
+Head item masks
+	While some of the mask changes could be considered subjective, all of them make hair show up where I would expect it to.
+
+Human Techstation lit sprite
+	techstationlit.png has strange inconsistencies with other techstation lit sprites and looks off in-game.
+
+Human and Avian Female Body line art
+	A single pixel in the sixth running frame that other female and all male sprites have shaded is not.
+
+Kelp drop consistency
+	Toxic Kelp can drop saplings, but no other kelp type can.
+
+Mulled Fruit Drink avian description
+	"An fruit drink? ..." should read "A fruit drink? ..."
+
+Novakid Player Ship T5 missing roof
+	The second train car has its height doubled at T5 but no temporary hazard block roofis placed during the upgrade.
+
+Parallax fixes
+	Fixes every known issue with parallax.
+	Credit for Parallax fixes goes to
+	Dracyoshi  https://community.playstarbound.com/members/dracyoshi.505/
+	and xaliber https://community.playstarbound.com/members/xaliber.767633/
+
+Player Ship door dupe option 1
+	Makes the T0 player ships use the broken door, which cannot be broken.
+	Rebooting SAIL will replace it with the normal version.
+
+Player Ship door dupe option 2
+	Makes the T1 player ships not place a new door.
+	I personally like option 1 more.
+
+Sewing Machine miscolored pixels
+	Two pixels on the bottom of one frame are darker than the rest.
+
+Tentacle Tree drop set to zero
+	The Tentacle Tree has a drop but it is set to zero.
+
+Thorny Plant sprite
+	The first frame looks like it was copy/pasted with one pixel of offset.
+	It appears an attempt was made to fix it in one of the 1.4.x updates but it was not cleaned up entirely
+
+Timber miscolored pixel
+	The yellow frame has a purple pixel.
+
+Trailblazer's Greaves miscolored pixels
+	Some pixels from the running and crouching frames appear to be the wrong color.
+
+Watering Can stack size
+	The Wooden Watering Can and Watering Can have different stack size limits. (1 and over 100)

@@ -1,7 +1,0 @@
-{
-  "author" : "jss2a98aj",
-  "friendlyName" : "SBPP ex fixes",
-  "includes" : ["StarboundPatchProject"],
-  "name" : "StarboundPatchProjectExFixes",
-  "version" : "1.0.0"
-}
