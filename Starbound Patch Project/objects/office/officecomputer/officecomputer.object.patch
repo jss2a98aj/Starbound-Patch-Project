@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "It's hard to believe humans once spent hours staring at machines like this."
+    }
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "A fridge. Hopefully it contains a banana milkshake."
+    }
+]
