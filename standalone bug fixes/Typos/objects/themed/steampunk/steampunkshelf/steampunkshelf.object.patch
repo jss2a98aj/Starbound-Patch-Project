@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/apexDescription",
+    "value" : "Pipes are a sturdy solution for making secure wall storage."
+  }
+]

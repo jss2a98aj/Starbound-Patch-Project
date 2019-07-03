@@ -28,9 +28,6 @@ Human and Avian Female Body line art
 Kelp drop consistency
 	Toxic Kelp can drop saplings, but no other kelp type can.
 
-Mulled Fruit Drink avian description
-	"An fruit drink? ..." should read "A fruit drink? ..."
-
 Novakid Player Ship T5 missing roof
 	The second train car has its height doubled at T5 but no temporary hazard block roofis placed during the upgrade.
 
@@ -63,6 +60,9 @@ Timber miscolored pixel
 
 Trailblazer's Greaves miscolored pixels
 	Some pixels from the running and crouching frames appear to be the wrong color.
+
+Typos
+	Fixes several typos.
 
 Watering Can stack size
 	The Wooden Watering Can and Watering Can have different stack size limits. (1 and over 100)
