@@ -1,12 +1,12 @@
 [
-    {
-        "op": "add",
-        "path": "/items/floran/0/1/0/chest/-",
-        "value": { "name": "floransurvivalistchest", "parameters": { "colorIndex": [ 1, 3, 4, 5, 6, 7, 8, 9 ] } }
-    },
-    {
-        "op": "add",
-        "path": "/items/floran/0/1/0/legs/-",
-        "value": { "name": "floransurvivalistlegs", "parameters": { "colorIndex": [ 1, 3, 4, 5, 6, 7, 8, 9 ] } }
-    }
+  {
+    "op" : "add",
+    "path" : "/items/floran/0/1/0/chest/-",
+    "value" : { "name" : "floransurvivalistchest", "parameters" : { "colorIndex" : [ 1, 3, 4, 5, 6, 7, 8, 9 ] } }
+  },
+  {
+    "op" : "add",
+    "path" : "/items/floran/0/1/0/legs/-",
+    "value" : { "name" : "floransurvivalistlegs", "parameters" : { "colorIndex" : [ 1, 3, 4, 5, 6, 7, 8, 9 ] } }
+  }
 ]

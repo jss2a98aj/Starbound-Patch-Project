@@ -1,21 +1,21 @@
 [
-    {
-        "op": "replace",
-        "path": "/shortdescription",
-        "value": "Synthesis Stim Pack"
-    },
-    {
-        "op": "replace",
-        "path": "/description",
-        "value": "This stimpack is full of tree sap. It has beneficial healing properties."
-    },
-    {
-        "op": "replace",
-        "path": "/price",
-        "value": 100
-    },
-    {
-        "op": "remove",
-        "path": "/handPosition"
-    }
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Synthesis Stim Pack"
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "This stimpack is full of tree sap. It has beneficial healing properties."
+  },
+  {
+    "op" : "replace",
+    "path" : "/price",
+    "value" : 100
+  },
+  {
+    "op" : "remove",
+    "path" : "/handPosition"
+  }
 ]

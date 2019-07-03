@@ -1,7 +1,7 @@
 [
-    {
-        "op": "add",
-        "path": "/animatedParts/parts/head/partStates/body/windup",
-        "value": { "properties": { "image": "<partImage>:fly.<frame>" } }
-    }
+  {
+    "op" : "add",
+    "path" : "/animatedParts/parts/head/partStates/body/windup",
+    "value" : { "properties" : { "image" : "<partImage>:fly.<frame>" } }
+  }
 ]

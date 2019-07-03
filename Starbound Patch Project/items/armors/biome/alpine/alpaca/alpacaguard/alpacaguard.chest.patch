@@ -1,12 +1,12 @@
 [
-    {
-        "op": "replace",
-        "path": "/shortdescription",
-        "value": "Alpaca Guard Real Legs"
-    },
-    {
-        "op": "replace",
-        "path": "/price",
-        "value": 2500
-    }
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Alpaca Guard Real Legs"
+  },
+  {
+    "op" : "replace",
+    "path" : "/price",
+    "value" : 2500
+  }
 ]

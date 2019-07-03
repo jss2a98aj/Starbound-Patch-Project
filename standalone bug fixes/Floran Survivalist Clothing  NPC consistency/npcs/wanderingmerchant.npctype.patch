@@ -1,62 +1,62 @@
 [
-    {
-        "op": "add",
-        "path": "/items/floran/0/1/0/chest/-",
-        "value": { "name": "floransurvivalistchest", "parameters": { "colorIndex": 6 } }
-    },
-    {
-        "op": "add",
-        "path": "/items/floran/0/1/0/chest/-",
-        "value": { "name": "floransurvivalistchest", "parameters": { "colorIndex": 7 } }
-    },
-    {
-        "op": "add",
-        "path": "/items/floran/0/1/0/chest/-",
-        "value": { "name": "floransurvivalistchest", "parameters": { "colorIndex": 8 } }
-    },
-    {
-        "op": "add",
-        "path": "/items/floran/0/1/0/chest/-",
-        "value": { "name": "floransurvivalistchest", "parameters": { "colorIndex": 9 } }
-    },
-    {
-        "op": "add",
-        "path": "/items/floran/0/1/0/chest/-",
-        "value": { "name": "floransurvivalistchest", "parameters": { "colorIndex": 10 } }
-    },
-    {
-        "op": "add",
-        "path": "/items/floran/0/1/0/chest/-",
-        "value": { "name": "floransurvivalistchest", "parameters": { "colorIndex": 11 } }
-    },
-    {
-        "op": "add",
-        "path": "/items/floran/0/1/0/legs/-",
-        "value": { "name": "floransurvivalistlegs", "parameters": { "colorIndex": 6 } }
-    },
-    {
-        "op": "add",
-        "path": "/items/floran/0/1/0/legs/-",
-        "value": { "name": "floransurvivalistlegs", "parameters": { "colorIndex": 7 } }
-    },
-    {
-        "op": "add",
-        "path": "/items/floran/0/1/0/legs/-",
-        "value": { "name": "floransurvivalistlegs", "parameters": { "colorIndex": 8 } }
-    },
-    {
-        "op": "add",
-        "path": "/items/floran/0/1/0/legs/-",
-        "value": { "name": "floransurvivalistlegs", "parameters": { "colorIndex": 9 } }
-    },
-    {
-        "op": "add",
-        "path": "/items/floran/0/1/0/legs/-",
-        "value": { "name": "floransurvivalistlegs", "parameters": { "colorIndex": 10 } }
-    },
-    {
-        "op": "add",
-        "path": "/items/floran/0/1/0/legs/-",
-        "value": { "name": "floransurvivalistlegs", "parameters": { "colorIndex": 11 } }
-    }
+  {
+    "op" : "add",
+    "path" : "/items/floran/0/1/0/chest/-",
+    "value" : { "name" : "floransurvivalistchest", "parameters" : { "colorIndex" : 6 } }
+  },
+  {
+    "op" : "add",
+    "path" : "/items/floran/0/1/0/chest/-",
+    "value" : { "name" : "floransurvivalistchest", "parameters" : { "colorIndex" : 7 } }
+  },
+  {
+    "op" : "add",
+    "path" : "/items/floran/0/1/0/chest/-",
+    "value" : { "name" : "floransurvivalistchest", "parameters" : { "colorIndex" : 8 } }
+  },
+  {
+    "op" : "add",
+    "path" : "/items/floran/0/1/0/chest/-",
+    "value" : { "name" : "floransurvivalistchest", "parameters" : { "colorIndex" : 9 } }
+  },
+  {
+    "op" : "add",
+    "path" : "/items/floran/0/1/0/chest/-",
+    "value" : { "name" : "floransurvivalistchest", "parameters" : { "colorIndex" : 10 } }
+  },
+  {
+    "op" : "add",
+    "path" : "/items/floran/0/1/0/chest/-",
+    "value" : { "name" : "floransurvivalistchest", "parameters" : { "colorIndex" : 11 } }
+  },
+  {
+    "op" : "add",
+    "path" : "/items/floran/0/1/0/legs/-",
+    "value" : { "name" : "floransurvivalistlegs", "parameters" : { "colorIndex" : 6 } }
+  },
+  {
+    "op" : "add",
+    "path" : "/items/floran/0/1/0/legs/-",
+    "value" : { "name" : "floransurvivalistlegs", "parameters" : { "colorIndex" : 7 } }
+  },
+  {
+    "op" : "add",
+    "path" : "/items/floran/0/1/0/legs/-",
+    "value" : { "name" : "floransurvivalistlegs", "parameters" : { "colorIndex" : 8 } }
+  },
+  {
+    "op" : "add",
+    "path" : "/items/floran/0/1/0/legs/-",
+    "value" : { "name" : "floransurvivalistlegs", "parameters" : { "colorIndex" : 9 } }
+  },
+  {
+    "op" : "add",
+    "path" : "/items/floran/0/1/0/legs/-",
+    "value" : { "name" : "floransurvivalistlegs", "parameters" : { "colorIndex" : 10 } }
+  },
+  {
+    "op" : "add",
+    "path" : "/items/floran/0/1/0/legs/-",
+    "value" : { "name" : "floransurvivalistlegs", "parameters" : { "colorIndex" : 11 } }
+  }
 ]

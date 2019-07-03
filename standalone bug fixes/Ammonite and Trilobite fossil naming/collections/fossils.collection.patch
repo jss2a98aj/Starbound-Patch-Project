@@ -1,12 +1,12 @@
 [
-    {
-        "op": "replace",
-        "path": "/collectables/ammonite/title",
-        "value": "Ammonite Fossil"
-    },
-    {
-        "op": "replace",
-        "path": "/collectables/trilobite/title",
-        "value": "Trilobite Fossil"
-    }
+  {
+    "op" : "replace",
+    "path" : "/collectables/ammonite/title",
+    "value" : "Ammonite Fossil"
+  },
+  {
+    "op" : "replace",
+    "path" : "/collectables/trilobite/title",
+    "value" : "Trilobite Fossil"
+  }
 ]

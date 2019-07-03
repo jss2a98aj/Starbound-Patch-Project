@@ -1,12 +1,12 @@
 [
-    {
-        "op": "add",
-        "path": "/shortdescription",
-        "value": "Po Golem"
-    },
-    {
-        "op": "add",
-        "path": "/description",
-        "value": "This abomination can throw living piles of itself at intruders."
-    }
+  {
+    "op" : "add",
+    "path" : "/shortdescription",
+    "value" : "Po Golem"
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "This abomination can throw living piles of itself at intruders."
+  }
 ]

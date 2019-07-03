@@ -1,6 +1,6 @@
 [
-    {
-        "op": "remove",
-        "path": "/dropPools"
-    }
+  {
+    "op" : "remove",
+    "path" : "/dropPools"
+  }
 ]

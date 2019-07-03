@@ -1,6 +1,6 @@
 [
-    {
-        "op": "remove",
-        "path": "/handPosition"
-    }
+  {
+    "op" : "remove",
+    "path" : "/handPosition"
+  }
 ]

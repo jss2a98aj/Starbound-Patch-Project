@@ -1,10 +1,10 @@
 [
 	{
-		"op": "add",
-		"path": "/StarboundPatchProject",
-		"value": {
-        	"image" : "/zb/updateInfoWindow/SBPPBanner.png",
-        	"file" : "/_SBPPVersioning.config"
-        }
+		"op" : "add",
+		"path" : "/StarboundPatchProject",
+		"value" : {
+    	"image" : "/zb/updateInfoWindow/SBPPBanner.png",
+    	"file" : "/_SBPPVersioning.config"
+    }
 	}
 ]

@@ -1,7 +1,7 @@
 [
-    {
-        "op": "replace",
-        "path": "/inputNodes",
-        "value": [ [ 1, 1 ] ]
-    }
+  {
+    "op" : "replace",
+    "path" : "/inputNodes",
+    "value" : [ [ 1, 1 ] ]
+  }
 ]

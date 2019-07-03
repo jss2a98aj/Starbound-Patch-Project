@@ -1,14 +1,14 @@
 [
-    {
-        "op": "add",
-        "path": "/blockKey/-",
-        "value": {
-            "value" : [255, 200, 220],
-            "foregroundBlock" : true,
-            "backgroundBlock" : true,
-            "foregroundMat" : "hazard",
-            "foregroundResidual" : true,
-            "backgroundMat" : "apexshipdetails"
-        }
+  {
+    "op" : "add",
+    "path" : "/blockKey/-",
+    "value" : {
+      "value" : [255, 200, 220],
+      "foregroundBlock" : true,
+      "backgroundBlock" : true,
+      "foregroundMat" : "hazard",
+      "foregroundResidual" : true,
+      "backgroundMat" : "apexshipdetails"
     }
+  }
 ]
