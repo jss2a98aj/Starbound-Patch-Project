@@ -8,105 +8,108 @@ Recent Changelogs:
 [code]
   ------ 1.2.1 ------
 Plant fixes:
-    All kelp variations can now drop saplings
+  All kelp variations can now drop saplings
+
+Texture fixes:
+  Suspender Pants: Hole in one running frame
 
 Typos fixed:
-    Cooked Poultry: description - perfectly was misspelled
+  Cooked Poultry: description
 
-    Cryogenic Blaster: Hylotl description - removed extra apostrophe 
+  Cryogenic Blaster: Hylotl description
 
-    Frontier Bed: Human description - fixed punctuation
+  Frontier Bed: Human description
 
-    Frontier Coffin: Floran description - size was misspelled
+  Frontier Coffin: Floran description
 
-    Full-Size Fridge: Apex description - added missing word
+  Full-Size Fridge: Apex description
 
-    Medieval Lamp: Human description - some text was incomprehensibe
-    
-    Medieval Pedestal: Hylotl description - removed extra word
+  Medieval Lamp: Human description
 
-    Office Computer: Human description - staring was misspelled
+  Medieval Pedestal: Hylotl description
 
-    Random Fountain: Novakid description was missing
+  Office Computer: Human description
 
-    Steampunk Shelf: Apex description - removed erroneous letters
+  Random Fountain: Added Novakid description
+
+  Steampunk Shelf: Apex description
 
 
   ------ 1.2.0 ------
 Texture fixes:
-    Timber: A pixel was the wrong color when colored yellow
+  Timber: A pixel was the wrong color when colored yellow
 
-    Synthesis Stim Pack: description changed
-    -Matches vanilla but with a typo fixed
+  Synthesis Stim Pack: description changed
+  -Matches vanilla but with a typo fixed
 
 Typos fixed:
-    Triolbite was misspelled once during a previous fix
+  Triolbite was misspelled once during a previous fix
 
-    Fully addressed  Ammonite & Trilobite naming inconsistencies
+  Fully addressed  Ammonite & Trilobite naming inconsistencies
 
 Removed fixes (as made obsolete by Starbound 1.4.2):
-    Boat.lua typo and incorrect value fix
+  Boat.lua typo and incorrect value fix
 
-    Ocean horizon mask 22 cut off island fix
+  Ocean horizon mask 22 cut off island fix
 
-    Radioactive Barrel (both types) category fix
+  Radioactive Barrel (both types) category fix
 
-    Decorative Support Beam placement fix
+  Decorative Support Beam placement fix
 
-    Huge Primitive Cabinet sprite fixes
+  Huge Primitive Cabinet sprite fixes
 
-    Pig pet(three types) inspect frame fix
+  Pig pet(three types) inspect frame fix
 
-    Orange Stim Pack hand position fix
+  Orange Stim Pack hand position fix
 
-    Scientist Pants leg fix
+  Scientist Pants leg fix
 
-    Shroom Disguise Mask sprite and icon fixes
+  Shroom Disguise Mask sprite and icon fixes
 
-    Bandit's Bandana description typo fix
+  Bandit's Bandana description typo fix
 
-    Protectorate Toilet Roll Holder name typo fix
+  Protectorate Toilet Roll Holder name typo fix
 
-    Wallpaper recipe actually making wallpaper fix
+  Wallpaper recipe actually making wallpaper fix
 
-    Silver Armor back sleeve holding item frame fix
+  Silver Armor back sleeve holding item frame fix
 
-    Asphalt step sound fix
+  Asphalt step sound fix
 
-    Survivalist starter clothing floran crafting fix
+  Survivalist starter clothing floran crafting fix
 
-    Disguise Trousers sprite fix
+  Disguise Trousers sprite fix
 
-    Soldier's Leg Armour missing knee plate fix
+  Soldier's Leg Armour missing knee plate fix
 
-    Toucan Breastplate front sleeve fix
-    -This was fixed by SBPP but was missed in the changelogs.
+  Toucan Breastplate front sleeve fix
+  -This was fixed by SBPP but was missed in the changelogs.
 
-    Random Fountain script error fix
+  Random Fountain script error fix
 
-    Glitch Knight damage team fixed
+  Glitch Knight damage team fixed
 
 
   ------ 1.1.0 ------
 Fixes:
-    Mulled Fruit Drink: Fixed a typo in the Avian description
+  Mulled Fruit Drink: Fixed a typo in the Avian description
 
 Adjusted fixes:
-    Big Unusual Gift Box: Now patches the monstertype file
+  Big Unusual Gift Box: Now patches the monstertype file
 
 Removed fixes (as made obsolete by Starbound 1.4):
-    Triplod Figurine collection fix
+  Triplod Figurine collection fix
 
-    Chef Merchant Tenant drop dupe fix
+  Chef Merchant Tenant drop dupe fix
 
-    T. rex fossil spelling fix
+  T. rex fossil spelling fix
 
-    Triolbite set description punctuation fix
+  Triolbite set description punctuation fix
 
 Removed fixes:
-    Glitch Spider fixes
-    -Will be moved to a separate mod and fixed
-    in a less compatible, but better way.
+  Glitch Spider fixes
+  -Will be moved to a separate mod and fixed
+  in a less compatible, but better way.
 [/code]
 
 Some unobtainable items have fixes included. This is intentional. Many people spawn items in or have mods that add ways to get them.

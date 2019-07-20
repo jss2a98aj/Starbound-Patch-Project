@@ -48,6 +48,9 @@ Player Ship door dupe option 2
 Sewing Machine miscolored pixels
 	Two pixels on the bottom of one frame are darker than the rest.
 
+Suspender Pants hole in shoe
+	Two pixels are missing from a shoe in a running frame.
+
 Tentacle Tree drop set to zero
 	The Tentacle Tree has a drop but it is set to zero.
 
