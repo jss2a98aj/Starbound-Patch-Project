@@ -6,7 +6,7 @@ It is safe to install or uninstall this mod at any time.
 
 Recent Changelogs:
 [code]
-  ------ 1.2.1 ------
+-------- 1.2.1 --------
 Plant fixes:
   All kelp variations can now drop saplings
 
@@ -35,7 +35,7 @@ Typos fixed:
   Steampunk Shelf: Apex description
 
 
-  ------ 1.2.0 ------
+-------- 1.2.0 --------
 Texture fixes:
   Timber: A pixel was the wrong color when colored yellow
 
@@ -90,7 +90,7 @@ Removed fixes (as made obsolete by Starbound 1.4.2):
   Glitch Knight damage team fixed
 
 
-  ------ 1.1.0 ------
+-------- 1.1.0 --------
 Fixes:
   Mulled Fruit Drink: Fixed a typo in the Avian description
 
