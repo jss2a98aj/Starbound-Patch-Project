@@ -16,6 +16,9 @@ Floran Player Ship T7 missing wall
 Floran Survivalist Clothing NPC consistency
 	Floran Survivalist clothing Is a starter option for Floran and can be crafted by Floran players, but it is not used by any NPCs.
 
+Floran SAIL static
+	The Floran SAIL is assigned the Avian static despite there being a Floran static file.
+
 Head item masks
 	While some of the mask changes could be considered subjective, all of them make hair show up where I would expect it to.
 
