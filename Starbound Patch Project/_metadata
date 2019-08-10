@@ -2,7 +2,7 @@
   "author" : "jss2a98aj",
   "description" : "Welcome to Starbound Patch Project!\nFixes dozens of typos, incorrect item properties, texture issues, and even some rare crashes.\n\nSupports in-game changelogs if Ztarbound or Frackin' Universe is present.\n\nSome unobtainable items have fixes included. This is intentional. Many people spawn items in or have mods that allow them to get them.\nThis will not make unobtainable items obtainable, that is not the goal of the mod.\nPNGGauntlet has been used on all textures modified by SBPP to reduce file size and improve load times.\n\nStarbound Patch Project Github: https://github.com/jss2a98aj/Starbound-Patch-Project\n\nCredits:\nContributors: Ralek_Basa, Prototype99, Yanazake\nBug hunters: Clank8138\n\nPermissions: see https://github.com/jss2a98aj/Starbound-Patch-Project/blob/master/README.md",
   "friendlyName" : "Starbound Patch Project",
-  "includes" : ["ztarbound", "FrackinUniverse", "Mech Random Blueprint Fix", "KelpMod"],
+  "includes" : ["ztarbound", "FrackinUniverse", "Mech Random Blueprint Fix", "KelpMod", "Fixed Critters"],
   "link" : "steam://url/CommunityFilePage/1543219534",
   "name" : "StarboundPatchProject",
   "steamContentId" : "1543219534",
