@@ -3,5 +3,10 @@
     "op" : "replace",
     "path" : "/species/floran/staticFrames",
     "value" : "staticFloran.png"
+  },
+  {
+    "op" : "replace",
+    "path" : "/species/novakid/staticFrames",
+    "value" : "staticNovakid.png"
   }
 ]
