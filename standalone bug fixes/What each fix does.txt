@@ -2,6 +2,9 @@
 Ammonite and Trilobite fossil naming
 	All fossils barring Ammonite and Trilobite fossils have fossil after their names.
 
+Baby animal collision poly
+	Most baby animals cannot move up single block walls.
+
 Barrel stacking
 	One of the barrel types are stacked in an ocean dungeon, but the top one breaks because they are not setup for it.
 	The other barrel type should also be changed to be consistent.
@@ -9,6 +12,9 @@ Barrel stacking
 Club Lights wiring node placement
 	Wiring nodes on Club Lights float far above the lights.
 	It was mentioned on discord that fixing this would break wiring for existing lights, but in-game testing shows that it is fine to change it.
+
+Critter collision poly
+	Critters that do bot fly or swim cannot move up single block walls.
 
 Floran Player Ship T7 missing wall
 	The upper level is made much wider at T7 but no temporary hazard block wall is placed during the upgrade.
@@ -33,6 +39,9 @@ Kelp drop consistency
 
 Novakid Player Ship T5 missing roof
 	The second train car has its height doubled at T5 but no temporary hazard block roofis placed during the upgrade.
+
+Novakid SAIL static
+	The Novakid SAIL does not have a matching static texture.
 
 Parallax fixes
 	Fixes every known issue with parallax.
