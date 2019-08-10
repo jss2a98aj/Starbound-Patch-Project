@@ -43,6 +43,9 @@ Novakid Player Ship T5 missing roof
 Novakid SAIL static
 	The Novakid SAIL does not have a matching static texture.
 
+NPC fixes
+	Fixes bad Dialog paths and wrong/unassigned drop + quest pools.
+
 Parallax fixes
 	Fixes every known issue with parallax.
 	Credit for Parallax fixes goes to
