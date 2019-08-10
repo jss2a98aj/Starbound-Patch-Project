@@ -1,0 +1,30 @@
+[
+  {
+    "op" : "remove",
+    "path" : "/dialog"
+  },
+  {
+    "op" : "add",
+    "path" : "/scriptConfig/dialog",
+    "value" : {
+      "converse" : {
+        "avian" : {
+          "default" : [
+            "I have come to spread the good word of Kluex! Heed my teachings and earn your wings!",
+            "Every time something good happens to you, that's because of Kluex. Everything bad is your fault.",
+            "Did you know that every sun is an eye of Kluex? He sees all!",
+            "If we wish for flight, we must live in the light of Kluex!",
+            "Us Avians used to exist in the Heavens beyond the mortal realm. May we one day return!"
+          ],
+          "avian" : [
+            "You look like a fine follower of Kluex! May you one day earn your wings.",
+            "Do you also dream of one day regaining your wings? May absolution return us to what we once were.",
+            "Every time something good happens to you, that's because of Kluex. Everything bad is your fault.",
+            "Did you know that every sun is an eye of Kluex? He sees all!",
+            "If we wish for flight, we must live in the light of Kluex!"
+          ]
+        }
+      }
+    }
+  }
+]
