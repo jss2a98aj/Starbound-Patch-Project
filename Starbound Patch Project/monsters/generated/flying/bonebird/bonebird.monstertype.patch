@@ -1,0 +1,16 @@
+[
+  {
+    "op" : "add",
+    "path" : "/shortdescription",
+    "value" : "Bone Bird"
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "In spite of death this bird flies again."
+  },
+  {
+    "op" : "remove",
+    "path" : "/damageTeam"
+  }
+]

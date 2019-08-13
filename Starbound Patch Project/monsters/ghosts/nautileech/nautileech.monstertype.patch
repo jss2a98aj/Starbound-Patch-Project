@@ -2,11 +2,11 @@
   {
     "op" : "add",
     "path" : "/shortdescription",
-    "value" : "Glitch Knight's Horse"
+    "value" : "Nautileech"
   },
   {
     "op" : "add",
     "path" : "/description",
-    "value" : "This metal horse is commonly used by Glitch Knights for jousting."
+    "value" : "This phantasmal creature drains the life from its victims."
   }
 ]
