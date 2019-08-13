@@ -4,7 +4,3 @@ If you want your mod to load after Starbound Patch Project add
 e.g.:
 
 "includes" : ["StarboundPatchProject"]
-
-
-If you are depending on fixes SBPP provides you can include them in your mod so SBPP is not a hard requirement
-
