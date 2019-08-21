@@ -1,0 +1,395 @@
+
+-------- 1.3.0 --------
+Other fixes:
+  Added Floran Survivalist clothing to NPCs
+
+Object fixes:
+  Made it possible to place Medieval Lamps on walls
+  -All racial descriptions indicated it could be hung up.
+
+Texture fixes:
+  Floran S.A.I.L.: Avian static was incorrectly assigned
+
+  Novakid S.A.I.L.: Glitch static was incorrectly assigned
+  -This S.A.I.L. did not have matching static. It does now.
+
+Typo fixes:
+  10 Years On (codex): Description
+
+NPC fixes:
+  Avian Tomb Tenant: fixed dialog
+
+  Castle Lord: assigned correct drop pool
+
+  Evil Knight: assigned correct drop pool
+
+  Evil Knight Lord: assigned correct drop pool
+
+  Eye Guard: assigned correct drop pool
+
+  Friendly Castle Guard: assigned correct drop pool
+
+  Friendly Castle Lord: assigned correct drop pool
+
+  Saloon Villager: corrected quest pool
+
+  Stargazer: corrected quest pool, fixed dialog
+
+Monster ground collision fixes:
+  Baby versions of: Hens, Robot Hens, Fluffalos,
+  Electric Fluffalos, Fire Fluffalos, Ice Fluffalos,
+  and Poison Fluffalos
+  
+  87 critters that did not swim or fly
+
+Added descriptions and names to the following monsters:
+  Apex Mutant
+  Brainy Apex Mutant
+  Black Cat
+  Bonebird
+  Floki
+  Minidrone
+  Nautileech
+  Pinfriend
+
+Updated fixes:
+  Sewer Fly name changed to Growfy
+  -An old codex I missed had an actual name for it listed.
+
+
+-------- 1.2.2 --------
+Object fixes:
+  Made it possible to place Medieval Lamps on walls
+  -All racial descriptions indicated it could be hung up.
+
+Texture fixes:
+  Floran S.A.I.L: Avian static was incorrectly assigned
+
+  Novakid S.A.I.L: Glitch static was incorrectly assigned
+  -This S.A.I.L did not have matching static. It does now.
+
+Typo fixes:
+  10 Years On (codex): Description
+
+Updated fixes:
+  Sewer Fly name changed to Growfy
+  -An old codex I missed had an actual name for it listed.
+
+
+-------- 1.2.1 --------
+Plant fixes:
+  All kelp variations can now drop saplings
+
+Texture fixes:
+  Suspender Pants: Hole in one running frame
+
+Typo fixes:
+  Cooked Poultry: description
+
+  Cryogenic Blaster: Hylotl description
+
+  Frontier Bed: Human description
+
+  Frontier Coffin: Floran description
+
+  Full-Size Fridge: Apex description
+
+  Medieval Lamp: Human description
+
+  Medieval Pedestal: Hylotl description
+
+  Office Computer: Human description
+
+  Random Fountain: Added Novakid description
+
+  Steampunk Shelf: Apex description
+
+
+-------- 1.2.0 --------
+Texture fixes:
+  Timber: A pixel was the wrong color when colored yellow
+
+Typo fixes:
+  Synthesis Stim Pack: description changed
+  -Matches vanilla but with a typo fixed
+
+  Triolbite was misspelled once during a previous fix
+
+  Fully addressed  Ammonite & Trilobite naming inconsistencies
+
+Removed fixes (as made obsolete by Starbound 1.4.2):
+  Boat.lua typo and incorrect value fix
+
+  Ocean horizon mask 22 cut off island fix
+
+  Radioactive Barrel (both types) category fix
+
+  Decorative Support Beam placement fix
+
+  Huge Primitive Cabinet sprite fixes
+
+  Pig pet(three types) inspect frame fix
+
+  Orange Stim Pack hand position fix
+
+  Scientist Pants leg fix
+
+  Shroom Disguise Mask sprite and icon fixes
+
+  Bandit's Bandana description typo fix
+
+  Protectorate Toilet Roll Holder name typo fix
+
+  Wallpaper recipe actually making wallpaper fix
+
+  Silver Armor back sleeve holding item frame fix
+
+  Asphalt step sound fix
+
+  Survivalist starter clothing floran crafting fix
+
+  Disguise Trousers sprite fix
+
+  Soldier's Leg Armour missing knee plate fix
+
+  Toucan Breastplate front sleeve fix
+  -This was fixed by SBPP but was missed in the changelogs.
+
+  Random Fountain script error fix
+
+  Glitch Knight damage team fixed
+
+
+-------- 1.1.0 --------
+Fixes:
+  Mulled Fruit Drink: Fixed a typo in the Avian description
+
+Adjusted fixes:
+  Big Unusual Gift Box: Now patches the monstertype file
+
+Removed fixes (as made obsolete by Starbound 1.4):
+  Triplod Figurine collection fix
+
+  Chef Merchant Tenant drop dupe fix
+
+  T. rex fossil spelling fix
+
+  Triolbite set description punctuation fix
+
+Removed fixes:
+  Glitch Spider fixes
+  -Will be moved to a separate mod and fixed
+  in a less compatible, but better way.
+
+
+-------- 1.0.9 --------
+NOTE: This is the last update until Starbound 1.4 drops.
+Most issues SBPP fixes have been officially reported.
+Thank Healthire for putting up with me.
+
+Tile fixes:
+  Matter Blocks: Added missing color variations
+  -Matter Blocks no longer turn invisible when colored.
+
+Tenant fixes:
+  Chef Merchant Tenant: removed drops
+  -Fixes infinite resource dupe.
+
+
+-------- 1.0.8 --------
+Parallax fixes:
+  All fixes from the Parallax Fixes mod are now included
+  -Thanks to Dracyoshi and Xaliber for allowing this.
+
+Crash fixes:
+  Big Unusual Gift Box: created missing treasurepools
+  -The mob spawned by the item will no longer cause a crash
+  when killed.
+
+Tile fixes:
+  Matter Blocks: background blocks are no longer occluded
+
+Monster fixes:
+  Po variations: Added descriptions
+
+  Po Golem: Added description
+
+  Sewer Fly: Fixed animations, added name and description
+
+Texture fixes:
+  An ocean horizon mask file was missing part of an island
+  -Some ocean planets looked odd from the player ship.
+
+
+-------- 1.0.7 --------
+Script error fixes:
+  Random Fountain: fixed script error caused by missing audio
+  -It now activates like it should when interacted with.
+
+Texture fixes:
+  Huge Primitive Cabinet: further texture fixes
+
+  Pig pet(three types): Fixed wrong colors on inspect frame
+
+  Predatory Trousers: Corrected the colors of several frames
+  -The foot covers will no longer randomly change colors.
+
+  Toucan Breastplate: Added missing glove to crouching frame
+
+Other fixes:
+  Decorative Support Beam: fixed placement parameters
+  -It can now be placed in lower right corners.
+
+
+-------- 1.0.6 --------
+Recipe fixes:
+  Added Survivalist starter clothing to Floran recipe lists
+  -All other starter sets were craftable by their
+  -respective races, this corrects that oversight.
+
+Texture fixes:
+  Huge Primitive Cabinet: added missing bone post
+
+
+-------- 1.0.5 --------
+Notable fixes:
+  Limited Watering Can stack sizes to one
+  -prevents a auto-sort interaction from corrupting saves.
+
+  Corrected the damage team of mounted Glitch knights
+  -Mounted Glitch knights will no longer damage other Glitch.
+
+Missing names/descriptions added:
+  Mounted Glitch Knights: added name and description
+
+
+-------- 1.0.4 --------
+Recipe fixes:
+  The recipe for Classic Wallpaper was incorrect
+  -It will now make Classic Wallpaper as intended.
+
+Sound fixes:
+  Asphalt used mud footstep sounds, it now uses stone ones.
+
+Typos fixed:
+  Ammonite fossils display names were missing the fossil suffix
+  
+  T. rex was misspelled T-Rex 12 times
+  
+  Triolbite fossils display names were missing the fossil suffix
+
+
+-------- 1.0.3 --------
+Notable fixes:
+  Tentacle trees had improperly configured drops
+  -Raw Tentacle will now drop from it as intended
+  
+  Two kelp variations with saplings were not dropping them
+  
+  The script randomblueprint.lua was not functioning as intended
+  -unknown mech BPs will now drop much more than known ones.
+
+Typos fixed:
+  Fungus Stim Pack: description - stim should be stimpack
+  Synthesis Stim: name should be Synthesis Stim Pack
+  Synthesis Stim: description now matches other stimpacks
+
+Placholder icons replaced:
+  Alpaca Guard (cosmetic set)
+  Protectorate Poptop Toy
+  Protectorate Wall Banner (three versions)
+  Smashable Rock (Copper, Diamond, Gold, Platnium, Silver)
+  Small Smashable Rock (Copper, Diamond, Gold, Platnium, Silver)
+
+Other fixes:
+  Alpaca Guard Set: some names and all prices corrected
+  Barrel Lid (Headwear): corrected price
+  Barrel (Chestwear): corrected price
+  Cardboard Box Armor: corrected rarity and price
+  George's Foxy Glasses: corrected price
+  Protectorate Poptop Toy: name now reflects what it is
+  Shroom Remedy: corrected hand position
+  Synthesis Stim Pack: corrected hand position and price
+
+
+-------- 1.0.2 --------
+Typos fixed:
+  Protectorate Toilet Roll Holder: name had period at the end
+
+Textures fixed:
+  Disguise Trousers: had missing and incorrectly colored pixels
+  Soldier's Leg Armour: had missing knee plate on a idle frame
+
+Hair masks fixed:
+  Camo Helmet
+  Desert Head Scarf
+  Voyager's Helm
+  
+Wiring node placement fixed:
+  Club Lights (Blue, Green, Red, and Yellow)
+
+Placholder icons replaced:
+  Protectorate Clock
+  Protectorate Toilet Roll Holder
+
+
+-------- 1.0.1 --------
+Hair masks fixed:
+  Demon Horn Wig
+  Dog Hat
+  Flowery Mask
+  Fluorescent Helmet
+  Geode Mask
+  George's Foxy Glasses
+  Horned Tricorn
+  Ice Cube Mask
+  Insurgent's Mask
+  Outrider's Helm
+  Pioneer's Helm
+  Predatory Head
+  Sabertooth Helm
+  Slime Mask
+  Vanguard's Helm
+  Viking Helm
+
+Placholder icons replaced:
+  Protectorate Books (both types)
+  Protectorate Games Console
+  Protectorate Garden Wind Chimes
+  Protectorate Hologlobe
+  Protectorate Water Dispenser
+  Red Toolbox
+
+
+-------- 1.0.0 --------
+Typos fixed:
+  Bandit's Bandana: description - bandana was misspelled
+  Fungus Stim: name should be Fungus Stim Pack
+  Po, Po Golem: assigned proper names
+  Trilobite (display): description had a random quotation mark
+  T-Rex Upper Tail: name had semicolon at the end
+
+Textures fixed:
+  S.A.I.L (Apex ship console): corrected glow map
+  Scientist Pants: had hole in leg on specific idle frame
+  Sewing Machine: had incorrectly colored pixels on one frame
+  Shroom Disguise: had extra pixel and bad hair masking
+  Silver Chestpiece: corrected a frame of the back arm
+  Thorny Plant: first frame was placed twice with 1px of offset
+  random gen axe handle 46: caused gap
+  random gen dagger blade 11, 15, 16, 17: caused gap
+
+Icons fixed:
+  Metal Barrel: slight tweak
+  Radioactive Barrel (both types): slight tweak
+  Shroom Disguise: was a placeholder
+  Thorny Plant: was a placeholder
+
+Other fixes:
+  Fungus Stim Pack: corrected hand position and price
+  Orange Stim Pack: corrected hand position and price
+  Radioactive Barrel (both types) - set category to decorative
+  Small Barrel: added collision to fix an ocean dungeon
+  Large Barrel: added collision to match small barrel
+  Triplod Figurine: will now register in collections
+  boat.lua: fixed a typo and incorrect value
