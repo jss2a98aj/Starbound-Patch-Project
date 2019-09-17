@@ -144,6 +144,8 @@ Monsters with ground collisions fixed:
     Robot Hens
 
 Parallax fixes:
+  Scorched city parallax 1, 2, 3, and 5 had thier transparency fixed
+
   All fixes from the Parallax Fixes mod are included
   -Thanks to Dracyoshi and Xaliber for allowing this.  
 

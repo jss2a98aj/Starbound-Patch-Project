@@ -48,7 +48,7 @@ NPC fixes
 
 Parallax fixes
 	Fixes every known issue with parallax.
-	Credit for Parallax fixes goes to
+	Credit for the original Parallax fixes mod goes to
 	Dracyoshi  https://community.playstarbound.com/members/dracyoshi.505/
 	and xaliber https://community.playstarbound.com/members/xaliber.767633/
 

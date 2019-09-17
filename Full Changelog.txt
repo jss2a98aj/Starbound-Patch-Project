@@ -1,3 +1,7 @@
+-------- 1.3.1 --------
+Parallax fixes:
+  Fixed transparency issues on 4 scorched city backgrounds.
+
 
 -------- 1.3.0 --------
 Other fixes:
