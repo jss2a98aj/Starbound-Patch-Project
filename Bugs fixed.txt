@@ -105,6 +105,7 @@ NPC drop pool assignments fixed:
   Eye Guard
   Friendly Castle Guard
   Friendly Castle Lord
+  Lab Scientist
 
 NPC quest pool assignments fixed:
   Saloon Villager
