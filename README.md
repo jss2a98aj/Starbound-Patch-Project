@@ -17,9 +17,8 @@ The type of things this aims to fix:
 This includes fixes for unobtainable items because so many people use commands or mods to get ahold of them.
 
 # Permissions
-All included materials within this repository are intended for use with Starbound in the form of a mod.
-That said, anyone may use included materials in their own mods for Starbound.
-Use of included material in things other than Starbound mods is prohibited.
+Everything in this repository is ment to be used with Starbound as a mod.
+That said, if you need one of the fixes for your own Starbound mod to work, then use it.
 Chucklefish LTD is granted the right to use included materials without restriction.
 
 # Links
