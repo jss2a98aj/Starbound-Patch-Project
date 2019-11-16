@@ -5,6 +5,8 @@ Parallax fixes:
 NPC fixes:
   Lab Scientist: assigned correct drop pool
 
+Typo fixes:
+  Safe: Description
 
 -------- 1.3.0 --------
 Other fixes:

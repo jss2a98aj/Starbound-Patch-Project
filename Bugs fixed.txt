@@ -1,4 +1,4 @@
-Bugs that SBPP had fixed, but have been fixed officially and removed from SBPP, are not listed here.
+Bugs that SBPP had fixed, but have been fixed officially and removed from SBPP are not listed here.
 
 Crashes fixed:
   Big Unusual Gift Box no longer uses an invalid drop pool
@@ -168,5 +168,6 @@ Typo fixes:
   Office Computer: Human description
   Protectorate Poptop Toy: name
   Random Fountain: Added Novakid description
+  Safe: description
   Steampunk Shelf: Apex description
   Synthesis Stim Pack: name, description
