@@ -31,9 +31,6 @@ Head item masks
 Human Techstation lit sprite
 	techstationlit.png has strange inconsistencies with other techstation lit sprites and looks off in-game.
 
-Human and Avian Female Body line art
-	A single pixel in the sixth running frame that other female and all male sprites have shaded is not.
-
 Kelp drop consistency
 	Toxic Kelp can drop saplings, but no other kelp type can.
 
@@ -59,6 +56,9 @@ Player Ship door dupe option 1
 Player Ship door dupe option 2
 	Makes the T1 player ships not place a new door.
 	I personally like option 1 more.
+
+Race sprites
+	Fixes issues on several races sprites.
 
 Sewing Machine miscolored pixels
 	Two pixels on the bottom of one frame are darker than the rest.
