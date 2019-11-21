@@ -131,7 +131,14 @@ Monsters with name and description fields added:
   Pinfriend
   Po Golem
   Po (all three sizes)
+  Punchy
   Sewer Fly
+  Tentacle Bomb
+  Tentacle Clam
+  Tentacle Crawler
+  Tentacle Ghost
+  Tentacle Gnat
+  Tentacle Spawner
 
 Monsters with ground collisions fixed:
   87 different ground critters

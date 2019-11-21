@@ -1,6 +1,6 @@
 Fixes dozens of typos, incorrect item properties, texture issues, and even some rare crashes.
 
-Has in-game changelogs if [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1465571894]Ztarbound[/url] or Frackin' Universe is present.
+There are in-game changelogs if [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1465571894]Ztarbound[/url] or Frackin' Universe is installed.
 
 It is safe to install or uninstall this mod at any time.
 
@@ -8,7 +8,22 @@ Recent Changelogs:
 [code]
 -------- 1.3.1 --------
 Parallax fixes:
-  Fixed transparency issues on 4 scorched city backgrounds.
+  Fixed transparency issues on 4 scorched city backgrounds
+
+NPC fixes:
+  Lab Scientist: assigned correct drop pool
+
+Typo fixes:
+  Safe: Description
+
+Added descriptions and names to the following monsters:
+  Punchy
+  Tentacle Bomb
+  Tentacle Clam
+  Tentacle Crawler
+  Tentacle Ghost
+  Tentacle Gnat
+  Tentacle Spawner
 
 
 -------- 1.3.0 --------
