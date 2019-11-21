@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/shortdescription",
+    "value" : "Punchy"
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "It may look angry, but beneath that is a faithful training companion."
+  }
+]
