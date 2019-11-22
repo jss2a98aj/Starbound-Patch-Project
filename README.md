@@ -25,3 +25,5 @@ Chucklefish LTD is granted the right to use included materials without restricti
 Starbound Patch Project on Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=1543219534
 
 Starbound Patch Project on the Nexus: https://www.nexusmods.com/starbound/mods/842
+
+Starbound Patch Project on the Chucklefish Forums: https://community.playstarbound.com/resources/starbound-patch-project.5894

@@ -1,4 +1,4 @@
-Bugs that SBPP had fixed, but have been fixed officially and removed from SBPP are not listed here.
+Bugs that SBPP had fixed, but were fixed officially and removed from SBPP are not listed here.
 
 Crashes fixed:
   Big Unusual Gift Box no longer uses an invalid drop pool
@@ -155,7 +155,7 @@ Parallax fixes:
   Scorched city parallax 1, 2, 3, and 5 had thier transparency fixed
 
   All fixes from the Parallax Fixes mod are included
-  -Thanks to Dracyoshi and Xaliber for allowing this.  
+  -Thanks to Dracyoshi and Xaliber for allowing this.
 
 Typo fixes:
   Ammonite fossil display names were missing the fossil suffix
