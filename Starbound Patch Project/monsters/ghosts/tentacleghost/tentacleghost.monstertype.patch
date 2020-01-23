@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/shortdescription",
+    "value" : "Tentacle Ghost"
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "Standing out from other inhabitants of the ruin, this creature can pass through walls."
+  }
+]

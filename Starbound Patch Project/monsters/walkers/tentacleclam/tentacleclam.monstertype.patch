@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/shortdescription",
+    "value" : "Tentacle Clam"
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "While it resembles a clam, it also shares traits with leeches."
+  }
+]

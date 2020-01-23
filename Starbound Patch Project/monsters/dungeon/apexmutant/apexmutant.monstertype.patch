@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/shortdescription",
+    "value" : "Apex Mutant"
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "This mutated Apex appears to be an unsuccessful attempt to further advance Apex intellect."
+  }
+]

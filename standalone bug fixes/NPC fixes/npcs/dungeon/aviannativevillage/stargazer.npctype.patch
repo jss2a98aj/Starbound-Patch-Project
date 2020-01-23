@@ -1,0 +1,45 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/scriptConfig/questGenerator/pools",
+    "value" : ["common","shady"]
+  },
+  {
+    "op" : "remove",
+    "path" : "/dialog"
+  },
+  {
+    "op" : "remove",
+    "path" : "/behaviorConfig"
+  },
+  {
+    "op" : "add",
+    "path" : "/scriptConfig/behaviorConfig",
+    "value" : { "greetingChance" : 0 }
+  },
+  {
+    "op" : "add",
+    "path" : "/scriptConfig/dialog",
+    "value" : {
+      "converse" : {
+        "avian" : {
+          "default" : [
+            "Listen, stranger, to the word of Kluex! Tremble at his winged might! Marvel at his clawed compassion!",
+            "I am a Stargazer, herald of Kluex! When I speak, I speak the words of our winged god!",
+            "Every time something good happens to you, stranger, it is because of Kluex. Everything bad is just your fault.",
+            "You don't look like a true follower of Kluex. Be polite, stranger, and we won't have to hurt you.",
+            "You are not from around here. As long as you respect the laws of Kluex then we have no quarrel with you.",
+            "The Avian people will soon ascend to our place in the heavens. Don't miss us when we're gone, stranger."
+          ],
+          "avian" : [
+            "Listen, fellow Avian, to the word of Kluex! Tremble at his winged might! Marvel at his clawed compassion!",
+            "I am a Stargazer, herald of Kluex! But, with that look in your eye, I guess you knew that already!",
+            "Every time something good happens to you it is because of Kluex. But, as an Avian, I'm sure you already know this!",
+            "An Avian from beyond the stars! Tell me, have you been spreading the good word of Kluex to earn your wings?",
+            "If we are good to Kluex, we'll all earn a place in the heavens. Other races don't get to join us, though."
+          ]
+        }
+      }
+    }
+  }
+]

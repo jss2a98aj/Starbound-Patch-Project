@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/shortdescription",
+    "value" : "Nautileech"
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "This phantasmal creature drains the life from its victims."
+  }
+]

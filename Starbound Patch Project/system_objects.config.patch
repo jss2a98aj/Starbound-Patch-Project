@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/spacestation_peacekeeper4/parameters/description",
+    "value" : "A large space station with many facilities, used as a hub for Peacekeepers."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/shortdescription",
+    "value" : "Pinfriend"
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "It is said that dogs are a man's best friend, but this one doesn't seem to discriminate."
+  }
+]

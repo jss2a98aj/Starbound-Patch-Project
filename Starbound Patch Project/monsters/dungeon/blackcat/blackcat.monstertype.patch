@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/shortdescription",
+    "value" : "Black Cat"
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "The legend that black cats brings bad luck may be true, as they were native to Earth."
+  }
+]

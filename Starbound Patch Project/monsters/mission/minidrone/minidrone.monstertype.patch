@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/shortdescription",
+    "value" : "Minidrone"
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "A single Miniknog surveillance drone like this one can doom an entire rebel outpost."
+  }
+]

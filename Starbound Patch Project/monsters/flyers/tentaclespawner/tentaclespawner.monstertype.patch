@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/shortdescription",
+    "value" : "Tentacle Spawner"
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "This winged biomass will produce Tentacle Gnats if it encounters foreign life."
+  }
+]

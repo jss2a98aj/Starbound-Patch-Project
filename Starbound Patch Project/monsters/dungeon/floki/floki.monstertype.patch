@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/shortdescription",
+    "value" : "Floki"
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "This cat was once owned by someone named \"Necotho\" according to the nametag on its collar."
+  }
+]

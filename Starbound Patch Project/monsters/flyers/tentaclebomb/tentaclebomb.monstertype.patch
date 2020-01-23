@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/shortdescription",
+    "value" : "Tentacle Bomb"
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "This creature ends itself in a burst of poison when it encounters foreign life."
+  }
+]

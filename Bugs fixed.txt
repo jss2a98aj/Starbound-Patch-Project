@@ -1,0 +1,180 @@
+Bugs that SBPP had fixed, but were fixed officially and removed from SBPP are not listed here.
+
+Crashes fixed:
+  Big Unusual Gift Box no longer uses an invalid drop pool
+  Small Unusual Gift Box no longer uses an invalid drop pool
+  -Prevents the game from crashing when they are killed.
+
+  Watering Cans no longer stack
+  -Prevents an auto-sort interaction from corrupting saves.
+
+Tiles fixed:
+  Matter Blocks no longer occlude background blocks
+  Matter Blocks no longer turn invisible when colored
+  Timber no longer has a purple pixel when painted yellow
+
+Objects fixed:
+  Apex S.A.I.L console now has a correct glow map
+  Large Barrels now have collision to match small barrels
+  Medieval Lamps can now be placed on walls
+  Sewing Machines no longer have a darker pixel on one frame
+  Small Barrels now have collision to fix an ocean dungeon
+  Thorny Plants no longer have the first frame messed up
+
+Object wiring node placements fixed:
+  Blue Club Lights
+  Green Club Lights
+  Red Club Lights
+  Yellow Club Lights
+
+Plants fixed:
+  All kelp variations now drop saplings
+  Tentacle trees now drop items as intended
+
+Item textures fixed:
+  Suspender Pants no longer have a hole in one frame
+
+Item prices corrected:
+  Alpaca Guard (cosmetic set)
+  Barrel Lid (Headwear)
+  Barrel (Chestwear)
+  Cardboard Box Armor
+  Fungus Stim Pack
+  George's Foxy Glasses
+  Orange Stim Pack
+  Synthesis Stim Pack
+
+Item rarities corrected:
+  Cardboard Box Armor
+
+Item hand positions corrected:
+  Fungus Stim Pack 
+  Shroom Remedy
+  Synthesis Stim Pack
+
+Headwear hair masks fixed/improved:
+  Camo Helmet
+  Demon Horn Wig
+  Desert Head Scarf
+  Dog Hat
+  Flowery Mask
+  Fluorescent Helmet
+  Geode Mask
+  George's Foxy Glasses
+  Horned Tricorn
+  Ice Cube Mask
+  Insurgent's Mask
+  Outrider's Helm
+  Pioneer's Helm
+  Predatory Head
+  Sabertooth Helm
+  Shroom Disguise
+  Slime Mask
+  Vanguard's Helm
+  Viking Helm
+  Voyager's Helm
+
+Existing icons improved:
+  Metal Barrel
+  Radioactive Barrel (standing version)
+
+Placeholder icons replaced:
+  Alpaca Guard (cosmetic set)
+  Protectorate Books (both types)
+  Protectorate Clock
+  Protectorate Games Console
+  Protectorate Garden Wind Chimes
+  Protectorate Hologlobe
+  Protectorate Poptop Toy
+  Protectorate Toilet Roll Holder
+  Protectorate Wall Banner (three versions)
+  Protectorate Water Dispenser
+  Small Smashable Rocks (Copper, Diamond, Gold, Platinum, Silver)
+  Smashable Rocks (Copper, Diamond, Gold, Platinum, Silver)
+  Red Toolbox
+  Thorny Plant
+
+S.A.I.L. static paths fixed:
+  Floran S.A.I.L.
+  Novakid S.A.I.L.
+
+NPC drop pool assignments fixed:
+  Castle Lord
+  Evil Knight
+  Evil Knight Lord
+  Eye Guard
+  Friendly Castle Guard
+  Friendly Castle Lord
+  Lab Scientist
+
+NPC quest pool assignments fixed:
+  Saloon Villager
+  Stargazer
+
+NPC dialog paths fixed:
+  Avian Tomb Tenant
+  Stargazer
+
+Items assigned to NPC outfit lists:
+  Survivalist Chest
+  Survivalist Legs
+
+Monsters with name and description fields added:
+  Apex Mutant
+  Black Cat
+  Bonebird
+  Brainy Apex Mutant
+  Floki
+  Glitch Knight
+  Minidrone
+  Nautileech
+  Pinfriend
+  Po Golem
+  Po (all three sizes)
+  Punchy
+  Sewer Fly
+  Tentacle Bomb
+  Tentacle Clam
+  Tentacle Crawler
+  Tentacle Ghost
+  Tentacle Gnat
+  Tentacle Spawner
+
+Monsters with ground collisions fixed:
+  87 different ground critters
+  Baby versions of:
+    Fluffalos
+    Electric Fluffalos
+    Fire Fluffalos
+    Ice Fluffalos
+    Poison Fluffalos
+    Hens
+    Robot Hens
+
+Parallax fixes:
+  Scorched city parallax 1, 2, 3, and 5 had thier transparency fixed
+
+  All fixes from the Parallax Fixes mod are included
+  -Thanks to Dracyoshi and Xaliber for allowing this.
+
+Typo fixes:
+  Ammonite fossil display names were missing the fossil suffix
+  Triolbite fossil display names were missing the fossil suffix
+
+  10 Years On (codex): Description
+  Alpaca Guard (cosmetic set): some names
+  Cooked Poultry: description
+  Cryogenic Blaster: Hylotl description
+  Frontier Bed: Human description
+  Frontier Coffin: Floran description
+  Full-Size Fridge: Apex description
+  Fungus Stim Pack: name, description
+  Medieval Lamp: Human description
+  Medieval Pedestal: Hylotl description
+  Mulled Fruit Drink: Avian description
+  Office Computer: Human description
+  Protectorate Poptop Toy: name
+  Random Fountain: Added Novakid description
+  Safe: description
+  Steampunk Shelf: Apex description
+  Synthesis Stim Pack: name, description
