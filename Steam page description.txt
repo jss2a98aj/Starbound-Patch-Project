@@ -1,10 +1,10 @@
 Fixes dozens of typos, incorrect item properties, texture issues, and even some rare crashes.
 
-There are in-game changelogs if [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1465571894]Ztarbound[/url] or Frackin' Universe is installed.
+There are in-game changelogs if [url=https://steamcommunity.com/workshop/filedetails/?id=1465571894]Ztarbound[/url] or Frackin' Universe is installed.
 
 It is safe to install or uninstall this mod at any time.
 
-[url=https://github.com/jss2a98aj/Starbound-Patch-Project/blob/master/Bugs fixed.txt]List of all bugs currently fixed[/url]
+[url=https://github.com/jss2a98aj/Starbound-Patch-Project/blob/master/Bugs%20fixed.txt]List of all bugs currently fixed[/url]
 
 Recent Changelogs:
 [code]
@@ -86,7 +86,7 @@ Updated fixes:
   -An old codex I missed had an actual name for it listed.
 [/code]
 
-[url=https://github.com/jss2a98aj/Starbound-Patch-Project/blob/master/Full Changelog.txt]Full changelog[/url]
+[url=https://github.com/jss2a98aj/Starbound-Patch-Project/blob/master/Full%20Changelog.txt]Full changelog[/url]
 
 Some unobtainable items have fixes included. This is intentional. Many people spawn items in or have mods that add ways to get them.
 This will not make unobtainable items obtainable, that is not the goal of the mod.
