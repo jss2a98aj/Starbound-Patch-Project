@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/category",
+    "value" : "upgradeComponent"
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "FTL Ship Upgrade"
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "Fixes your ships FTL drive."
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "add",
+    "path" : "/labels/blueprint",
+    "value" : "Blueprint"
+  },
+  {
+    "op" : "add",
+    "path" : "/labels/drone",
+    "value" : "Drone"
+  },
+  {
+    "op" : "add",
+    "path" : "/labels/supports",
+    "value" : "Supports"
+  }
+]

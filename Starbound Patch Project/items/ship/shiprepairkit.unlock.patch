@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/category",
+    "value" : "upgradeComponent"
+  },
+  {
+    "op" : "replace",
+    "path" : "/shipUpgrade",
+    "value" : 2
+  }
+]

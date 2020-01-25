@@ -4,13 +4,12 @@ require "/scripts/util.lua"
 
 -- param entity
 function evolveFluffalo()
-  --Fix spawn time ahead of world time bug
+--Fix spawn time ahead of world time bug
   if storage.spawnTime > world.time() then
     storage.spawnTime = world.time()
-    sb.logInfo("SBPP: Fixed farmable monster with spawn time ahead of world time.")
+    --sb.logInfo("SBPP: Fixed farmable monster with spawn time ahead of world time.")
   end
-  --End fix
-
+--
   local evolveTime = config.getParameter("evolveTime")
   if storage.spawnTime + evolveTime < world.time() then
     local evolveType = config.getParameter("evolveType")
@@ -38,12 +37,12 @@ function hasMonsterHarvest(args, board)
     resetMonsterHarvest()
   end
 
-  --Fix last harvest time ahead of world time bug
+--Fix last harvest time ahead of world time bug
   if storage.lastHarvest > world.time() then
     storage.lastHarvest = world.time()
-    sb.logInfo("SBPP: Fixed farmable monster with last harvest time ahead of world time.")
+    --sb.logInfo("SBPP: Fixed farmable monster with last harvest time ahead of world time.")
   end
-  --End fix
+--
 
   if world.time() - storage.lastHarvest >= storage.harvestTime then
     return true

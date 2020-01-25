@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/category",
+    "value" : "upgradeComponent"
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Sparrow Ship Upgrade"
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "Upgrades your ship to Sparrow class."
+  }
+]

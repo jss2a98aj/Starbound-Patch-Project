@@ -8,6 +8,15 @@ Crashes fixed:
   Watering Cans no longer stack
   -Prevents an auto-sort interaction from corrupting saves.
 
+Scrips fixed:
+  farmable.lua will check if save time is ahead of world time
+  -Connecting to multiplayer with an older universe than your
+   own will no longer stop animals on your ship from evolving
+   or becoming harvestable.
+
+Recipe fixes:
+    Bottled Healing Water's recipe shows up when discovered
+
 Tiles fixed:
   Matter Blocks no longer occlude background blocks
   Matter Blocks no longer turn invisible when colored
@@ -30,8 +39,10 @@ Object wiring node placements fixed:
 Plants fixed:
   All kelp variations now drop saplings
   Tentacle trees now drop items as intended
+  Weeping Willows no longer have a missing crown texture
 
 Item textures fixed:
+  Special Fried Rice no longer has a hole in its outline
   Suspender Pants no longer have a hole in one frame
 
 Item prices corrected:
@@ -157,6 +168,11 @@ Parallax fixes:
   All fixes from the Parallax Fixes mod are included
   -Thanks to Dracyoshi and Xaliber for allowing this.
 
+Unobtainable item fixes:
+  Ship debug items have proper names and descriptions
+  Ship Repair Kit will give the tier it says it does
+  FTL Repair Kit will give the tier it says it does
+
 Typo fixes:
   Ammonite fossil display names were missing the fossil suffix
   Triolbite fossil display names were missing the fossil suffix
@@ -165,6 +181,10 @@ Typo fixes:
   Alpaca Guard (cosmetic set): some names
   Cooked Poultry: description
   Cryogenic Blaster: Hylotl description
+  Dirty Fossil (eight types): Description
+  Egyptian Crest: Description
+  Fossil Display (three types): Description
+  Fossil Display (one type): Floran description
   Frontier Bed: Human description
   Frontier Coffin: Floran description
   Full-Size Fridge: Apex description
@@ -172,9 +192,84 @@ Typo fixes:
   Medieval Lamp: Human description
   Medieval Pedestal: Hylotl description
   Mulled Fruit Drink: Avian description
+  Nova (buff): Label
   Office Computer: Human description
+  Peacekeeper Spacestation (fourth type): Description
   Protectorate Poptop Toy: name
   Random Fountain: Added Novakid description
   Safe: description
+  Spring Flower: Human description
   Steampunk Shelf: Apex description
   Synthesis Stim Pack: name, description
+  Wheat Seed: Apex description
+  Wild Wheat Seed: Apex description
+
+Items with fixed category localization:
+  Advanced Mech Blueprint
+  Ancient Platform
+  Bamboo Platform
+  Blueprint (template item)
+  Bug Net
+  Cave Detector
+  Chainsaw
+  Copper Drill
+  Copper Ladder
+  Copper Pickaxe
+  Copper Platform
+  Diamond Drill
+  Diamond Pickaxe
+  Experimental Mech Blueprint
+  Explorer's Lantern
+  Fishaxe
+  Fishaxe (Drops)
+  Flashlight
+  Flashlight (Green)
+  Flashlight (Red)
+  Flashlight (Yellow)
+  Fossil Extractor
+  FTL Repair Kit
+  Gold Drill
+  Gold Pickaxe
+  Gold Platform
+  Grappling Hook
+  High-Tech Mech Blueprint
+  Hoe
+  Inspection Mode (hotbar item)
+  Lunar Base Platform
+  Matter Manipulator (hotbar item)
+  Matter Manipulator X
+  Mining Drone
+  Mining Laser
+  Modern Platform
+  Mossy Platform
+  Ore Detector
+  Ornate Platform
+  Outpost Platform
+  Paint Mode (hotbar item)
+  Pickaxe
+  Platinum Bar
+  Platinum Drill
+  Platinum Ore
+  Platinum Pickaxe
+  Plutonium Rod
+  Polygon Platform
+  Portable Pixel Printer
+  Pressurised Platform
+  Protectorate Platform
+  Relocator
+  Rope
+  Ruins Platform
+  Scan Mode (hotbar item)
+  Ship Platform
+  Ship Repair Kit
+  Silver Drill
+  Silver Pickaxe
+  Silver Platform
+  Simple Mech Blueprint
+  Stone Platform
+  Temple Platform
+  Tungsten Platform
+  Wire Mode (hotbar item)
+  Wood Platform (first type)
+  Wood Platform (second type)
+  Wrecked Platform
