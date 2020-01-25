@@ -98,7 +98,7 @@ PNGGauntlet has been used on all textures modified by SBPP to reduce file size a
 
 Credits:
 Contributors: Ralek_Basa, Prototype99, Yanazake,
-lunapanshiel, Xaliber, Dracyoshi
+lunapanshiel, Xaliber, Dracyoshi, VenZell
 
 Bug hunters: Clank8138
 
