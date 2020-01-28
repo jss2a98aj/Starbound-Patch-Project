@@ -8,5 +8,10 @@
     "op" : "replace",
     "path" : "/converse/apex/apex/6",
     "value" : "Your hair is so lush - I wish I could get shampoo that good."
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/apex/floran/3",
+    "value" : "Your kind is scary to some. Do not be offended if some Apex are wary of you."
   }
 ]
