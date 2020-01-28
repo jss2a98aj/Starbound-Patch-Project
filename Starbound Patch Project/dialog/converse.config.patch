@@ -13,5 +13,10 @@
     "op" : "replace",
     "path" : "/converse/apex/floran/3",
     "value" : "Your kind is scary to some. Do not be offended if some Apex are wary of you."
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/hylotl/floran/24",
+    "value" : "Our peoples were once at war, long, long ago."
   }
 ]
