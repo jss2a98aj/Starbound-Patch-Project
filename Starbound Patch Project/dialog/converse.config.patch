@@ -33,5 +33,10 @@
     "op" : "replace",
     "path" : "/converse/human/apex/6",
     "value" : "Aah!!! Oh, sorry - I have an irrational fear of chimpanzees and your face... Sorry..."
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/floran/novakid/8",
+    "value" : "Your colour iss brighter than any flowers."
   }
 ]
