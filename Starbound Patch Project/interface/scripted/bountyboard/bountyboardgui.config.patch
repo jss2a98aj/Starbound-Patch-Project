@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/assignmentNotReady",
+    "value" : "You are not yet ready to take cases of this rank. Please continue to your assigned peacekeeper station."
+  }
+]

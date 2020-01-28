@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/scriptConfig/radioMessages/startAlreadyComplete/text",
+    "value" : "You're quite the collector of Apex antiquities! It appears you've already located enough clues to allow me to identify the location of the Artifact!"
+  }
+]
