@@ -28,5 +28,10 @@
     "op" : "replace",
     "path" : "/converse/avian/hylotl/8",
     "value" : "Us Avian aren't innately peaceful, but don't worry, we're not as bad as the Floran."
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/human/apex/6",
+    "value" : "Aah!!! Oh, sorry - I have an irrational fear of chimpanzees and your face... Sorry..."
   }
 ]
