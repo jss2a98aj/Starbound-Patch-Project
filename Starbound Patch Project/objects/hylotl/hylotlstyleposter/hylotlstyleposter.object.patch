@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "A poster for an unpopular Hylotl movie \"Claw of Dread\"."
+  }
+]
