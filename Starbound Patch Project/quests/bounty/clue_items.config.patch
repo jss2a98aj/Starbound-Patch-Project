@@ -1,0 +1,22 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/audiodisc/diversion/3/message",
+    "value" : "...Well, I guess that's a good enough lead. Sounds like <next.coordinate.name> is your next destination, partner!"
+  },
+  {
+    "op" : "replace",
+    "path" : "/audiodisc/planetBounty/3/message",
+    "value" : "...Well, I, uh, guess we have a lead. Sounds like <next.coordinate.name> is your next destination, partner!"
+  },
+  {
+    "op" : "replace",
+    "path" : "/audiodisc/spaceBounty/3/message",
+    "value" : "...Well, I guess that's a good enough lead. Sounds like <next.coordinate.name> is your next destination, partner!"
+  },
+  {
+    "op" : "replace",
+    "path" : "/audiodisc/scan/3/message",
+    "value" : "...Well, I guess that's a good enough lead. Sounds like <next.coordinate.name> is your next destination, partner!"
+  }
+]
