@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "\"A perfect sample of Erchius Crystal fuel - larger amounts are used to fuel ship FTL drives.\""
+  }
+]
