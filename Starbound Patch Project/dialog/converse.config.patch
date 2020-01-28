@@ -23,5 +23,10 @@
     "op" : "replace",
     "path" : "/converse/hylotl/novakid/5",
     "value" : "Something tells me I shouldn't have tea with you."
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/avian/hylotl/8",
+    "value" : "Us Avian aren't innately peaceful, but don't worry, we're not as bad as the Floran."
   }
 ]
