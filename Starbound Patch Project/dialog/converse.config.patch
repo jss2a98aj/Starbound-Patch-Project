@@ -18,5 +18,10 @@
     "op" : "replace",
     "path" : "/converse/hylotl/floran/24",
     "value" : "Our peoples were once at war, long, long ago."
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/hylotl/novakid/5",
+    "value" : "Something tells me I shouldn't have tea with you."
   }
 ]
