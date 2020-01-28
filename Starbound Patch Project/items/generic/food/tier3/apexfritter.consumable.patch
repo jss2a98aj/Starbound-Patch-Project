@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "A crispy Apex dish. A fried corn fritter, with a banana of course."
+  }
+]
