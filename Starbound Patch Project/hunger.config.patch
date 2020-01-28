@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/5/down/0",
+    "value" : "I see a light..."
+  }
+]
