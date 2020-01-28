@@ -3,5 +3,10 @@
     "op" : "replace",
     "path" : "/converse/apex/generic/107",
     "value" : "Seeing you have cheered me up on a gloomy day."
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/apex/apex/6",
+    "value" : "Your hair is so lush - I wish I could get shampoo that good."
   }
 ]
