@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/scriptConfig/generatedText/completionText/default/default/1",
+    "value" : "That is one good-looking <item>. Thanks for picking this up."
+  }
+]
