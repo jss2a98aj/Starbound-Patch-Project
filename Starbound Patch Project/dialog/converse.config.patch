@@ -43,5 +43,10 @@
     "op" : "replace",
     "path" : "/converse/glitch/avian/3",
     "value" : "Pensive. Which of you came first? Your egg or... ERROR"
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/glitch/floran/10",
+    "value" : "Curious. Do you ever need pruning?"
   }
 ]
