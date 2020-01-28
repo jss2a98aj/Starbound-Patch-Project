@@ -1,6 +1,11 @@
 [
   {
     "op" : "replace",
+    "path" : "/attack/novakid/default/5",
+    "value" : "Folks like you are always stickin' their nose where it doesn't belong. Yer gonna learn a tough lesson!"
+  },
+  {
+    "op" : "replace",
     "path" : "/completeArrest/glitch/default/1",
     "value" : "Worried. I won't fit in prison! I regret my actions gravely!"
   }
