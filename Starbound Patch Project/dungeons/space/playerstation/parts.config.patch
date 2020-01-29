@@ -2,21 +2,21 @@
   {
     "op" : "replace",
     "path" : "/parts/tjuncNWE/description",
-    "value" : "A T-junction shaped room with expansion slots in 3 directions."
+    "value" : "A 'T' shaped junction room with expansion slots in 3 directions."
   },
   {
     "op" : "replace",
     "path" : "/parts/tjuncNSE/description",
-    "value" : "A T-junction shaped room with expansion slots in 3 directions."
+    "value" : "A 'T' shaped junction room with expansion slots in 3 directions."
   },
   {
     "op" : "replace",
     "path" : "/parts/tjuncNSW/description",
-    "value" : "A T-junction shaped room with expansion slots in 3 directions."
+    "value" : "A 'T' shaped junction room with expansion slots in 3 directions."
   },
   {
     "op" : "replace",
     "path" : "/parts/tjuncSWE/description",
-    "value" : "A T-junction shaped room with expansion slots in 3 directions."
+    "value" : "A 'T' shaped junction room with expansion slots in 3 directions."
   }
 ]

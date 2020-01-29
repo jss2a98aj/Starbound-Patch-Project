@@ -11,11 +11,6 @@
   },
   {
     "op" : "replace",
-    "path" : "/converse/apex/floran/3",
-    "value" : "Your kind is scary to some. Do not be offended if some Apex are wary of you."
-  },
-  {
-    "op" : "replace",
     "path" : "/converse/hylotl/floran/24",
     "value" : "Our peoples were once at war, long, long ago."
   },
@@ -33,11 +28,6 @@
     "op" : "replace",
     "path" : "/converse/human/apex/6",
     "value" : "Aah!!! Oh, sorry - I have an irrational fear of chimpanzees and your face... Sorry..."
-  },
-  {
-    "op" : "replace",
-    "path" : "/converse/floran/novakid/8",
-    "value" : "Your colour iss brighter than any flowers."
   },
   {
     "op" : "replace",

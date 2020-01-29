@@ -7,6 +7,6 @@
   {
     "op" : "replace",
     "path" : "/converse/default/default/12",
-    "value" : "Officer <entityname>? The Captain says you're the one we have to thank for making all this happens!"
+    "value" : "Officer <entityname>? The Captain says you're the one we have to thank for making all this happen!"
   }
 ]

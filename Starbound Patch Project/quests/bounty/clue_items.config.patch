@@ -23,10 +23,5 @@
     "op" : "replace",
     "path" : "/papernote/scan/1/parameters/noteText",
     "value" : "<bounty.name>'s To-do List\n\nª Buy new shoes\n\nª Buy new socks that match new shoes\n\nª Move to <next.coordinate.name>\n\nª Request feedback on new shoes and socks"
-  },
-  {
-    "op" : "replace",
-    "path" : "/papernote/returnVaultItem/2/message",
-    "value" : "There're holes in even the most organised criminal operation, ain't there? Head on over to <next.coordinate.name> as soon as you can, partner!"
   }
 ]

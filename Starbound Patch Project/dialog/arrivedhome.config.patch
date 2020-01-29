@@ -1,7 +1,0 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/rent/apex/default/3",
-    "value" : "This is a good home. Here is a thank-you present."
-  }
-]
