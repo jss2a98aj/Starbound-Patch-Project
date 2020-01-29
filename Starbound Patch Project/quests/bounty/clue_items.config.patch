@@ -1,0 +1,27 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/audiodisc/diversion/3/message",
+    "value" : "...Well, I guess that's a good enough lead. Sounds like <next.coordinate.name> is your next destination, partner!"
+  },
+  {
+    "op" : "replace",
+    "path" : "/audiodisc/planetBounty/3/message",
+    "value" : "...Well, I, uh, guess we have a lead. Sounds like <next.coordinate.name> is your next destination, partner!"
+  },
+  {
+    "op" : "replace",
+    "path" : "/audiodisc/spaceBounty/3/message",
+    "value" : "...Well, I guess that's a good enough lead. Sounds like <next.coordinate.name> is your next destination, partner!"
+  },
+  {
+    "op" : "replace",
+    "path" : "/audiodisc/scan/3/message",
+    "value" : "...Well, I guess that's a good enough lead. Sounds like <next.coordinate.name> is your next destination, partner!"
+  },
+  {
+    "op" : "replace",
+    "path" : "/papernote/scan/1/parameters/noteText",
+    "value" : "<bounty.name>'s To-do List\n\nª Buy new shoes\n\nª Buy new socks that match new shoes\n\nª Move to <next.coordinate.name>\n\nª Request feedback on new shoes and socks"
+  }
+]

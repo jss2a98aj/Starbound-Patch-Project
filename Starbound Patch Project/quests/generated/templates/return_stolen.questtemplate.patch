@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/scriptConfig/generatedText/text/next/default/1",
+    "value" : "A little breaking and entering never hurt anyone... Sort of. Go ^green;steal back the ^orange;<item> ^green;in ^orange;<thief>'s ^green;home. Then put it back in ^orange;<victim>'s ^green;home."
+  },
+  {
+    "op" : "replace",
+    "path" : "/scriptConfig/generatedText/completionText/default/default/0",
+    "value" : "Wow, you made that look easy! <victim> will be pleased to see we got <victim.pronoun.possessiveDet> <item> back. Have you done this before? There's no danger of leaving fingerprints with a specialised tool like that..."
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "A heavy-duty chest for storing weapons."
+  }
+]

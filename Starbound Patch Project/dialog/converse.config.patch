@@ -1,0 +1,42 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/converse/apex/generic/107",
+    "value" : "Seeing you have cheered me up on a gloomy day."
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/apex/apex/6",
+    "value" : "Your hair is so lush - I wish I could get shampoo that good."
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/hylotl/floran/24",
+    "value" : "Our peoples were once at war, long, long ago."
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/hylotl/novakid/5",
+    "value" : "Something tells me I shouldn't have tea with you."
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/avian/hylotl/8",
+    "value" : "Us Avian aren't innately peaceful, but don't worry, we're not as bad as the Floran."
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/human/apex/6",
+    "value" : "Aah!!! Oh, sorry - I have an irrational fear of chimpanzees and your face... Sorry..."
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/glitch/avian/3",
+    "value" : "Pensive. Which of you came first? Your egg or... ERROR"
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/glitch/floran/10",
+    "value" : "Curious. Do you ever need pruning?"
+  }
+]

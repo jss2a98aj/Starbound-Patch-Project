@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/converse/default/default/5",
+    "value" : "Keep your chin up, Officer - It's a tough job but I believe in you!"
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/default/default/12",
+    "value" : "Officer <entityname>? The Captain says you're the one we have to thank for making all this happen!"
+  }
+]

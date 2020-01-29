@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "An opulent console mounted on a suspended crystal."
+  }
+]

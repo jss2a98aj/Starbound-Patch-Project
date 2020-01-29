@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/scriptConfig/generatedText/text/default/default/1",
+    "value" : "We have a <problem>! Have you heard of the outlaw ^orange;<adjective> <enemy.name> the <enemy>^white;? I've heard <enemy.pronoun.copulative> lying low nearby after <crime>. We don't need that kind of trouble around here - ^green;could you go to the ^orange;<spawnPoint>^green;<spawnPoint.direction> and <request>^white;?"
+  },
+  {
+    "op" : "replace",
+    "path" : "/scriptConfig/generatedText/text/default/glitch/1",
+    "value" : "Concerned. Have you heard of the outlaw ^orange;<adjective> <enemy.name> the <enemy>^white;? I've heard <enemy.pronoun.copulative> lying low nearby after <crime>. We don't need that kind of trouble around here - ^green;could you go to the ^orange;<spawnPoint>^green;<spawnPoint.direction> and <request>^white;?"
+  }
+]

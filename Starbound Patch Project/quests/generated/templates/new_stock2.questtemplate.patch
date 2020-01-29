@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/scriptConfig/generatedText/text/default/floran/0",
+    "value" : "Now isss our time. Travelling merchant ^orange;<target> ^white;is at the ^orange;<spawnPoint>^white;<spawnPoint.direction>, and <target.pronoun.subject> has promisssed that ^green;<target.pronoun.subject> will trade <target.pronoun.possessiveDet> special goods for ^orange;<tradedItems>. ^white;Please do Floran a favour and ^green;make the deal!"
+  },
+  {
+    "op" : "replace",
+    "path" : "/scriptConfig/generatedText/text/default/glitch/1",
+    "value" : "Hopeful. If you speak to ^orange;<target>^white; at the ^orange;<spawnPoint>^white;<spawnPoint.direction> <target.pronoun.subject> might have the materials I need to create a new item of stock. Please ^green;see if <target.pronoun.subject> will accept ^orange;<tradedItems> ^white;in exchange."
+  }
+]
