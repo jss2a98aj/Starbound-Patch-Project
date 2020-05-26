@@ -1,4 +1,4 @@
-Fixes dozens of typos, incorrect item properties, texture issues, and even some rare crashes.
+Fixes hundreds of typos, incorrect item properties, texture issues, and even some rare crashes.
 
 There are in-game changelogs if [url=https://steamcommunity.com/workshop/filedetails/?id=1465571894]Ztarbound[/url] or Frackin' Universe is installed.
 
@@ -8,88 +8,240 @@ It is safe to install or uninstall this mod at any time.
 
 Recent Changelogs:
 [code]
--------- 1.3.1 --------
-Parallax fixes:
-  Fixed transparency issues on 4 scorched city backgrounds
-
-NPC fixes:
-  Lab Scientist: assigned correct drop pool
+-------- 1.4.0 --------
+Other fixes:
+  farmable.lua: saved time ahead of world time fix
+  -Connecting to multiplayer with an older universe
+   than your own or having universe time overflow
+   will no longer stop animals on your ship from
+   evolving or becoming harvestable.
+  -A fix for crops is being looked into.
 
 Typo fixes:
-  Safe: Description
+  Apex Artifact Clues: accept with objective complete
 
-Added descriptions and names to the following monsters:
-  Punchy
-  Tentacle Bomb
-  Tentacle Clam
-  Tentacle Crawler
-  Tentacle Ghost
-  Tentacle Gnat
-  Tentacle Spawner
+  Avian Emblem: description
 
+  Bounty Board: assignment not ready message
 
--------- 1.3.0 --------
-Other fixes:
-  Added Floran Survivalist clothing to NPCs
+  Bounty Space Clues (quest): coordinates dialog 1
 
-Object fixes:
-  Made it possible to place Medieval Lamps on walls
-  -All racial descriptions indicated it could be hung up.
+  Brains (block): description
+
+  Brains (item): description
+
+  Cabin Stool Table: description
+
+  Comedy Movie Poster: description
+
+  Damaged Bookcase: description
+
+  Dirty Fossil (eight types): description
+
+  Egyptian Crest: description
+
+  Erchius Crystal Sample: description
+
+  Fossil Displays (three types): description
+
+  Fossil Displays (one type): Floran description
+
+  Geometric Console: description
+
+  It's Not a Bug, It's a Creature (codex): Page 9
+
+  Large Obsidian Bookcase: description
+
+  Medieval Furnace: description
+
+  Near death starvation message
+
+  Nova (buff): Label
+
+  Opulent Console: description
+
+  Peacekeeper Spacestation (fourth type): description
+
+  Pressurised Girder (block): Glitch description
+
+  Pressurised Girder (item): Glitch description
+
+  Rock Bricks (block): Glitch description
+
+  Rock Bricks (item): Glitch description
+
+  Serene Console: description
+
+  Spring Flower: Human description
+
+  Standard Issue Table: description
+
+  Standard Issue Wardrobe: description
+
+  T Junction N-W-E: description
+
+  T Junction N-S-E: description
+
+  T Junction N-S-W: description
+
+  T Junction S-W-E: description
+
+  The Final Acquisition (quest): completion text
+
+  Thornbee: description
+
+  Weapon Chest: description
+
+  Wheat Seed: Apex description
+  
+  Wild Wheat Seed: Apex description
+
+  Wrecked Crate: description
+
+NPC dialog typo fixes:
+  Apex to Apex: converse dialog 7
+
+  Apex Space Encounter: converse dialog 8
+
+  Avian to Hylotl: converse dialog 9
+
+  Floran Cooking Quest: completion dialog 1
+
+  Floran Restock Quest: request dialog 1
+
+  Floran Rumor Quest: completion dialog 1
+
+  Floran Rumor Quest: completion 1 dialog 1
+
+  Glitch Bounty Target: arrest dialog 2
+
+  Glitch Farming Quest: request dialog 1
+
+  Glitch Kill NPC Quest: request dialog 2
+
+  Glitch Peacekeeper: can't reach dialog 1
+
+  Glitch Restock Quest: request dialog 2
+
+  Glitch Secret Quest: stage 1 completion dialog 1
+
+  Glitch Tenant: final complaint dialog 2
+
+  Glitch to Avian: arrest dialog 4
+
+  Glitch to Floran: arrest dialog 11
+
+  Human to Apex: converse dialog 7
+
+  Hylotl to Floran: Converse dialog 25
+
+  Hylotl to Novakid: converse dialog 6
+
+  Kidnapped Hylotl: kidnapper dead dialog 2
+
+  Kill Mosnster Quest: request dialog 1
+
+  Kill NPC Quest: request dialog 2
+
+  Peacekeeper: converse dialog 6 and 13
+
+  Return Stolen Item Quest: request dialog 2
+
+  Return Stolen Item Quest: completion dialog 1
 
 Texture fixes:
-  Floran S.A.I.L.: Avian static was incorrectly assigned
+  Baron's Cape: an idle frame was the wrong shape and color
 
-  Novakid S.A.I.L.: Glitch static was incorrectly assigned
-  -This S.A.I.L. did not have matching static. It does now.
+  Mutagen Back Pipe: walk back frames were missing
 
-Typo fixes:
-  10 Years On (codex): Description
+  Special Fried Rice: outline was missing one pixel
 
-NPC fixes:
-  Avian Tomb Tenant: fixed dialog
+  Weeping Willow/Swamp Tree: one crown type was missing
 
-  Castle Lord: assigned correct drop pool
+Recipe fixes:
+  Bottled Healing Water: fixed recipe
 
-  Evil Knight: assigned correct drop pool
+Unobtainable item fixes:
+  Ship debug items: Useful names & descriptions
 
-  Evil Knight Lord: assigned correct drop pool
+  Ship Repair Kit: Actually repairs the ship
 
-  Eye Guard: assigned correct drop pool
+  FTL Repair Kit: Actually repairs the FTL drive
 
-  Friendly Castle Guard: assigned correct drop pool
-
-  Friendly Castle Lord: assigned correct drop pool
-
-  Saloon Villager: corrected quest pool
-
-  Stargazer: corrected quest pool, fixed dialog
-
-Monster ground collision fixes:
-  Baby versions of: Hens, Robot Hens, Fluffalos,
-  Electric Fluffalos, Fire Fluffalos, Ice Fluffalos,
-  and Poison Fluffalos
-  
-  87 critters that did not swim or fly
-
-Added descriptions and names to the following monsters:
-  Apex Mutant
-  Brainy Apex Mutant
-  Black Cat
-  Bonebird
-  Floki
-  Minidrone
-  Nautileech
-  Pinfriend
-
-Updated fixes:
-  Sewer Fly name changed to Growfy
-  -An old codex I missed had an actual name for it listed.
+Items with fixed category localization:
+  Advanced Mech Blueprint
+  Ancient Platform
+  Bamboo Platform
+  Blueprint (template item)
+  Bug Net
+  Cave Detector
+  Chainsaw
+  Copper Drill
+  Copper Ladder
+  Copper Pickaxe
+  Copper Platform
+  Diamond Drill
+  Diamond Pickaxe
+  Experimental Mech Blueprint
+  Explorer's Lantern
+  Fishaxe
+  Fishaxe (Drops)
+  Flashlight
+  Flashlight (Green)
+  Flashlight (Red)
+  Flashlight (Yellow)
+  Fossil Extractor
+  FTL Repair Kit
+  Gold Drill
+  Gold Pickaxe
+  Gold Platform
+  Grappling Hook
+  High-Tech Mech Blueprint
+  Hoe
+  Inspection Mode (hotbar item)
+  Lunar Base Platform
+  Matter Manipulator (hotbar item)
+  Matter Manipulator X
+  Mining Drone
+  Mining Laser
+  Modern Platform
+  Mossy Platform
+  Ore Detector
+  Ornate Platform
+  Outpost Platform
+  Paint Mode (hotbar item)
+  Pickaxe
+  Platinum Bar
+  Platinum Drill
+  Platinum Ore
+  Platinum Pickaxe
+  Plutonium Rod
+  Polygon Platform
+  Portable Pixel Printer
+  Pressurised Platform
+  Protectorate Platform
+  Relocator
+  Rope
+  Ruins Platform
+  Scan Mode (hotbar item)
+  Ship Platform
+  Ship Repair Kit
+  Silver Drill
+  Silver Pickaxe
+  Silver Platform
+  Simple Mech Blueprint
+  Stone Platform
+  Temple Platform
+  Tungsten Platform
+  Wire Mode (hotbar item)
+  Wood Platform (first type)
+  Wood Platform (second type)
+  Wrecked Platform
 [/code]
 
 [url=https://github.com/jss2a98aj/Starbound-Patch-Project/blob/master/Full%20Changelog.txt]Full changelog[/url]
 
 Some unobtainable items have fixes included. This is intentional. Many people spawn items in or have mods that add ways to get them.
-This will not make unobtainable items obtainable, that is not the goal of the mod.
 PNGGauntlet has been used on all textures modified by SBPP to reduce file size and improve load times.
 
 [url=https://www.nexusmods.com/starbound/mods/842]Starbound Patch Project on the Nexus[/url]

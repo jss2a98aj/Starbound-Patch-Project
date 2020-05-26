@@ -1,32 +1,150 @@
 -------- 1.4.0 --------
 Other fixes:
-  farmable.lua: save time ahead of world time fix
+  farmable.lua: saved time ahead of world time fix
   -Connecting to multiplayer with an older universe
-   than your own will no longer stop animals on your
-   ship from evolving or becoming harvestable.
+   than your own or having universe time overflow
+   will no longer stop animals on your ship from
+   evolving or becoming harvestable.
   -A fix for crops is being looked into.
 
 Typo fixes:
-  Dirty Fossil (eight types): Description
+  Apex Artifact Clues: accept with objective complete
 
-  Egyptian Crest: Description
+  Avian Emblem: description
 
-  Fossil Displays (three types): Description
+  Bounty Board: assignment not ready message
+
+  Bounty Space Clues (quest): coordinates dialog 1
+
+  Brains (block): description
+
+  Brains (item): description
+
+  Cabin Stool Table: description
+
+  Comedy Movie Poster: description
+
+  Damaged Bookcase: description
+
+  Dirty Fossil (eight types): description
+
+  Egyptian Crest: description
+
+  Erchius Crystal Sample: description
+
+  Fossil Displays (three types): description
 
   Fossil Displays (one type): Floran description
 
+  Geometric Console: description
+
+  It's Not a Bug, It's a Creature (codex): Page 9
+
+  Large Obsidian Bookcase: description
+
+  Medieval Furnace: description
+
+  Near death starvation message
+
   Nova (buff): Label
 
-  Peacekeeper Spacestation (fourth type): Description
+  Opulent Console: description
+
+  Peacekeeper Spacestation (fourth type): description
+
+  Pressurised Girder (block): Glitch description
+
+  Pressurised Girder (item): Glitch description
+
+  Rock Bricks (block): Glitch description
+
+  Rock Bricks (item): Glitch description
+
+  Serene Console: description
 
   Spring Flower: Human description
+
+  Standard Issue Table: description
+
+  Standard Issue Wardrobe: description
+
+  T Junction N-W-E: description
+
+  T Junction N-S-E: description
+
+  T Junction N-S-W: description
+
+  T Junction S-W-E: description
+
+  The Final Acquisition (quest): completion text
+
+  Thornbee: description
+
+  Weapon Chest: description
 
   Wheat Seed: Apex description
   
   Wild Wheat Seed: Apex description
 
+  Wrecked Crate: description
+
+NPC dialog typo fixes:
+  Apex to Apex: converse dialog 7
+
+  Apex Space Encounter: converse dialog 8
+
+  Avian to Hylotl: converse dialog 9
+
+  Floran Cooking Quest: completion dialog 1
+
+  Floran Restock Quest: request dialog 1
+
+  Floran Rumor Quest: completion dialog 1
+
+  Floran Rumor Quest: completion 1 dialog 1
+
+  Glitch Bounty Target: arrest dialog 2
+
+  Glitch Farming Quest: request dialog 1
+
+  Glitch Kill NPC Quest: request dialog 2
+
+  Glitch Peacekeeper: can't reach dialog 1
+
+  Glitch Restock Quest: request dialog 2
+
+  Glitch Secret Quest: stage 1 completion dialog 1
+
+  Glitch Tenant: final complaint dialog 2
+
+  Glitch to Avian: arrest dialog 4
+
+  Glitch to Floran: arrest dialog 11
+
+  Human to Apex: converse dialog 7
+
+  Hylotl to Floran: Converse dialog 25
+
+  Hylotl to Novakid: converse dialog 6
+
+  Kidnapped Hylotl: kidnapper dead dialog 2
+
+  Kill Mosnster Quest: request dialog 1
+
+  Kill NPC Quest: request dialog 2
+
+  Peacekeeper: converse dialog 6 and 13
+
+  Return Stolen Item Quest: request dialog 2
+
+  Return Stolen Item Quest: completion dialog 1
+
 Texture fixes:
-  Special Fried Rice: outline was missing a pixel
+  Baron's Cape: an idle frame was the wrong shape and color
+
+  Mutagen Back Pipe: walk back frames were missing
+
+  Special Fried Rice: outline was missing one pixel
 
   Weeping Willow/Swamp Tree: one crown type was missing
 
@@ -119,7 +237,7 @@ NPC fixes:
   Lab Scientist: assigned correct drop pool
 
 Typo fixes:
-  Safe: Description
+  Safe: description
 
 Added descriptions and names to the following monsters:
   Punchy
@@ -183,7 +301,7 @@ Texture fixes:
   -This S.A.I.L did not have matching static. It does now.
 
 Typo fixes:
-  10 Years On (codex): Description
+  10 Years On (codex): description
 
 Updated fixes:
   Sewer Fly name changed to Growfy
