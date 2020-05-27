@@ -8,12 +8,6 @@ Crashes fixed:
   Watering Cans no longer stack
   -Prevents an auto-sort interaction from corrupting saves.
 
-Scrips fixed:
-  farmable.lua will check if save time is ahead of world time
-  -Connecting to multiplayer with an older universe than your
-   own will no longer stop animals on your ship from evolving
-   or becoming harvestable.
-
 Recipe fixes:
     Bottled Healing Water's recipe shows up when discovered
 

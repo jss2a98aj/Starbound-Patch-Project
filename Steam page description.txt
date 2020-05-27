@@ -8,6 +8,11 @@ It is safe to install or uninstall this mod at any time.
 
 Recent Changelogs:
 [code]
+-------- 1.4.1 --------
+  Revert farmable.lua fixes
+  -There were unexpected problems from implementation
+
+
 -------- 1.4.0 --------
 Other fixes:
   farmable.lua: saved time ahead of world time fix
