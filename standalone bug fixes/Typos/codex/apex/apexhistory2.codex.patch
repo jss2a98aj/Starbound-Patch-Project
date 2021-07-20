@@ -1,7 +1,0 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/description",
-    "value" : "An archived news article from The Daily Peel."
-  }
-]

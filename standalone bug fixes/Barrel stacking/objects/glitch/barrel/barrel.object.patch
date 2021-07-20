@@ -1,7 +1,0 @@
-[
-  {
-    "op" : "add",
-    "path" : "/orientations/0/collision",
-    "value" : "platform"
-  }
-]

@@ -1,7 +1,0 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/scriptConfig/questGenerator/pools",
-    "value" : ["common"]
-  }
-]

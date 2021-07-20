@@ -1,7 +1,0 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/species/floran/staticFrames",
-    "value" : "staticFloran.png"
-  }
-]

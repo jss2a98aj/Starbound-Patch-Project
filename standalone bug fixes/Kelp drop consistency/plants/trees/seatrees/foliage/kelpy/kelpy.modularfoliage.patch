@@ -1,7 +1,0 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/dropConfig/drops",
-    "value" : [ [ { "item" : "sapling" } ] ]
-  }
-]
