@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/dropPools/0",
+    "value" : "money"
+  },
+  {
     "op" : "replace",
     "path" : "/dropPools/0",
     "value" : "castleguardtreasure"

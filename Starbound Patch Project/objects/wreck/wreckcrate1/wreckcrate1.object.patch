@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A antique crate, I wonder what's inside.."
+  },
+  {
     "op" : "replace",
     "path" : "/description",
     "value" : "An antique crate, I wonder what's inside..."

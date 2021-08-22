@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "add",
-    "path" : "/shortdescription",
-    "value" : "Punchy"
-  },
-  {
-    "op" : "add",
-    "path" : "/description",
-    "value" : "It may look angry, but beneath that is a faithful training companion."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Punchy"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "It may look angry, but beneath that is a faithful training companion."
+    }
+  ]
 ]

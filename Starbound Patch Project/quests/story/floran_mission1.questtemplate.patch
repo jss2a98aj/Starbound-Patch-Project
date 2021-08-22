@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/scriptConfig/radioMessages/startAlreadyComplete/text",
+    "value" : "You're quite the collector of Floran antiquities! It appears you've already located enough clues to to allow me to identify the location of the Artifact!"
+  },
+  {
+    "op" : "replace",
+    "path" : "/scriptConfig/radioMessages/startAlreadyComplete/text",
+    "value" : "You're quite the collector of Floran antiquities! It appears you've already located enough clues to allow me to identify the location of the Artifact!"
+  }
+]

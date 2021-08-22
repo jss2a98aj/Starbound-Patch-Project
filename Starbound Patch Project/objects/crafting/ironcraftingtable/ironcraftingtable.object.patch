@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/shortdescription",
+    "value" : "^orange;Iron Crafting Table^white;"
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "^orange;Iron Crafting Table^reset;"
+  }
+]

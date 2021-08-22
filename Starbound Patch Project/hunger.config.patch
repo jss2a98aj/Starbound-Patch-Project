@@ -1,7 +1,74 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/5/down/0",
-    "value" : "I see a light..."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/1/down/0",
+      "value" : "Goodbye cruel world"
+    },
+    {
+      "op" : "replace",
+      "path" : "/1/down/0",
+      "value" : "Goodbye cruel world."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/5/up/0",
+      "value" : "I'll die if I don't get some more"
+    },
+    {
+      "op" : "replace",
+      "path" : "/5/up/0",
+      "value" : "I'll die if I don't get some more."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/5/down/0",
+      "value" : "I see a light.."
+    },
+    {
+      "op" : "replace",
+      "path" : "/5/down/0",
+      "value" : "I see a light..."
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/50/down/0",
+      "value" : "Getting pretty hungry"
+    },
+    {
+      "op" : "replace",
+      "path" : "/50/down/0",
+      "value" : "Getting pretty hungry."
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/75/up/0",
+      "value" : "A little better"
+    },
+    {
+      "op" : "replace",
+      "path" : "/75/up/0",
+      "value" : "A little better."
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/75/down/0",
+      "value" : "Getting peckish"
+    },
+    {
+      "op" : "replace",
+      "path" : "/75/down/0",
+      "value" : "Getting peckish."
+    }
+  ]
 ]

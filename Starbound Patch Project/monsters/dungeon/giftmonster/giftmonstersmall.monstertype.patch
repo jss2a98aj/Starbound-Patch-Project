@@ -1,6 +1,37 @@
 [
-  {
-    "op" : "remove",
-    "path" : "/dropPools"
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Small Animated Gift"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "It looks like someone made it on the naughty list this year."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/dropPools",
+      "inverse" : false
+    },
+    {
+      "op" : "remove",
+      "path" : "/dropPools"
+    }
+  ]
 ]

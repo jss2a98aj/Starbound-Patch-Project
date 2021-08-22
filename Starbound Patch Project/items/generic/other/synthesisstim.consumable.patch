@@ -1,21 +1,49 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Synthesis Stim Pack"
-  },
-  {
-    "op" : "replace",
-    "path" : "/description",
-    "value" : "This stimpack is full of tree sap. It has beneficial healing properties."
-  },
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 100
-  },
-  {
-    "op" : "remove",
-    "path" : "/handPosition"
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "Synthesis Stim"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Synthesis Stim Pack"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "This stim is full of tree sap. It has beneficial healing properties."
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "This stimpack is full of tree sap. It has beneficial healing properties."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "value" : 0
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 100
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/handPosition",
+      "inverse" : false
+    },
+    {
+      "op" : "remove",
+      "path" : "/handPosition"
+    }
+  ]
 ]

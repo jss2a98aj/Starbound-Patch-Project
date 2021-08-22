@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "A shower. Perfect for a clean getaway."
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "A shower. Perfect for a clean getaway. If the water was actually clean."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "Dripping Prison Shower"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Dripping Rusty Shower"
+    }
+  ]
+]

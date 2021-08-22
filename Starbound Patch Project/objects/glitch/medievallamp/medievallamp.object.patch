@@ -1,16 +1,37 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/humanDescription",
-    "value" : "A little iron lamp. The loop on top can be used to hang it from a hook."
-  },
-  {
-    "op" : "remove",
-    "path" : "/orientations/1/anchors"
-  },
-  {
-    "op" : "add",
-    "path" : "/orientations/1/bgAnchors",
-    "value" : [ [0, 1] ]
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/humanDescription",
+      "value" : "A little iron lamp. The loop on top is becomes a hook."
+    },
+    {
+      "op" : "replace",
+      "path" : "/humanDescription",
+      "value" : "A little iron lamp. The loop on top can be used to hang it from a hook."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/orientations/1/anchors",
+      "value" : [ "bottom" ]
+    },
+    {
+      "op" : "remove",
+      "path" : "/orientations/1/anchors"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/orientations/1/bgAnchors",
+      "inverse" :  true
+    },
+    {
+      "op" : "add",
+      "path" : "/orientations/1/bgAnchors",
+      "value" : [ [0, 1] ]
+    }
+  ]
 ]

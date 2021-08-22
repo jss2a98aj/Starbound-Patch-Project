@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/shortdescription",
+    "value" : "^orange;Fossil Station^white;"
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "^orange;Fossil Station^reset;"
+  }
+]

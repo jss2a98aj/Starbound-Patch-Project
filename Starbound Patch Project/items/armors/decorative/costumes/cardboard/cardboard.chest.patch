@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/rarity",
-    "value" : "Legendary"
-  },
-  {
-    "op" : "replace",
-    "path" : "/price",
-    "value" : 5000
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/rarity",
+      "value" : "Common"
+    },
+    {
+      "op" : "replace",
+      "path" : "/rarity",
+      "value" : "Legendary"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "value" : 0
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 5000
+    }
+  ]
 ]

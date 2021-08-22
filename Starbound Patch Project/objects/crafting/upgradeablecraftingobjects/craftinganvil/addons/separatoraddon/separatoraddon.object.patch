@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/shortdescription",
+    "value" : "^orange;Separator Addon^white;"
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "^orange;Separator Addon^reset;"
+  }
+]

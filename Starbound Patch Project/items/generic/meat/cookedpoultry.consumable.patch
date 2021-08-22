@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A perfeclty roasted bird. What a beautiful sight to behold."
+  },
+  {
     "op" : "replace",
     "path" : "/description",
     "value" : "A perfectly roasted bird. What a beautiful sight to behold."

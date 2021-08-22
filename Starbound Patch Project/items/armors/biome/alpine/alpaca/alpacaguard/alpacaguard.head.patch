@@ -1,7 +1,12 @@
 [
   {
+    "op" : "test",
+    "path" : "/shortdescription",
+    "value" : "Alpaca Guard Real Head"
+  },
+  {
     "op" : "replace",
-    "path" : "/price",
-    "value" : 2500
+    "path" : "/shortdescription",
+    "value" : "Alien Alpaca Guard Real Head"
   }
 ]

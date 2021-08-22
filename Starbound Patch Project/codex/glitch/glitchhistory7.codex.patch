@@ -1,0 +1,20 @@
+[
+  {
+    "op" : "test",
+    "path" : "/contentPages/0",
+    "value" : "The Glitch do eat. They eat just as we do. Though, unsurprisingly, their process of digestion differs greatly.
+
+When the Glitch eat, food  is collected in the body and broken down by bacteria. As the food ferments, methane gas is released and collected.
+
+The methane is then burnt, and the heat created used to power a gas turbine. As such, each Glitch has his or her own internal combustion engine."
+  },
+  {
+    "op" : "replace",
+    "path" : "/contentPages/0",
+    "value" : "The Glitch do eat. They eat just as we do. Though, unsurprisingly, their process of digestion differs greatly.
+
+When the Glitch eat, food is collected in the body and broken down by bacteria. As the food ferments, methane gas is released and collected.
+
+The methane is then burnt, and the heat created used to power a gas turbine. As such, each Glitch has his or her own internal combustion engine."
+  }
+]

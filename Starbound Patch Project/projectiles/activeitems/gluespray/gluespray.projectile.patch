@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/actionOnCollide/0/options/0",
+    "value" : "/sfx/projectiles/footstep_mud.ogg"
+  },
+  {
+    "op" : "replace",
+    "path" : "/actionOnCollide/0/options/0",
+    "value" : "/sfx/blocks/footstep_mud.ogg"
+  }
+]

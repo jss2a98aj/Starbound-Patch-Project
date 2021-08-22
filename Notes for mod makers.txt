@@ -1,6 +1,1 @@
-If you want your mod to load after Starbound Patch Project add
-"StarboundPatchProject" to the includes field of your _metadata file.
-
-e.g.:
-
-"includes" : ["StarboundPatchProject"]
+Do not add the Starbound Patch Project to "includes" or "requires" fields, it is very likely to introduce conflicts.

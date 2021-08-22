@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Fire Fluffalo"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "This fiery breed of Fluffalo will produce a ^orange;Scorched Core^reset; with each harvest."
+    }
+  ]
+]

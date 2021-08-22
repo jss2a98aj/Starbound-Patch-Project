@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "The flag of the Glitch. Use ^green;[E]^white; to bookmark a teleportation location."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "The flag of the Glitch. Use ^green;[E]^reset; to bookmark a teleportation location."
+  }
+]

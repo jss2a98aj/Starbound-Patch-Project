@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "^orange;Wooden Workbench^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "^orange;Wooden Workbench^reset;"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Wooden Workbench^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Wooden Workbench^reset;"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Industrial Workbench^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Industrial Workbench^reset;"
+    }
+  ]
+]

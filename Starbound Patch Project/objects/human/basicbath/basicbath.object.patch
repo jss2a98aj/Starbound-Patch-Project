@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "inverse" : true
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "A bathtub with a shower. It doesn't have any curtains though."
+  }
+]

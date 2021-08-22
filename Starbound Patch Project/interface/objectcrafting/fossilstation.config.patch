@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/paneLayout/lblSchematics/value",
+      "value" : "BLUEPRINTS"
+    },
+    {
+      "op" : "replace",
+      "path" : "/paneLayout/lblSchematics/value",
+      "value" : "^#b9b5b2;BLUEPRINTS"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/paneLayout/lblProducttitle/value",
+      "value" : "PRODUCT"
+    },
+    {
+      "op" : "replace",
+      "path" : "/paneLayout/lblProducttitle/value",
+      "value" : "^#b9b5b2;PRODUCT"
+    }
+  ]
+]

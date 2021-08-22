@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/hylotlDescription",
+    "value" : "A place to display things the of worth."
+  },
+  {
     "op" : "replace",
     "path" : "/hylotlDescription",
     "value" : "A place to display things of worth."

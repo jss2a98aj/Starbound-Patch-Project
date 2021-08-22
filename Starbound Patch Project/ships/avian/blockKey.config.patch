@@ -1,0 +1,13 @@
+//[0, 255, 255, 255] n | aviancaptainschair
+[
+  {
+    "op" : "test",
+    "path" : "/blockKey/19/backgroundBlock",
+    "value" : true
+  },
+  {
+    "op" : "replace",
+    "path" : "/blockKey/19/backgroundBlock",
+    "value" : false
+  }
+]

@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "An serene console. Using it is calming."
+  },
+  {
     "op" : "replace",
     "path" : "/description",
     "value" : "A serene console. Using it is calming."

@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A customized signboard"
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "A customized signboard."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "Big ape statue with no head."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "A Big Ape statue with no head."
+  }
+]

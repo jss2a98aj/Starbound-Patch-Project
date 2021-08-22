@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/paneLayout/bgShine/position/1",
+      "value" : -12
+    },
+    {
+      "op" : "replace",
+      "path" : "/paneLayout/bgShine/position/1",
+      "value" : -19
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/paneLayout/bgShine/mouseTransparent",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/paneLayout/bgShine/mouseTransparent",
+      "value" : true
+    }
+  ]
+]

@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "add",
-    "path" : "/shortdescription",
-    "value" : "Nautileech"
-  },
-  {
-    "op" : "add",
-    "path" : "/description",
-    "value" : "This phantasmal creature drains the life from its victims."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Nautileech"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "This phantasmal creature drains the life from its victims."
+    }
+  ]
 ]

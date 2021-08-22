@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A metal bar with with a smoothly polished surface."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "A metal bar with a smoothly polished surface."
+  }
+]

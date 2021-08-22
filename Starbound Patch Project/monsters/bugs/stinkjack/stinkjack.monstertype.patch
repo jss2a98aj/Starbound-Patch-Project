@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Stinkjack"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "You'll smell one of these little guys before you see one."
+    }
+  ]
+]

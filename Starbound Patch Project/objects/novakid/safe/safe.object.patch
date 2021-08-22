@@ -2,6 +2,11 @@
   {
     "op" : "replace",
     "path" : "/description",
+    "value" : "An small, sturdy iron safe."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
     "value" : "A small, sturdy iron safe."
   }
 ]

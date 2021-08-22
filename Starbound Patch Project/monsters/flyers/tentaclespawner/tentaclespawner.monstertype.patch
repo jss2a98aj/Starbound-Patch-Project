@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "add",
-    "path" : "/shortdescription",
-    "value" : "Tentacle Spawner"
-  },
-  {
-    "op" : "add",
-    "path" : "/description",
-    "value" : "This winged biomass will produce Tentacle Gnats if it encounters foreign life."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "tentaclespawner"
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Tentacle Spawner"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "-todo-"
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "This winged biomass produces Tentacle Gnats when it encounters foreign life."
+    }
+  ]
 ]

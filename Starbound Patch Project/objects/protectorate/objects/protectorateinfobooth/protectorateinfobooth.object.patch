@@ -1,0 +1,134 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/chatOptions/1",
+      "value" : "Press ^#71f2f6;[I]^white; to open your inventory."
+    },
+    {
+      "op" : "replace",
+      "path" : "/chatOptions/1",
+      "value" : "Press ^#71f2f6;[I]^reset; to open your inventory."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/chatOptions/2",
+      "value" : "Pressing ^#71f2f6;[Q]^white; will let you drop the item you're holding!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/chatOptions/2",
+      "value" : "Pressing ^#71f2f6;[Q]^reset; will let you drop the item you're holding!"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/chatOptions/3",
+      "value" : "Press ^#71f2f6;[N]^white; to toggle scan mode and inspect objects."
+    },
+    {
+      "op" : "replace",
+      "path" : "/chatOptions/3",
+      "value" : "Press ^#71f2f6;[N]^reset; to toggle scan mode and inspect objects."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/chatOptions/4",
+      "value" : "Hold ^#71f2f6;[Ctrl]^white; to move your camera around, tap again to reset it!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/chatOptions/4",
+      "value" : "Hold ^#71f2f6;[Ctrl]^reset; to move your camera around, tap again to reset it!"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/chatOptions/6",
+      "value" : "Press ^#71f2f6;[Enter]^white; to read SAIL messages again and chat to party members."
+    },
+    {
+      "op" : "replace",
+      "path" : "/chatOptions/6",
+      "value" : "Press ^#71f2f6;[Enter]^reset; to read SAIL messages again and chat to party members."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/chatOptions/7",
+      "value" : "If you get stuck, open your quest log with ^#71f2f6;[J]^white;."
+    },
+    {
+      "op" : "replace",
+      "path" : "/chatOptions/7",
+      "value" : "If you get stuck, open your quest log with ^#71f2f6;[J]^reset;."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/chatOptions/8",
+      "value" : "Tap ^#71f2f6;[Spacebar]^white; to hop, or hold it to make a higher jump!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/chatOptions/8",
+      "value" : "Tap ^#71f2f6;[Spacebar]^reset; to hop, or hold it to make a higher jump!"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/chatOptions/10",
+      "value" : "Hold ^#71f2f6;[S]^white; to crouch!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/chatOptions/10",
+      "value" : "Hold ^#71f2f6;[S]^reset; to crouch!"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/chatOptions/11",
+      "value" : "Press ^#71f2f6;[Q]^white; to drop your current item."
+    },
+    {
+      "op" : "replace",
+      "path" : "/chatOptions/11",
+      "value" : "Press ^#71f2f6;[Q]^reset; to drop your current item."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/chatOptions/12",
+      "value" : "Use ^#71f2f6;[arrow keys]^white; to communicate using your emotions."
+    },
+    {
+      "op" : "replace",
+      "path" : "/chatOptions/12",
+      "value" : "Use ^#71f2f6;[arrow keys]^reset; to communicate using your emotions."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/chatOptions/13",
+      "value" : "Be sure to press ^#71f2f6;[Esc]^white; and check the options menu for more controls!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/chatOptions/13",
+      "value" : "Be sure to press ^#71f2f6;[Esc]^reset; and check the options menu for more controls!"
+    }
+  ]
+]

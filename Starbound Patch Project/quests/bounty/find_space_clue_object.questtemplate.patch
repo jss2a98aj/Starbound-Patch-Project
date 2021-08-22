@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/scriptConfig/generatedText/text/prev/0",
+    "value" : "^green;<coordinate.name>^reset;:\nComputer records here told me that that <bounty.name> is <next.coordinate.preposition> <next.coordinate.name>.\n\n"
+  },
+  {
     "op" : "replace",
     "path" : "/scriptConfig/generatedText/text/prev/0",
     "value" : "^green;<coordinate.name>^reset;:\nComputer records here told me that <bounty.name> is <next.coordinate.preposition> <next.coordinate.name>.\n\n"

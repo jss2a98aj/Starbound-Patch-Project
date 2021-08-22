@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "^orange;Primitive Furnace^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "^orange;Primitive Furnace^reset;"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Primitive Furnace^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Primitive Furnace^reset;"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Industrial Furnace^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Industrial Furnace^reset;"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/upgradeStages/2/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Atomic Furnace^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/upgradeStages/2/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Atomic Furnace^reset;"
+    }
+  ]
+]

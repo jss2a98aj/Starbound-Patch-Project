@@ -1,7 +1,26 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/category",
-    "value" : "tool"
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/category",
+      "value" : "Tool ^green;[R]"
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "tool"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "Manipulates anything that matters. ^green;Quick select with [R] key."
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "Manipulates anything that matters. ^green;Quick select with [R] key.^reset;"
+    }
+  ]
 ]

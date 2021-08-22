@@ -1,7 +1,26 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/category",
-    "value" : "other"
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/category",
+      "value" : "Other"
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "other"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "^orange;Portable Pixel Printer^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "^orange;Portable Pixel Printer^reset;"
+    }
+  ]
 ]

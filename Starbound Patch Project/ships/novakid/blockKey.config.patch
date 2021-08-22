@@ -1,0 +1,14 @@
+//[0, 255, 255, 255] n | novakidcaptainschair
+[
+  {
+    "op" : "test",
+    "path" : "/blockKey/24/backgroundBlock",
+    "value" : true
+  },
+  {
+    "op" : "replace",
+    "path" : "/blockKey/24/backgroundBlock",
+    "value" : false
+  }
+]
+  

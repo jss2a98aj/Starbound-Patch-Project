@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "An excerpt from Beefjeff's Book of Poetry by Peelz"
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "An excerpt from Beefjeff's Book of Poetry by Peelz."
+  }
+]

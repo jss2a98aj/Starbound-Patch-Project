@@ -1,7 +1,12 @@
 [
   {
-    "op" : "replace",
-    "path" : "/dropConfig/drops",
-    "value" : [ [ { "item" : "sapling" } ] ]
+    "op" : "test",
+    "path" : "/dropConfig/drops/0/0",
+    "inverse" : true
+  },
+  {
+    "op" : "add",
+    "path" : "/dropConfig/drops/0/0",
+    "value" : { "item" : "sapling" }
   }
 ]

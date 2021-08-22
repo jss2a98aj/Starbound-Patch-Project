@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "add",
-    "path" : "/shortdescription",
-    "value" : "Black Cat"
-  },
-  {
-    "op" : "add",
-    "path" : "/description",
-    "value" : "The legend that black cats brings bad luck may be true, as they were native to Earth."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Black Cat"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "The legend that black cats bring bad luck may be true, as they were native to Earth."
+    }
+  ]
 ]

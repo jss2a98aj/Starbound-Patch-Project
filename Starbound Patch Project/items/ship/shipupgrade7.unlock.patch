@@ -1,17 +1,38 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/category",
-    "value" : "upgradeComponent"
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Eagle Ship Upgrade"
-  },
-  {
-    "op" : "replace",
-    "path" : "/description",
-    "value" : "Upgrades your ship to Kestrel class."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/category",
+      "value" : "Upgrade Component"
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "upgradeComponent"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "Thing"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Eagle Upgrade"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "Does things"
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "Upgrades the user's ship to Eagle class."
+    }
+  ]
 ]

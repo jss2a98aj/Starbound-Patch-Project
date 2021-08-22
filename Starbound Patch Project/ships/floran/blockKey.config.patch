@@ -1,0 +1,13 @@
+//[0, 255, 255, 255] n | florancaptainschair
+[
+  {
+    "op" : "test",
+    "path" : "/blockKey/18/backgroundBlock",
+    "value" : true
+  },
+  {
+    "op" : "replace",
+    "path" : "/blockKey/18/backgroundBlock",
+    "value" : false
+  }
+]

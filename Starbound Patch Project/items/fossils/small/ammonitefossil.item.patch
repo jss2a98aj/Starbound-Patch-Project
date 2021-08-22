@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Ammonite Fossil"
-  },
-  {
-    "op" : "replace",
-    "path" : "/completeSetDescriptions/shortdescription",
-    "value" : "Ammonite Fossil"
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "Ammonite"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Ammonite Fossil"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/completeSetDescriptions/shortdescription",
+      "value" : "Ammonite"
+    },
+    {
+      "op" : "replace",
+      "path" : "/completeSetDescriptions/shortdescription",
+      "value" : "Ammonite Fossil"
+    }
+  ]
 ]

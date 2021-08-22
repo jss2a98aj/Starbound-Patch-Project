@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "When it closes its eyes it becomes immune to attacks by entering a different plane of existence."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "This creature hunts anyone that takes Erchius from its home, perusing faster as more is gathered."
+  }
+]

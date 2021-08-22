@@ -1,7 +1,74 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/completeArrest/glitch/default/1",
-    "value" : "Worried. I won't fit in prison! I regret my actions gravely!"
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/attack/hylotl/default/0",
+      "value" : "I am slipperier than a snaunt and swifter than a jetstream. You shall not catch me easily!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/attack/hylotl/default/0",
+      "value" : "I am slipperier than a Snaunt and swifter than a jet stream. You shall not catch me easily!"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/resistArrest/hylotl/floran/0",
+      "value" : "They sent a Floran after me? How embarassing!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/resistArrest/hylotl/floran/0",
+      "value" : "They sent a Floran after me? How embarrassing!"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/completeArrest/glitch/default/1",
+      "value" : "Worried. I won't fit in in prison! I regret my actions gravely!"
+    },
+    {
+      "op" : "replace",
+      "path" : "/completeArrest/glitch/default/1",
+      "value" : "Worried. I won't fit in prison! I regret my actions gravely!"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/completeArrest/glitch/default/4",
+      "value" : "Embarassed. How did I end up like this?"
+    },
+    {
+      "op" : "replace",
+      "path" : "/completeArrest/glitch/default/4",
+      "value" : "Embarrassed. How did I end up like this?"
+    }
+  ],
+  [
+      {
+      "op" : "test",
+      "path" : "/completeArrest/hylotl/default/3",
+      "value" : "How embarassing..."
+    },
+    {
+      "op" : "replace",
+      "path" : "/completeArrest/hylotl/default/3",
+      "value" : "How embarrassing..."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/completeArrest/novakid/default/10",
+      "value" : "This is mighty embarassin'..."
+    },
+    {
+      "op" : "replace",
+      "path" : "/completeArrest/novakid/default/10",
+      "value" : "This is mighty embarrassin'..."
+    }
+  ]
 ]

@@ -1,328 +1,1066 @@
-Bugs that SBPP had fixed, but were fixed officially and removed from SBPP are not listed here.
+Fixes for bugs that were officially fixed have been dropped from the patch project and are not listed here.
 
-Crashes fixed:
-  Big Unusual Gift Box no longer uses an invalid drop pool
-  Small Unusual Gift Box no longer uses an invalid drop pool
-  -Prevents the game from crashing when they are killed.
+////////special thanks////////
+Dracyoshi and Xaliber for allowing fixes from the Parallax Fixes mod to be included.
+Silver Sokolova for providing missing help command documentation and much more.
+Armok, Clank8138, Kherae, lunapanshiel, Prototype99, Ralek_Basa, and Yanazake for additional contributions.
 
-  Watering Cans no longer stack
-  -Prevents an auto-sort interaction from corrupting saves.
+////////typos////////
+Misspelled words were corrected in the following:
+  //codex
+  •apexhistory2-codex "10 Years On" description
+  //dialog
+  •bountytarget.config Hylotl attack default one
+  •bountytarget.config Hylotl resist arrest by Floran one
+  •bountytarget.config Glitch completed arrest default five
+  •bountytarget.config Hylotl completed arrest default four
+  •bountytarget.config Novakid completed arrest default eleven
+  •converse.config Apex converse with Apex seven
+  •converse.config Avian converse with Hylotl nine
+  •converse.config Human converse with Apex seven
+  •peacekeeper.config Glitch can't reach one
+  //items
+  •alienwoodsap "Alien Wood Sap" description
+  •cookedpoultry "Cooked Poultry" description
+  //objects
+  •cider "Mulled Fruit Drink" Avian description
+  •obsidianbookcase "Large Obsidian Bookcase" description
+  •flowerspring "Spring Flower" Human description
+  •wheatseed "Wheat Seed" Apex description
+  •wildwheatseed "Wheat Seed" Apex description
+  •huntingbench "Crude Bench" description
+  •dirtyfossil2 "Fossil" description
+  •dirtyfossil3 "Fossil" description
+  •dirtyfossil4 "Fossil" description
+  •dirtyfossil5 "Fossil" description
+  •dirtyfossil6 "Fossil" description
+  •dirtyfossil7 "Fossil" description
+  •dirtyfossil8 "Fossil" description
+  •medievalfurnace "Medieval Furnace" description
+  •hylotlstyleposter "Comedy Movie Poster" description
+  •librarybookcaseN2damage "Damaged Bookcase" description
+  •frontiercoffin "Frontier Coffin" Floran description
+  •safe "Safe" description
+  •officecomputer "Office Computer" Human description
+  •sunmodel "Sol Model" Hylotl description
+  •uranusmodel "Uranus Model" Hylotl description
+  •geometricswitch "Geometric Console" description
+  •opulentswitch "Opulent Console" description
+  •sereneswitch "Serene Console" description
+  •freezetrap "Cryogenic Blaster" Hylotl description
+  //tiles
+  •material 1666 tentacleblock "Tentacle Cluster" Glitch description
+  //quests
+  •kill_npc.generated default request text two
+  •kill_npc.generated Glitch request text two
+  •spread_rumors.generated default first completion text one
+  •spread_rumors.generated Floran next completion text one
+  //system_objects.config
+  •spacestation_peacekeeper4 "Peacekeeper Station" description
 
-Recipe fixes:
-    Bottled Healing Water's recipe shows up when discovered
+Incorrect capitalization was corrected in the following:
+  //dialog
+  •bountytarget.config Hylotl attack default one
+  //interface
+  •Space station expansion GUI "Place" button
 
-Tiles fixed:
-  Matter Blocks no longer occlude background blocks
-  Matter Blocks no longer turn invisible when colored
-  Timber no longer has a purple pixel when painted yellow
+Erronius or duplicated characters were removed from the following:
+  //dialog
+  •peacekeeperconverse.config default converse with default six
+  //codex
+  glitchhistory7-codex "Filling Up the Tank" page one
+  //items
+  •ophidauntfossil1 "Ophidaunt Skull" description
+  •trilobitefossil "Trilobite Fossil" complete set description
+  //objects
+  •erchiuscrystalsample "Erchius Crystal Sample" description
+  •fossildisplay1 "Small Fossil Display" Floran description
+  •steampunkshelf "Steampunk Shelf" Apex description
+  //quests
+  •farming.generated Glitch request one
+  •new_stock2.generated Floran request text one
+  •return_stolen.generated default request text two
 
-Objects fixed:
-  Apex S.A.I.L console now has a correct glow map
-  Large Barrels now have collision to match small barrels
-  Medieval Lamps can now be placed on walls
-  Sewing Machines no longer have a darker pixel on one frame
-  Small Barrels now have collision to fix an ocean dungeon
-  Thorny Plants no longer have the first frame messed up
+Erronius or duplicated words were removed from the following:
+  //dialog
+  •bountytarget.config Glitch completed arrest default two
+  •converse.config Hylotl converse with Novakid six
+  •converse.config Glitch converse with Floran eleven
+  •peacekeeperconverse.config default converse with default thirteen
+  •spaceconverse.config Apex converse with Apex eight
+  //items
+  •apextier3head "Insurgent's Mask" description
+  //objects
+  •geodechair "Geode Chair" Glitch description
+  •hivetable "Hive Table" Apex description
+  •copperbox1 "Copper Crate" Avian description
+  •medievalpedestal "Medieval Pedestal" Hylotl description
+  •displaylightbroken "Broken Display Light" Avian description
+  •spacebarbottom "Space Bar" description
+  •venusmodel "Venus Model" Glitch description
+  //quests
+  •clue_items.config papernote scan two note text
+  •find_clue_object "Kill bounty" previous clue text one
+  •find_space_clue_object "Kill bounty" previous clue text one
+  •cooking.generated Floran completion text one
+  •apex_mission1 "Find Clues to Locate the Apex Artifact" complete at start text
+  •avian_mission1 "Find Clues to Locate the Avian Artifact" complete at start text
+  •floran_mission1 "Find Clues to Locate the Floran Artifact" complete at start text
+  •glitch_mission1 "Find Clues to Locate the Glitch Artifact" complete at start text
+  •hylotl_mission1 "Find Clues to Locate the Hylotl Artifact" complete at start text
 
-Object wiring node placements fixed:
-  Blue Club Lights
-  Green Club Lights
-  Red Club Lights
-  Yellow Club Lights
+Missing words were added to the following:
+  •fridge "Full-Size Fridge" Apex description
+  •jupitermodel "Jupiter Model" Apex description
+  •saturnmodel "Saturn Model" Apex description
+  •saturnmodel "Saturn Model" Floran description
+  •uranusmodel "Uranus Model" Apex description
 
-Plants fixed:
-  All kelp variations now drop saplings
-  Tentacle trees now drop items as intended
-  Weeping Willows no longer have a missing crown texture
+Missing punctuation was added to the following:
+  //codex
+  •glitchmission1-codex "The Bone Dragon" description
+  •hylotlmission7-codex "Freedom" description
+  //dialog
+  •converse.config Hylotl converse with Floran twenty-five
+  •converse.config Glitch converse with Avian four
+  •grumble.config Glitch final complaint two
+  •quest.config Hylotl kidnappers dead two
+  //interface
+  •Space station expansion GUI no part selected description
+  •Bounty board GUI assignment not ready text
+  //items
+  •alienwoodsap "Alien Wood Sap" description
+  •brainsblock "Brains" description
+  //monsters
+  •ballista "Ballista" description
+  //objects
+  •ancientsmallconsole "Ancient Console" Human description
+  •weaponupgradeanvil "Weapon Upgrade Anvil" Human description
+  •birdgodemblem "Avian Emblem" description
+  •tombstone10 "Eye Tombstone" description
+  •dirtyfossil1 "Fossil" description
+  •dirtyfossil2 "Fossil" description
+  •dirtyfossil3 "Fossil" description
+  •dirtyfossil4 "Fossil" description
+  •dirtyfossil5 "Fossil" description
+  •dirtyfossil6 "Fossil" description
+  •dirtyfossil7 "Fossil" description
+  •dirtyfossil8 "Fossil" description
+  •fossildisplay1 "Small Fossil Display" description
+  •fossildisplay3 "Medium Fossil Display" description
+  •fossildisplay5 "Large Fossil Display" description
+  •sewerflooddoor "Sewer Flood Door" Floran description
+  •apexfightlantern "Apex Lantern" description
+  •librarybookcaseN2damage "Damaged Bookcase" description
+  •customsign "Sign" description
+  •wiredcustomsign "Sign" description
+  •railbumper "Rail Bumper" description
+  •railsensor "Rail Sensor" description
+  •railstop "Rail Stop" description
+  •railswitch "Rail Switch" description
+  •railtramstop "Rail Tram Stop" description
+  •egyptiancrest "Egyptian Crest" description
+  •wreckcrate1 "Wrecked Crate" description
+  //tiles
+  •material 1451 brainsblock "Brains" description
+  •material 153 pressurisedgirder "Pressurised Girder" Glitch description
+  •material 20 rockbrick "Rock Bricks" Glitch description
+  //quests
+  •clue_items.config audiodisc diversion message four
+  •clue_items.config audiodisc planet bounty message four
+  •clue_items.config audiodisc scan message four
+  •kill_monster.generated default request text one
+  •new_stock2.generated Glitch request text two
+  •return_stolen.generated default completion text one
+  •share_secret.generated Glitch completion text two
+  •museumcurator6 "The Final Acquisition" completion text
+  //hunger.config
+  •decrease past 1 percent food message
+  •increase past 5 percent food message
+  •decrease past 5 percent food message
+  •decrease past 50 percent food message
+  •increase past 75 percent food message
+  •decrease past 75 percent food message
+  
+Missing hyphenation was added to the following:
+  •apextable "Standard Issue Table" description
+  •apexwardrobe "Standard Issue Wardrobe" description
+  •thornbee "Thornbee" description
+  •weaponchest "Weapon Chest" description
+  •cabinstooltable "Cabin Stool Table" description
 
-Item textures fixed:
-  Baron's Cape no longer has a wide green idle frame
-  Mutagen Back Pipe now has backwards walking frames
-  Special Fried Rice no longer has a hole in its outline
-  Suspender Pants no longer have a hole in one frame
+Missing spaces were added to the following:
+  •glitchmissionmanager firstBallista radio message
 
-Item prices corrected:
-  Alpaca Guard (cosmetic set)
-  Barrel Lid (Headwear)
-  Barrel (Chestwear)
-  Cardboard Box Armor
-  Fungus Stim Pack
-  George's Foxy Glasses
-  Orange Stim Pack
-  Synthesis Stim Pack
+Missing localization fields were added to the following:
+  •dirtyfossil2 "Fossil" Apex description
+  •dirtyfossil2 "Fossil" Avian description
+  •dirtyfossil2 "Fossil" Floran description
+  •dirtyfossil2 "Fossil" Glitch description
+  •dirtyfossil2 "Fossil" Human description
+  •dirtyfossil2 "Fossil" Hylotl description
+  •dirtyfossil2 "Fossil" Novakid description
+  •dirtyfossil3 "Fossil" Apex description
+  •dirtyfossil3 "Fossil" Avian description
+  •dirtyfossil3 "Fossil" Floran description
+  •dirtyfossil3 "Fossil" Glitch description
+  •dirtyfossil3 "Fossil" Human description
+  •dirtyfossil3 "Fossil" Hylotl description
+  •dirtyfossil3 "Fossil" Novakid description
+  •dirtyfossil4 "Fossil" Apex description
+  •dirtyfossil4 "Fossil" Avian description
+  •dirtyfossil4 "Fossil" Floran description
+  •dirtyfossil4 "Fossil" Glitch description
+  •dirtyfossil4 "Fossil" Human description
+  •dirtyfossil4 "Fossil" Hylotl description
+  •dirtyfossil4 "Fossil" Novakid description
+  •dirtyfossil5 "Fossil" Apex description
+  •dirtyfossil5 "Fossil" Avian description
+  •dirtyfossil5 "Fossil" Floran description
+  •dirtyfossil5 "Fossil" Glitch description
+  •dirtyfossil5 "Fossil" Human description
+  •dirtyfossil5 "Fossil" Hylotl description
+  •dirtyfossil5 "Fossil" Novakid description
+  •dirtyfossil6 "Fossil" Apex description
+  •dirtyfossil6 "Fossil" Avian description
+  •dirtyfossil6 "Fossil" Floran description
+  •dirtyfossil6 "Fossil" Glitch description
+  •dirtyfossil6 "Fossil" Human description
+  •dirtyfossil6 "Fossil" Hylotl description
+  •dirtyfossil6 "Fossil" Novakid description
+  •dirtyfossil7 "Fossil" Apex description
+  •dirtyfossil7 "Fossil" Avian description
+  •dirtyfossil7 "Fossil" Floran description
+  •dirtyfossil7 "Fossil" Glitch description
+  •dirtyfossil7 "Fossil" Human description
+  •dirtyfossil7 "Fossil" Hylotl description
+  •dirtyfossil7 "Fossil" Novakid description
+  •dirtyfossil8 "Fossil" Apex description
+  •dirtyfossil8 "Fossil" Avian description
+  •dirtyfossil8 "Fossil" Floran description
+  •dirtyfossil8 "Fossil" Glitch description
+  •dirtyfossil8 "Fossil" Human description
+  •dirtyfossil8 "Fossil" Hylotl description
+  •dirtyfossil8 "Fossil" Novakid description
+  •basicbath "Basic Bath" description
+  •basicbathdripping "Dripping Basic Bath" description
+  •randomfountain "Random Fountain" Novakid description
 
-Item rarities corrected:
-  Cardboard Box Armor
+The wording of the following was changed:
+  //collections
+  •ammonite "Ammonite Fossil" collection entry now fits in with other entries.
+  •trilobite "Trilobite Fossil" collection entry now fits in with other entries.
+  //dungeons
+  •tjuncNWE "T Junction N-W-E" description was changed to be slightly more descriptive.
+  •tjuncNSE "T Junction N-S-E" description was changed to be slightly more descriptive.
+  •tjuncNSW "T Junction N-S-W" description was changed to be slightly more descriptive.
+  •tjuncSWE "T Junction S-W-E" description was changed to be slightly more descriptive.
+  //items
+  •alpacaguardchest "Alien Alpaca Guard Real Chest" name now fits in with the other Alien Alpaca Real armor.
+  •alpacaguardhead "Alien Alpaca Guard Real Head" name now fits in with the other Alien Alpaca Real armor.
+  •alpacaguardlegs "Alien Alpaca Guard Real Legs" name now fits in with the other Alien Alpaca Real armor.
+  •swimaugment "Swimming Augment" description now fits in with other augments.
+  •fungusstim "Fungus Stim Pack" name now fits in with other simpacks.
+  •fungusstim "Fungus Stim Pack" description now fits in with other simpacks.
+  •synthesisstim "Synthesis Stim Pack" name now fits in with other simpacks.
+  •synthesisstim "Synthesis Stim Pack" description now fits in with other simpacks.
+  •ammonitefossil "Ammonite Fossil" name now fits in with other fossils.
+  •ammonitefossil "Ammonite Fossil" complete set name now fits in with other fossils sets.
+  •trilobitefossil "Trilobite Fossil" name now fits in with other fossils.
+  •trilobitefossil "Trilobite Fossil" complete set name now fits in with other fossils sets.
+  //objects
+  •medievallamp "Medieval Lamp" Human description was changed to be much more coherent.
+  •prisonshowerdripping "Dripping Rusty Shower" name now matches prisonshower "Rusty Shower"
+  •prisonshowerdripping "Dripping Rusty Shower" description now matches prisonshower "Rusty Shower"
+  •frontierbed "Frontier Bed" Human description was changed to be slightly more coherent.
+  •jupitermodel "Jupiter Model" Hylotl description was changed to be slightly more coherent.
+  •uranusmodel "Uranus Model" Human description was changed to be slightly more coherent.
+  •venusmodel "Venus Model" Hylotl description was changed to be slightly more coherent.
 
-Item hand positions corrected:
-  Fungus Stim Pack 
-  Shroom Remedy
-  Synthesis Stim Pack
+Replaced the following placeholder values:
+  //items
+  •shipT1 "S.A.I.L. Reboot Upgrade" name
+  •shipT1 "S.A.I.L. Reboot Upgrade" description
+  •shipT2 "Interplanetary Upgrade" name
+  •shipT2 "Interplanetary Upgrade" description
+  •shipT3 "FTL Upgrade" name
+  •shipT3 "FTL Upgrade" description
+  •shipT4 "Sparrow Upgrade" name
+  •shipT4 "Sparrow Upgrade" description
+  •shipT5 "Kestrel Upgrade" name
+  •shipT5 "Kestrel Upgrade" description
+  •shipT6 "Falcon Upgrade" name
+  •shipT6 "Falcon Upgrade" description
+  •shipT7 "Eagle Upgrade" name
+  •shipT7 "Eagle Upgrade" description
+  •shipT8 "Condor Upgrade" name
+  •shipT8 "Condor Upgrade" description
+  //stats
+  •nova "Nova" label
+  •enemynova "Nova" label
 
-Headwear hair masks fixed/improved:
-  Camo Helmet
-  Demon Horn Wig
-  Desert Head Scarf
-  Dog Hat
-  Flowery Mask
-  Fluorescent Helmet
-  Geode Mask
-  George's Foxy Glasses
-  Horned Tricorn
-  Ice Cube Mask
-  Insurgent's Mask
-  Outrider's Helm
-  Pioneer's Helm
-  Predatory Head
-  Sabertooth Helm
-  Shroom Disguise
-  Slime Mask
-  Vanguard's Helm
-  Viking Helm
-  Voyager's Helm
+Shortned the following to not hang off of tooltips:
+  •protectoratedormtoiletroll "Toilet Roll Holder" name
+  •protectoratefigures "Turtle And Poptop Toys" name
+  •protectorategamesconsole "Games Console" name
+  •protectoratewaterdispenser "Water Dispenser" name
+  •protectorategardenwindchimes "Garden Wind Chimes" name
 
-Existing icons improved:
-  Metal Barrel
-  Radioactive Barrel (standing version)
+The following missing categories were added to categories.config:
+  •blueprint
+  •drone
 
-Placeholder icons replaced:
-  Alpaca Guard (cosmetic set)
-  Protectorate Books (both types)
-  Protectorate Clock
-  Protectorate Games Console
-  Protectorate Garden Wind Chimes
-  Protectorate Hologlobe
-  Protectorate Poptop Toy
-  Protectorate Toilet Roll Holder
-  Protectorate Wall Banner (three versions)
-  Protectorate Water Dispenser
-  Small Smashable Rocks (Copper, Diamond, Gold, Platinum, Silver)
-  Smashable Rocks (Copper, Diamond, Gold, Platinum, Silver)
-  Red Toolbox
-  Thorny Plant
+The category assigned to the following things have been corrected so values from categories.config are used:
+  •The blueprint template config was set to "blueprint"
+  •mechblueprint3 "Simple Mech Blueprint" was set to "blueprint"
+  •mechblueprint4 "Advanced Mech Blueprint" was set to "blueprint"
+  •mechblueprint5 "High-Tech Mech Blueprint" was set to "blueprint"
+  •mechblueprint6 "Experimental Mech Blueprint" was set to "blueprint"
+  •miningdrone "Mining Drone" was set to "drone"
+  •portable3dprinter "Portable Pixel Printer" was set to "other"
+  •climbingrope "Rope" was set to "tool"
+  •grapplinghook "Grappling Hook" was set to "tool"
+  •bugnet "Bug net" was set to "tool"
+  •laserminer "Mining Laser" was set to "tool"
+  •cavedetector "Cave Detector" was set to "tool"
+  •oredetector "Ore Detector" was set to "tool"
+  •relocator "Relocator" was set to "tool"
+  •beamaxe "Matter Manipulator" was set to "tool"
+  •beamaxeX "Matter Manipulator" was set to "tool"
+  •copperdrill "Copper Drill" was set to "tool"
+  •copperpickaxe "Copper Pickaxe" was set to "tool"
+  •diamonddrill "Diamond Drill" was set to "tool"
+  •diamondpickaxe "Diamond Pickaxe" was set to "tool"
+  •fishaxe "Fishaxe" was set to "tool"
+  •fossiltool "Fossil Extractor" was set to "tool"
+  •golddrill "Gold Drill" was set to "tool"
+  •goldpickaxe "Gold Pickaxe" was set to "tool"
+  •pickaxe "Pickaxe" was set to "tool"
+  •platinumdrill "Platinum Drill" was set to "tool"
+  •platinumpickaxe "Platinum Pickaxe" was set to "tool"
+  •silverdrill "Silver Drill" was set to "tool"
+  •silverpickaxe "Silver Pickaxe" was set to "tool"
+  •superfishaxe "Fishaxe" was set to "tool"
+  •superfishaxedrop "Fishaxe (Drops)" was set to "tool"
+  •chainsaw "Chainsaw" was set to "tool"
+  •flashlight "Flashlight" was set to "tool"
+  •greenflashlight "Flashlight" was set to "tool"
+  •hoe "Hoe" was set to "tool"
+  •mininglantern "Explorer's Lantern" was set to "tool"
+  •painttool "Paint Mode" was set to "tool"
+  •redflashlight "Flashlight" was set to "tool"
+  •wiretool "Wire Mode" was set to "tool"
+  •yellowflashlight "Flashlight" was set to "tool"
+  •inspectionmode "Inspection Mode" was set to "tool"
+  •scanmode "Scanning Mode" was set to "tool"
+  •FTLrepairkit "FTL Repair Kit" was set to "upgradeComponent"
+  •shiprepairkit "Ship Repair Kit" was set to "upgradeComponent"
+  •shipT1 "S.A.I.L. Reboot Upgrade" was set to "upgradeComponent"
+  •shipT2 "Interplanetary Upgrade" was set to "upgradeComponent"
+  •shipT3 "FTL Upgrade" was set to "upgradeComponent"
+  •shipT4 "Sparrow Upgrade" was set to "upgradeComponent"
+  •shipT5 "Kestrel Upgrade" was set to "upgradeComponent"
+  •shipT6 "Falcon Upgrade" was set to "upgradeComponent"
+  •shipT7 "Eagle Upgrade" was set to "upgradeComponent"
+  •shipT8 "Condor Upgrade" was set to "upgradeComponent"
 
-S.A.I.L. static paths fixed:
-  Floran S.A.I.L.
-  Novakid S.A.I.L.
+"^white;" was changed to "^reset;" on the following:
+  //items
+  •hoe "Hoe" name
+  •portable3dprinter "Portable Pixel Printer" name
+  //objects
+  •3dprinter "Pixel Printer" name
+  •campfire "Campfire" name
+  •capturestation"Pet Station" name
+  •fossilstation "Fossil Station" name
+  •ironanvil "Iron Anvil" name
+  •ironcraftingtable "Iron Crafting Table" name
+  •mechcraftingtable "Mech Part Crafting Table" name
+  •pethealingstation "Pet Healing Station" name
+  •pixelcompressor "Pixel Compressor" name
+  •railcraftingtable "Rail Crafting Table" name
+  •refinery "Refinery" name
+  •acceleratoraddon "Accelerator Addon" name
+  •manipulatoraddon "Manipulator Addon" name
+  •separatoraddon "Separator Addon" name
+  •craftinganvil "Anvil" name
+  •craftinganvil "Anvil" upgrade stage name
+  •craftinganvil "Forge" upgrade stage name
+  •craftinganvil "Replicator" upgrade stage name
+  •craftingfarm "Foraging Table" name
+  •craftingfarm "Foraging Table" upgrade stage name
+  •craftingfarm "Agricultural Station" upgrade stage name
+  •craftingfurnace "Primitive Furnace" name
+  •craftingfurnace "Primitive Furnace" upgrade stage name
+  •craftingfurnace "Industrial Furnace" upgrade stage name
+  •craftingfurnace "Atomic Furnace" upgrade stage name
+  •craftingfurniture "Wooden Workbench" name
+  •craftingfurniture "Wooden Workbench" upgrade stage name
+  •craftingfurniture "Industrial Workbench" upgrade stage name
+  •craftingmedical "Apothecary" name
+  •craftingmedical "Apothecary" upgrade stage name
+  •craftingmedical "Medical Station" upgrade stage name
+  •craftingwheel "Spinning Wheel" name
+  •craftingwheel "Spinning Wheel" upgrade stage name
+  •craftingwheel "Sewing Machine" upgrade stage name
+  •inventorstable "Inventor's Table" name
+  •inventorstable "Inventor's Table" upgrade stage name
+  •inventorstable "Engineer's Table" upgrade stage name
+  •inventorstable "Architect's Table" upgrade stage name
+  •wiringstation "Wiring Station" name
+  •woodencookingtable "Kitchen Counter" name
+  •flagapex "Apex Flag" description
+  •flagavian "Avian Flag" description
+  •flagfloran "Floran Flag" description
+  •flagglitch "Glitch Flag" description
+  •flaghuman "Human Flag" description
+  •flaghylotl "Hylotl Flag" description
+  •flagnovakid "Novakid Flag" description
+  •protectorateinfobooth "Info Booth" advice message 2
+  •protectorateinfobooth "Info Booth" advice message 3
+  •protectorateinfobooth "Info Booth" advice message 4
+  •protectorateinfobooth "Info Booth" advice message 5
+  •protectorateinfobooth "Info Booth" advice message 7
+  •protectorateinfobooth "Info Booth" advice message 8
+  •protectorateinfobooth "Info Booth" advice message 9
+  •protectorateinfobooth "Info Booth" advice message 11
+  •protectorateinfobooth "Info Booth" advice message 12
+  •protectorateinfobooth "Info Booth" advice message 13
+  •protectorateinfobooth "Info Booth" advice message 14
+  •researchstation "Research Station" name
+  •spawnerstation "Employer's Station" name
+  //quests
+  •farming.generated Glitch request text one
+  •kill_npc.generated default request text two
+  •kill_npc.generated Glitch request text two
+  •new_stock2.generated Glitch request text two
+  •museumcurator6 "The Final Acquisition" completion text
+  
+"^reset;" was added to the following things that were missing it:
+  //items
+  •inspectionmode "Inspection Mode" description
+  •scanmode "Scanning Mode" description
+  •beamaxe "Matter Manipulator" description
+  •beamaxeX "Matter Manipulator" description
+  •painttool "Paint Mode" description
+  •wiretool "Wire Mode" description
+  //quests
+  •kill_monster.generated default request text one
+  •new_stock2.generated Floran request text one
+  •return_stolen.generated default request text two
 
-NPC drop pool assignments fixed:
-  Castle Lord
-  Evil Knight
-  Evil Knight Lord
-  Eye Guard
-  Friendly Castle Guard
-  Friendly Castle Lord
-  Lab Scientist
+////////textures////////
+Problem with the following textures have been fixed:
+  //humanoid
+  •The Human hairstyle "fem41" had the coloration of a pixel changed so recoloring works correctly.
+  •The Novakid back arm had a miscolored border pixel corrected.
+  •The Novakid front arm had the coloration of a pixel changed so recoloring works correctly.
+  //interface
+  •Codex Library UI body drop shadow transparency and color were corrected to match its header and footer.
+  •Invite to Party UI header had a drop shadow added to match its body and footer.
+  •Bounty Board UI footer had a missing pixel added to its outline.
+  //items
+  •apexofficerpants "Officer Trousers" had missing waistband pixels added to two frames.
+  •baroncapeback "Baron's Cape" had a wrongly colored and shaped frame fixed.
+  •mutantback "Mutagen Back Pipe" had an entire row of missing frames added.
+  •humantier5mpants "Trailblazer's Greaves" had the coloration of several pixel changed so recoloring works correctly.
+  •novakidsuspenderspants "Suspender Pants" had two missing pixels  added to one frame.
+  •specialrice "Special Fried Rice" had a missing pixel added to its outline.
+  //monsters
+  •adultpoptop "Adult Poptop" and motherpoptop "Mother Poptop" had a few miscolored pixels near the mouth corrected.
+  •albinoadultpoptop "Adult Albino Poptop" had a several miscolored pixels near and in the mouth corrected.
+  //objects
+  •giantflowerchest "Giant Flower Chest" open frames were changed to match its closed state.
+  •craftingwheel "Sewing Machine" had miscolored pixels on some  frames corrected.
+  •thornplant "Thorny Plant" had a frame that was copy-pasted twice with one pixel of offset corrected.
+  •09back "Protectorate Background" had stairs removed because tile based stairs were also used in the starting mission.
+  •14back "Protectorate Background" had stairs removed because tile based stairs were also used in the starting mission.
+  •techstation "S.A.I.L" had several corrections mate to it lighting texture.
+  //tiles
+  •material 7 darkwood "Timber" had a miscolored pixel on one yellow frame corrected.
+  •material 174 matterblock "Matter Block" had frames for alternate colors added so it is visible when recolored.
 
-NPC quest pool assignments fixed:
-  Saloon Villager
-  Stargazer
+Textures were created for the following things that had none:
+  //ai
+  •The Novakid S.A.I.L. interface static "staticNovakid"
+  //plants
+  •weepingleaves tree foliage "crown3"
 
-NPC dialog paths fixed:
-  Avian Tomb Tenant
-  Stargazer
+Current teleporter textures were applied to the following starting quest racial ship textures:
+  •Apex
+  •Avian
+  •Floran
+  •Glitch
+  •Human
+  •Hylotl
+  •Novakid
 
-Items assigned to NPC outfit lists:
-  Survivalist Chest
-  Survivalist Legs
+New icons were made for the following things with missing or placeholder icons:
+  //items
+  •alpacaguardchest "Alien Alpaca Guard Real Chest"
+  •alpacaguardhead "Alien Alpaca Guard Real Head"
+  •alpacaguardlegs "Alien Alpaca Guard Real Legs"
+  //objects
+  •copperrock "Copper Rock"
+  •copperrocksmall "Small Copper Rock"
+  •diamondrock "Diamond Rock"
+  •diamondrocksmall "Small Diamond Rock"
+  •goldrock "Gold Rock"
+  •goldrocksmall "Small Gold Rock"
+  •platinumrock "Platinum Rock"
+  •platinumrocksmall "Small Platinum Rock"
+  •silverrock "Silver Rock"
+  •silverrocksmall "Small Silver Rock"
+  •thornplant "Thorny Plant"
+  •protectorateamp "Protectorate Amp"
+  •protectoratebooks "Protectorate Books"
+  •protectoratebooks2 "Protectorate Books"
+  •protectorateclock "Protectorate Clock"
+  •protectoratedormtoiletroll "Toilet Roll Holder"
+  •protectoratefbannertorn1 "Torn Protectorate Wall Banner"
+  •protectoratefbannertorn2 "Torn Protectorate Wall Banner"
+  •protectoratefigures "Turtle And Poptop Toys"
+  •protectorategamesconsole "Games Console"
+  •protectoratehologlobe "Protectorate Hologlobe"
+  •protectoratetoolbox "Red Toolbox"
+  •protectoratewallbanner "Protectorate Wall Banner"
+  •protectoratewaterdispenser "Water Dispenser"
+  •protectoratewindbanner "Protectorate Wall Banner"
+  •protectoratewindbanner2 "Protectorate Wall Banner"
+  •protectoratewindbanner3 "Protectorate Wall Banner"
+  •protectorategardenwindchimes "Garden Wind Chimes"
+  //plants
+  •seabubbles sapling foliage
+  •leafy sapling foliage
+  •wavy sapling foliage
+  •kelp sapling stem
+  •seaweed sapling stem
+  •toxickelp sapling stem
 
-Monsters with name and description fields added:
-  Apex Mutant
-  Black Cat
-  Bonebird
-  Brainy Apex Mutant
-  Floki
-  Glitch Knight
-  Minidrone
-  Nautileech
-  Pinfriend
-  Po Golem
-  Po (all three sizes)
-  Punchy
-  Sewer Fly
-  Tentacle Bomb
-  Tentacle Clam
-  Tentacle Crawler
-  Tentacle Ghost
-  Tentacle Gnat
-  Tentacle Spawner
+Icons were improved for the following:
+  //objects
+  •metalbarrel1 "Metal Barrel"
+  •metalbarrel2 "Radioactive Barrel"
+  •wiredcustomsign "Sign"
 
-Monsters with ground collisions fixed:
-  87 different ground critters
-  Baby versions of:
-    Fluffalos
-    Electric Fluffalos
-    Fire Fluffalos
-    Ice Fluffalos
-    Poison Fluffalos
-    Hens
-    Robot Hens
+////////sounds////////
+•The glue spray projectile impact sound now uses the correct directory.
 
-Parallax fixes:
-  Scorched city parallax 1, 2, 3, & 5 had thier transparency fixed
+////////recipes////////
+•bottledhealingwater "Bottled Healing Water" had invalid recipe groups changed to valid ones so it can be made after learning its recipe from Healing Water.
 
-  All fixes from the Parallax Fixes mod are included
-  -Thanks to Dracyoshi and Xaliber for allowing this.
+////////creatures and npcs////////
+•A head windup frame was assigned to the sewerfly "Growfly" so its head would not disappear when making ranged attacks.
+•The damage team was removed from bonebird "Bone Bird" so it will not attack other creatures.
 
-Unobtainable item fixes:
-  Ship debug items have proper names and descriptions
-  Ship Repair Kit will give the tier it says it does
-  FTL Repair Kit will give the tier it says it does
+Outfit items were added to the following NPC types:
+  •villager Floran can now spawn with floransurvivalistchest "Survivalist Chest" chest items for consistency.
+  •villager Floran can now spawn with floransurvivalistlegs "Survivalist Legs" leg items for consistency.
+  •wanderingmerchant Floran can now spawn with floransurvivalistchest "Survivalist Chest" chest items for consistency.
+  •wanderingmerchant Floran can now spawn with floransurvivalistlegs "Survivalist Legs" leg items for consistency.
 
-Typo fixes:
-  Ammonite fossil display names were missing the fossil suffix
-  Triolbite fossil display names were missing the fossil suffix
+Wrongly setup dialog on the following NPC types was corrected so generic dialog is not used:
+ •stargazer
+ •aviantomb
 
-  10 Years On (codex): description
-  Alpaca Guard (cosmetic set): some names
-  Apex Artifact Clues: accept with objective complete
-  Avian Emblem: description
-  Bounty Board: assignment not ready message
-  Bounty Space Clues (quest): coordinates dialog 1
-  Brains (block): description
-  Brains (item): description
-  Cabin Stool Table: description
-  Comedy Movie Poster: description
-  Cooked Poultry: description
-  Cryogenic Blaster: Hylotl description
-  Dirty Fossil (eight types): description
-  Egyptian Crest: description
-  Erchius Crystal Sample: description
-  Fossil Display (three types): description
-  Fossil Display (one type): Floran description
-  Frontier Bed: Human description
-  Frontier Coffin: Floran description
-  Full-Size Fridge: Apex description
-  Fungus Stim Pack: name, description
-  Geometric Console: description
-  It's Not a Bug, It's a Creature (codex): Page 9
-  Large Obsidian Bookcase: description
-  Medieval Furnace: description
-  Medieval Lamp: Human description
-  Medieval Pedestal: Hylotl description
-  Mulled Fruit Drink: Avian description
-  Near death starvation message
-  Nova (buff): Label
-  Office Computer: Human description
-  Opulent Console: description
-  Peacekeeper Spacestation (fourth type): description
-  Pressurised Girder (block): Glitch description
-  Pressurised Girder (item): Glitch description
-  Protectorate Poptop Toy: name
-  Random Fountain: Added Novakid description
-  Rock Bricks (block): Glitch description
-  Rock Bricks (item): Glitch description
-  Safe: description
-  Serene Console: description
-  Spring Flower: Human description
-  Standard Issue Table: description
-  Standard Issue Wardrobe: description
-  Steampunk Shelf: Apex description
-  Synthesis Stim Pack: name, description
-  T Junction N-W-E: description
-  T Junction N-S-E: description
-  T Junction N-S-W: description
-  T Junction S-W-E: description
-  The Final Acquisition (quest): completion text
-  Thornbee: description
-  Weapon Chest: description
-  Wheat Seed: Apex description
-  Wild Wheat Seed: Apex description
-  Wrecked Crate: description
+Tenant quest pools were removed from the following non-tenant NPC types:
+  •stargazer
+  •saloon
 
-NPC dialog typo fixes:
-  Apex to Apex: converse dialog 7
-  Apex Space Encounter: converse dialog 8
-  Avian to Hylotl: converse dialog 9
-  Floran Cooking Quest: completion dialog 1
-  Floran Restock Quest: request dialog 1
-  Floran Rumor Quest: completion dialog 1
-  Floran Rumor Quest: completion 1 dialog 1
-  Glitch Bounty Target: arrest dialog 2
-  Glitch Farming Quest: request dialog 1
-  Glitch Kill NPC Quest: request dialog 2
-  Glitch Peacekeeper: can't reach dialog 1
-  Glitch Restock Quest: request dialog 2
-  Glitch Secret Quest: stage 1 completion dialog 1
-  Glitch Tenant: final complaint dialog 2
-  Glitch to Avian: arrest dialog 4
-  Glitch to Floran: arrest dialog 11
-  Human to Apex: converse dialog 7
-  Hylotl to Floran: Converse dialog 25
-  Hylotl to Novakid: converse dialog 6
-  Kidnapped Hylotl: kidnapper dead dialog 2
-  Kill Mosnster Quest: request dialog 1
-  Kill NPC Quest: request dialog 2
-  Peacekeeper: converse dialog 6 and 13
-  Return Stolen Item Quest: request dialog 2
-  Return Stolen Item Quest: completion dialog 1
+The correct drop tables were assigned to the following:
+  //walkers
+  •firegleap "Fire Gleap"
+  •poisonkingnutmidgeling "Poison King Nutmidgeling"
+  •icepeblit "Ice Peblit"
+  •poisonsmoglin "Poison Smoglin"
+  •electricvoltip "Electric Voltip"
+  //npcs
+  •eyeguard
+  •labscientist
+  •evilknight
+  •evilknightlord
+  •castlelord
+  •friendlycastleguard
+  •friendlycastlelord
 
-Items with fixed category localization:
-  Advanced Mech Blueprint
-  Ancient Platform
-  Bamboo Platform
-  Blueprint (template item)
-  Bug Net
-  Cave Detector
-  Chainsaw
-  Copper Drill
-  Copper Ladder
-  Copper Pickaxe
-  Copper Platform
-  Diamond Drill
-  Diamond Pickaxe
-  Experimental Mech Blueprint
-  Explorer's Lantern
-  Fishaxe
-  Fishaxe (Drops)
-  Flashlight
-  Flashlight (Green)
-  Flashlight (Red)
-  Flashlight (Yellow)
-  Fossil Extractor
-  FTL Repair Kit
-  Gold Drill
-  Gold Pickaxe
-  Gold Platform
-  Grappling Hook
-  High-Tech Mech Blueprint
-  Hoe
-  Inspection Mode (hotbar item)
-  Lunar Base Platform
-  Matter Manipulator (hotbar item)
-  Matter Manipulator X
-  Mining Drone
-  Mining Laser
-  Modern Platform
-  Mossy Platform
-  Ore Detector
-  Ornate Platform
-  Outpost Platform
-  Paint Mode (hotbar item)
-  Pickaxe
-  Platinum Bar
-  Platinum Drill
-  Platinum Ore
-  Platinum Pickaxe
-  Plutonium Rod
-  Polygon Platform
-  Portable Pixel Printer
-  Pressurised Platform
-  Protectorate Platform
-  Relocator
-  Rope
-  Ruins Platform
-  Scan Mode (hotbar item)
-  Ship Platform
-  Ship Repair Kit
-  Silver Drill
-  Silver Pickaxe
-  Silver Platform
-  Simple Mech Blueprint
-  Stone Platform
-  Temple Platform
-  Tungsten Platform
-  Wire Mode (hotbar item)
-  Wood Platform (first type)
-  Wood Platform (second type)
-  Wrecked Platform
+Collision polygons were fixed on the following so they can go over one block inclines:
+  //critter
+  •apexscabcritter
+  •armadillocritter
+  •ashrockcritter
+  •avianscabcritter
+  •bigwormcritter
+  •blipcritter
+  •bloodtoadcritter
+  •bouncebagcritter
+  •bouncercritter
+  •breakercritter
+  •bunnycritter
+  •cell2critter
+  •cell3critter
+  •cellcritter
+  •cellnodividecritter
+  •chevcritter
+  •ciclesnailcritter
+  •cliffcritter
+  •crabcritter
+  •crystaltortoisecritter
+  •darkballcritter
+  •darkoneeyecritter
+  •darkthreeeyescritter
+  •darkwormcritter
+  •deserttortoisecritter
+  •eggcellcritter
+  •eyefriendcritter
+  •eyepodcritter
+  •firekrawlcritter
+  •firerockcritter
+  •floatinggeodecritter
+  •floranscabcritter
+  •flurlcritter
+  •frogcritter
+  •glitchscabcritter
+  •gloopcritter
+  •glowingball2critter
+  •glowingballcritter
+  •groopcritter
+  •harecritter
+  •hazmatcritter
+  •hedgehogcritter
+  •hollowcritter
+  •humanscabcritter
+  •hylotlscabcritter
+  •icescabcritter
+  •krawlcritter
+  •largegeodecritter
+  •leafscabcritter
+  •maggotcritter
+  •mousecritter
+  •orenibblercritter
+  •penguinscabcritter
+  •petalcritter
+  •poofincritter
+  •prismscabcritter
+  •quibblecritter
+  •reasonablecritter
+  •rolypolycritter
+  •sackbagcritter
+  •sealcritter
+  •slugbluecritter
+  •slugcritter
+  •sluggreencritter
+  •smallgeodecritter
+  •snailcritter
+  •snakecritter
+  •snooglecritter
+  •snorecritter
+  •snowbcritter
+  •snowymolecritter
+  •spidercritter
+  •spindycritter
+  •sporelingcritter
+  •squeekcritter
+  •squirrelcritter
+  •steamspidercritter
+  •swarmcritter
+  •symbiotecritter
+  •tinycrocodilecritter
+  •tortoisecritter
+  •toxiccrabcritter
+  •tritrotscritter
+  •volcanicflowercritter
+  •wintercritter
+  •wurmcritter
+  •yeticritter
+  //farming
+  •electricfluffalobaby "Electric Fluffalo Calf"
+  •firefluffalobaby "Fire Fluffalo Calf"
+  •fluffalobaby "Fluffalo Calf"
+  •icefluffalobaby "Ice Fluffalo Calf"
+  •poisonfluffalobaby "Poison Fluffalo Calf"
+  •henbaby "Baby Hen"
+  •robothenbaby "Baby Robot Hen"
+
+Unique names were added to the following:
+  //bugs
+  •ashsprite "Ashsprite"
+  •aurorabee "Aurorabee"
+  •blueback "Blueback"
+  •brightstripe "Brightstripe"
+  •butterbee "Butterbee"
+  •cinderfly "Cinderfly"
+  •dewhopper "Dewhopper"
+  •driftbell "Driftbell"
+  •dustmoth "Dustmoth"
+  •fawnfly "Fawnfly"
+  •fireygiant "Fireygiant"
+  •flameroach "Flameroach"
+  •frostfleck "Frostfleck"
+  •frostfly "Frostfly"
+  •gasgiant "Gasgiant"
+  •glowbug "Glowbug"
+  •goldbuck "Goldbuck"
+  •greentip "Greentip"
+  •heathugger "Heathugger"
+  •hivehog "Hivehog"
+  •icetip "Icetip"
+  •lavahopper "Lavahopper"
+  •muddancer "Muddancer"
+  •mudstag "Mudstag"
+  •orphanfly "Orphanfly"
+  •phoenixfly "Phoenixfly"
+  •polarmoth "Polarmoth"
+  •redwing "Redwing"
+  •sandclown "Sandclown"
+  •scuttleploom "Scuttleploom"
+  •seahornet "Seahornet"
+  •shadowmoth "Shadowmoth"
+  •shardwing "Shardwing"
+  •shellcreep "Shellcreep"
+  •snowskater "Snowskater"
+  •stinkjack "Stinkjack"
+  •sunskipper "Sunskipper"
+  •thornbee "Thornbee"
+  •tidefly "Tidefly"
+  •vineclimber "Vineclimber"
+  •wavebird "Wavebird"
+  •xenofly "Xenofly"
+  //crawlers
+  •tentaclecrawler "Tentacle Crawler"
+  //dungeon
+  •apexbrainmutant "Brainy Apex Mutant"
+  •apexmutant "Apex Mutant"
+  •blackcat "Black Cat"
+  •floki "Floki"
+  •giftmonster "Animated Gift"
+  •giftmonstersmall "Small Animated Gift"
+  •glitchknight "Mechanical Jousting Horse"
+  •glitchspider "Mecharachnid"
+  •pinfriend "Pinfriend"
+  •megapo "Mega Po"
+  •micropo "Micro Po"
+  •po "Po"
+  •pogolem "Po Golem"
+  •sewerfly "Growfly"
+  //farming
+  •electricfluffalo "Electric Fluffalo"
+  •firefluffalo "Fire Fluffalo"
+  •fluffalo "Fluffalo"
+  •electricfluffalobaby "Electric Fluffalo Calf"
+  •firefluffalobaby "Fire Fluffalo Calf"
+  •icefluffalobaby "Ice Fluffalo Calf"
+  •poisonfluffalobaby "Poison Fluffalo Calf"
+  •icefluffalo "Ice Fluffalo"
+  •mooshi "Mooshi"
+  •mooshibaby "Mooshi Calf"
+  •poisonfluffalo "Poison Fluffalo"
+  //flyers
+  •tentaclebomb "Tentacle Bomb"
+  •tentaclegnat "Tentacle Gnat"
+  •tentaclespawner "Tentacle Spawner"
+  //generated
+  •bonebird "Bone Bird"
+  //ghosts
+  •nautileech "Nautileech"
+  •tentacleghost "Tentacle Ghost"
+  //mechdrone
+  •multidrone "Swarm Drone"
+  •plasmadrone "Plasma Drone"
+  •shielddrone "Shield Drone"
+  //mission
+  •bigapehologram "Big Ape Hologram"
+  •minidrone "Minidrone"
+  //unsorted
+  •miningdrone "Mining Drone"
+  //walkers
+  •punchy "Punchy"
+  •tank "Penguin Tank"
+  •tentaclebarrier "Tentacle Barrier"
+  •tentacleclam "Tentacle Clam"
+
+Unique descriptions were added to the following:
+  //bugs
+  •ashsprite "Ashsprite"
+  •aurorabee "Aurorabee"
+  •blueback "Blueback"
+  •brightstripe "Brightstripe"
+  •butterbee "Butterbee"
+  •cinderfly "Cinderfly"
+  •dewhopper "Dewhopper"
+  •driftbell "Driftbell"
+  •dustmoth "Dustmoth"
+  •fawnfly "Fawnfly"
+  •fireygiant "Fireygiant"
+  •flameroach "Flameroach"
+  •frostfleck "Frostfleck"
+  •frostfly "Frostfly"
+  •gasgiant "Gasgiant"
+  •glowbug "Glowbug"
+  •goldbuck "Goldbuck"
+  •greentip "Greentip"
+  •heathugger "Heathugger"
+  •hivehog "Hivehog"
+  •icetip "Icetip"
+  •lavahopper "Lavahopper"
+  •muddancer "Muddancer"
+  •mudstag "Mudstag"
+  •orphanfly "Orphanfly"
+  •phoenixfly "Phoenixfly"
+  •polarmoth "Polarmoth"
+  •redwing "Redwing"
+  •sandclown "Sandclown"
+  •scuttleploom "Scuttleploom"
+  •seahornet "Seahornet"
+  •shadowmoth "Shadowmoth"
+  •shardwing "Shardwing"
+  •shellcreep "Shellcreep"
+  •snowskater "Snowskater"
+  •stinkjack "Stinkjack"
+  •sunskipper "Sunskipper"
+  •thornbee "Thornbee"
+  •tidefly "Tidefly"
+  •vineclimber "Vineclimber"
+  •wavebird "Wavebird"
+  •xenofly "Xenofly"
+  //crawlers
+  •tentaclecrawler "Tentacle Crawler"
+  //dungeon
+  •apexbrainmutant "Brainy Apex Mutant"
+  •apexmutant "Apex Mutant"
+  •blackcat "Black Cat"
+  •floki "Floki"
+  •giftmonster "Animated Gift"
+  •giftmonstersmall "Small Animated Gift"
+  •glitchknight "Mechanical Jousting Horse"
+  •glitchspider "Mecharachnid"
+  •pinfriend "Pinfriend"
+  •megapo "Mega Po"
+  •micropo "Micro Po"
+  •po "Po"
+  •pogolem "Po Golem"
+  •sewerfly "Growfly"
+  //farming
+  •electricfluffalo "Electric Fluffalo"
+  •firefluffalo "Fire Fluffalo"
+  •fluffalo "Fluffalo"
+  •electricfluffalobaby "Electric Fluffalo Calf"
+  •firefluffalobaby "Fire Fluffalo Calf"
+  •fluffalobaby "Fluffalo Calf"
+  •icefluffalobaby "Ice Fluffalo Calf"
+  •poisonfluffalobaby "Poison Fluffalo Calf"
+  •hen "Hen"
+  •henbaby "Baby Hen"
+  •icefluffalo "Ice Fluffalo"
+  •mooshi "Mooshi"
+  •mooshibaby "Mooshi Calf"
+  •poisonfluffalo "Poison Fluffalo"
+  •robothen "Robot Hen"
+  •robothenbaby "Baby Robot Hen"
+  //flyers
+  •poisonparatail "Poison Paratail"
+  •tentaclebomb "Tentacle Bomb"
+  •tentaclegnat "Tentacle Gnat"
+  •tentaclespawner "Tentacle Spawner"
+  //generated
+  •bonebird "Bone Bird"
+  //ghosts
+  •erchiusghost "Erchius Ghost"
+  •nautileech "Nautileech"
+  •peacekeeperdrone "Peacekeeper Drone"
+  •tentacleghost "Tentacle Ghost"
+  //mechdrone
+  •multidrone "Swarm Drone"
+  •plasmadrone "Plasma Drone"
+  •shielddrone "Shield Drone"
+  //mission
+  •bigapehologram "Big Ape Hologram"
+  •minidrone "Minidrone"
+  //unsorted
+  •miningdrone "Mining Drone"
+  //walkers
+  •punchy "Punchy"
+  •tank "Penguin Tank"
+  •tentaclebarrier "Tentacle Barrier"
+  •tentacleclam "Tentacle Clam"
+
+////////objects and items////////
+//codex
+•humanhistory10 "It's Not a Bug, It's a Creature" is no longer missing two insect names and descriptions.
+//items
+•The stack size of wateringcan "Watering Can" was limited to 1 for consistency and to prevent a rare save corrupting crash.
+•The rarity of the cardboardboxarmor "Cardboard Box Armor" was changed to legendary to match cardboardhead "Cardboard Hat"
+•Increased the ship tier given by FTLrepairkit "FTL Repair Kit" to 3 so it actually fixes the FTL drive.
+•Increased the ship tier given by shiprepairkit "Ship Repair Kit" to 2 so it actually fixes the thrusters.
+//objects
+•wiredcustomsign "Sign" now hides its edges when placed next to a customsign "Sign" or itself.
+//tiles
+•Occlusion has been disabled on material 174 matterblock "Matter Block" because its texture is translucent.
+
+Drops have been changed on the following things:
+  //objects
+  •Objects that use upgradeablecraftingobject.lua and have not been upgraded will no longer drop with parameters so placed and non-placed ones will stack.
+  //tiles
+  •material 166 rustyblock "Rusty Block" now drops "rustyblock" because some crafting recipes indicate the wrong thing was assigned.
+  //trees
+  •seabubbles tree foliage now drops a sapling to be consistent with toxickelpy tree foliage.
+  •flowy tree foliage now drops a sapling to be consistent with toxickelpy tree foliage.
+  •kelpy tree foliage now drops a sapling to be consistent with toxickelpy tree foliage.
+  •leafy tree foliage now drops a sapling to be consistent with toxickelpy tree foliage.
+  •wavy tree foliage now drops a sapling to be consistent with toxickelpy tree foliage.
+  •tentacletree tree stem now drops one rawtentacle "Raw Tentacle" instead of zero.
+  •tentacletreetwo tree stem now drops one rawtentacle "Raw Tentacle" instead of zero.
+
+Wiring nodes are now correctly placed on the following:
+  •clubceilinglights "Blue Club Lights"
+  •clubceilinglightsgreen "Green Club Lights"
+  •clubceilinglightsred "Red Club Lights"
+  •clubceilinglightsyellow "Yellow Club Lights"
+
+Collision was added to the following:
+  •barrel "Small Barrel" so that an ocean dungeon can generate correctly.
+  •barrellarge "Large Barrel" to be consistent with barrel "Small Barrel"
+
+Anchors were changed on the following:
+  •medievallamp "Medieval Lamp" was changed to also allow wall placement as indicated by some racial descriptions and attempted use in a cut dungeon.
+
+Stack size limits of 1000 were removed from the following so stack size mods will apply correctly:
+  •climbingrope "Rope"
+  •geode "Geode"
+  •cocoa "Cocoa Pod"
+  •rice "Rice"
+  •shroom "Mushroom"
+  •sugar "Sugar"
+  •wheat "Wheat"
+  
+Tooltip types were corrected on the following:
+  •damageaugment1 "Damage I Augment" was set to "eppaugment"
+  •damageaugment2 "Damage II Augment" was set to "eppaugment"
+
+The pixel values of the following items were adjusted:
+  •fungusstim "Fungus Stim Pack" from 0 to 100 matching other simpacks.
+  •orangestim "Orange Stim Pack" from 20 to 100 matching other simpacks.
+  •synthesisstim "Synthesis Stim Pack" from 0 to 100 matching other simpacks.
+  •trexfossil2 "T. rex Torso" from 0 to 200 matching other fossils.
+  •trexfossil3 "T. rex Legs" from 0 to 200 matching other fossils.
+  •trexfossil4 "T. rex Upper Tail" from 0 to 200 matching other fossils.
+  •trexfossil5 "T. rex Lower Tail" from 0 to 200 matching other fossils.
+  •barrelchest "Barrel" from 0 to 2500 matching other rare cosmetic armors.
+  •barrelhead "Barrel Lid" from 0 to 2500 matching other rare cosmetic armors.
+  •cardboardboxarmor "Cardboard Box Armor" from 0 to 5000 matching other legendary cosmetic armors.
+  •georgedevhead "George's Foxy Glasses" from 0 to 5000 matching other legendary cosmetic armors.
+
+Bad hand positions were corrected on the following:
+  •fungusstim "Fungus Stim Pack"
+  •shroomremedy "Shroom Remedy"
+  •synthesisstim "Synthesis Stim Pack"
+
+Hair masking accuracy was improved for the following headwear:
+  •apextier3head "Insurgent's Mask"
+  •demonhornshead "Demon Horn Wig"
+  •doghathead "Dog Hat"
+  •tricornhat "Horned Tricorn"
+  •lighthelmhead "Fluorescent Helmet"
+  •geodehead "Geode Mask"
+  •icecubehead "Ice Cube Mask"
+  •slimehead "Slime Mask"
+  •floweryhead "Flowery Mask"
+  •sabertoothhelm "Sabertooth Helm"
+  •mrclaushead "Holiday Beard Hat"
+  •predatoryhead "Predatory Head"
+  •georgedevhead "George's Foxy Glasses"
+  •shroomdisguisehead "Shroom Disguise Mask"
+  •vikinghead "Viking Helm"
+  •humantier3head "Pioneer's Helm"
+  •humantier4head "Outrider's Helm"
+  •humantier5ahead "Vanguard's Helm"
+  •bedouinhead "Desert Head Scarf"
+  •camohead "Camo Helmet"
+  •voyagerhead "Voyager's Helm"
+
+////////ships////////
+Added missing hazard walls to the following:
+  •floranT7blocks
+  •novakidT5blocks
+
+Redundant doors placements on that could destroy objects were fixed on the following ship types:
+This was done by using the broken versions of doors at T0 and none at T2.
+  •Apex
+  •Avian
+  •Floran
+  •Glitch
+  •Human
+  •Hylotl
+  •Novakid
+
+Made it possible to place tiles behind a specific block of the captains chairs on the following ship types:
+  •Apex
+  •Avian
+  •Floran
+  •Glitch
+  •Human
+  •Hylotl
+  •Novakid
+
+Corrected additional discrepancies in the following:
+  •floranT6blocks
+  •floranT7blocks
+  •floranT8blocks
+
+////////dungeons////////
+•The bookcase in apexcity building2 now uses the Apex city lore loot pool.
+•avianvillage object layer 3a had a curtain moved by one block so it would be in the proper spot and could rotate the correct direction.
+
+////////user interface////////
+•The shine layer in the Vending Machine interface was set to click through so the items to purchase counter can be typed in.
+
+S.A.I.L static paths were corrected on the following:
+  •Floran S.A.I.L. interface
+  •Novakid S.A.I.L. interface
+
+Bad text alignment were fixed in the following:
+  •Fist Weapon item descriptions
+  •Shield item descriptions
+  •Fist Weapon tooltip pixel value
+  •Shield tooltip pixel value
+
+Handedness labels were added to the following things that were missing it:
+  •Fist Weapon item descriptions.
+  •Shield item descriptions.
+  •Fist Weapon tooltips
+  •Shield tooltips
+
+Label colors were changed in the following:
+  •Fossil Station interface "BLUEPRINTS" label was corrected to match other crafting interfaces.
+  •Fossil Station interface "PRODUCT" label was corrected to match other crafting interfaces.
+
+Shine layer positions were fixed for the following:
+  •Merchant interface shine was corrected so it doesn't go over the top right corner.
+  •Vending Machine interface shine was corrected so it doesn't go over the top right corner.
+
+////////parallax////////
+•The "magma" parallax used on lava planets now has orange lava instead of yellow.
+
+Corrections were made to the following parallax textures:
+  •cityscapescorched1 base 1 had some blocks of missing smog.
+  •cityscapescorched2 base 1 had some blocks of missing smog.
+  •cityscapescorched3 base 1 had some blocks of missing smog.
+  •cityscapescorched5 base 1 had some blocks of missing smog.
+  •grass9 base 1 no longer horizontal cuts on several grass patterns.
+  •grass9 base 2 now has its lower half textured.
+  •grassrare base 1 now uses the colors expected for its parallax layer.
+  •grassrare base 2 now uses the colors expected for its parallax layer, is shaded, and no longer has cutoffs.
+  •grassrare base 3 now uses the colors expected for its parallax layer.
+  •grassrare base 4 now uses the colors expected for its parallax layer.
+  •moon9 base 1  no longer has a full width horizontal cut.
+  •moonpeach base 1 no longer has a solid stripe that appears behind the moon9 layer.
+
+////////commands////////
+•Removed help documentation for "togglelayer" because it was removed from the game.
+
+Added help documentation for the following undocumented commands:
+  •monochromelighting
+  •addbiomeregion
+  •expandbiomeregion
+  •updateplanettype
+  •setenvironmentbiome
+  •setdungeonid

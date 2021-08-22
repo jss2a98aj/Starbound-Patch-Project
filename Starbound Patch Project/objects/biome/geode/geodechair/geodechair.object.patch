@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/glitchDescription",
+    "value" : "Concerned. Sitting in this chair for long would be sure to to cause discomfort."
+  },
+  {
+    "op" : "replace",
+    "path" : "/glitchDescription",
+    "value" : "Concerned. Sitting in this chair for long would be sure to cause discomfort."
+  }
+]

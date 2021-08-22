@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/description",
-    "value" : "A display stand for small fossils."
-  },
-  {
-    "op" : "replace",
-    "path" : "/floranDescription",
-    "value" : "Empty Ssstand? Where fosssil?"
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "A display stand for small fossils"
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "A display stand for small fossils."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/floranDescription",
+      "value" : "Empty Ssstand ? Where fosssil ?"
+    },
+    {
+      "op" : "replace",
+      "path" : "/floranDescription",
+      "value" : "Empty Ssstand? Where fosssil?"
+    }
+  ]
 ]

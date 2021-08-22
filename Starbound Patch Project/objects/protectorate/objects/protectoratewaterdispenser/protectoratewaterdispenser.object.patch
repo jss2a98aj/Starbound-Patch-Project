@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/shortdescription",
+    "value" : "Protectorate Water Dispenser"
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Water Dispenser"
+  }
+]

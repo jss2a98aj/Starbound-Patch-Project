@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/category",
+    "value" : "Tool"
+  },
+  {
     "op" : "replace",
     "path" : "/category",
     "value" : "tool"

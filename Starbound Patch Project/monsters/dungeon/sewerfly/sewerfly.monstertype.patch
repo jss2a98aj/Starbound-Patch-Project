@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "add",
-    "path" : "/shortdescription",
-    "value" : "Growfly"
-  },
-  {
-    "op" : "add",
-    "path" : "/description",
-    "value" : "This species of fly may be why some sewer systems are in such disrepair."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Growfly"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "This species of fly may be why some sewer systems are in such disrepair."
+    }
+  ]
 ]

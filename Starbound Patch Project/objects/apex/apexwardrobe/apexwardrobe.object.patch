@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A very basic mass produced wardrobe."
+  },
+  {
     "op" : "replace",
     "path" : "/description",
     "value" : "A very basic mass-produced wardrobe."

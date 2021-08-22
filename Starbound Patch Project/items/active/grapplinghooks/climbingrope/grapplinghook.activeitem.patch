@@ -1,7 +1,0 @@
-[
-  {
-    "op" : "replace",
-    "path" : "/category",
-    "value" : "tool"
-  }
-]

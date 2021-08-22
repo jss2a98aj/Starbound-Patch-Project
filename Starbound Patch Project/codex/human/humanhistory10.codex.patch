@@ -1,17 +1,123 @@
 [
+//Testing for original content page values would be ideal, but that has not been working as expected for this codex.
+//No other codex has had such an issue with test operations. Inverse test operations however work just fine.
+  {
+    "op" : "test",
+    "path" : "/contentPages/10",
+    "inverse" : true
+  },
+  {
+    "op" : "replace",
+    "path" : "/contentPages/3",
+    "value" : "Frostfleck
+This bug is easily mistaken for a snowflake.
+
+Frostfly
+Where there's frost, there are frostflies.
+
+Gasgiant
+These bugs float on updrafts of poisonous gases.
+
+Glowbug
+The warmer this bug gets, the more it glows."
+  },
+  {
+    "op" : "replace",
+    "path" : "/contentPages/4",
+    "value" : "Goldbuck
+A bug with glistening gold wings, very fancy!
+
+Greentip
+This bug looks like it's wearing tiny green shoes.
+
+Heathugger
+Attracted to heat, this little guy needs warmth.
+
+Hivehog
+This bug never stops eating."
+  },
+  {
+    "op" : "replace",
+    "path" : "/contentPages/5",
+    "value" : "Icetip
+This bug's wings are frozen over.
+
+Lavahopper
+This tiny creature skips across hot lakes of lava.
+
+Muddancer
+These bugs can be seen dancing at dusk.
+
+Mudstag
+This bug is incredibly sticky. It has two long horns on its head."
+  },
+  {
+    "op" : "replace",
+    "path" : "/contentPages/6",
+    "value" : "Orphanfly
+The smallest and most pathetic bug I've ever seen.
+
+Phoenixfly
+This bug rubs its legs together to produce tiny sparks.
+
+Polarmoth
+This little bug's legs are covered in see-through hairs.
+
+Redwing
+Not to be confused with the infamous Dreadwing."
+  },
+  {
+    "op" : "replace",
+    "path" : "/contentPages/7",
+    "value" : "Sandclown
+Who would live in the desert? This clown.
+
+Scuttleploom
+This bug's legs move so fast they're difficult to count.
+
+Seahornet
+This bug has a snout like a seahorse.
+
+Shadowmoth
+Hard to spot, these bugs are as black as night."
+  },
   {
     "op" : "replace",
     "path" : "/contentPages/8",
-    "value" : "Snowskater
+    "value" : "Shardwing
+The wings of this bug are iridescent like ice.
+
+Shellcreep
+It looks as if it could slip out of its shell at a moments notice.
+
+Snowskater
 The tips of its legs are covered in snow.
 
 Stinkjack
-You'll smell one of these little guys before you see one.
-
-Sunskipper
+You'll smell one of these little guys before you see one."
+  },
+  {
+    "op" : "replace",
+    "path" : "/contentPages/9",
+    "value" : "Sunskipper
 This pretty bug loves sunshine.
 
 Thornbee
-This prickly little fellow has razor-sharp wings."
+This prickly little fellow has razor-sharp wings.
+
+Tidefly
+Comes out only during certain phases of the moon.
+
+Vineclimber
+Its legs look like intertwining vines."
+  },
+  {
+    "op" : "add",
+    "path" : "/contentPages/10",
+    "value" : "Wavebird
+A bug that can usually be found chasing the crest of a wave.
+
+Xenofly
+This guy has a creepy little face."
   }
 ]

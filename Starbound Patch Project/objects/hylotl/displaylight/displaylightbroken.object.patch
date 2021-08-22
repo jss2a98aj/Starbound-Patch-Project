@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/avianDescription",
+    "value" : "What would it be illuminating if if was on?"
+  },
+  {
+    "op" : "replace",
+    "path" : "/avianDescription",
+    "value" : "What would it be illuminating if it was on?"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/handednessLabel",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/handednessLabel",
+      "value" : {
+        "type" : "label",
+        "position" : [75, 150],
+        "hAnchor" : "mid",
+        "centered" : true,
+        "wrapWidth" : 122
+      }
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/objectImage/position/1",
+      "value" : 125
+    },
+    {
+      "op" : "replace",
+      "path" : "/objectImage/position/1",
+      "value" : 120
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/healthLabel/position",
+      "value" : [130, 80]
+    },
+    {
+      "op" : "replace",
+      "path" : "/healthLabel/position",
+      "value" : [133, 83]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/healthTitleLabel/position",
+      "value" : [20, 80]
+    },
+    {
+      "op" : "replace",
+      "path" : "/healthTitleLabel/position",
+      "value" : [16, 83]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/cooldownLabel/position",
+      "value" : [130, 71]
+    },
+    {
+      "op" : "replace",
+      "path" : "/cooldownLabel/position",
+      "value" : [133, 74]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/cooldownTitleLabel/position",
+      "value" : [20, 71]
+    },
+    {
+      "op" : "replace",
+      "path" : "/cooldownTitleLabel/position",
+      "value" : [16, 74]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/descriptionLabel/position",
+      "value" : [20, 62]
+    },
+    {
+      "op" : "replace",
+      "path" : "/descriptionLabel/position",
+      "value" : [16, 70]
+    }
+  ]
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "inverse" : true
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "This feathered biped will lay ^orange;Eggs^reset; every so often."
+  }
+]

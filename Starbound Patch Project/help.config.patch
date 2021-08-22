@@ -1,0 +1,84 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/debugCommands/togglelayer",
+      "inverse" : false
+    },
+    {
+      "op" : "remove",
+      "path" : "/debugCommands/togglelayer"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/debugCommands/monochromelighting",
+      "inverse" :true
+    },
+    {
+      "op" : "add",
+      "path" : "/debugCommands/monochromelighting",
+      "value" : "Usage /monochromelighting. Toggles monochrome lighting. This is the same as doing it from the options menu."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/adminCommands/addbiomeregion",
+      "inverse" :true
+    },
+    {
+      "op" : "add",
+      "path" : "/adminCommands/addbiomeregion",
+      "value" : "Usage /addbiomeregion biome width. Adds a biome region of the specified type at the position of the cursor, with the width in some unknown metric. Fails on non-terrestrial worlds."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/adminCommands/expandbiomeregion",
+      "inverse" :true
+    },
+    {
+      "op" : "add",
+      "path" : "/debugCommands/expandbiomeregion",
+      "value" : "Usage /expandbiomeregion width. Expands the biome region at the position of the cursor, with the width in some unknown metric. Fails on non-terrestrial worlds."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/adminCommands/updateplanettype",
+      "inverse" :true
+    },
+    {
+      "op" : "add",
+      "path" : "/debugCommands/updateplanettype",
+      "value" : "Usage /updateplanettype CelestialCoordinate primarybiome weather. Changes the planet type and weather pools of the specified celestial object. May need to leave the world and return for changes to be visible. Invalid planet types will break the navigation console upon attempting to view world, but is otherwise safe. ^#ff0;\"barren\" \"barren\" is a valid combination."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/adminCommands/setenvironmentbiome",
+      "inverse" :true
+    },
+    {
+      "op" : "add",
+      "path" : "/debugCommands/setenvironmentbiome",
+      "value" : "Usage /setenvironmentbiome ? ? ?. Does something with the background parallax of the current layer, possibly setting it to a generic value. Fails horribly on non-terrestrial worlds. ^#f00;Use at your own risk.^reset;"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/adminCommands/setdungeonid",
+      "inverse" :true
+    },
+    {
+      "op" : "add","path" : "/debugCommands/setdungeonid",
+      "value" : "Usage /setdungeonid dungeonId. Sets the dungeonId of the (single) tile at the cursor's position."
+    }
+  ]
+]

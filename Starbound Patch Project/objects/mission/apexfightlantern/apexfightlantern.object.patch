@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "These electric lanterns generate a pleasantly warm light"
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "These electric lanterns generate a pleasantly warm light."
+  }
+]

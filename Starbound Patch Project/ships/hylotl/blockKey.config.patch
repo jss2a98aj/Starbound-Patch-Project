@@ -1,0 +1,13 @@
+//[0, 255, 255, 255] n | hylotlcaptainschair
+[
+  {
+    "op" : "test",
+    "path" : "/blockKey/20/backgroundBlock",
+    "value" : true
+  },
+  {
+    "op" : "replace",
+    "path" : "/blockKey/20/backgroundBlock",
+    "value" : false
+  }
+]

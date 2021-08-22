@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/converse/apex/apex/7",
+    "value" : "The most terrifying aspect of the Miniknog regime is that the our people are comfortable with the cycle of oppression."
+  },
+  {
     "op" : "replace",
     "path" : "/converse/apex/apex/7",
     "value" : "The most terrifying aspect of the Miniknog regime is that our people are comfortable with the cycle of oppression."

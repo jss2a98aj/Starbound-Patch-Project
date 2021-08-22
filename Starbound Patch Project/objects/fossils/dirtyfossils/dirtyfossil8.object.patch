@@ -1,7 +1,98 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/description",
-    "value" : "Some kind of fossil, all covered in mud and rock. It's going to need careful cleaning to get it out in one piece."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "Some kind of fossil, all covered in mud and rock. It's going to need careful cleaning to get it out in one peice"
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "Some kind of fossil, all covered in mud and rock. It's going to need careful cleaning to get it out in one piece."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/apexDescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/apexDescription",
+      "value" : "A fossil embedded in the dirt. It will take careful work to get it out intact."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/avianDescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/avianDescription",
+      "value" : "This fossil looks interesting, I wonder if I could dig it out without damaging it?"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/floranDescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/floranDescription",
+      "value" : "A fosssil trapped in the dirt. I wonder what it usssed to be."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/glitchDescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/glitchDescription",
+      "value" : "Intrigued. I'd like to see this fossil in its entirety."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/humanDescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/humanDescription",
+      "value" : "A Fossil! Wonder if I could get it out of the dirt?"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/hylotlDescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/hylotlDescription",
+      "value" : "A fossilised creature, ancient and delicate, entombed in the rock."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/novakidDescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/novakidDescription",
+      "value" : "Some old bones - stone bones! What're those called again? Oh, fossils!"
+    }
+  ]
 ]

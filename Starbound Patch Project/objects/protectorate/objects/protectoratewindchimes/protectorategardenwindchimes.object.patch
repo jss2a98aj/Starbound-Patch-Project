@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/shortdescription",
+    "value" : "Protectorate Garden Wind Chimes"
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Garden Wind Chimes"
+  }
+]

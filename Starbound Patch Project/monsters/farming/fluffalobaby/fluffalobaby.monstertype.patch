@@ -1,7 +1,21 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/baseParameters/movementSettings/collisionPoly",
-    "value" : [ [-0.4, -0.5], [0.4, -0.5], [0.8, 0.6], [-0.8, 0.6] ]
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "A newborn fluffalo's diet determines the type it grows into."
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "A newborn Fluffalo's diet determines the type it grows into."
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/baseParameters/movementSettings/collisionPoly",
+      "value" : [ [-0.4, -0.5], [0.4, -0.5], [0.8, 0.6], [-0.8, 0.6] ]
+    }
+  ]
 ]

@@ -1,7 +1,26 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/category",
-    "value" : "tool"
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/category",
+      "value" : "Tool"
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "tool"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "Primary fire applies paint, secondary changes colour. ^green;Quick select with [Y] key."
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "Primary fire applies paint, secondary changes colour. ^green;Quick select with [Y] key.^reset;"
+    }
+  ]
 ]

@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "This tombstone is engraved with an eye symbol"
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "This tombstone is engraved with an eye symbol."
+  }
+]

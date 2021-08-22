@@ -1,7 +1,11 @@
 [
   {
-    "op" : "replace",
-    "path" : "/scriptConfig/questGenerator/pools",
-    "value" : ["common"]
+    "op" : "test",
+    "path" : "/scriptConfig/questGenerator/pools/0",
+    "value" : "tenant"
+  },
+  {
+    "op" : "remove",
+    "path" : "/scriptConfig/questGenerator/pools/0"
   }
 ]

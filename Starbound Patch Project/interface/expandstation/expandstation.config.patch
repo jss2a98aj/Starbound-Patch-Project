@@ -1,0 +1,26 @@
+[
+  [
+    {
+        "op" : "test",
+        "path" : "/gui/selectedDescription/value",
+        "value" : "No part selected"
+    },
+    {
+        "op" : "replace",
+        "path" : "/gui/selectedDescription/value",
+        "value" : "No part selected."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/gui/placeButton/caption",
+      "value" : "place"
+    },
+    {
+      "op" : "replace",
+      "path" : "/gui/placeButton/caption",
+      "value" : "Place"
+    }
+  ]
+]

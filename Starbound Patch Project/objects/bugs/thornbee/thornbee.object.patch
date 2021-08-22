@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "This prickly little fellow has razor sharp wings."
+  },
+  {
     "op" : "replace",
     "path" : "/description",
     "value" : "This prickly little fellow has razor-sharp wings."

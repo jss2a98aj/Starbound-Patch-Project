@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Mecharachnid"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "While initially intended to kill Growflies, this mechanical arachnid had something go terribly wrong."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/baseParameters/bodyMaterialKind",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/baseParameters/bodyMaterialKind",
+      "value" : "robotic"
+    }
+  ]
+]

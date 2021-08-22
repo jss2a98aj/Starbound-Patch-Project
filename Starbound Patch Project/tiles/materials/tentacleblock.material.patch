@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/glitchDescription",
+    "value" : "Distrubed. These tentacles have been mashed together into a solid mass."
+  },
+  {
+    "op" : "replace",
+    "path" : "/glitchDescription",
+    "value" : "Disturbed. These tentacles have been mashed together into a solid mass."
+  }
+]

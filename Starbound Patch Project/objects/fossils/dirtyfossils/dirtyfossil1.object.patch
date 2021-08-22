@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "Some kind of fossil, all covered in mud and rock. It's going to need careful cleaning to get it out in one piece"
+  },
+  {
     "op" : "replace",
     "path" : "/description",
     "value" : "Some kind of fossil, all covered in mud and rock. It's going to need careful cleaning to get it out in one piece."

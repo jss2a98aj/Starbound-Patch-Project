@@ -1,12 +1,12 @@
 [
   {
-    "op" : "replace",
+    "op" : "test",
     "path" : "/shortdescription",
-    "value" : "Alpaca Guard Real Legs"
+    "value" : "Alien Alpaca Real Torso"
   },
   {
     "op" : "replace",
-    "path" : "/price",
-    "value" : 2500
+    "path" : "/shortdescription",
+    "value" : "Alien Alpaca Guard Real Chest"
   }
 ]

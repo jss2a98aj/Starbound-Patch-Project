@@ -1,0 +1,13 @@
+//[0, 255, 255, 255] apexcaptainschair | n
+[
+  {
+    "op" : "test",
+    "path" : "/blockKey/26/backgroundBlock",
+    "value" : true
+  },
+  {
+    "op" : "replace",
+    "path" : "/blockKey/26/backgroundBlock",
+    "value" : false
+  }
+]

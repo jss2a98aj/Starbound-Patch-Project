@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A ornate obsidian bookcase."
+  },
+  {
     "op" : "replace",
     "path" : "/description",
     "value" : "An ornate obsidian bookcase."

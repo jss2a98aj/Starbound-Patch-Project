@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "^orange;Spinning Wheel^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "^orange;Spinning Wheel^reset;"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Spinning Wheel^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Spinning Wheel^reset;"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Sewing Machine^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Sewing Machine^reset;"
+    }
+  ]
+]

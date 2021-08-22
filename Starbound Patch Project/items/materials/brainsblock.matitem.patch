@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "Pulsating brain matter.. I wonder if it's thinking."
+  },
+  {
     "op" : "replace",
     "path" : "/description",
     "value" : "Pulsating brain matter... I wonder if it's thinking."

@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/shortdescription",
+    "value" : "Protectorate Toilet Roll Holder"
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Toilet Roll Holder"
+  }
+]

@@ -1,17 +1,38 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/category",
-    "value" : "upgradeComponent"
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Condor Ship Upgrade"
-  },
-  {
-    "op" : "replace",
-    "path" : "/description",
-    "value" : "Upgrades your ship to Condor class."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/category",
+      "value" : "Upgrade Component"
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "upgradeComponent"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "Thing"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Condor Upgrade"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "Does things"
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "Upgrades the user's ship to Condor class."
+    }
+  ]
 ]

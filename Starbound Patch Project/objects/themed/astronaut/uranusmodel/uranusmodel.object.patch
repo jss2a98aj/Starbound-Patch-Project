@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/apexDescription",
+      "value" : "Uranus's axis is tilted an extreme of over ninety seven degrees."
+    },
+    {
+      "op" : "replace",
+      "path" : "/apexDescription",
+      "value" : "Uranus's axis is tilted at an extreme of over ninety seven degrees."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/humanDescription",
+      "value" : "Uranus might be named after a god...but it sure sounds funny."
+    },
+    {
+      "op" : "replace",
+      "path" : "/humanDescription",
+      "value" : "Uranus might be named after a god, but it sure sounds funny."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/hylotlDescription",
+      "value" : "Uranus is curious for it's lop-sided axis, making it unique in the Sol System."
+    },
+    {
+      "op" : "replace",
+      "path" : "/hylotlDescription",
+      "value" : "Uranus is curious for its lop-sided axis, making it unique in the Sol System."
+    }
+  ]
+]

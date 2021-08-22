@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "add",
-    "path" : "/shortdescription",
-    "value" : "Glitch Knight's Horse"
-  },
-  {
-    "op" : "add",
-    "path" : "/description",
-    "value" : "This metal horse is commonly used by Glitch Knights for jousting."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Mechanical Jousting Horse"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "Some Glitch Knights use mechanical horses for jousting."
+    }
+  ]
 ]

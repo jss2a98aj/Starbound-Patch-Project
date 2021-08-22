@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "^orange;Anvil^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "^orange;Anvil^reset;"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Anvil^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Anvil^reset;"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Forge^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Forge^reset;"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/upgradeStages/2/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Replicator^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/upgradeStages/2/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Replicator^reset;"
+    }
+  ]
+]

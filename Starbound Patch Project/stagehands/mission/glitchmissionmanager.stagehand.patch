@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/radioMessages/firstBallista/0",
+      "value" : "Outraged.The brigands have rolled in a war machine! I won't have my keep obliterated, you must destroy that ballista!"
+    },
+    {
+      "op":"replace",
+      "path":"/radioMessages/firstBallista/0",
+      "value":"Outraged. The brigands have rolled in a war machine! I won't have my keep obliterated; you must destroy that ballista!"
+    }
+  ]
+]

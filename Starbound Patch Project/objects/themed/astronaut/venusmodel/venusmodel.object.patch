@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/glitchDescription",
+      "value" : "Fascinated. The planet Venus has natural greenhouse gases that that make the surface temperatures very high."
+    },
+    {
+      "op" : "replace",
+      "path" : "/glitchDescription",
+      "value" : "Fascinated. The planet Venus has natural greenhouse gases that make the surface temperatures very high."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/hylotlDescription",
+      "value" : "Venus, neighbour to Earth and almost a big but lifeless due to extreme conditions."
+    },
+    {
+      "op" : "replace",
+      "path" : "/hylotlDescription",
+      "value" : "Venus, neighbour to Earth and almost as big, is lifeless due to extreme conditions."
+    }
+  ]
+]

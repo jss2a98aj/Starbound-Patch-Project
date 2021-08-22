@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/dropPools/0",
+    "inverse" : true
+  },
+  {
+    "op" : "add",
+    "path" : "/dropPools/-",
+    "value" : { "default" : "smoglinTreasure", "bow" : "smoglinHunting" }
+  }
+]

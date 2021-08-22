@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "--TODO--"
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "Sometimes a bit of fire and brimstone is needed to keep the peace. Just don't ask why the fire is purple. "
+  }
+]

@@ -1,7 +1,12 @@
 [
   {
+    "op" : "test",
+    "path" : "/scriptConfig/generatedText/text/first/default/0",
+    "value" : "The first step is ^green;finding the ^orange;<monster>^white; that's been giving me trouble. It ran off with ^orange;<items>,^white; towards the ^orange;<spawnPoint>^white;<spawnPoint.direction>. ^green;You don't mind hunting it down do you?"
+  },
+  {
     "op" : "replace",
     "path" : "/scriptConfig/generatedText/text/first/default/0",
-    "value" : "The first step is ^green;finding the ^orange;<monster>^white; that's been giving me trouble. It ran off with ^orange;<items>,^white; towards the ^orange;<spawnPoint>^white;<spawnPoint.direction>. ^green;You don't mind hunting it down, do you?"
+    "value" : "The first step is ^green;finding the ^orange;<monster>^white; that's been giving me trouble. It ran off with ^orange;<items>,^white; towards the ^orange;<spawnPoint>^white;<spawnPoint.direction>. ^green;You don't mind hunting it down, do you?^reset;"
   }
 ]

@@ -1,17 +1,26 @@
 [
-  {
-    "op" : "add",
-    "path" : "/labels/blueprint",
-    "value" : "Blueprint"
-  },
-  {
-    "op" : "add",
-    "path" : "/labels/drone",
-    "value" : "Drone"
-  },
-  {
-    "op" : "add",
-    "path" : "/labels/supports",
-    "value" : "Supports"
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/labels/blueprint",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/labels/blueprint",
+      "value" : "Blueprint"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/labels/drone",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/labels/drone",
+      "value" : "Drone"
+    }
+  ]
 ]

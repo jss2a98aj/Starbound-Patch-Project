@@ -1,7 +1,25 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/category",
-    "value" : "tool"
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/maxStack",
+      "value" : 1000
+    },
+    {
+      "op" : "remove",
+      "path" : "/maxStack"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/category",
+      "value" : "Tool"
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "tool"
+    }
+  ]
 ]

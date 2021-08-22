@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/apexDescription",
+      "value" : "Saturn is a gas giant and the sixth planet in Sol System."
+    },
+    {
+      "op" : "replace",
+      "path" : "/apexDescription",
+      "value" : "Saturn is a gas giant and the sixth planet in the Sol System."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/floranDescription",
+      "value" : "Saturn is a gas giant of the Sol Sssystem. The rings the biggest in the system."
+    },
+    {
+      "op" : "replace",
+      "path" : "/floranDescription",
+      "value" : "Saturn is a gas giant of the Sol Sssystem. The rings are the biggest in the system."
+    }
+  ]
+]

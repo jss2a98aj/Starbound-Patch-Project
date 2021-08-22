@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/avianDescription",
+    "value" : "An fruit drink? Avians do not react well to mulled beverages."
+  },
+  {
     "op" : "replace",
     "path" : "/avianDescription",
     "value" : "A fruit drink? Avians do not react well to mulled beverages."

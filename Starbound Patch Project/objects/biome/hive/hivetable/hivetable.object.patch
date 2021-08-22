@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/apexDescription",
+    "value" : "This appears to have been constructed from some some sort of organic material."
+  },
+  {
+    "op" : "replace",
+    "path" : "/apexDescription",
+    "value" : "This appears to have been constructed from some sort of organic material."
+  }
+]

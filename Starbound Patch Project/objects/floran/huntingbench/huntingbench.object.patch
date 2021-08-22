@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A crudely made bench. It's had a lot of use during Floran hunts."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "A crudely made bench. Its had a lot of use during Floran hunts."
+  }
+]

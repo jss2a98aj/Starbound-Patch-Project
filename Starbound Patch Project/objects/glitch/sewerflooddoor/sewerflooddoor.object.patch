@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/floranDescription",
+    "value" : "Thiss door doesn't sseem ssstable"
+  },
+  {
+    "op" : "replace",
+    "path" : "/floranDescription",
+    "value" : "Thiss door doesn't sseem ssstable."
+  }
+]

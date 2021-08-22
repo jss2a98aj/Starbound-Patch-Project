@@ -1,17 +1,38 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/category",
-    "value" : "upgradeComponent"
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "Thruster Ship Upgrade"
-  },
-  {
-    "op" : "replace",
-    "path" : "/description",
-    "value" : "Fixes your ships interplanetary thrusters."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/category",
+      "value" : "Upgrade Component"
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "upgradeComponent"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "Thing"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Interplanetary Upgrade"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "Does things"
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "Fixes the user's interplanetary thrusters."
+    }
+  ]
 ]

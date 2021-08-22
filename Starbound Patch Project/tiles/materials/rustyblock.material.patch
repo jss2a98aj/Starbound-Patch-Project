@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/itemDrop",
+    "value" : "rustymetal"
+  },
+  {
+    "op" : "replace",
+    "path" : "/itemDrop",
+    "value" : "rustyblock"
+  }
+]

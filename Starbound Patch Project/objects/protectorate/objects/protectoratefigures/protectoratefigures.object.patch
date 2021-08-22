@@ -1,7 +1,12 @@
 [
   {
+    "op" : "test",
+    "path" : "/shortdescription",
+    "value" : "Protectorate Poptop Toy"
+  },
+  {
     "op" : "replace",
     "path" : "/shortdescription",
-    "value" : "Turtle Plushie And Poptop Figurine"
+    "value" : "Turtle And Poptop Toys"
   }
 ]

@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/groups",
+    "value" : [ "consumables", "side" ]
+  },
+  {
     "op" : "replace",
     "path" : "/groups",
     "value" : [ "craftingmedical", "healing" ]

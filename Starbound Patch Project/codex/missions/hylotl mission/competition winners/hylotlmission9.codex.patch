@@ -1,0 +1,16 @@
+[
+  {
+    "op" : "test",
+    "path" : "/contentPages/3",
+    "value" : "I strode down the hill. They seemed wary of me, but I assured them that I meant no harm. I introduced myself in customary fashion, and they returned with their names, the blue one \"Bonnibel,\" the yellow \"Nym.\" They possessed a most ridiculous accent.
+
+Nym extended his hand, and I, assuming it was a customary greeting, reached out in response. The savage shook my hand with a vigour that  nearly toppled me, the whole exchange quite uncouth."
+  },
+  {
+    "op" : "replace",
+    "path" : "/contentPages/3",
+    "value" : "I strode down the hill. They seemed wary of me, but I assured them that I meant no harm. I introduced myself in customary fashion, and they returned with their names, the blue one \"Bonnibel,\" the yellow \"Nym.\" They possessed a most ridiculous accent.
+
+Nym extended his hand, and I, assuming it was a customary greeting, reached out in response. The savage shook my hand with a vigour that nearly toppled me, the whole exchange quite uncouth."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "^orange;Inventor's Table^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "^orange;Inventor's Table^reset;"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Inventor's Table^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/upgradeStages/0/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Inventor's Table^reset;"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Engineer's Table^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/upgradeStages/1/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Engineer's Table^reset;"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/upgradeStages/2/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Architect's Table^white;"
+    },
+    {
+      "op" : "replace",
+      "path" : "/upgradeStages/2/itemSpawnParameters/shortdescription",
+      "value" : "^orange;Architect's Table^reset;"
+    }
+  ]
+]

@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A decorative crest with colourful wings"
+  },
+  {
     "op" : "replace",
     "path" : "/description",
     "value" : "A decorative crest with colourful wings."

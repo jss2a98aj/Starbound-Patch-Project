@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/humanDescription",
+    "value" : "A spring flower, the climate must be termperate for it to grow."
+  },
+  {
     "op" : "replace",
     "path" : "/humanDescription",
     "value" : "A spring flower, the climate must be temperate for it to grow."

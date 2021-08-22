@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/hylotlDescription",
+    "value" : "The star of the Sol System and a G-type main-sequence star that serves at the accepted interstellar standard for defining solar mass."
+  },
+  {
+    "op" : "replace",
+    "path" : "/hylotlDescription",
+    "value" : "The star of the Sol System and a G-type main-sequence star that serves as the accepted interstellar standard for defining solar mass."
+  }
+]

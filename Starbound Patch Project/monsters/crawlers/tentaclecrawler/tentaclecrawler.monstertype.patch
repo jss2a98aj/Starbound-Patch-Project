@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "add",
-    "path" : "/shortdescription",
-    "value" : "Tentacle Crawler"
-  },
-  {
-    "op" : "add",
-    "path" : "/description",
-    "value" : "This fleshy blob can cling to almost any surface."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "tentaclecrawler"
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Tentacle Crawler"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "The sharp spikes can penetrate any space boot."
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "This fleshy blob can cling to almost any surface."
+    }
+  ]
 ]

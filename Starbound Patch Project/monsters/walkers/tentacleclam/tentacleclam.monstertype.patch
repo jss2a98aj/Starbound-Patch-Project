@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "add",
-    "path" : "/shortdescription",
-    "value" : "Tentacle Clam"
-  },
-  {
-    "op" : "add",
-    "path" : "/description",
-    "value" : "While it resembles a clam, it also shares traits with leeches."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "tentacleclam"
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Tentacle Clam"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "-todo-It looks like a large and chunky leek. It bleeds when you cut it, though."
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "While it resembles a clam, it also shares traits with leeches."
+    }
+  ]
 ]

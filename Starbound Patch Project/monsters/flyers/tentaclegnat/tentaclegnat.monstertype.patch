@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "add",
-    "path" : "/shortdescription",
-    "value" : "Tentacle Gnat"
-  },
-  {
-    "op" : "add",
-    "path" : "/description",
-    "value" : "While individually weak, Tentacle Gnats are almost never alone."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "tentaclegnat"
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Tentacle Gnat"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "-todo-"
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "While individually weak, Tentacle Gnats are almost never alone."
+    }
+  ]
 ]

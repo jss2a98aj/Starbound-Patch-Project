@@ -1,17 +1,38 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/category",
-    "value" : "upgradeComponent"
-  },
-  {
-    "op" : "replace",
-    "path" : "/shortdescription",
-    "value" : "SAIL Reboot Ship Upgrade"
-  },
-  {
-    "op" : "replace",
-    "path" : "/description",
-    "value" : "Reboots your S.A.I.L. without direct interaction."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/category",
+      "value" : "Upgrade Component"
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "upgradeComponent"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "Thing"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "S.A.I.L. Reboot Upgrade"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "Does things"
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "Reboots the user's S.A.I.L."
+    }
+  ]
 ]

@@ -1,0 +1,11 @@
+[
+  {
+    "op" : "test",
+    "path" : "/maxStack",
+    "value" : 1000
+  },
+  {
+    "op" : "remove",
+    "path" : "/maxStack"
+  }
+]

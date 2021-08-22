@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/shortdescription",
+    "value" : "Ophidaunt Skull;"
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Ophidaunt Skull"
+  }
+]

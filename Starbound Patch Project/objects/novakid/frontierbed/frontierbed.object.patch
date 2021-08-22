@@ -1,7 +1,12 @@
 [
   {
+    "op" : "test",
+    "path" : "/humanDescription",
+    "value" : "I... Wonder if this is real animal hide?"
+  },
+  {
     "op" : "replace",
     "path" : "/humanDescription",
-    "value" : "I wonder... is this is real animal hide?"
+    "value" : "I wonder... Is this is real animal hide?"
   }
 ]

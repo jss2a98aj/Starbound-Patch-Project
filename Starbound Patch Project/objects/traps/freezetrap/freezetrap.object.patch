@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/hylotlDescription",
+    "value" : "Ice, water in it's most deadly form."
+  },
+  {
     "op" : "replace",
     "path" : "/hylotlDescription",
     "value" : "Ice, water in its most deadly form."

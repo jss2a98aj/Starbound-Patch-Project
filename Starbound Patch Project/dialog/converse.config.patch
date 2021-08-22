@@ -1,37 +1,86 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/converse/apex/apex/6",
-    "value" : "Your hair is so lush - I wish I could get shampoo that good."
-  },
-  {
-    "op" : "replace",
-    "path" : "/converse/hylotl/floran/24",
-    "value" : "Our peoples were once at war, long, long ago."
-  },
-  {
-    "op" : "replace",
-    "path" : "/converse/hylotl/novakid/5",
-    "value" : "Something tells me I shouldn't have tea with you."
-  },
-  {
-    "op" : "replace",
-    "path" : "/converse/avian/hylotl/8",
-    "value" : "Us Avian aren't innately peaceful, but don't worry, we're not as bad as the Floran."
-  },
-  {
-    "op" : "replace",
-    "path" : "/converse/human/apex/6",
-    "value" : "Aah!!! Oh, sorry - I have an irrational fear of chimpanzees and your face... Sorry..."
-  },
-  {
-    "op" : "replace",
-    "path" : "/converse/glitch/avian/3",
-    "value" : "Pensive. Which of you came first? Your egg or... ERROR"
-  },
-  {
-    "op" : "replace",
-    "path" : "/converse/glitch/floran/10",
-    "value" : "Curious. Do you ever need pruning?"
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/converse/apex/apex/6",
+      "value" : "You're hair is so lush - I wish I could get shampoo that good."
+    },
+    {
+      "op" : "replace",
+      "path" : "/converse/apex/apex/6",
+      "value" : "Your hair is so lush - I wish I could get shampoo that good."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/converse/hylotl/floran/24",
+      "value" : "Our peoples were once at war, long long ago."
+    },
+    {
+      "op" : "replace",
+      "path" : "/converse/hylotl/floran/24",
+      "value" : "Our peoples were once at war, long, long ago."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/converse/hylotl/novakid/5",
+      "value" : "Something tells me a I shouldn't have tea with you."
+    },
+    {
+      "op" : "replace",
+      "path" : "/converse/hylotl/novakid/5",
+      "value" : "Something tells me I shouldn't have tea with you."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/converse/avian/hylotl/8",
+      "value" : "Us Avian aren't innately peaceful, but don't worry, we're not as bad a the Floran."
+    },
+    {
+      "op" : "replace",
+      "path" : "/converse/avian/hylotl/8",
+      "value" : "Us Avian aren't innately peaceful, but don't worry, we're not as bad as the Floran."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/converse/human/apex/6",
+      "value" : "Aah!!! Oh, sorry - I have an irrational fear of chimpanzees and you're face... Sorry..."
+    },
+    {
+      "op" : "replace",
+      "path" : "/converse/human/apex/6",
+      "value" : "Aah!!! Oh, sorry - I have an irrational fear of chimpanzees and your face... Sorry..."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/converse/glitch/avian/3",
+      "value" : "Pensive. Which of you came first? Your egg or.. ERROR"
+    },
+    {
+      "op" : "replace",
+      "path" : "/converse/glitch/avian/3",
+      "value" : "Pensive. Which of you came first? Your egg or... ERROR!"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/converse/glitch/floran/10",
+      "value" : "Curious. Do you you ever need pruning?"
+    },
+    {
+      "op" : "replace",
+      "path" : "/converse/glitch/floran/10",
+      "value" : "Curious. Do you ever need pruning?"
+    }
+  ]
 ]

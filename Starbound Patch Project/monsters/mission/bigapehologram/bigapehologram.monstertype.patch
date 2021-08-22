@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "bigapehologram"
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Big Ape Hologram"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "It's a hologram. A well dressed one, but still just a hologram."
+    }
+  ]
+]

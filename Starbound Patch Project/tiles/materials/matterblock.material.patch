@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/renderParameters/occludesBelow",
+    "value" : true
+  },
+  {
     "op" : "replace",
     "path" : "/renderParameters/occludesBelow",
     "value" : false

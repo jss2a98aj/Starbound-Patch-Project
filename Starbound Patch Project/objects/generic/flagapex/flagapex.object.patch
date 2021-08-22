@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "An Apex flag. The symbol of the Miniknog. Use ^green;[E]^white; to bookmark a teleportation location."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "An Apex flag. The symbol of the Miniknog. Use ^green;[E]^reset; to bookmark a teleportation location."
+  }
+]

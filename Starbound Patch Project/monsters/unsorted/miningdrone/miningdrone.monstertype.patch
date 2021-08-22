@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "--TODO--"
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "It may not be a Dwarf, but it can certainly dig some holes."
+  }
+]

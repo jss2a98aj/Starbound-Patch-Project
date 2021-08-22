@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/dropPools/0/default",
+      "value" : "empty"
+    },
+    {
+        "op" : "replace",
+        "path" : "/dropPools/0/default",
+        "value" : "nutmidgelingTreasure"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/dropPools/0/bow",
+      "inverse" : true
+    },
+    {
+        "op" : "add",
+        "path" : "/dropPools/0/bow",
+        "value" : "nutmidgelingHunting"
+    }
+  ]
+]

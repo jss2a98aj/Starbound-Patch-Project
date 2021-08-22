@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/apexDescription",
+      "value" : "It's laughable to think that humans once thought Jupiter a 'large' planet."
+    },
+    {
+      "op" : "replace",
+      "path" : "/apexDescription",
+      "value" : "It's laughable to think that humans once thought of Jupiter as a 'large' planet."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/hylotlDescription",
+      "value" : "Jupiter, once a regarded as a giant to so many."
+    },
+    {
+      "op" : "replace",
+      "path" : "/hylotlDescription",
+      "value" : "Jupiter, once regarded as a giant by many."
+    }
+  ]
+]

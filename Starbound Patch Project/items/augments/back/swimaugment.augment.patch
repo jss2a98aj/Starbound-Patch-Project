@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A pluggable EPP module that boosts your mobility when swimming."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "An EPP module that boosts your mobility when swimming."
+  }
+]

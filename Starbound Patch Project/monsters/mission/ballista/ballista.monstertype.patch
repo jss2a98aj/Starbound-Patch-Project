@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "Don't get too close or you might get shafted"
+  },
+  {
+    "op" : "add",
+    "path" : "/description",
+    "value" : "Don't get too close or you might get shafted."
+  }
+]

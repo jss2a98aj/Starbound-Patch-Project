@@ -1,7 +1,17 @@
 [
   {
+    "op" : "test",
+    "path" : "/dropConfig/drops/0/0/item",
+    "value" : "rawtentacle"
+  },
+  {
+    "op" : "test",
+    "path" : "/dropConfig/drops/0/0/count",
+    "value" : 0
+  },
+  {
     "op" : "replace",
     "path" : "/dropConfig/drops/0/0/count",
-    "value" : 3
+    "value" : 1
   }
 ]

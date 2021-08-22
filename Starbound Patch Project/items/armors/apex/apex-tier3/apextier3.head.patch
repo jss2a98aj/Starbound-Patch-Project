@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "This cunning headwear leaves only the the eyes visible."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "This cunning headwear leaves only the eyes visible."
+  }
+]

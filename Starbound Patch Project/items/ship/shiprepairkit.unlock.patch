@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "replace",
-    "path" : "/category",
-    "value" : "upgradeComponent"
-  },
-  {
-    "op" : "replace",
-    "path" : "/shipUpgrade",
-    "value" : 2
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/category",
+      "value" : "Upgrade Component"
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "upgradeComponent"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/shipUpgrade",
+      "value" : 1
+    },
+    {
+      "op" : "replace",
+      "path" : "/shipUpgrade",
+      "value" : 2
+    }
+  ]
 ]

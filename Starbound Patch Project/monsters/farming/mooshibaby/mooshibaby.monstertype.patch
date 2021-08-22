@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "Fluffalo Calf"
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Mooshi Calf"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "A newborn fluffalo's diet determines the type it grows into."
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "A healthy young Mooshi can grow into quite the magnificent beast."
+    }
+  ]
+]

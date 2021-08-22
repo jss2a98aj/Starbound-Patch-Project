@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/humanDescription",
+    "value" : "A console made to stand the test of time"
+  },
+  {
+    "op" : "replace",
+    "path" : "/humanDescription",
+    "value" : "A console made to stand the test of time."
+  }
+]

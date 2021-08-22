@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/glitchDescription",
+    "value" : "Informed. A girder made to accommodate adjustments in pressurisation "
+  },
+  {
     "op" : "replace",
     "path" : "/glitchDescription",
     "value" : "Informed. A girder made to accommodate adjustments in pressurisation."

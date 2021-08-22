@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A small, three legged wooden table."
+  },
+  {
     "op" : "replace",
     "path" : "/description",
     "value" : "A small, three-legged wooden table."

@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/animatedParts/parts/head/partStates/body/windup",
+    "inverse" : true
+  },
+  {
     "op" : "add",
     "path" : "/animatedParts/parts/head/partStates/body/windup",
     "value" : { "properties" : { "image" : "<partImage>:fly.<frame>" } }

@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "This sap came from alien wood, it's looks dangerous."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "This sap came from alien wood. It looks dangerous."
+  }
+]

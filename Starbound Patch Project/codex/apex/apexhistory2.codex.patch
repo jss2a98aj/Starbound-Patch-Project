@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "An archive news article from The Daily Peel."
+  },
+  {
     "op" : "replace",
     "path" : "/description",
     "value" : "An archived news article from The Daily Peel."

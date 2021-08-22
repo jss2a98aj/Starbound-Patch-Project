@@ -1,0 +1,13 @@
+//[0, 255, 255, 255] n | humancaptainschair
+[
+  {
+    "op" : "test",
+    "path" : "/blockKey/24/backgroundBlock",
+    "value" : true
+  },
+  {
+    "op" : "replace",
+    "path" : "/blockKey/24/backgroundBlock",
+    "value" : false
+  }
+]

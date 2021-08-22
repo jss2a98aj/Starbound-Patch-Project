@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/avianDescription",
+    "value" : "A storage box made made from copper."
+  },
+  {
+    "op" : "replace",
+    "path" : "/avianDescription",
+    "value" : "A storage box made from copper."
+  }
+]

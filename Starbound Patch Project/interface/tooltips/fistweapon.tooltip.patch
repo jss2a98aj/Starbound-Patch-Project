@@ -1,0 +1,64 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/background/fileBody",
+      "value" : "/interface/tooltips/bodyobjectextended.png"
+    },
+    {
+      "op" : "test",
+      "path" : "/background/fileFooter",
+      "value" : "/interface/tooltips/footerobjectextended.png"
+    },
+    {
+      "op" : "replace",
+      "path" : "/background/fileBody",
+      "value" : "/interface/tooltips/bodyobject3extended.png"
+    },
+    {
+      "op" : "replace",
+      "path" : "/background/fileFooter",
+      "value" : "/interface/tooltips/footerobject3extended.png"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/moneyIcon/position/0",
+      "value" : 107
+    },
+    {
+      "op" : "test",
+      "path" : "/priceLabel/position/0",
+      "value" : 120
+    },
+    {
+      "op" : "replace",
+      "path" : "/moneyIcon/position/0",
+      "value" : 97
+    },
+    {
+      "op" : "replace",
+      "path" : "/priceLabel/position/0",
+      "value" : 110
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/handednessLabel",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/handednessLabel",
+      "value" : {
+        "type" : "label",
+        "position" : [90, 137],
+        "hAnchor" : "right",
+        "centered" : true,
+        "wrapWidth" : 126
+      }
+    }
+  ]
+]

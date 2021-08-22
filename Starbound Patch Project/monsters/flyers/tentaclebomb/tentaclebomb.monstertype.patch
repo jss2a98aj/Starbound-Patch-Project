@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "add",
-    "path" : "/shortdescription",
-    "value" : "Tentacle Bomb"
-  },
-  {
-    "op" : "add",
-    "path" : "/description",
-    "value" : "This creature ends itself in a burst of poison when it encounters foreign life."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "tentaclebomb"
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Tentacle Bomb"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "During storms it attaches itself to trees to not blow away."
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "This creature ends itself in a foul burst when it encounters foreign life."
+    }
+  ]
 ]

@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/shortdescription",
+    "value" : "Protectorate Games Console"
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Games Console"
+  }
+]

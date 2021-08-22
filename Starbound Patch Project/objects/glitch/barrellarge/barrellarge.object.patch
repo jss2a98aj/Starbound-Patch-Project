@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/orientations/0/collision",
+    "inverse" : true
+  },
+  {
     "op" : "add",
     "path" : "/orientations/0/collision",
     "value" : "platform"
