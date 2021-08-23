@@ -1,9 +1,9 @@
-Fixes for bugs that were officially fixed have been dropped from the patch project and are not listed here.
+﻿Fixes for bugs that were officially fixed have been dropped from the patch project and are not listed here.
 
 ////////special thanks////////
 Dracyoshi and Xaliber for allowing fixes from the Parallax Fixes mod to be included.
 Silver Sokolova for providing missing help command documentation and much more.
-Armok, Clank8138, Kherae, lunapanshiel, Prototype99, Ralek_Basa, and Yanazake for additional contributions.
+Armok, Clank8138, Kherae, lunapanshiel, Prototype99, Ralek_Basa, VenZell, and Yanazake for additional contributions.
 
 ////////typos////////
 Misspelled words were corrected in the following:

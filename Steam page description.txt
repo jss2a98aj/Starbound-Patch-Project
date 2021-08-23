@@ -28,7 +28,7 @@ This allows them to stack with ones that have never been placed.
 
 Almost every patch now uses test operations to ensure better compatibility.
 The load priority has been set to be just after the base game for better compatibility.
-Ztarbound/FU ingame changelog integration have been dropped so the new load priority can be used.
+Ztarbound/FU in-game changelog integration have been dropped so the new load priority can be used.
 One upside is that the length of changelog entries no longer have to be constrained to fit the in-game changelog.
 Please note that this changelog entry is not comprehensive due to the number of changes made.
 However, the list of bugs fixed is no longer missing anything and is far more detailed than before. 
@@ -40,4 +40,4 @@ PNGGauntlet has been used on all textures modified by SBPP to reduce file size a
 [url=https://github.com/jss2a98aj/Starbound-Patch-Project]Starbound Patch Project on GitHub[/url]
 [url=https://community.playstarbound.com/resources/starbound-patch-project.5894/]Starbound Patch Project on the Chucklefish Forums[/url]
 
-Contributors: Armok, Clank8138, Dracyoshi, Kherae, lunapanshiel, Prototype99, Ralek_Basa, Silver Sokolova, Xaliber, Yanazake
+Contributors: Armok, Clank8138, Dracyoshi, Kherae, lunapanshiel, Prototype99, Ralek_Basa, Silver Sokolova, VenZell, Xaliber, Yanazake
