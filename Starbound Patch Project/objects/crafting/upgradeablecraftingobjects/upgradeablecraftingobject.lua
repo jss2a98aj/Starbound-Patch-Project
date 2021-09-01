@@ -97,10 +97,12 @@ function die()
   stageData.itemSpawnParameters.startingUpgradeStage = storage.currentStage
   --SBPP - don't add any parameters if the object has not been upgraded so placed and non-placed ones will stack.
   local itemDescriptor
-  if(storage.currentStage == config.getParameter("startingUpgradeStage", 1)) then
-      itemDescriptor = {name = config.getParameter("objectName"), count = 1}
+  local itemName = config.getParameter("objectName")
+  local itemConfig = root.itemConfig(itemName)
+  if itemConfig and (storage.currentStage == (itemConfig.config.startingUpgradeStage or 1)) then
+      itemDescriptor = {name = itemName, count = 1}
   else
-      itemDescriptor = {name = config.getParameter("objectName"), count = 1, parameters = stageData.itemSpawnParameters}
+      itemDescriptor = {name = itemName, count = 1, parameters = stageData.itemSpawnParameters}
   end
   world.spawnItem(itemDescriptor, vec2.add(object.position(), {0, 3}))
 end
