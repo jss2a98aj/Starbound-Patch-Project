@@ -6,6 +6,23 @@ It is safe to install or uninstall this mod at any time.
 
 Recent Changelogs:
 [code]
+-------- 1.5.1 --------
+Several more typos were fixed.
+
+Some references to cut lore were removed thanks to Armok.
+
+The Swansong fight hat timers added to some attacks so they would not get stuck thanks to Kherae.
+
+Several more UI and menu issues were fixed thanks to Silver Sokolova.
+
+Apex City building2clue now has the same loot table fix as its non-clue counterpart.
+
+The Avian and human female body textures each had a miscolored border pixel corrected.
+
+Reverted a fix to upgradeablecraftingobject.lua because it was not working correctly for everyone.
+This fix is likely to return with better implementation later on.
+
+
 -------- 1.5.0 --------
 This update is effectively a total remake of the patch project from the ground up.
 Every single change has been re-evaluated to ensure it is working as intended.

@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/systemNames/368/1",
+      "value" : "Thalia "
+    },
+    {
+      "op" : "replace",
+      "path" : "/systemNames/368/1",
+      "value" : "Thalia"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/systemNames/542/1",
+      "value" : "Waterosa "
+    },
+    {
+      "op" : "replace",
+      "path" : "/systemNames/542/1",
+      "value" : "Waterosa"
+    }
+  ]
+]

@@ -1,0 +1,29 @@
+//Fallback support for mods that change "/interface/collections.png" without including color fixes.
+//Credit for this goes to Silver Sokolova.
+//This is not needed for an "official" fix.
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/mainBar/collections/open",
+      "value" : "/interface/collections.png:open"
+    },
+    {
+      "op" : "replace",
+      "path" : "/mainBar/collections/open",
+      "value" : "/interface/collections.png:open?replace;297e17=7721a0;1a510e=611f88"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/mainBar/collections/openHover",
+      "value" : "/interface/collections.png:openHover"
+    },
+    {
+      "op" : "replace",
+      "path" : "/mainBar/collections/openHover",
+      "value" : "/interface/collections.png:openHover?replace;3ea721=912fca;297e17=7721a0"
+    }
+  ]
+]

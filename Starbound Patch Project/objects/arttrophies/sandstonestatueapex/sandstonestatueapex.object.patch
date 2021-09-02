@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/apexDescription",
+    "value" : "This Apex looks familiar. I think she was a pro-wrestler."
+  },
+  {
+    "op" : "replace",
+    "path" : "/apexDescription",
+    "value" : "This Apex looks familiar. I think he was a pro-wrestler."
+  }
+]

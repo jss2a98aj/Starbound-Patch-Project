@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/shortdescription",
+    "value" : " Explosive Barrel"
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Explosive Barrel"
+  }
+]

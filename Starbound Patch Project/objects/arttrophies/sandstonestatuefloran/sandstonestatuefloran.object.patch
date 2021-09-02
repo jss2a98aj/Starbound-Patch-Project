@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/floranDescription",
+      "value" : "Greenfinger. Ssspecial Floran. Sssmell funny."
+    },
+    {
+      "op" : "replace",
+      "path" : "/floranDescription",
+      "value" : "Firssst Greenfinger. Ssspecial Floran. Sssmell funny."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/glitchDescription",
+      "value" : "Hypothetical. I believe this statue depicts a great Floran leader."
+    },
+    {
+      "op" : "replace",
+      "path" : "/glitchDescription",
+      "value" : "Hypothetical. I believe this statue depicts an important Floran."
+    }
+  ]
+]

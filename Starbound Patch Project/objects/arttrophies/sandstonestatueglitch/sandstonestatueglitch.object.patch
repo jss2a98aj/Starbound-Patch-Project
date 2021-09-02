@@ -1,0 +1,31 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/genericDescription",
+      "inverse" : false
+    },
+    {
+      "op" : "test",
+      "path" : "/avianDescription",
+      "inverse" : true
+    },
+    {
+      "op" : "move",
+      "from": "/genericDescription",
+      "path": "/avianDescription"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/glitchDescription",
+      "value" : "Informed. This statue depicts the first Glitch model, before the self-aware began to modify themselves."
+    },
+    {
+      "op" : "replace",
+      "path" : "/glitchDescription",
+      "value" : "Informed. This statue depicts the first Glitch model."
+    }
+  ]
+]

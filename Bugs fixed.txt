@@ -24,6 +24,7 @@ Misspelled words were corrected in the following:
   •cookedpoultry "Cooked Poultry" description
   //objects
   •cider "Mulled Fruit Drink" Avian description
+  •sandstonestatueapex "Apex Sandstone Statue" Apex description
   •obsidianbookcase "Large Obsidian Bookcase" description
   •flowerspring "Spring Flower" Human description
   •wheatseed "Wheat Seed" Apex description
@@ -65,15 +66,19 @@ Incorrect capitalization was corrected in the following:
   •Space station expansion GUI "Place" button
 
 Erronius or duplicated characters were removed from the following:
+  //celestial
+  •names.config system name fragment three hundred sixty nine "Thalia"
+  •names.config system name fragment five hundred forty three "Waterosa"
+  //codex
+  •glitchhistory7-codex "Filling Up the Tank" page one
   //dialog
   •peacekeeperconverse.config default converse with default six
-  //codex
-  glitchhistory7-codex "Filling Up the Tank" page one
   //items
-  •ophidauntfossil1 "Ophidaunt Skull" description
+  •ophidauntfossil1 "Ophidaunt Skull" name
   •trilobitefossil "Trilobite Fossil" complete set description
   //objects
   •erchiuscrystalsample "Erchius Crystal Sample" description
+  •explosivebarrel "Explosive Barrel" name
   •fossildisplay1 "Small Fossil Display" Floran description
   •steampunkshelf "Steampunk Shelf" Apex description
   //quests
@@ -193,6 +198,7 @@ Missing spaces were added to the following:
   •glitchmissionmanager firstBallista radio message
 
 Missing localization fields were added to the following:
+  •sandstonestatueglitch "Glitch Sandstone Statue" Avian description
   •dirtyfossil2 "Fossil" Apex description
   •dirtyfossil2 "Fossil" Avian description
   •dirtyfossil2 "Fossil" Floran description
@@ -269,6 +275,9 @@ The wording of the following was changed:
   •trilobitefossil "Trilobite Fossil" name now fits in with other fossils.
   •trilobitefossil "Trilobite Fossil" complete set name now fits in with other fossils sets.
   //objects
+  •sandstonestatuefloran "Floran Sandstone Statue" Floran description no longer references cut lore.
+  •sandstonestatuefloran "Floran Sandstone Statue" Glitch description no longer references cut lore.
+  •sandstonestatueglitch "Glitch Sandstone Statue" Glitch description no longer references cut lore.
   •medievallamp "Medieval Lamp" Human description was changed to be much more coherent.
   •prisonshowerdripping "Dripping Rusty Shower" name now matches prisonshower "Rusty Shower"
   •prisonshowerdripping "Dripping Rusty Shower" description now matches prisonshower "Rusty Shower"
@@ -453,18 +462,24 @@ The category assigned to the following things have been corrected so values from
 Problem with the following textures have been fixed:
   //humanoid
   •The Human hairstyle "fem41" had the coloration of a pixel changed so recoloring works correctly.
+  •The Avian female body had a miscolored border pixel corrected.
+  •The Human female body had a miscolored border pixel corrected.
   •The Novakid back arm had a miscolored border pixel corrected.
   •The Novakid front arm had the coloration of a pixel changed so recoloring works correctly.
   //interface
-  •Codex Library UI body drop shadow transparency and color were corrected to match its header and footer.
-  •Invite to Party UI header had a drop shadow added to match its body and footer.
-  •Bounty Board UI footer had a missing pixel added to its outline.
+  •Codex Library menu body drop shadow transparency and color were corrected to match its header and footer.
+  •The Invite to Party menu header had a drop shadow added to match its body and footer.
+  •The Options menu body had the height of its music volume background box changed to match the SFX volume background box .
+  •The Bounty Board menu footer had a missing pixel added to its outline.
+  •The Electric Resistance buff icon has been updated to use the newer Electrified debuff icon as a base.
+  •The button that opens the collections menu now has the correct border color when the UI is open.
   //items
   •apexofficerpants "Officer Trousers" had missing waistband pixels added to two frames.
   •baroncapeback "Baron's Cape" had a wrongly colored and shaped frame fixed.
   •mutantback "Mutagen Back Pipe" had an entire row of missing frames added.
   •humantier5mpants "Trailblazer's Greaves" had the coloration of several pixel changed so recoloring works correctly.
   •novakidsuspenderspants "Suspender Pants" had two missing pixels  added to one frame.
+  •fireblockaugment "Fire Resist Augment" has been shifted one pixel over so it is aligned correctly in EPP tooltips.
   •specialrice "Special Fried Rice" had a missing pixel added to its outline.
   //monsters
   •adultpoptop "Adult Poptop" and motherpoptop "Mother Poptop" had a few miscolored pixels near the mouth corrected.
@@ -552,6 +567,7 @@ Icons were improved for the following:
 ////////creatures and npcs////////
 •A head windup frame was assigned to the sewerfly "Growfly" so its head would not disappear when making ranged attacks.
 •The damage team was removed from bonebird "Bone Bird" so it will not attack other creatures.
+•The Swansong fight hat timers added to some attacks so they would not get stuck.
 
 Outfit items were added to the following NPC types:
   •villager Floran can now spawn with floransurvivalistchest "Survivalist Chest" chest items for consistency.
@@ -897,8 +913,6 @@ Unique descriptions were added to the following:
 •Occlusion has been disabled on material 174 matterblock "Matter Block" because its texture is translucent.
 
 Drops have been changed on the following things:
-  //objects
-  •Objects that use upgradeablecraftingobject.lua and have not been upgraded will no longer drop with parameters so placed and non-placed ones will stack.
   //tiles
   •material 166 rustyblock "Rusty Block" now drops "rustyblock" because some crafting recipes indicate the wrong thing was assigned.
   //trees
@@ -1007,8 +1021,11 @@ Corrected additional discrepancies in the following:
   •floranT8blocks
 
 ////////dungeons////////
-•The bookcase in apexcity building2 now uses the Apex city lore loot pool.
 •avianvillage object layer 3a had a curtain moved by one block so it would be in the proper spot and could rotate the correct direction.
+
+Bookcases in the following dungeon now use lore loot pools:
+  •apexcity building2
+  •apexcity building2clue
 
 ////////user interface////////
 •The shine layer in the Vending Machine interface was set to click through so the items to purchase counter can be typed in.
@@ -1017,9 +1034,15 @@ S.A.I.L static paths were corrected on the following:
   •Floran S.A.I.L. interface
   •Novakid S.A.I.L. interface
 
-Bad text alignment were fixed in the following:
+Alignment was fixed in the following:
   •Fist Weapon item descriptions
   •Shield item descriptions
+  •Options menu SFX label
+  •Options menu SFX value
+  •Options menu music slider
+  •Options menu multiplayer via Steam/Discord label
+  •Options menu controls button
+  •Options menu graphics button
   •Fist Weapon tooltip pixel value
   •Shield tooltip pixel value
 
