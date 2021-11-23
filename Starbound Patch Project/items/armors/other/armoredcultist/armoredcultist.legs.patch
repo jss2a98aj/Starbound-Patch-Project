@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/rarity",
+      "value" : "Common"
+    },
+    {
+      "op" : "replace",
+      "path" : "/rarity",
+      "value" : "Uncommon"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "value" : 0
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 250
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "An armoured cultist's leg armour."
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "A style of leg armour commonly worn by cultist generals."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "Armoured Cultist Greaves"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Cultist General Leg Armour"
+    }
+  ]
+]

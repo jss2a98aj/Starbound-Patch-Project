@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/rarity",
+      "value" : "Common"
+    },
+    {
+      "op" : "replace",
+      "path" : "/rarity",
+      "value" : "Uncommon"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "value" : 0
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 250
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "A cultist breastplate, reinforced with metal made to look like tentacles."
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "A cultist chestpiece, reinforced with metal made to look like tentacles."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "Armoured Cultist Chest"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Cultist General Chestpiece"
+    }
+  ]
+]
