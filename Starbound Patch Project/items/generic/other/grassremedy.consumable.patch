@@ -1,0 +1,11 @@
+[
+  {
+    "op" : "test",
+    "path" : "/handPosition",
+    "inverse" : false
+  },
+  {
+    "op" : "remove",
+    "path" : "/handPosition"
+  }
+]
