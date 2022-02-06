@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/layers/3/objects/5/properties/parameters",
+    "value" : "{\"treasurePools\" :[\"volcanicTreasure\"]}"
+  },
+  {
+    "op" : "replace",
+    "path" : "/layers/3/objects/5/properties/parameters",
+    "value" : "{\"treasurePools\" :[\"volcanicChestTreasure\"]}"
+  }
+]
