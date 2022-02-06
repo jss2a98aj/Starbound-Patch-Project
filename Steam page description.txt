@@ -6,6 +6,30 @@ It is safe to install or uninstall this mod at any time.
 
 Recent Changelogs:
 [code]
+-------- 1.5.2 --------
+Seemingly random black pixels have been removed from the teleport cinematics.
+
+The Armored Cultist/Cultist General set had missing icons, incorrect values, and several other issues fixed.
+
+The eyebrows of the Apex on the Calming Poster are no longer the default color seen on the Apex sprite sheet.
+
+The volcanic chest treasure pool is now used where it was intended, rather than the volcanic treasure pool.
+
+Some safeguards against crashes have been added to the techupgrade.lua file.
+
+The multiplayer menu background no longer has mangled shine and drop shadows.
+
+The Grass Remedy is no held correctly.
+
+The Poison Antidote no longer has a max stack size to match other status cure and resistance items.
+
+The Station Transponder now has the Tool category instead of none.
+
+Even more typos were fixed.
+
+Special thanks to Silver Sokolova, Armok, and rl-starbound for some of the fixes added in this update.
+
+
 -------- 1.5.1 --------
 Several more typos were fixed.
 
@@ -21,37 +45,9 @@ The Avian and human female body textures each had a miscolored border pixel corr
 
 Reverted a fix to upgradeablecraftingobject.lua because it was not working correctly for everyone.
 This fix is likely to return with better implementation later on.
-
-
--------- 1.5.0 --------
-This update is effectively a total remake of the patch project from the ground up.
-Every single change has been re-evaluated to ensure it is working as intended.
-
-Dozens more creatures, including every netable insect, now have names and descriptions.
-Farm animal descriptions even say what items they will produce.
-
-A few monster drop pools have been correctly assigned.
-
-Several more missing and placeholder inventory icons have been added or replaced.
-
-Missing drop shadows, badly offset shine layers, and other UI issues have been fixed.
-
-Several commands that were missing help documentation are now documented thanks to Silver Sokolova.
-
-Items with a stack limit of 1000 (the max with no mods) have had it removed so stack size mods will apply to them.
-
-Upgradable crafting stations that have not been placed but not upgraded no longer have extra data added when broken.
-This allows them to stack with ones that have never been placed.
-
-Almost every patch now uses test operations to ensure better compatibility.
-The load priority has been set to be just after the base game for better compatibility.
-Ztarbound/FU in-game changelog integration have been dropped so the new load priority can be used.
-One upside is that the length of changelog entries no longer have to be constrained to fit the in-game changelog.
-Please note that this changelog entry is not comprehensive due to the number of changes made.
-However, the list of bugs fixed is no longer missing anything and is far more detailed than before. 
 [/code]
 
-PNGGauntlet has been used on all textures modified by SBPP to reduce file size and improve load times.
+PNGGauntlet has been used on all textures modified by the SBPP to reduce file size and improve load times.
 
 [url=https://www.nexusmods.com/starbound/mods/842]Starbound Patch Project on the Nexus[/url]
 [url=https://github.com/jss2a98aj/Starbound-Patch-Project]Starbound Patch Project on GitHub[/url]

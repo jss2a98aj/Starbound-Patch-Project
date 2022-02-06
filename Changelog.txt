@@ -1,3 +1,27 @@
+-------- 1.5.2 --------
+Seemingly random black pixels have been removed from the teleport cinematics.
+
+The Armored Cultist/Cultist General set had missing icons, incorrect values, and several other issues fixed.
+
+The eyebrows of the Apex on the Calming Poster are no longer the default color seen on the Apex sprite sheet.
+
+The volcanic chest treasure pool is now used where it was intended, rather than the volcanic treasure pool.
+
+Some safeguards against crashes have been added to the techupgrade.lua file.
+
+The multiplayer menu background no longer has mangled shine and drop shadows.
+
+The Grass Remedy is no held correctly.
+
+The Poison Antidote no longer has a max stack size to match other status cure and resistance items.
+
+The Station Transponder now has the Tool category instead of none.
+
+Even more typos were fixed.
+
+Special thanks to Silver Sokolova, Armok, and rl-starbound for some of the fixes added in this update.
+
+
 -------- 1.5.1 --------
 Several more typos were fixed.
 

@@ -3,7 +3,7 @@
 ////////special thanks////////
 Dracyoshi and Xaliber for allowing fixes from the Parallax Fixes mod to be included.
 Silver Sokolova for providing missing help command documentation and much more.
-Armok, Clank8138, Kherae, lunapanshiel, Prototype99, Ralek_Basa, VenZell, and Yanazake for additional contributions.
+Armok, Clank8138, Kherae, lunapanshiel, Prototype99, Ralek_Basa, rl-starbound, VenZell, and Yanazake for additional contributions.
 
 ////////typos////////
 Misspelled words were corrected in the following:
@@ -26,6 +26,14 @@ Misspelled words were corrected in the following:
   •cider "Mulled Fruit Drink" Avian description
   •sandstonestatueapex "Apex Sandstone Statue" Apex description
   •obsidianbookcase "Large Obsidian Bookcase" description
+  •eyechair "Eye Chair" Apex description
+  •eyechair "Eye Chair" Hylotl description
+  •eyedoor "Eye Door" description
+  •eyedoor "Eye Door" Avian description
+  •eyetable "Eye Table" description
+  •eyetable "Eye Table" Floran description
+  •eyetable "Eye Table" Glitch description
+  •eyetable "Eye Table" Hylotl description
   •flowerspring "Spring Flower" Human description
   •wheatseed "Wheat Seed" Apex description
   •wildwheatseed "Wheat Seed" Apex description
@@ -95,6 +103,7 @@ Erronius or duplicated words were removed from the following:
   •spaceconverse.config Apex converse with Apex eight
   //items
   •apextier3head "Insurgent's Mask" description
+  •currentcorn "Currentcorn" description
   //objects
   •geodechair "Geode Chair" Glitch description
   •hivetable "Hive Table" Apex description
@@ -134,6 +143,9 @@ Missing punctuation was added to the following:
   •Space station expansion GUI no part selected description
   •Bounty board GUI assignment not ready text
   //items
+  •stationtram "Rail Tram" description
+  •floranfossil2 "Floran Torso" description
+  •floranfossil3 "Floran Legs" description
   •alienwoodsap "Alien Wood Sap" description
   •brainsblock "Brains" description
   //monsters
@@ -265,6 +277,10 @@ The wording of the following was changed:
   •alpacaguardchest "Alien Alpaca Guard Real Chest" name now fits in with the other Alien Alpaca Real armor.
   •alpacaguardhead "Alien Alpaca Guard Real Head" name now fits in with the other Alien Alpaca Real armor.
   •alpacaguardlegs "Alien Alpaca Guard Real Legs" name now fits in with the other Alien Alpaca Real armor.
+  •armoredcultistchest "Cultist General Chestpiece" name now fits in with the other Cultist General armor.
+  •armoredcultistchest "Cultist General Chestpiece" description now fits in with the other Cultist General armor.
+  •armoredcultistlegs "Cultist General Leg Armour" name now fits in with the other Cultist General armor.
+  •armoredcultistlegs "Cultist General Leg Armour" description now fits in with the other Cultist General armor.
   •swimaugment "Swimming Augment" description now fits in with other augments.
   •fungusstim "Fungus Stim Pack" name now fits in with other simpacks.
   •fungusstim "Fungus Stim Pack" description now fits in with other simpacks.
@@ -325,6 +341,7 @@ The category assigned to the following things have been corrected so values from
   •mechblueprint4 "Advanced Mech Blueprint" was set to "blueprint"
   •mechblueprint5 "High-Tech Mech Blueprint" was set to "blueprint"
   •mechblueprint6 "Experimental Mech Blueprint" was set to "blueprint"
+  •stationtransponder "Station Transponder" was set to "tool"
   •miningdrone "Mining Drone" was set to "drone"
   •portable3dprinter "Portable Pixel Printer" was set to "other"
   •climbingrope "Rope" was set to "tool"
@@ -460,6 +477,8 @@ The category assigned to the following things have been corrected so values from
 
 ////////textures////////
 Problem with the following textures have been fixed:
+  //cinematics
+  •The starfield1 layer used in teleport cinematics had erroneous black pixels removed.
   //humanoid
   •The Human hairstyle "fem41" had the coloration of a pixel changed so recoloring works correctly.
   •The Avian female body had a miscolored border pixel corrected.
@@ -473,12 +492,15 @@ Problem with the following textures have been fixed:
   •The Bounty Board menu footer had a missing pixel added to its outline.
   •The Electric Resistance buff icon has been updated to use the newer Electrified debuff icon as a base.
   •The button that opens the collections menu now has the correct border color when the UI is open.
+  •The server info background had erroneous sections of the drop shadow and shine corrected.
   //items
   •apexofficerpants "Officer Trousers" had missing waistband pixels added to two frames.
   •baroncapeback "Baron's Cape" had a wrongly colored and shaped frame fixed.
+  •chiliseed "Chilli Seed" had a missing pixel added to its outline.
   •mutantback "Mutagen Back Pipe" had an entire row of missing frames added.
   •humantier5mpants "Trailblazer's Greaves" had the coloration of several pixel changed so recoloring works correctly.
-  •novakidsuspenderspants "Suspender Pants" had two missing pixels  added to one frame.
+  •novakidsuspenderspants "Suspender Pants" had two missing pixels added to one frame.
+  •armoredcultistchest "Cultist General Chestpiece" male and female torso had adjustments so body parts would not hang out on many frames.
   •fireblockaugment "Fire Resist Augment" has been shifted one pixel over so it is aligned correctly in EPP tooltips.
   •specialrice "Special Fried Rice" had a missing pixel added to its outline.
   //monsters
@@ -488,6 +510,7 @@ Problem with the following textures have been fixed:
   •giantflowerchest "Giant Flower Chest" open frames were changed to match its closed state.
   •craftingwheel "Sewing Machine" had miscolored pixels on some  frames corrected.
   •thornplant "Thorny Plant" had a frame that was copy-pasted twice with one pixel of offset corrected.
+  •bunkerposter2 "Calming Poster" had eyebrows that were the same color as seen on the Apex sprite sheet.
   •09back "Protectorate Background" had stairs removed because tile based stairs were also used in the starting mission.
   •14back "Protectorate Background" had stairs removed because tile based stairs were also used in the starting mission.
   •techstation "S.A.I.L" had several corrections mate to it lighting texture.
@@ -515,6 +538,8 @@ New icons were made for the following things with missing or placeholder icons:
   •alpacaguardchest "Alien Alpaca Guard Real Chest"
   •alpacaguardhead "Alien Alpaca Guard Real Head"
   •alpacaguardlegs "Alien Alpaca Guard Real Legs"
+  •armoredcultistchest "Cultist General Chestpiece"
+  •armoredcultistlegs "Cultist General Leg Armour"
   //objects
   •copperrock "Copper Rock"
   •copperrocksmall "Small Copper Rock"
@@ -901,16 +926,26 @@ Unique descriptions were added to the following:
 
 ////////objects and items////////
 //codex
-•humanhistory10 "It's Not a Bug, It's a Creature" is no longer missing two insect names and descriptions.
+•humanhistory10 "It's Not a Bug, It's a Creature" is no longer missing two insects names and descriptions.
 //items
 •The stack size of wateringcan "Watering Can" was limited to 1 for consistency and to prevent a rare save corrupting crash.
-•The rarity of the cardboardboxarmor "Cardboard Box Armor" was changed to legendary to match cardboardhead "Cardboard Hat"
+•Weapons that use laserbeam.lua will no longer have thier laser show if the weapon body is in a wall but the muzzle is not.
+•Weapons that use beamfire.lua will no longer be able to fire while the weapon body is in a wall even if the muzzle is not.
+•Weapons that use gunfire.lua will no longer be able to fire while the weapon body is in a wall even if the muzzle is not.
+•The stack size of antidote "Poison Antidote" has been removed to match other status cure and resistance items.
 •Increased the ship tier given by FTLrepairkit "FTL Repair Kit" to 3 so it actually fixes the FTL drive.
 •Increased the ship tier given by shiprepairkit "Ship Repair Kit" to 2 so it actually fixes the thrusters.
 //objects
 •wiredcustomsign "Sign" now hides its edges when placed next to a customsign "Sign" or itself.
 //tiles
 •Occlusion has been disabled on material 174 matterblock "Matter Block" because its texture is translucent.
+
+Rarities have been changed on the following things:
+  •cardboardboxarmor "Cardboard Box Armor" to legendary to match cardboardhead "Cardboard Hat"
+  •armoredcultistback "Cultist General Tentacles" to uncommon to match other instance dungeon armors.
+  •armoredcultistchest "Cultist General Chestpiece" to uncommon to match other instance dungeon armors.
+  •armoredcultisthead "Cultist General Hood" to uncommon to match other instance dungeon armors.
+  •armoredcultistlegs "Cultist General Leg Armour" to uncommon to match other instance dungeon armors.
 
 Drops have been changed on the following things:
   //tiles
@@ -962,8 +997,13 @@ The pixel values of the following items were adjusted:
   •barrelhead "Barrel Lid" from 0 to 2500 matching other rare cosmetic armors.
   •cardboardboxarmor "Cardboard Box Armor" from 0 to 5000 matching other legendary cosmetic armors.
   •georgedevhead "George's Foxy Glasses" from 0 to 5000 matching other legendary cosmetic armors.
+  •armoredcultistback "Cultist General Tentacles" from 0 to 250 matching other instance dungeon armors.
+  •armoredcultistchest "Cultist General Chestpiece" from 0 to 250 matching other instance dungeon armors.
+  •armoredcultisthead "Cultist General Hood" from 0 to 250 matching other instance dungeon armors.
+  •armoredcultistlegs "Cultist General Leg Armour" from 0 to 250 matching other instance dungeon armors.
 
 Bad hand positions were corrected on the following:
+  •grassremedy "Grass Remedy"
   •fungusstim "Fungus Stim Pack"
   •shroomremedy "Shroom Remedy"
   •synthesisstim "Synthesis Stim Pack"
@@ -1023,12 +1063,38 @@ Corrected additional discrepancies in the following:
 ////////dungeons////////
 •avianvillage object layer 3a had a curtain moved by one block so it would be in the proper spot and could rotate the correct direction.
 
-Bookcases in the following dungeon now use lore loot pools:
+Bookcases in the following dungeons now use lore loot pools:
   •apexcity building2
   •apexcity building2clue
+ 
+Chests in the following dungeons now use chest loot pools:
+  •volcanicmicrodungeons volcano_arch1
+  •volcanicmicrodungeons volcano_arch2
+  •volcanicmicrodungeons volcano_archleft1
+  •volcanicmicrodungeons volcano_archleft2
+  •volcanicmicrodungeons volcano_archright1
+  •volcanicmicrodungeons volcano_cave1
+  •volcanicmicrodungeons volcano_flametrap1
+  •volcanicmicrodungeons volcano_hidenpitchest1
+  •volcanicmicrodungeons volcano_hidenpitchest2
+  •volcanicmicrodungeons volcano_hidenpitchest3
+  •volcanicmicrodungeons volcano_hidenpitchest4
+  •volcanicmicrodungeons volcano_monsterchest1
+  •volcanicmicrodungeons volcano_pitchest1
+  •volcanicmicrodungeons volcano_pitchest2
+  •volcanicmicrodungeons volcano_pitchest3
+  •volcanicmicrodungeons volcano_pitchest4
+  •volcanicmicrodungeons volcano1
+  •volcanicmicrodungeons volcanodeep2
+  •volcanicmicrodungeons volcanodeepslates
+  •volcanicmicrodungeons volcanodeeptreasure
+  •volcanicmicrodungeons volcanopass
+  •volcanicmicrodungeons volcanotalltreasure
 
 ////////user interface////////
 •The shine layer in the Vending Machine interface was set to click through so the items to purchase counter can be typed in.
+
+•Interfaces using the techupgrade.lua script will no longer cause an error if new techs are unlocked after initialization.
 
 S.A.I.L static paths were corrected on the following:
   •Floran S.A.I.L. interface
@@ -1074,7 +1140,7 @@ Corrections were made to the following parallax textures:
   •grassrare base 2 now uses the colors expected for its parallax layer, is shaded, and no longer has cutoffs.
   •grassrare base 3 now uses the colors expected for its parallax layer.
   •grassrare base 4 now uses the colors expected for its parallax layer.
-  •moon9 base 1  no longer has a full width horizontal cut.
+  •moon9 base 1 no longer has a full width horizontal cut.
   •moonpeach base 1 no longer has a solid stripe that appears behind the moon9 layer.
 
 ////////commands////////

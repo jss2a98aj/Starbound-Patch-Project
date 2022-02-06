@@ -6,6 +6,6 @@
   "name" : "DoNotAddToIncludesOrRequiresStarboundPatchProject",
   "priority" : -9980,
   "steamContentId" : "1543219534",
-  "tags" : "Crafting and Building|Miscellaneous|Planets and Environments|NPCs and Creatures|Quests|Dungeons|Ships|Species|User Interface|Furniture and Objects|Food and Farming|Armor and Clothes",
-  "version" : "1.5.1"
+  "tags" : "Crafting and Building|Miscellaneous|Planets and Environments|NPCs and Creatures|Weapons|Quests|Dungeons|Ships|Species|User Interface|Furniture and Objects|Food and Farming|Armor and Clothes",
+  "version" : "1.5.2"
 }
