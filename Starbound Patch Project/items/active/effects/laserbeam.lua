@@ -23,6 +23,7 @@ function update()
     local lineEnd = vec2.mul(aimVector, maxLength)
 
     local blocks = world.collisionBlocksAlongLine(beamPosition, vec2.add(beamPosition, lineEnd))
+    --SBPP - Prevents the laser from showing if the gun's body is in a wall but the muzzle is not.
     if world.lineTileCollision(activeItemAnimation.ownerPosition(), beamPosition) then
       lineEnd = {0, 0}
     elseif #blocks > 0 then

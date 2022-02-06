@@ -11,7 +11,7 @@ Several more typos were fixed.
 
 Some references to cut lore were removed thanks to Armok.
 
-The Swansong fight hat timers added to some attacks so they would not get stuck thanks to Kherae.
+The Swansong fight had timers added to some attacks so they would not get stuck thanks to Kherae.
 
 Several more UI and menu issues were fixed thanks to Silver Sokolova.
 
@@ -57,4 +57,4 @@ PNGGauntlet has been used on all textures modified by SBPP to reduce file size a
 [url=https://github.com/jss2a98aj/Starbound-Patch-Project]Starbound Patch Project on GitHub[/url]
 [url=https://community.playstarbound.com/resources/starbound-patch-project.5894/]Starbound Patch Project on the Chucklefish Forums[/url]
 
-Contributors: Armok, Clank8138, Dracyoshi, Kherae, lunapanshiel, Prototype99, Ralek_Basa, Silver Sokolova, VenZell, Xaliber, Yanazake
+Contributors: Armok, Clank8138, Dracyoshi, Kherae, lunapanshiel, Prototype99, Ralek_Basa, rl-starbound, Silver Sokolova, VenZell, Xaliber, Yanazake
