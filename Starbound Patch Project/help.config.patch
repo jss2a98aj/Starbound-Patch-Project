@@ -14,7 +14,7 @@
     {
       "op" : "test",
       "path" : "/debugCommands/monochromelighting",
-      "inverse" :true
+      "inverse" : true
     },
     {
       "op" : "add",
@@ -26,7 +26,7 @@
     {
       "op" : "test",
       "path" : "/adminCommands/addbiomeregion",
-      "inverse" :true
+      "inverse" : true
     },
     {
       "op" : "add",
@@ -38,7 +38,7 @@
     {
       "op" : "test",
       "path" : "/adminCommands/expandbiomeregion",
-      "inverse" :true
+      "inverse" : true
     },
     {
       "op" : "add",
@@ -50,7 +50,7 @@
     {
       "op" : "test",
       "path" : "/adminCommands/updateplanettype",
-      "inverse" :true
+      "inverse" : true
     },
     {
       "op" : "add",
@@ -62,7 +62,7 @@
     {
       "op" : "test",
       "path" : "/adminCommands/setenvironmentbiome",
-      "inverse" :true
+      "inverse" : true
     },
     {
       "op" : "add",
@@ -74,7 +74,7 @@
     {
       "op" : "test",
       "path" : "/adminCommands/setdungeonid",
-      "inverse" :true
+      "inverse" : true
     },
     {
       "op" : "add","path" : "/debugCommands/setdungeonid",
