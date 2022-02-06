@@ -11,7 +11,7 @@ Some safeguards against crashes have been added to the techupgrade.lua file.
 
 The multiplayer menu background no longer has mangled shine and drop shadows.
 
-The Grass Remedy is no held correctly.
+The Grass Remedy is now held correctly.
 
 The Poison Antidote no longer has a max stack size to match other status cure and resistance items.
 
