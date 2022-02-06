@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "A door covered in eyes. Don't blink."
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "A door with a large eye. Don't blink."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/avianDescription",
+      "value" : "This eye emanate malevolence. What horrors lie beyond?"
+    },
+    {
+      "op" : "replace",
+      "path" : "/avianDescription",
+      "value" : "This eye emanates malevolence. What horrors lie beyond?"
+    }
+  ]
+]

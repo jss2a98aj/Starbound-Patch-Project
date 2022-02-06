@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/apexDescription",
+      "value" : "I feel like I should be checking this eye for hidden Miniknog cameras."
+    },
+    {
+      "op" : "replace",
+      "path" : "/apexDescription",
+      "value" : "I feel like I should be checking the eyes for hidden Miniknog cameras."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/hylotlDescription",
+      "value" : "A bizarre yet comfortable chair. It has an eye on it."
+    },
+    {
+      "op" : "replace",
+      "path" : "/hylotlDescription",
+      "value" : "A bizarre yet comfortable chair. It has eyes on it."
+    }
+  ]
+]

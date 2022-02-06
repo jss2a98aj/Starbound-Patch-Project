@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "An eye table. Not good for people wearing skirts."
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "An eye covered table. Not good for people wearing skirts."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/floranDescription",
+      "value" : "Floran sssit under table and ssshare meat with eye."
+    },
+    {
+      "op" : "replace",
+      "path" : "/floranDescription",
+      "value" : "Floran sssit under table and ssshare meat with eyes."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/glitchDescription",
+      "value" : "Observant. This eyeball seems to allow the table to rotate. Perhaps to share side dishes?"
+    },
+    {
+      "op" : "replace",
+      "path" : "/glitchDescription",
+      "value" : "Observant. The eyeballs seem to allow the table to rotate. Perhaps to share side dishes?"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/hylotlDescription",
+      "value" : "An overly decorated table. The eye adds nothing. The craftsman got carried away."
+    },
+    {
+      "op" : "replace",
+      "path" : "/hylotlDescription",
+      "value" : "An overly decorated table. The eyes add nothing. The craftsman got carried away."
+    }
+  ]
+]
