@@ -61,24 +61,26 @@ function populateTechList(slot)
   util.appendLists(techs, disabled)
 
   for _,techName in pairs(techs) do
-    --SBPP - Prevents an error when unlocking a tech using an external source while the GUI is open. Credit goes to Silver Sokolova for this.
+    --SBPP - Prevents an error if new techs were unlocked after init. Credit goes to Silver Sokolova for this.
     if not self.techs[techName] then
-      self.techs[techName] = root.techConfig(techName)
+      self.techs[techName] = root.hasTech(techName) and root.techConfig(techName)
     end
-    local config = self.techs[techName]
-    if root.techType(techName) == slot then
-      local listItem = widget.addListItem(self.techList)
-      widget.setText(string.format("%s.%s.techName", self.techList, listItem), config.shortDescription)
-      widget.setData(string.format("%s.%s", self.techList, listItem), techName)
+    if root.hasTech(techName) then
+      local config = self.techs[techName]
+      if root.techType(techName) == slot then
+        local listItem = widget.addListItem(self.techList)
+        widget.setText(string.format("%s.%s.techName", self.techList, listItem), config.shortDescription)
+        widget.setData(string.format("%s.%s", self.techList, listItem), techName)
 
-      if contains(player.enabledTechs(), techName) then
-        widget.setImage(string.format("%s.%s.techIcon", self.techList, listItem), config.icon)
-      else
-        widget.setImage(string.format("%s.%s.techIcon", self.techList, listItem), self.techLockedIcon)
-      end
+         if contains(player.enabledTechs(), techName) then
+          widget.setImage(string.format("%s.%s.techIcon", self.techList, listItem), config.icon)
+        else
+          widget.setImage(string.format("%s.%s.techIcon", self.techList, listItem), self.techLockedIcon)
+        end
 
-      if player.equippedTech(slot) == techName then
-        widget.setListSelected(self.techList, listItem)
+        if player.equippedTech(slot) == techName then
+          widget.setListSelected(self.techList, listItem)
+        end
       end
     end
   end
