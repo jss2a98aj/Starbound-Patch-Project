@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "An old fashioned spacesuit chest piece!  Looks bulky."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "An old fashioned spacesuit chest piece! Looks bulky."
+  }
+]
