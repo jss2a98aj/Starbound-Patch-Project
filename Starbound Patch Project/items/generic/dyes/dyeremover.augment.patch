@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/price",
+      "value" : 25
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "Apply this dye remover to any clothing with a right-click to restore its base colour"
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "Apply this dye remover to any clothing with a right-click to restore its base colour."
+    }
+  ]
+]
