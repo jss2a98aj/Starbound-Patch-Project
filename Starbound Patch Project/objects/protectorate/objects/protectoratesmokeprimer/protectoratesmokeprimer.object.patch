@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/glitchDescription",
+    "value" : "Confused. This smoke must have a origin."
+  },
+  {
+    "op" : "replace",
+    "path" : "/glitchDescription",
+    "value" : "Confused. This smoke must have an origin."
+  }
+]
