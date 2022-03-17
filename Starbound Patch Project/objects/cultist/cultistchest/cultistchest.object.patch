@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/slotCount",
+    "value" : 16
+  },
+  {
+    "op" : "replace",
+    "path" : "/slotCount",
+    "value" : 24
+  }
+]
