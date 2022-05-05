@@ -26,18 +26,6 @@
   [
     {
       "op" : "test",
-      "path" : "/completeArrest/glitch/default/1",
-      "value" : "Worried. I won't fit in in prison! I regret my actions gravely!"
-    },
-    {
-      "op" : "replace",
-      "path" : "/completeArrest/glitch/default/1",
-      "value" : "Worried. I won't fit in prison! I regret my actions gravely!"
-    }
-  ],
-  [
-    {
-      "op" : "test",
       "path" : "/completeArrest/glitch/default/4",
       "value" : "Embarassed. How did I end up like this?"
     },
