@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "test",
+    "path" : "/gui/imgSelected/zLevel",
+    "inverse" : false
+  },
+  {
+    "op" : "test",
+    "path" : "/gui/imgSelected/zlevel",
+    "inverse" : true
+  },
+  {
+    "op" : "move",
+    "from" : "/gui/imgSelected/zLevel",
+    "path" : "/gui/imgSelected/zlevel"
+  }
+]
