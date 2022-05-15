@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A square of soft, lustrous silk"
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "A square of soft, lustrous silk."
+  }
+]
