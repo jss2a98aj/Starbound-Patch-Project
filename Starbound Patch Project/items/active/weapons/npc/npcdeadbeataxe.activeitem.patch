@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/builderConfig/0/animationParts/blade/variants",
+    "value" : 1
+  },
+  {
+    "op" : "replace",
+    "path" : "/builderConfig/0/animationParts/blade/variants",
+    "value" : 2
+  }
+]
