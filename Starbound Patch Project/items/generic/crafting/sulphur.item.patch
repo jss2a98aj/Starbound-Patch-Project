@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "Sulphur, a surprisingly useful compound."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "Sulphur, a surprisingly useful element."
+  }
+]
