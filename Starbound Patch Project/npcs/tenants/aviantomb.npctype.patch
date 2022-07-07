@@ -1,19 +1,17 @@
 [
-  [
-    {
-      "op" : "test",
-      "path" : "/dialog",
-      "inverse" : false
-    },
-    {
-      "op" : "test",
-      "path" : "/scriptConfig/dialog",
-      "inverse" : true
-    },
-    {
-      "op" : "move",
-      "from": "/dialog",
-      "path": "/scriptConfig/dialog"
-    }
-  ]
+  {
+    "op" : "test",
+    "path" : "/dialog",
+    "inverse" : false
+  },
+  {
+    "op" : "test",
+    "path" : "/scriptConfig/dialog",
+    "inverse" : true
+  },
+  {
+    "op" : "move",
+    "from" : "/dialog",
+    "path" : "/scriptConfig/dialog"
+  }
 ]
