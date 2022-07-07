@@ -1,0 +1,11 @@
+[
+  {
+    "op" : "test",
+    "path" : "/statusEffects/0",
+    "value" : "glow"
+  },
+  {
+    "op" : "remove",
+    "path" : "/statusEffects/0"
+  }
+]
