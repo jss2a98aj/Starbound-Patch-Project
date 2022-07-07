@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/humanDescription",
+    "value" : "Pink sunsets and palm trees "
+  },
+  {
+    "op" : "replace",
+    "path" : "/humanDescription",
+    "value" : "Pink sunsets and palm trees."
+  }
+]
