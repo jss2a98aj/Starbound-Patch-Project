@@ -592,7 +592,7 @@ Icons were improved for the following:
 ////////creatures and npcs////////
 •A head windup frame was assigned to the sewerfly "Growfly" so its head would not disappear when making ranged attacks.
 •The damage team was removed from bonebird "Bone Bird" so it will not attack other creatures.
-•The Swansong fight hat timers added to some attacks so they would not get stuck.
+•The Swansong fight had timers added to some attacks so they would not get stuck.
 
 Outfit items were added to the following NPC types:
   •villager Floran can now spawn with floransurvivalistchest "Survivalist Chest" chest items for consistency.
@@ -1036,7 +1036,7 @@ Added missing hazard walls to the following:
   •floranT7blocks
   •novakidT5blocks
 
-Redundant doors placements on that could destroy objects were fixed on the following ship types:
+Redundant doors placements that could destroy objects were fixed on the following ship types:
 This was done by using the broken versions of doors at T0 and none at T2.
   •Apex
   •Avian
@@ -1061,7 +1061,7 @@ Corrected additional discrepancies in the following:
   •floranT8blocks
 
 ////////dungeons////////
-•avianvillage object layer 3a had a curtain moved by one block so it would be in the proper spot and could rotate the correct direction.
+•avianvillage object layer 3a had a curtain moved by one block so it would be in the proper spot and rotate the correct direction.
 
 Bookcases in the following dungeons now use lore loot pools:
   •apexcity building2
