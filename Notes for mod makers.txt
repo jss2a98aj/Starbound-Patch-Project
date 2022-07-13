@@ -1,1 +1,0 @@
-Do not add the Starbound Patch Project to "includes" or "requires" fields, it is very likely to introduce conflicts.
