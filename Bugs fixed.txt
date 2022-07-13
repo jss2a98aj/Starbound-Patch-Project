@@ -51,6 +51,7 @@ Misspelled words were corrected in the following:
   •frontiercoffin "Frontier Coffin" Floran description
   •safe "Safe" description
   •officecomputer "Office Computer" Human description
+  •protectoratesmokeprimer "smoke" Glitch description
   •sunmodel "Sol Model" Hylotl description
   •uranusmodel "Uranus Model" Hylotl description
   •geometricswitch "Geometric Console" description
@@ -82,6 +83,8 @@ Erronius or duplicated characters were removed from the following:
   //dialog
   •peacekeeperconverse.config default converse with default six
   //items
+  •spacesuitchest "Spacesuit Chest" description
+  •spacesuithead "Space Helmet" description
   •ophidauntfossil1 "Ophidaunt Skull" name
   •trilobitefossil "Trilobite Fossil" complete set description
   //objects
@@ -96,7 +99,6 @@ Erronius or duplicated characters were removed from the following:
 
 Erronius or duplicated words were removed from the following:
   //dialog
-  •bountytarget.config Glitch completed arrest default two
   •converse.config Hylotl converse with Novakid six
   •converse.config Glitch converse with Floran eleven
   •peacekeeperconverse.config default converse with default thirteen
@@ -124,6 +126,7 @@ Erronius or duplicated words were removed from the following:
   •hylotl_mission1 "Find Clues to Locate the Hylotl Artifact" complete at start text
 
 Missing words were added to the following:
+  •barrellarge "Large Barrel" description
   •fridge "Full-Size Fridge" Apex description
   •jupitermodel "Jupiter Model" Apex description
   •saturnmodel "Saturn Model" Apex description
@@ -143,6 +146,8 @@ Missing punctuation was added to the following:
   •Space station expansion GUI no part selected description
   •Bounty board GUI assignment not ready text
   //items
+  •silk "Silk" description
+  •dyeremover "Dye Remover" description
   •stationtram "Rail Tram" description
   •floranfossil2 "Floran Torso" description
   •floranfossil3 "Floran Legs" description
@@ -171,6 +176,7 @@ Missing punctuation was added to the following:
   •librarybookcaseN2damage "Damaged Bookcase" description
   •customsign "Sign" description
   •wiredcustomsign "Sign" description
+  •peacekeeperpainting "Peacekeeper Painting" Human description
   •railbumper "Rail Bumper" description
   •railsensor "Rail Sensor" description
   •railstop "Rail Stop" description
@@ -282,6 +288,7 @@ The wording of the following was changed:
   •armoredcultistlegs "Cultist General Leg Armour" name now fits in with the other Cultist General armor.
   •armoredcultistlegs "Cultist General Leg Armour" description now fits in with the other Cultist General armor.
   •swimaugment "Swimming Augment" description now fits in with other augments.
+  •sulphur "Sulphur" description now refers to itself as an element instead of a compound.
   •fungusstim "Fungus Stim Pack" name now fits in with other simpacks.
   •fungusstim "Fungus Stim Pack" description now fits in with other simpacks.
   •synthesisstim "Synthesis Stim Pack" name now fits in with other simpacks.
@@ -490,12 +497,17 @@ Problem with the following textures have been fixed:
   •The Invite to Party menu header had a drop shadow added to match its body and footer.
   •The Options menu body had the height of its music volume background box changed to match the SFX volume background box .
   •The Bounty Board menu footer had a missing pixel added to its outline.
+  •The Tech Upgrade Novakid female body highlight had an inconsistency corrected.
+  •The Songbook scroll background had erroneous pixels removed.
   •The Electric Resistance buff icon has been updated to use the newer Electrified debuff icon as a base.
   •The button that opens the collections menu now has the correct border color when the UI is open.
   •The server info background had erroneous sections of the drop shadow and shine corrected.
   //items
+  •npcdeadbeataxe "NPC Deadbeat Axe" texture two was shifted by two pixels so it is held correctly.
+  •eyehead2 "Terrifying Eye Hat" had its icon shifted by one pixel so it does not get cut off.
   •apexofficerpants "Officer Trousers" had missing waistband pixels added to two frames.
   •baroncapeback "Baron's Cape" had a wrongly colored and shaped frame fixed.
+  •novakidjacketpants "Rustler Cut-offs" had a missing pixel added to one frame.
   •chiliseed "Chilli Seed" had a missing pixel added to its outline.
   •mutantback "Mutagen Back Pipe" had an entire row of missing frames added.
   •humantier5mpants "Trailblazer's Greaves" had the coloration of several pixel changed so recoloring works correctly.
@@ -506,14 +518,18 @@ Problem with the following textures have been fixed:
   //monsters
   •adultpoptop "Adult Poptop" and motherpoptop "Mother Poptop" had a few miscolored pixels near the mouth corrected.
   •albinoadultpoptop "Adult Albino Poptop" had a several miscolored pixels near and in the mouth corrected.
+  •nutmidge "Nutmidge" had reversed blink and hurt eyes corrected.
+  •poisonnutmidge "Poison Nutmidge" had reversed blink and hurt eyes corrected.
   //objects
   •giantflowerchest "Giant Flower Chest" open frames were changed to match its closed state.
-  •craftingwheel "Sewing Machine" had miscolored pixels on some  frames corrected.
+  •craftingfarm "Foraging Table" had a missing pixel added to its icon outline.
+  •craftingwheel "Sewing Machine" had miscolored pixels on some frames corrected.
   •thornplant "Thorny Plant" had a frame that was copy-pasted twice with one pixel of offset corrected.
-  •bunkerposter2 "Calming Poster" had eyebrows that were the same color as seen on the Apex sprite sheet.
+  •bunkerposter2 "Calming Poster" had eyebrows that were the same color as seen on the Apex sprite sheet corrected.
+  •peacekeeperemblem "Peacekeeper Emblem" icon was centered.
   •09back "Protectorate Background" had stairs removed because tile based stairs were also used in the starting mission.
   •14back "Protectorate Background" had stairs removed because tile based stairs were also used in the starting mission.
-  •techstation "S.A.I.L" had several corrections mate to it lighting texture.
+  •techstation "S.A.I.L" had several corrections made to its lighting texture.
   //tiles
   •material 7 darkwood "Timber" had a miscolored pixel on one yellow frame corrected.
   •material 174 matterblock "Matter Block" had frames for alternate colors added so it is visible when recolored.
@@ -552,6 +568,7 @@ New icons were made for the following things with missing or placeholder icons:
   •silverrock "Silver Rock"
   •silverrocksmall "Small Silver Rock"
   •thornplant "Thorny Plant"
+  •peacekeeperemblem2 "Peacekeeper Rusty Emblem"
   •protectorateamp "Protectorate Amp"
   •protectoratebooks "Protectorate Books"
   •protectoratebooks2 "Protectorate Books"
@@ -562,6 +579,7 @@ New icons were made for the following things with missing or placeholder icons:
   •protectoratefigures "Turtle And Poptop Toys"
   •protectorategamesconsole "Games Console"
   •protectoratehologlobe "Protectorate Hologlobe"
+  •protectorateradio "Protectorate Radio"
   •protectoratetoolbox "Red Toolbox"
   •protectoratewallbanner "Protectorate Wall Banner"
   •protectoratewaterdispenser "Water Dispenser"
@@ -928,7 +946,8 @@ Unique descriptions were added to the following:
 //codex
 •humanhistory10 "It's Not a Bug, It's a Creature" is no longer missing two insects names and descriptions.
 //items
-•The stack size of wateringcan "Watering Can" was limited to 1 for consistency and to prevent a rare save corrupting crash.
+•wateringcan "Watering Can" stack size was limited to 1 for consistency and to prevent a rare save corrupting crash.
+•npcdeadbeataxe "NPC Deadbeat Axe" had its builder config blade variants number changed to two so both variations are used.
 •Weapons that use laserbeam.lua will no longer have thier laser show if the weapon body is in a wall but the muzzle is not.
 •Weapons that use beamfire.lua will no longer be able to fire while the weapon body is in a wall even if the muzzle is not.
 •Weapons that use gunfire.lua will no longer be able to fire while the weapon body is in a wall even if the muzzle is not.
@@ -936,9 +955,15 @@ Unique descriptions were added to the following:
 •Increased the ship tier given by FTLrepairkit "FTL Repair Kit" to 3 so it actually fixes the FTL drive.
 •Increased the ship tier given by shiprepairkit "Ship Repair Kit" to 2 so it actually fixes the thrusters.
 //objects
+•cultistchestlarge "Cultist Chest" had its slot count changed from 16 to 24 to match other large chests.
 •wiredcustomsign "Sign" now hides its edges when placed next to a customsign "Sign" or itself.
 //tiles
 •Occlusion has been disabled on material 174 matterblock "Matter Block" because its texture is translucent.
+
+The Glow status effect was removed from the following non-glow armor pieces:
+  •icearmorchest "Ice Armor Shirt"
+  •icearmorhead "Ice Armor Mask"
+  •icearmorlegs "Ice Armor Trousers"
 
 Rarities have been changed on the following things:
   •cardboardboxarmor "Cardboard Box Armor" to legendary to match cardboardhead "Cardboard Hat"
@@ -986,6 +1011,7 @@ Tooltip types were corrected on the following:
   •damageaugment2 "Damage II Augment" was set to "eppaugment"
 
 The pixel values of the following items were adjusted:
+  •dyeremover "Dye Remover" from 0 to 25 matching dyes.
   •fungusstim "Fungus Stim Pack" from 0 to 100 matching other simpacks.
   •orangestim "Orange Stim Pack" from 20 to 100 matching other simpacks.
   •synthesisstim "Synthesis Stim Pack" from 0 to 100 matching other simpacks.
@@ -1094,6 +1120,8 @@ Chests in the following dungeons now use chest loot pools:
 ////////user interface////////
 •The shine layer in the Vending Machine interface was set to click through so the items to purchase counter can be typed in.
 
+•The Tech Upgrade interface had incorrect casing fixed making selection overlays appear as intended.
+
 •Interfaces using the techupgrade.lua script will no longer cause an error if new techs are unlocked after initialization.
 
 S.A.I.L static paths were corrected on the following:
@@ -1113,14 +1141,16 @@ Alignment was fixed in the following:
   •Shield tooltip pixel value
 
 Handedness labels were added to the following things that were missing it:
-  •Fist Weapon item descriptions.
-  •Shield item descriptions.
+  •Fist Weapon item descriptions
+  •Shield item descriptions
   •Fist Weapon tooltips
   •Shield tooltips
 
 Label colors were changed in the following:
-  •Fossil Station interface "BLUEPRINTS" label was corrected to match other crafting interfaces.
-  •Fossil Station interface "PRODUCT" label was corrected to match other crafting interfaces.
+  •fossilstation interface "BLUEPRINTS" label was corrected to match other crafting interfaces.
+  •fossilstation interface "PRODUCT" label was corrected to match other crafting interfaces.
+  •craftingwheel interface "BLUEPRINTS" label was corrected to match other crafting interfaces.
+  •craftingwheel interface "PRODUCT" label was corrected to match other crafting interfaces.
 
 Shine layer positions were fixed for the following:
   •Merchant interface shine was corrected so it doesn't go over the top right corner.

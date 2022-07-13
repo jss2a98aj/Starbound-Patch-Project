@@ -6,6 +6,27 @@ It is safe to install or uninstall this mod at any time.
 
 Recent Changelogs:
 [code]
+-------- 1.5.3 --------
+
+Reversed hurt and blink eyes on the Nutmidge and Toxic Nutmidge were corrected.
+
+Dye Remover now has a pixel value that matches regular dyes.
+
+The Peacekeeper Emblems now have distinct icons.
+
+The Protectorate Radio icon colors were changed to match its own.
+
+The Terrifying Eye Hat icon outline was shifted over by one pixel so it does not get cut off.
+
+Erroneous jagged lines with a high alpha value were removed from the songbook scroll background.
+
+A typo in the upgrade GUI preventing selection highlights was fixed.
+
+The Ice Armor set had the glow effect copied from the Glow cosmetic set removed.
+
+Several more typos were fixed.
+
+
 -------- 1.5.2 --------
 Seemingly random black pixels have been removed from the teleport cinematics.
 
@@ -28,23 +49,6 @@ The Station Transponder now has the Tool category instead of none.
 Even more typos were fixed.
 
 Special thanks to Silver Sokolova, Armok, and rl-starbound for some of the fixes added in this update.
-
-
--------- 1.5.1 --------
-Several more typos were fixed.
-
-Some references to cut lore were removed thanks to Armok.
-
-The Swansong fight had timers added to some attacks so they would not get stuck thanks to Kherae.
-
-Several more UI and menu issues were fixed thanks to Silver Sokolova.
-
-Apex City building2clue now has the same loot table fix as its non-clue counterpart.
-
-The Avian and human female body textures each had a miscolored border pixel corrected.
-
-Reverted a fix to upgradeablecraftingobject.lua because it was not working correctly for everyone.
-This fix is likely to return with better implementation later on.
 [/code]
 
 PNGGauntlet has been used on all textures modified by the SBPP to reduce file size and improve load times.

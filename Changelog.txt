@@ -1,3 +1,24 @@
+-------- 1.5.3 --------
+
+Reversed hurt and blink eyes on the Nutmidge and Toxic Nutmidge were corrected.
+
+Dye Remover now has a pixel value that matches regular dyes.
+
+The Peacekeeper Emblems now have distinct icons.
+
+The Protectorate Radio icon colors were changed to match its own.
+
+The Terrifying Eye Hat icon outline was shifted over by one pixel so it does not get cut off.
+
+Erroneous jagged lines with a high alpha value were removed from the songbook scroll background.
+
+A typo in the upgrade GUI preventing selection highlights was fixed.
+
+The Ice Armor set had the glow effect copied from the Glow cosmetic set removed.
+
+Several more typos were fixed.
+
+
 -------- 1.5.2 --------
 Seemingly random black pixels have been removed from the teleport cinematics.
 
@@ -37,7 +58,7 @@ The Electric Resistance buff icon has been updated to use the newer Electrified 
 
 Apex City building2clue now has the same loot table fix as its non-clue counterpart.
 
-The Avian and human female body textures each had a miscolored border pixel corrected.
+The Avian and Human female body textures each had a miscolored border pixel corrected.
 
 Reverted a fix to upgradeablecraftingobject.lua because it was not working correctly for everyone.
 This fix is likely to return with better implementation later on.
