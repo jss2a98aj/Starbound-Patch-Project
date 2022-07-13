@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "test",
-    "path" : "/orientations/0/collision",
-    "inverse" : true
-  },
-  {
-    "op" : "add",
-    "path" : "/orientations/0/collision",
-    "value" : "platform"
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "A barrel. Sadly not full party hats."
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "A barrel. Sadly not full of party hats."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/orientations/0/collision",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/orientations/0/collision",
+      "value" : "platform"
+    }
+  ]
 ]
