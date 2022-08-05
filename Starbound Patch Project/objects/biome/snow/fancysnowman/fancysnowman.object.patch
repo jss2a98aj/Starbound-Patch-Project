@@ -1,0 +1,11 @@
+[
+    [{
+        "op": "test",
+        "path": "/smashDropOptions/0/4/0",
+        "value": "fullwood1"
+    },{
+        "op": "replace",
+        "path": "/smashDropOptions/0/4/0",
+        "value": "logblock"
+    }]
+]
