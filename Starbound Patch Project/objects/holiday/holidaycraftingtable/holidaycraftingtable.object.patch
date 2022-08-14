@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/shortdescription",
+    "value" : "Toymaker's Table"
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "^orange;Toymaker's Table^reset;"
+  }
+]
