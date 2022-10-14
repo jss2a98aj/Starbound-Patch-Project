@@ -12,3 +12,5 @@ Starbound Patch Project on Steam: https://steamcommunity.com/sharedfiles/filedet
 Starbound Patch Project on the Nexus: https://www.nexusmods.com/starbound/mods/842
 
 Starbound Patch Project on the Chucklefish Forums: https://community.playstarbound.com/resources/starbound-patch-project.5894
+
+Starbound Patch Project on GameBanana: https://gamebanana.com/mods/396904

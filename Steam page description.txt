@@ -56,5 +56,6 @@ PNGGauntlet has been used on all textures modified by the SBPP to reduce file si
 [url=https://www.nexusmods.com/starbound/mods/842]Starbound Patch Project on the Nexus[/url]
 [url=https://github.com/jss2a98aj/Starbound-Patch-Project]Starbound Patch Project on GitHub[/url]
 [url=https://community.playstarbound.com/resources/starbound-patch-project.5894/]Starbound Patch Project on the Chucklefish Forums[/url]
+[url=https://gamebanana.com/mods/396904]Starbound Patch Project on GameBanana[/url]
 
 Contributors: Armok, Clank8138, Dracyoshi, Kherae, lunapanshiel, Prototype99, Ralek_Basa, rl-starbound, Silver Sokolova, VenZell, Xaliber, Yanazake
