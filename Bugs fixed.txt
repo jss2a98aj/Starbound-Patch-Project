@@ -404,7 +404,7 @@ The category assigned to the following things have been corrected so values from
   //objects
   •3dprinter "Pixel Printer" name
   •campfire "Campfire" name
-  •capturestation"Pet Station" name
+  •capturestation "Pet Station" name
   •fossilstation "Fossil Station" name
   •ironanvil "Iron Anvil" name
   •ironcraftingtable "Iron Crafting Table" name
