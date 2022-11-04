@@ -1,0 +1,54 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "value" : 0
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 25
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/category",
+      "value" : "Junk"
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "craftingMaterial"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/itemTags",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/itemTags",
+      "value" : [
+        "reagent"
+      ]
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/radioMessagesOnPickup",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/radioMessagesOnPickup",
+      "value" : [
+        "pickupore"
+      ]
+    }
+  ]
+]

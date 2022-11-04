@@ -1,0 +1,40 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/price",
+      "value" : 0
+    },
+    {
+      "op" : "replace",
+      "path" : "/price",
+      "value" : 50
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/category",
+      "value" : "Junk"
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "craftingMaterial"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/itemTags",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/itemTags",
+      "value" : [
+        "reagent"
+      ]
+    }
+  ]
+]
