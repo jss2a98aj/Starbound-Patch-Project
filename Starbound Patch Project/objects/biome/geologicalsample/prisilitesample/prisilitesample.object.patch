@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "\"A perfect sample of a prisilite ore.\""
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "\"A perfect sample of a prism shard.\""
+    }
+  ],
+  [
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Prisilite Sample"
+    },
+    {
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Prism Shard Sample"
+    }
+  ]
+]
