@@ -1,6 +1,7 @@
 [
-//Testing for original content page values would be ideal, but that has not been working as expected for this codex.
-//No other codex has had such an issue with test operations. Inverse test operations however work just fine.
+//Testing for original content page values does not work on Windows.
+//Other platforms appear to be unaffected.
+//Proper test operations will be added if this is ever fixed.
   {
     "op" : "test",
     "path" : "/contentPages/10",
