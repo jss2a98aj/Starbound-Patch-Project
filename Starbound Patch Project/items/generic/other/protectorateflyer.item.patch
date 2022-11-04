@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/category",
+    "value" : "Junk"
+  },
+  {
+    "op" : "replace",
+    "path" : "/category",
+    "value" : "junk"
+  }
+]
