@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "\"A perfect sample of a coal ore.\""
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "\"A perfect sample of a coal.\""
+  }
+]
