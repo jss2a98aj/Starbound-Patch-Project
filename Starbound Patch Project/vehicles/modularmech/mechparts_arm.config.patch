@@ -1,10 +1,12 @@
 [
-  { "op" : "replace",
-    "path" : "/beamsniper/partParameters/script",
-    "value" : "/vehicles/modularmech/armscripts/beamweaponarm.lua"
+  {
+    "op" : "add",
+    "path" : "/beamsniper/partParameters/checkWalls",
+    "value" : true
   },
-  { "op" : "replace",
-    "path" : "/neolaser/partParameters/script",
-    "value" : "/vehicles/modularmech/armscripts/beamweaponarm.lua"
+  {
+    "op" : "add",
+    "path" : "/neolaser/partParameters/checkWalls",
+    "value" : true
   }
 ]
