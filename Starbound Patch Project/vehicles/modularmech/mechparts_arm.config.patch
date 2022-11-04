@@ -1,0 +1,10 @@
+[
+  { "op" : "replace",
+    "path" : "/beamsniper/partParameters/script",
+    "value" : "/vehicles/modularmech/armscripts/beamweaponarm.lua"
+  },
+  { "op" : "replace",
+    "path" : "/neolaser/partParameters/script",
+    "value" : "/vehicles/modularmech/armscripts/beamweaponarm.lua"
+  }
+]
