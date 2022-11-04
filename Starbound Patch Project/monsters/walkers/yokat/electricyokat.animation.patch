@@ -1,5 +1,10 @@
 [
   {
+    "op" : "test",
+    "path" : "/sounds/wallCrash",
+    "inverse" : true
+  },
+  {
     "op" : "add",
     "path" : "/sounds/wallCrash",
     "value" : [ "/sfx/npc/monsters/peblit_drop1.ogg" ]
