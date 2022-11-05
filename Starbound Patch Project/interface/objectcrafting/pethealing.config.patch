@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/gui/overlay/file",
+    "value" : "/interface/objectcrafting/campfire_shine.png"
+  },
+  {
+    "op" : "replace",
+    "path" : "/gui/overlay/file",
+    "value" : "/interface/objectcrafting/refineryshine.png"
+  }
+]
