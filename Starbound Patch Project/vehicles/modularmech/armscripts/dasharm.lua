@@ -31,7 +31,7 @@ function DashArm:windupState()
 
   local stateTimer = self.windupTime
 
-  --SBPP - Allow attacks even with gravity beyond vanilla. Inspired by changes from RL-Starbound.
+  --SBPP - Allow attacks even with gravity beyond vanilla. Inspired by changes from rl-starbound.
   while stateTimer > 0 do
     animator.rotateTransformationGroup(self.armName, self.aimAngle + self.windupAngle, self.shoulderOffset)
     stateTimer = stateTimer - script.updateDt()

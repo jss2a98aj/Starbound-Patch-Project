@@ -44,7 +44,7 @@ function BeamArm:windupState()
     stateTimer = stateTimer - dt
     coroutine.yield()
   end
-  --SBPP - Do not fire through wall if checkWalls is true. Based on changes by RL-Starbound.
+  --SBPP - Do not fire through wall if checkWalls is true. Based on changes by rl-starbound.
   if self.isFiring and (not self.checkWalls or self:rayCheck(self.firePosition)) then
     self.state:set(self.fireState, self)
   else
@@ -83,7 +83,7 @@ function BeamArm:fireState()
 
   coroutine.yield()
 
-  --SBPP - Do not fire through wall if checkWalls is true. Based on changes by RL-Starbound.
+  --SBPP - Do not fire through wall if checkWalls is true. Based on changes by rl-starbound.
   while stateTimer > 0 and (self.holdFire or self.isFiring) and (not self.checkWalls or self:rayCheck(self.firePosition)) do
     animator.rotateTransformationGroup(self.armName, self.aimAngle, self.shoulderOffset)
 
@@ -102,7 +102,7 @@ function BeamArm:fireState()
 
   vehicle.setDamageSourceEnabled(self.armName .. "Beam", false)
 
-  --SBPP - Do not fire through wall if checkWalls is true. Based on changes by RL-Starbound.
+  --SBPP - Do not fire through wall if checkWalls is true. Based on changes by rl-starbound.
   if self.isFiring and self.repeatFire and (not self.checkWalls or self:rayCheck(self.firePosition)) then
     self.state:set(self.fireState, self)
   else
