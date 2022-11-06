@@ -6,8 +6,43 @@ It is safe to install or uninstall this mod at any time.
 
 Recent Changelogs:
 [code]
--------- 1.5.3 --------
+-------- 1.5.4 --------
+The Electric Yokat no longer dies when hitting a wall.
 
+The Solus Katana Mech Arm can no be used in places with gravity.
+
+Snowmen now drop the correct type of wood when broken.
+
+Volatile Powder now has a pixel value.
+
+Shepherd's Pie has a longer effect duration matching similar foods.
+
+The Toymaker's Table name is now colored like other crafting station names.
+
+The Triplod head hurt frame no longer has holes in it.
+
+Supernova Gauntlets now align with their attack VFX slightly better.
+
+The Copper Goggles icon correctly shows dyes.
+
+The Feather Headband icon better reflects what the item actually looks like.
+
+The Tungsten Axe no longer has a stray pixel.
+
+The food inventory tab icon now moves like other tabs when pressed.
+
+Several more items now have a valid category.
+
+The Refinery and Pet Healing Station interfaces now have proper shine layers.
+
+Several sprites with breaks in their outlines have been fixed.
+
+Many more typos were fixed.
+
+Re-introduced the fix for untiered upgradeable crafting stations not always stacking.
+
+
+-------- 1.5.3 --------
 Reversed hurt and blink eyes on the Nutmidge and Toxic Nutmidge were corrected.
 
 Dye Remover now has a pixel value that matches regular dyes.
@@ -25,30 +60,6 @@ A typo in the upgrade GUI preventing selection highlights was fixed.
 The Ice Armor set had the glow effect copied from the Glow cosmetic set removed.
 
 Several more typos were fixed.
-
-
--------- 1.5.2 --------
-Seemingly random black pixels have been removed from the teleport cinematics.
-
-The Armored Cultist/Cultist General set had missing icons, incorrect values, and several other issues fixed.
-
-The eyebrows of the Apex on the Calming Poster are no longer the default color seen on the Apex sprite sheet.
-
-The volcanic chest treasure pool is now used where it was intended, rather than the volcanic treasure pool.
-
-Some safeguards against crashes have been added to the techupgrade.lua file.
-
-The multiplayer menu background no longer has mangled shine and drop shadows.
-
-The Grass Remedy is now held correctly.
-
-The Poison Antidote no longer has a max stack size to match other status cure and resistance items.
-
-The Station Transponder now has the Tool category instead of none.
-
-Even more typos were fixed.
-
-Special thanks to Silver Sokolova, Armok, and rl-starbound for some of the fixes added in this update.
 [/code]
 
 PNGGauntlet has been used on all textures modified by the SBPP to reduce file size and improve load times.
@@ -58,4 +69,4 @@ PNGGauntlet has been used on all textures modified by the SBPP to reduce file si
 [url=https://community.playstarbound.com/resources/starbound-patch-project.5894/]Starbound Patch Project on the Chucklefish Forums[/url]
 [url=https://gamebanana.com/mods/396904]Starbound Patch Project on GameBanana[/url]
 
-Contributors: Armok, Clank8138, Dracyoshi, Kherae, lunapanshiel, Prototype99, Ralek_Basa, rl-starbound, Silver Sokolova, VenZell, Xaliber, Yanazake
+Contributors: Armok, Clank8138, Dracyoshi, giantcavespider, Kherae, lunapanshiel, Nebulox, Prototype99, Ralek_Basa, rl-starbound, Silver Sokolova, VenZell, Xaliber, Yanazake

@@ -3,7 +3,7 @@
 ////////special thanks////////
 Dracyoshi and Xaliber for allowing fixes from the Parallax Fixes mod to be included.
 Silver Sokolova for providing missing help command documentation and much more.
-Armok, Clank8138, Kherae, lunapanshiel, Prototype99, Ralek_Basa, rl-starbound, VenZell, and Yanazake for additional contributions.
+Armok, Clank8138, giantcavespider, Kherae, lunapanshiel, Nebulox, Prototype99, Ralek_Basa, rl-starbound, VenZell, and Yanazake for additional contributions.
 
 ////////typos////////
 Misspelled words were corrected in the following:
@@ -18,6 +18,8 @@ Misspelled words were corrected in the following:
   •converse.config Apex converse with Apex seven
   •converse.config Avian converse with Hylotl nine
   •converse.config Human converse with Apex seven
+  •outpost.config Glitch converse with Hylotl one
+  •peacekeeper.config Floran out of sight default one
   •peacekeeper.config Glitch can't reach one
   //items
   •alienwoodsap "Alien Wood Sap" description
@@ -73,6 +75,8 @@ Incorrect capitalization was corrected in the following:
   •bountytarget.config Hylotl attack default one
   //interface
   •Space station expansion GUI "Place" button
+  //objects
+  •baguettebox "Box of Bread" name
 
 Erronius or duplicated characters were removed from the following:
   //celestial
@@ -126,6 +130,9 @@ Erronius or duplicated words were removed from the following:
   •hylotl_mission1 "Find Clues to Locate the Hylotl Artifact" complete at start text
 
 Missing words were added to the following:
+  //dialog
+  •alpaca.config default converse with default four
+  //objects
   •barrellarge "Large Barrel" description
   •fridge "Full-Size Fridge" Apex description
   •jupitermodel "Jupiter Model" Apex description
@@ -298,9 +305,12 @@ The wording of the following was changed:
   •trilobitefossil "Trilobite Fossil" name now fits in with other fossils.
   •trilobitefossil "Trilobite Fossil" complete set name now fits in with other fossils sets.
   //objects
-  •sandstonestatuefloran "Floran Sandstone Statue" Floran description no longer references cut lore.
-  •sandstonestatuefloran "Floran Sandstone Statue" Glitch description no longer references cut lore.
-  •sandstonestatueglitch "Glitch Sandstone Statue" Glitch description no longer references cut lore.
+  •sandstonestatuefloran "Floran Sandstone Statue" Floran description no longer references cut content.
+  •sandstonestatuefloran "Floran Sandstone Statue" Glitch description no longer references cut content.
+  •sandstonestatueglitch "Glitch Sandstone Statue" Glitch description no longer references cut content.
+  •coalsample "Coal Sample" description no longer reffers to it as ore.
+  •prisilitesample "Prism Shard Sample" name no longer references cut content.
+  •prisilitesample "Prism Shard Sample" description no longer references cut content.
   •medievallamp "Medieval Lamp" Human description was changed to be much more coherent.
   •prisonshowerdripping "Dripping Rusty Shower" name now matches prisonshower "Rusty Shower"
   •prisonshowerdripping "Dripping Rusty Shower" description now matches prisonshower "Rusty Shower"
@@ -310,6 +320,8 @@ The wording of the following was changed:
   •venusmodel "Venus Model" Hylotl description was changed to be slightly more coherent.
 
 Replaced the following placeholder values:
+  //dialog
+  •peacekeeper.config Floran attack default one
   //items
   •shipT1 "S.A.I.L. Reboot Upgrade" name
   •shipT1 "S.A.I.L. Reboot Upgrade" description
@@ -358,6 +370,19 @@ The category assigned to the following things have been corrected so values from
   •cavedetector "Cave Detector" was set to "tool"
   •oredetector "Ore Detector" was set to "tool"
   •relocator "Relocator" was set to "tool"
+  •platinumbar "Platinum Bar" was set to "craftingMaterial"
+  •platinumore "Platinum Ore" was set to "craftingMaterial"
+  •FTLrepairkit "FTL Repair Kit" was set to "upgradeComponent"
+  •shiprepairkit "Ship Repair Kit" was set to "upgradeComponent"
+  •shipT1 "S.A.I.L. Reboot Upgrade" was set to "upgradeComponent"
+  •shipT2 "Interplanetary Upgrade" was set to "upgradeComponent"
+  •shipT3 "FTL Upgrade" was set to "upgradeComponent"
+  •shipT4 "Sparrow Upgrade" was set to "upgradeComponent"
+  •shipT5 "Kestrel Upgrade" was set to "upgradeComponent"
+  •shipT6 "Falcon Upgrade" was set to "upgradeComponent"
+  •shipT7 "Eagle Upgrade" was set to "upgradeComponent"
+  •shipT8 "Condor Upgrade" was set to "upgradeComponent"
+  •protectorateflyer "Graduation Flyer" was set to "junk"
   •beamaxe "Matter Manipulator" was set to "tool"
   •beamaxeX "Matter Manipulator" was set to "tool"
   •copperdrill "Copper Drill" was set to "tool"
@@ -386,16 +411,6 @@ The category assigned to the following things have been corrected so values from
   •yellowflashlight "Flashlight" was set to "tool"
   •inspectionmode "Inspection Mode" was set to "tool"
   •scanmode "Scanning Mode" was set to "tool"
-  •FTLrepairkit "FTL Repair Kit" was set to "upgradeComponent"
-  •shiprepairkit "Ship Repair Kit" was set to "upgradeComponent"
-  •shipT1 "S.A.I.L. Reboot Upgrade" was set to "upgradeComponent"
-  •shipT2 "Interplanetary Upgrade" was set to "upgradeComponent"
-  •shipT3 "FTL Upgrade" was set to "upgradeComponent"
-  •shipT4 "Sparrow Upgrade" was set to "upgradeComponent"
-  •shipT5 "Kestrel Upgrade" was set to "upgradeComponent"
-  •shipT6 "Falcon Upgrade" was set to "upgradeComponent"
-  •shipT7 "Eagle Upgrade" was set to "upgradeComponent"
-  •shipT8 "Condor Upgrade" was set to "upgradeComponent"
 
 "^white;" was changed to "^reset;" on the following:
   //items
@@ -494,6 +509,8 @@ Problem with the following textures have been fixed:
   •The Novakid front arm had the coloration of a pixel changed so recoloring works correctly.
   //interface
   •Codex Library menu body drop shadow transparency and color were corrected to match its header and footer.
+  •Ingredients Bottle tab icon had missing outline pixels added to the top.
+  •Inventory food tab icons had elements shifted so they move like other tabs when pressed.
   •The Invite to Party menu header had a drop shadow added to match its body and footer.
   •The Options menu body had the height of its music volume background box changed to match the SFX volume background box .
   •The Bounty Board menu footer had a missing pixel added to its outline.
@@ -503,7 +520,10 @@ Problem with the following textures have been fixed:
   •The button that opens the collections menu now has the correct border color when the UI is open.
   •The server info background had erroneous sections of the drop shadow and shine corrected.
   //items
+  •supernovaglove "Supernova Gauntlet" texture was shifted by one pixels so swoosh effect line up.
   •npcdeadbeataxe "NPC Deadbeat Axe" texture two was shifted by two pixels so it is held correctly.
+  •tungstenaxe "Tungsten Axe had an erroneous pixel removed.
+  •copperarmorhead "Copper Goggles" had its icon colors changes to show applied dyes.
   •eyehead2 "Terrifying Eye Hat" had its icon shifted by one pixel so it does not get cut off.
   •apexofficerpants "Officer Trousers" had missing waistband pixels added to two frames.
   •baroncapeback "Baron's Cape" had a wrongly colored and shaped frame fixed.
@@ -516,14 +536,17 @@ Problem with the following textures have been fixed:
   •fireblockaugment "Fire Resist Augment" has been shifted one pixel over so it is aligned correctly in EPP tooltips.
   •specialrice "Special Fried Rice" had a missing pixel added to its outline.
   //monsters
+  •triplod "Triplod" had missing pixels filled in its hurt frame.
   •adultpoptop "Adult Poptop" and motherpoptop "Mother Poptop" had a few miscolored pixels near the mouth corrected.
-  •albinoadultpoptop "Adult Albino Poptop" had a several miscolored pixels near and in the mouth corrected.
+  •albinoadultpoptop "Adult Albino Poptop" had several miscolored pixels near and in the mouth corrected.
   •nutmidge "Nutmidge" had reversed blink and hurt eyes corrected.
   •poisonnutmidge "Poison Nutmidge" had reversed blink and hurt eyes corrected.
   //objects
   •giantflowerchest "Giant Flower Chest" open frames were changed to match its closed state.
   •craftingfarm "Foraging Table" had a missing pixel added to its icon outline.
   •craftingwheel "Sewing Machine" had miscolored pixels on some frames corrected.
+  •avesmingoseed "Avesmingo Seed" had a missing pixel added to its icon outline.
+  •pineappleseed "Pineapple Seed" had a missing pixel added to its icon outline.
   •thornplant "Thorny Plant" had a frame that was copy-pasted twice with one pixel of offset corrected.
   •bunkerposter2 "Calming Poster" had eyebrows that were the same color as seen on the Apex sprite sheet corrected.
   •peacekeeperemblem "Peacekeeper Emblem" icon was centered.
@@ -537,6 +560,8 @@ Problem with the following textures have been fixed:
 Textures were created for the following things that had none:
   //ai
   •The Novakid S.A.I.L. interface static "staticNovakid"
+  //interface
+  •Refinery shine layer.
   //plants
   •weepingleaves tree foliage "crown3"
 
@@ -596,6 +621,8 @@ New icons were made for the following things with missing or placeholder icons:
   •toxickelp sapling stem
 
 Icons were improved for the following:
+  //items
+  •featherhead "Feather Headband"
   //objects
   •metalbarrel1 "Metal Barrel"
   •metalbarrel2 "Radioactive Barrel"
@@ -608,9 +635,10 @@ Icons were improved for the following:
 •bottledhealingwater "Bottled Healing Water" had invalid recipe groups changed to valid ones so it can be made after learning its recipe from Healing Water.
 
 ////////creatures and npcs////////
-•A head windup frame was assigned to the sewerfly "Growfly" so its head would not disappear when making ranged attacks.
-•The damage team was removed from bonebird "Bone Bird" so it will not attack other creatures.
 •The Swansong fight had timers added to some attacks so they would not get stuck.
+•sewerfly "Growfly" had a head windup frame assigned so its head would not disappear when making ranged attacks.
+•bonebird "Bone Bird" had its damage team was removed so it will not attack other creatures.
+•electricyokat "Electric Yokat" had a wall crash sound added so it does not die when hitting a wall.
 
 Outfit items were added to the following NPC types:
   •villager Floran can now spawn with floransurvivalistchest "Survivalist Chest" chest items for consistency.
@@ -944,19 +972,22 @@ Unique descriptions were added to the following:
 
 ////////objects and items////////
 //codex
-•humanhistory10 "It's Not a Bug, It's a Creature" is no longer missing two insects names and descriptions.
+•humanhistory10 "It's Not a Bug, It's a Creature" is no longer missing two insects.
 //items
 •wateringcan "Watering Can" stack size was limited to 1 for consistency and to prevent a rare save corrupting crash.
 •npcdeadbeataxe "NPC Deadbeat Axe" had its builder config blade variants number changed to two so both variations are used.
 •Weapons that use laserbeam.lua will no longer have thier laser show if the weapon body is in a wall but the muzzle is not.
 •Weapons that use beamfire.lua will no longer be able to fire while the weapon body is in a wall even if the muzzle is not.
 •Weapons that use gunfire.lua will no longer be able to fire while the weapon body is in a wall even if the muzzle is not.
+•meatpie "Shepherd's Pie" effect duration was increased to match similar foods.
 •The stack size of antidote "Poison Antidote" has been removed to match other status cure and resistance items.
 •Increased the ship tier given by FTLrepairkit "FTL Repair Kit" to 3 so it actually fixes the FTL drive.
 •Increased the ship tier given by shiprepairkit "Ship Repair Kit" to 2 so it actually fixes the thrusters.
 //objects
+•Unupgraded objects using upgradeablecraftingobject.lua will now stack with unplaced ones after being placed.
 •cultistchestlarge "Cultist Chest" had its slot count changed from 16 to 24 to match other large chests.
 •wiredcustomsign "Sign" now hides its edges when placed next to a customsign "Sign" or itself.
+•holidaycraftingtable "Toymaker's Table" name color matches other crafting stations.
 //tiles
 •Occlusion has been disabled on material 174 matterblock "Matter Block" because its texture is translucent.
 
@@ -973,6 +1004,9 @@ Rarities have been changed on the following things:
   •armoredcultistlegs "Cultist General Leg Armour" to uncommon to match other instance dungeon armors.
 
 Drops have been changed on the following things:
+  //objects
+  •snowman "Snowman" now drops the "Wooden Log" it is made with instead of "Treated Wood"
+  •fancysnowman "Fancy Snowman" now drops the "Wooden Log" it is made with instead of "Treated Wood"
   //tiles
   •material 166 rustyblock "Rusty Block" now drops "rustyblock" because some crafting recipes indicate the wrong thing was assigned.
   //trees
@@ -994,6 +1028,13 @@ Collision was added to the following:
   •barrel "Small Barrel" so that an ocean dungeon can generate correctly.
   •barrellarge "Large Barrel" to be consistent with barrel "Small Barrel"
 
+Item tags were added to the following:
+  •platinumbar "Platinum Bar" had the "reagent" tag added.
+  •platinumore "Platinum Ore" had the "reagent" tag added.
+
+Pickup radio messages were added to the following:
+  •platinumore "Platinum Ore" had the "pickupore" message added.
+
 Anchors were changed on the following:
   •medievallamp "Medieval Lamp" was changed to also allow wall placement as indicated by some racial descriptions and attempted use in a cut dungeon.
 
@@ -1011,6 +1052,9 @@ Tooltip types were corrected on the following:
   •damageaugment2 "Damage II Augment" was set to "eppaugment"
 
 The pixel values of the following items were adjusted:
+  •platinumbar "Platinum Bar" from 0 to 50 matching similar bars.
+  •platinumore "Platinum Ore" from 0 to 25 matching similar ores.
+  •volatilepowder "Volatile Powder" from 0 to 40 like similar materials.
   •dyeremover "Dye Remover" from 0 to 25 matching dyes.
   •fungusstim "Fungus Stim Pack" from 0 to 100 matching other simpacks.
   •orangestim "Orange Stim Pack" from 20 to 100 matching other simpacks.
@@ -1124,6 +1168,10 @@ Chests in the following dungeons now use chest loot pools:
 
 •Interfaces using the techupgrade.lua script will no longer cause an error if new techs are unlocked after initialization.
 
+•Appripriate shine layers were assinged to thr following interfaces:
+  •Pet Healing Station 
+  •Refinery
+
 S.A.I.L static paths were corrected on the following:
   •Floran S.A.I.L. interface
   •Novakid S.A.I.L. interface
@@ -1183,3 +1231,7 @@ Added help documentation for the following undocumented commands:
   •updateplanettype
   •setenvironmentbiome
   •setdungeonid
+
+////////vehicles////////
+•Mech weapons using dasharm.lua will now work even with gravity.
+•Non-drill mech weapons from the base game using beamarm.lua will no longer be able to fire while the weapon body is in a wall even if the muzzle is not.

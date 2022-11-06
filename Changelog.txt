@@ -1,5 +1,40 @@
--------- 1.5.3 --------
+-------- 1.5.4 --------
+The Electric Yokat no longer dies when hitting a wall.
 
+The Solus Katana Mech Arm can no be used in places with gravity.
+
+Snowmen now drop the correct type of wood when broken.
+
+Volatile Powder now has a pixel value.
+
+Shepherd's Pie has a longer effect duration matching similar foods.
+
+The Toymaker's Table name is now colored like other crafting station names.
+
+The Triplod head hurt frame no longer has holes in it.
+
+Supernova Gauntlets now align with their attack VFX slightly better.
+
+The Copper Goggles icon correctly shows dyes.
+
+The Feather Headband icon better reflects what the item actually looks like.
+
+The Tungsten Axe no longer has a stray pixel.
+
+The food inventory tab icon now moves like other tabs when pressed.
+
+Several more items now have a valid category.
+
+The Refinery and Pet Healing Station interfaces now have proper shine layers.
+
+Several sprites with breaks in their outlines have been fixed.
+
+Many more typos were fixed.
+
+Re-introduced the fix for untiered upgradeable crafting stations not always stacking.
+
+
+-------- 1.5.3 --------
 Reversed hurt and blink eyes on the Nutmidge and Toxic Nutmidge were corrected.
 
 Dye Remover now has a pixel value that matches regular dyes.
