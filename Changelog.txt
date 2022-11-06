@@ -1,7 +1,7 @@
 -------- 1.5.4 --------
 The Electric Yokat no longer dies when hitting a wall.
 
-The Solus Katana Mech Arm can no be used in places with gravity.
+The Solus Katana Mech Arm can now be used in places with gravity.
 
 Snowmen now drop the correct type of wood when broken.
 
