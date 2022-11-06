@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/converse/glitch/hylotl/0",
+    "value" : "Sceptical. For a species that lives underwater, you don't smell very clean."
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/glitch/hylotl/0",
+    "value" : "Skeptical. For a species that lives underwater, you don't smell very clean."
+  }
+]
