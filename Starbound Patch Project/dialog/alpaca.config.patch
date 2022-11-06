@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/converse/default/default/5",
+    "value" : "Courage is better than keenest durasteel."
+  },
+  {
+    "op" : "replace",
+    "path" : "/converse/default/default/5",
+    "value" : "Courage is better than the keenest durasteel."
+  }
+]
