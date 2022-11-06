@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/effects/0/0/duration",
+    "value" : 375
+  },
+  {
+    "op" : "replace",
+    "path" : "/effects/0/0/duration",
+    "value" : 675
+  }
+]
