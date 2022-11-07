@@ -296,10 +296,10 @@ The wording of the following was changed:
   •armoredcultistlegs "Cultist General Leg Armour" description now fits in with the other Cultist General armor.
   •swimaugment "Swimming Augment" description now fits in with other augments.
   •sulphur "Sulphur" description now refers to itself as an element instead of a compound.
-  •fungusstim "Fungus Stim Pack" name now fits in with other simpacks.
-  •fungusstim "Fungus Stim Pack" description now fits in with other simpacks.
-  •synthesisstim "Synthesis Stim Pack" name now fits in with other simpacks.
-  •synthesisstim "Synthesis Stim Pack" description now fits in with other simpacks.
+  •fungusstim "Fungus Stim Pack" name now fits in with other stimpacks.
+  •fungusstim "Fungus Stim Pack" description now fits in with other stimpacks.
+  •synthesisstim "Synthesis Stim Pack" name now fits in with other stimpacks.
+  •synthesisstim "Synthesis Stim Pack" description now fits in with other stimpacks.
   •ammonitefossil "Ammonite Fossil" name now fits in with other fossils.
   •ammonitefossil "Ammonite Fossil" complete set name now fits in with other fossils sets.
   •trilobitefossil "Trilobite Fossil" name now fits in with other fossils.
@@ -308,7 +308,7 @@ The wording of the following was changed:
   •sandstonestatuefloran "Floran Sandstone Statue" Floran description no longer references cut content.
   •sandstonestatuefloran "Floran Sandstone Statue" Glitch description no longer references cut content.
   •sandstonestatueglitch "Glitch Sandstone Statue" Glitch description no longer references cut content.
-  •coalsample "Coal Sample" description no longer reffers to it as ore.
+  •coalsample "Coal Sample" description no longer refers to it as ore.
   •prisilitesample "Prism Shard Sample" name no longer references cut content.
   •prisilitesample "Prism Shard Sample" description no longer references cut content.
   •medievallamp "Medieval Lamp" Human description was changed to be much more coherent.
@@ -1056,9 +1056,9 @@ The pixel values of the following items were adjusted:
   •platinumore "Platinum Ore" from 0 to 25 matching similar ores.
   •volatilepowder "Volatile Powder" from 0 to 40 like similar materials.
   •dyeremover "Dye Remover" from 0 to 25 matching dyes.
-  •fungusstim "Fungus Stim Pack" from 0 to 100 matching other simpacks.
-  •orangestim "Orange Stim Pack" from 20 to 100 matching other simpacks.
-  •synthesisstim "Synthesis Stim Pack" from 0 to 100 matching other simpacks.
+  •fungusstim "Fungus Stim Pack" from 0 to 100 matching other stimpacks.
+  •orangestim "Orange Stim Pack" from 20 to 100 matching other stimpacks.
+  •synthesisstim "Synthesis Stim Pack" from 0 to 100 matching other stimpacks.
   •trexfossil2 "T. rex Torso" from 0 to 200 matching other fossils.
   •trexfossil3 "T. rex Legs" from 0 to 200 matching other fossils.
   •trexfossil4 "T. rex Upper Tail" from 0 to 200 matching other fossils.
