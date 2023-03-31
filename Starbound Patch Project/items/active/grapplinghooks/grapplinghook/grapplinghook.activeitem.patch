@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "test",
-    "path" : "/category",
-    "value" : "Tool"
-  },
-  {
-    "op" : "replace",
-    "path" : "/category",
-    "value" : "tool"
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/category",
+      "value" : "Tool"
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "tool"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/tooltipKind",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/tooltipKind",
+      "value" : "tool"
+    }
+  ]
 ]
