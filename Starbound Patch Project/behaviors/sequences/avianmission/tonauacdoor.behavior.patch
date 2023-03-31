@@ -1,12 +1,26 @@
 [
-	{
-		"op": "replace",
-		"path": "/root/children/5/children/1/children/2/parameters/dialogTarget/key",
-		"value": "player"
-	},
-	{
-		"op": "replace",
-		"path": "/root/children/5/children/1/children/12/parameters/dialogTarget/key",
-		"value": "player"
-	}
+  [
+    {
+      "op" : "test",
+      "path" : "/root/children/5/children/1/children/2/parameters/dialogTarget/key",
+      "value" : ""
+    },
+    {
+      "op" : "replace",
+      "path" : "/root/children/5/children/1/children/2/parameters/dialogTarget/key",
+      "value" : "player"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/root/children/5/children/1/children/12/parameters/dialogTarget/key",
+      "value" : ""
+    },
+    {
+      "op" : "replace",
+      "path" : "/root/children/5/children/1/children/12/parameters/dialogTarget/key",
+      "value" : "player"
+    }
+  ]
 ]
