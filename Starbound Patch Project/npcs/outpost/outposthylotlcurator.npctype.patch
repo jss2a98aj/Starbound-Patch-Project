@@ -1,7 +1,17 @@
 [
 	{
-		"op": "move",
-		"from": "/scriptConfig/dialog/converse/Hylotl",
-		"path": "/scriptConfig/dialog/converse/hylotl"
+		"op" : "test",
+		"path" : "/scriptConfig/dialog/converse/Hylotl",
+    "inverse" : false
+	},
+	{
+		"op" : "test",
+		"path" : "/scriptConfig/dialog/converse/hylotl",
+		"inverse" : true
+	},
+	{
+		"op" : "move",
+		"from" : "/scriptConfig/dialog/converse/Hylotl",
+		"path" : "/scriptConfig/dialog/converse/hylotl"
 	}
 ]
