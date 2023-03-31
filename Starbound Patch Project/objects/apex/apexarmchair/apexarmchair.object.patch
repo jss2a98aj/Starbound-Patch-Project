@@ -1,12 +1,22 @@
 [
 	{
-		"op": "add",
-		"path": "/orientations/0/sitCoverImage",
-		"value": "/objects/apex/apexarmchair/apexarmchaircover.png"
+		"op" : "test",
+		"path" : "/orientations/0/sitCoverImage",
+		"inverse" : true
 	},
 	{
-		"op": "add",
-		"path": "/orientations/1/sitCoverImage",
-		"value": "/objects/apex/apexarmchair/apexarmchaircover.png"
+		"op" : "test",
+		"path" : "/orientations/1/sitCoverImage",
+		"inverse" : true
+	},
+	{
+		"op" : "add",
+		"path" : "/orientations/0/sitCoverImage",
+		"value" : "/objects/apex/apexarmchair/apexarmchaircoverleft.png"
+	},
+	{
+		"op" : "add",
+		"path" : "/orientations/1/sitCoverImage",
+		"value" : "/objects/apex/apexarmchair/apexarmchaircoverright.png"
 	}
 ]
