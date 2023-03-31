@@ -1,12 +1,26 @@
 [
-  {
-    "op" : "test",
-    "path" : "/category",
-    "value" : "Drone"
-  },
-  {
-    "op" : "replace",
-    "path" : "/category",
-    "value" : "drone"
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "A disposable, mechanical owl that will fly in a direction and dig a tunnel when thrown."
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "A disposable mechanical owl that will fly in a direction and dig a tunnel when thrown."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/category",
+      "value" : "Drone"
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "drone"
+    }
+  ]
 ]

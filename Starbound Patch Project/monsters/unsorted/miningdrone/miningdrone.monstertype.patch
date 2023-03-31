@@ -7,6 +7,6 @@
   {
     "op" : "add",
     "path" : "/description",
-    "value" : "It may not be a Dwarf, but it can certainly dig some holes."
+    "value" : "A disposable mechanical owl that will fly in a direction and dig a tunnel when thrown."
   }
 ]
