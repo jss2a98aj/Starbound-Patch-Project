@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/humanDescription",
+    "value" : "No good to anyone anymore"
+  },
+  {
+    "op" : "replace",
+    "path" : "/humanDescription",
+    "value" : "No good to anyone anymore."
+  }
+]
