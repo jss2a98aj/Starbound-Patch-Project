@@ -1,0 +1,7 @@
+[
+	{
+		"op": "add",
+		"path": "/orientations/0/sitCoverImage",
+		"value": "/objects/floran/floranarmchair/floranarmchaircover.png"
+	}
+]

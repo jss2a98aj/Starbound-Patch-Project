@@ -1,0 +1,42 @@
+[
+	{
+		"op": "add",
+		"path": "/root/children/2/children/8/parameters/dialogTarget",
+		"value": {"key": "player"}
+	},
+	{
+		"op": "add",
+		"path": "/root/children/2/children/3/parameters/dialogTarget",
+		"value": {"key": "player"}
+	},
+	{
+		"op": "add",
+		"path": "/root/children/2/children/1/parameters/dialogTarget",
+		"value": {"key": "player"}
+	},
+	{
+		"op": "add",
+		"path": "/root/children/2/children/1",
+		"value": {
+			"title": "faceDirection",
+			"type": "action",
+			"name": "faceDirection",
+			"parameters": {"direction": {"value": 1}}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/root/children/1/children/1/children/0/children/3/parameters/dialogTarget",
+		"value": {"key": "player"}
+	},
+	{
+		"op": "add",
+		"path": "/root/children/0/children/1/children/0/children/15/parameters/dialogTarget",
+		"value": {"key": "player"}
+	},
+	{
+		"op": "add",
+		"path": "/root/children/0/children/1/children/0/children/1/parameters/dialogTarget",
+		"value": {"key": "player"}
+	}
+]
