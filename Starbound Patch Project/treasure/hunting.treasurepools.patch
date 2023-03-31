@@ -1,7 +1,12 @@
 [
-    {
-        "op": "replace",
-        "path": "/quagmuttHunting/0/1/pool/2/item",
-        "value": "quagmuttaf"
-    }
+  {
+    "op" : "test",
+    "path" : "/quagmuttHunting/0/1/pool/2/item",
+    "value" : "guagmuttaf"
+  },
+  {
+    "op" : "replace",
+    "path" : "/quagmuttHunting/0/1/pool/2/item",
+    "value" : "quagmuttaf"
+  }
 ]
