@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Penguin General"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "This little guy says he was just following orders."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/baseParameters/movementSettings/collisionPoly",
+      "value" : [ [-0.5, -1.5], [0.5, -1.5], [0.5, 0.0], [-0.5, 0.0] ]
+    },
+    {
+      "op" : "replace",
+      "path" : "/baseParameters/movementSettings/collisionPoly",
+      "value" : [ [-0.5, -1.3], [-0.3, -1.6], [0.3, -1.6], [0.5, -1.3], [0.5, 0.3], [0.3, 0.6], [-0.3, 0.6], [-0.5, 0.3] ]
+    }
+  ]
+]

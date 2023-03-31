@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/shortdescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/shortdescription",
+      "value" : "Penguin Rocket Trooper"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/description",
+      "value" : "Would be cute if it didn't explode."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/baseParameters/movementSettings/collisionPoly",
+      "value" : [ [-0.5, -1.6], [0.5, -1.6], [0.5, 0.6], [-0.5, 0.6] ]
+    },
+    {
+      "op" : "replace",
+      "path" : "/baseParameters/movementSettings/collisionPoly",
+      "value" : [ [-0.5, -1.3], [-0.3, -1.6], [0.3, -1.6], [0.5, -1.3], [0.5, 0.3], [0.3, 0.6], [-0.3, 0.6], [-0.5, 0.3] ]
+    }
+  ]
+]
