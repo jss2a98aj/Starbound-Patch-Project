@@ -1168,11 +1168,11 @@ Chests in the following dungeons now use chest loot pools:
 
 •Interfaces using the techupgrade.lua script will no longer cause an error if new techs are unlocked after initialization.
 
-•Appripriate shine layers were assinged to thr following interfaces:
+•Appropriate shine layers were assinged to thr following interfaces:
   •Pet Healing Station 
   •Refinery
 
-S.A.I.L static paths were corrected on the following:
+S.A.I.L. static paths were corrected on the following:
   •Floran S.A.I.L. interface
   •Novakid S.A.I.L. interface
 
