@@ -1,4 +1,4 @@
-Fixes hundreds of typos, incorrect item properties, texture issues, and even some rare crashes.
+Fixes hundreds of typos, incorrect item properties, texture issues, and even some rare crashes. In total over a thousand bugs have been fixed.
 
 It is safe to install or uninstall this mod at any time.
 
@@ -6,6 +6,28 @@ It is safe to install or uninstall this mod at any time.
 
 Recent Changelogs:
 [code]
+-------- 1.5.5 --------
+The Electric Skimbus no longer has a half missing frame.
+
+The Quagmutt hunting table action figure drop assignment now points to a valid object.
+
+The Grappling Hook now uses the correct tooltip type.
+
+The Standard Issue Armchair and Primitive Armchair now have cover layers.
+
+Several small versions of ships used in the intro cinematic had erroneous extra pixels removed.
+
+The Hylotl Curator's Hylotl specific dialog now works.
+
+Tonauac and Baron now use species specific interaction dialog during story quests if applicable.
+
+A valve on the t4 Novakid ship is no longer missing pixels.
+
+The Penguin General, Penguin Trooper, and Penguin Rocket Trooper now have proper names, descriptions, and terrain collisions.
+
+More typos were fixed.
+
+
 -------- 1.5.4 --------
 The Electric Yokat no longer dies when hitting a wall.
 
@@ -41,25 +63,6 @@ Many more typos were fixed.
 
 Re-introduced the fix for untiered upgradeable crafting stations not always stacking.
 
-
--------- 1.5.3 --------
-Reversed hurt and blink eyes on the Nutmidge and Toxic Nutmidge were corrected.
-
-Dye Remover now has a pixel value that matches regular dyes.
-
-The Peacekeeper Emblems now have distinct icons.
-
-The Protectorate Radio icon colors were changed to match its own.
-
-The Terrifying Eye Hat icon outline was shifted over by one pixel so it does not get cut off.
-
-Erroneous jagged lines with a high alpha value were removed from the songbook scroll background.
-
-A typo in the upgrade GUI preventing selection highlights was fixed.
-
-The Ice Armor set had the glow effect copied from the Glow cosmetic set removed.
-
-Several more typos were fixed.
 [/code]
 
 PNGGauntlet has been used on all textures modified by the SBPP to reduce file size and improve load times.
@@ -69,4 +72,4 @@ PNGGauntlet has been used on all textures modified by the SBPP to reduce file si
 [url=https://community.playstarbound.com/resources/starbound-patch-project.5894/]Starbound Patch Project on the Chucklefish Forums[/url]
 [url=https://gamebanana.com/mods/396904]Starbound Patch Project on GameBanana[/url]
 
-Contributors: Armok, Clank8138, Dracyoshi, giantcavespider, Kherae, lunapanshiel, Nebulox, Prototype99, Ralek_Basa, rl-starbound, Silver Sokolova, VenZell, Xaliber, Yanazake
+Contributors: Armok, Clank8138, Dracyoshi, giantcavespider, Juni, Kherae, lunapanshiel, Nebulox, Prototype99, Ralek_Basa, rl-starbound, Silver Sokolova, VenZell, Xaliber, Yanazake

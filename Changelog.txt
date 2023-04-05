@@ -1,3 +1,25 @@
+-------- 1.5.5 --------
+The Electric Skimbus no longer has a half missing frame.
+
+The Quagmutt hunting table action figure drop assignment now points to a valid object.
+
+The Grappling Hook now uses the correct tooltip type.
+
+The Standard Issue Armchair and Primitive Armchair now have cover layers.
+
+Several small versions of ships used in the intro cinematic had erroneous extra pixels removed.
+
+The Hylotl Curator's Hylotl specific dialog now works.
+
+Tonauac and Baron now use species specific interaction dialog during story quests if applicable.
+
+A valve on the t4 Novakid ship is no longer missing pixels.
+
+The Penguin General, Penguin Trooper, and Penguin Rocket Trooper now have proper names, descriptions, and terrain collisions.
+
+More typos were fixed.
+
+
 -------- 1.5.4 --------
 The Electric Yokat no longer dies when hitting a wall.
 

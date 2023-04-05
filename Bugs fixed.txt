@@ -1,9 +1,9 @@
-﻿Fixes for bugs that were officially fixed have been dropped from the patch project and are not listed here.
+﻿Fixes for bugs that were officially fixed have been removed from the patch project and are not listed here.
 
 ////////special thanks////////
 Dracyoshi and Xaliber for allowing fixes from the Parallax Fixes mod to be included.
 Silver Sokolova for providing missing help command documentation and much more.
-Armok, Clank8138, giantcavespider, Kherae, lunapanshiel, Nebulox, Prototype99, Ralek_Basa, rl-starbound, VenZell, and Yanazake for additional contributions.
+Armok, Clank8138, giantcavespider, Juni, Kherae, lunapanshiel, Nebulox, Prototype99, Ralek_Basa, rl-starbound, VenZell, and Yanazake for additional contributions.
 
 ////////typos////////
 Misspelled words were corrected in the following:
@@ -78,7 +78,7 @@ Incorrect capitalization was corrected in the following:
   //objects
   •baguettebox "Box of Bread" name
 
-Erronius or duplicated characters were removed from the following:
+Erroneous or duplicated characters were removed from the following:
   //celestial
   •names.config system name fragment three hundred sixty nine "Thalia"
   •names.config system name fragment five hundred forty three "Waterosa"
@@ -87,6 +87,7 @@ Erronius or duplicated characters were removed from the following:
   //dialog
   •peacekeeperconverse.config default converse with default six
   //items
+  •miningdrone "Mining Drone" description
   •spacesuitchest "Spacesuit Chest" description
   •spacesuithead "Space Helmet" description
   •ophidauntfossil1 "Ophidaunt Skull" name
@@ -94,6 +95,7 @@ Erronius or duplicated characters were removed from the following:
   //objects
   •erchiuscrystalsample "Erchius Crystal Sample" description
   •explosivebarrel "Explosive Barrel" name
+  •separatoraddon "Separator Addon" Floran description
   •fossildisplay1 "Small Fossil Display" Floran description
   •steampunkshelf "Steampunk Shelf" Apex description
   //quests
@@ -101,7 +103,7 @@ Erronius or duplicated characters were removed from the following:
   •new_stock2.generated Floran request text one
   •return_stolen.generated default request text two
 
-Erronius or duplicated words were removed from the following:
+Erroneous or duplicated words were removed from the following:
   //dialog
   •converse.config Hylotl converse with Novakid six
   •converse.config Glitch converse with Floran eleven
@@ -164,6 +166,7 @@ Missing punctuation was added to the following:
   •ballista "Ballista" description
   //objects
   •ancientsmallconsole "Ancient Console" Human description
+  •scorchedcitybrokenfridge "Rusty Stylish Fridge" Human description
   •weaponupgradeanvil "Weapon Upgrade Anvil" Human description
   •birdgodemblem "Avian Emblem" description
   •tombstone10 "Eye Tombstone" description
@@ -537,6 +540,7 @@ Problem with the following textures have been fixed:
   •specialrice "Special Fried Rice" had a missing pixel added to its outline.
   //monsters
   •triplod "Triplod" had missing pixels filled in its hurt frame.
+  •electricskimbus "Electric Skimbus" has a partially missing frame restored.
   •adultpoptop "Adult Poptop" and motherpoptop "Mother Poptop" had a few miscolored pixels near the mouth corrected.
   •albinoadultpoptop "Adult Albino Poptop" had several miscolored pixels near and in the mouth corrected.
   •nutmidge "Nutmidge" had reversed blink and hurt eyes corrected.
@@ -565,7 +569,7 @@ Textures were created for the following things that had none:
   //plants
   •weepingleaves tree foliage "crown3"
 
-Current teleporter textures were applied to the following starting quest racial ship textures:
+Current teleporter textures were applied to the following starting quest ship textures:
   •Apex
   •Avian
   •Floran
@@ -573,6 +577,13 @@ Current teleporter textures were applied to the following starting quest racial 
   •Human
   •Hylotl
   •Novakid
+
+Underlying layer were removed from the following story cinematic small ships:
+  •HumanShip2
+  •HumanShip3
+  •HylotlShip2
+  •NovakidShip2
+  •NovakidShip3
 
 New icons were made for the following things with missing or placeholder icons:
   //items
@@ -634,10 +645,13 @@ Icons were improved for the following:
 ////////recipes////////
 •bottledhealingwater "Bottled Healing Water" had invalid recipe groups changed to valid ones so it can be made after learning its recipe from Healing Water.
 
+////////treasure pools////////
+•quagmuttHuntinghad an invalid action figure drop replaced with a valid one.
+
 ////////creatures and npcs////////
-•The Swansong fight had timers added to some attacks so they would not get stuck.
+•The Swansong fight had timers added to some attacks so they will not lock up.
 •sewerfly "Growfly" had a head windup frame assigned so its head would not disappear when making ranged attacks.
-•bonebird "Bone Bird" had its damage team was removed so it will not attack other creatures.
+•bonebird "Bone Bird" had its damage team removed so it will not attack other creatures.
 •electricyokat "Electric Yokat" had a wall crash sound added so it does not die when hitting a wall.
 
 Outfit items were added to the following NPC types:
@@ -646,13 +660,20 @@ Outfit items were added to the following NPC types:
   •wanderingmerchant Floran can now spawn with floransurvivalistchest "Survivalist Chest" chest items for consistency.
   •wanderingmerchant Floran can now spawn with floransurvivalistlegs "Survivalist Legs" leg items for consistency.
 
-Wrongly setup dialog on the following NPC types was corrected so generic dialog is not used:
+Dialog on the following NPC types was corrected so generic dialog is not used:
+ •outposthylotlcurator "Daichi"
  •stargazer
  •aviantomb
 
 Tenant quest pools were removed from the following non-tenant NPC types:
   •stargazer
   •saloon
+
+Player dialogTargets were set on the following behaviors so species specific dialog will function:
+  •tonauacdoor
+  •tonauacend
+  •tonauacstart
+  •baronstart
 
 The correct drop tables were assigned to the following:
   //walkers
@@ -671,6 +692,10 @@ The correct drop tables were assigned to the following:
   •friendlycastlelord
 
 Collision polygons were fixed on the following so they can go over one block inclines:
+  //boss
+  •penguingeneral "Penguin General"
+  •penguinrockettrooper "Penguin Rocket Trooper"
+  •penguintrooper "Penguin Trooper"
   //critter
   •apexscabcritter
   •armadillocritter
@@ -769,6 +794,10 @@ Collision polygons were fixed on the following so they can go over one block inc
   •robothenbaby "Baby Robot Hen"
 
 Unique names were added to the following:
+  //boss
+  •penguingeneral "Penguin General"
+  •penguinrockettrooper "Penguin Rocket Trooper"
+  •penguintrooper "Penguin Trooper"
   //bugs
   •ashsprite "Ashsprite"
   •aurorabee "Aurorabee"
@@ -866,6 +895,10 @@ Unique names were added to the following:
   •tentacleclam "Tentacle Clam"
 
 Unique descriptions were added to the following:
+  //boss
+  •penguingeneral "Penguin General"
+  •penguinrockettrooper "Penguin Rocket Trooper"
+  •penguintrooper "Penguin Trooper"
   //bugs
   •ashsprite "Ashsprite"
   •aurorabee "Aurorabee"
@@ -974,6 +1007,7 @@ Unique descriptions were added to the following:
 //codex
 •humanhistory10 "It's Not a Bug, It's a Creature" is no longer missing two insects.
 //items
+•grapplinghook "Grappling Hook" had its tooltip type changed so its large icon is displayed.
 •wateringcan "Watering Can" stack size was limited to 1 for consistency and to prevent a rare save corrupting crash.
 •npcdeadbeataxe "NPC Deadbeat Axe" had its builder config blade variants number changed to two so both variations are used.
 •Weapons that use laserbeam.lua will no longer have thier laser show if the weapon body is in a wall but the muzzle is not.
@@ -1027,6 +1061,10 @@ Wiring nodes are now correctly placed on the following:
 Collision was added to the following:
   •barrel "Small Barrel" so that an ocean dungeon can generate correctly.
   •barrellarge "Large Barrel" to be consistent with barrel "Small Barrel"
+
+Cover layers were added to the following seats:
+  •apexarmchair "Standard Issue Armchair"
+  •floranarmchair "Primitive Armchair"
 
 Item tags were added to the following:
   •platinumbar "Platinum Bar" had the "reagent" tag added.
@@ -1102,6 +1140,8 @@ Hair masking accuracy was improved for the following headwear:
   •voyagerhead "Voyager's Helm"
 
 ////////ships////////
+•Tier 4 Novakid ships textures had cutoff detailing fixed.
+
 Added missing hazard walls to the following:
   •floranT7blocks
   •novakidT5blocks
