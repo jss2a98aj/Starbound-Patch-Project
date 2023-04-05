@@ -9,7 +9,7 @@ The Standard Issue Armchair and Primitive Armchair now have cover layers.
 
 Several small versions of ships used in the intro cinematic had erroneous extra pixels removed.
 
-The Hylotl Curator's Hylotl specific dialog now works.
+The Hylotl Curator's species specific dialog now works.
 
 Tonauac and Baron now use species specific interaction dialog during story quests if applicable.
 
