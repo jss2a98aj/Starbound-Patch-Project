@@ -4,7 +4,7 @@ It is safe to install or uninstall this mod at any time.
 
 [url=https://github.com/jss2a98aj/Starbound-Patch-Project/blob/master/Bugs%20fixed.txt]List of all bugs currently fixed[/url]
 
-Recent Changelogs:
+Latest Changelog:
 [code]
 -------- 1.5.5 --------
 The Electric Skimbus no longer has a half missing frame.
@@ -26,50 +26,14 @@ A valve on the t4 Novakid ship is no longer missing pixels.
 The Penguin General, Penguin Trooper, and Penguin Rocket Trooper now have proper names, descriptions, and terrain collisions.
 
 More typos were fixed.
-
-
--------- 1.5.4 --------
-The Electric Yokat no longer dies when hitting a wall.
-
-The Solus Katana Mech Arm can now be used in places with gravity.
-
-Snowmen now drop the correct type of wood when broken.
-
-Volatile Powder now has a pixel value.
-
-Shepherd's Pie has a longer effect duration matching similar foods.
-
-The Toymaker's Table name is now colored like other crafting station names.
-
-The Triplod head hurt frame no longer has holes in it.
-
-Supernova Gauntlets now align with their attack VFX slightly better.
-
-The Copper Goggles icon correctly shows dyes.
-
-The Feather Headband icon better reflects what the item actually looks like.
-
-The Tungsten Axe no longer has a stray pixel.
-
-The food inventory tab icon now moves like other tabs when pressed.
-
-Several more items now have a valid category.
-
-The Refinery and Pet Healing Station interfaces now have proper shine layers.
-
-Several sprites with breaks in their outlines have been fixed.
-
-Many more typos were fixed.
-
-Re-introduced the fix for untiered upgradeable crafting stations not always stacking.
-
 [/code]
 
 PNGGauntlet has been used on all textures modified by the SBPP to reduce file size and improve load times.
 
-[url=https://www.nexusmods.com/starbound/mods/842]Starbound Patch Project on the Nexus[/url]
-[url=https://github.com/jss2a98aj/Starbound-Patch-Project]Starbound Patch Project on GitHub[/url]
-[url=https://community.playstarbound.com/resources/starbound-patch-project.5894/]Starbound Patch Project on the Chucklefish Forums[/url]
-[url=https://gamebanana.com/mods/396904]Starbound Patch Project on GameBanana[/url]
+Find the Starbound Patch Project on:
+[url=https://www.nexusmods.com/starbound/mods/842]The Nexus[/url]
+[url=https://github.com/jss2a98aj/Starbound-Patch-Project]GitHub[/url]
+[url=https://community.playstarbound.com/resources/starbound-patch-project.5894/]Chucklefish Forums[/url]
+[url=https://gamebanana.com/mods/396904]GameBanana[/url]
 
 Contributors: Armok, Clank8138, Dracyoshi, giantcavespider, Juni, Kherae, lunapanshiel, Nebulox, Prototype99, Ralek_Basa, rl-starbound, Silver Sokolova, VenZell, Xaliber, Yanazake
