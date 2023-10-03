@@ -8,5 +8,21 @@
       "path": "/humanDescription",
       "value": "Brainwaves? Who do they belong to?"
     }
+  ],
+  [{
+      "op": "test",
+      "path": "/tooltipFields",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/tooltipFields",
+      "value": {}
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/tooltipFields/objectImage",
+      "value": "/objects/avian/screen5/screen5icon.png?replace;000=0000"
+    }
   ]
 ]
