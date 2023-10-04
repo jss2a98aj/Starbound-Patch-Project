@@ -1,0 +1,28 @@
+[
+  [{
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Spaceship screen"
+    }, {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Spaceship Screen"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/tooltipFields",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/tooltipFields",
+      "value": {}
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/tooltipFields/objectImage",
+      "value": "/objects/avian/screen2/screen2icon.png?replace;000=0000"
+    }
+  ]
+]
