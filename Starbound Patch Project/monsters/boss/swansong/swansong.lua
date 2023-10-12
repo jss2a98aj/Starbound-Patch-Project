@@ -170,6 +170,23 @@ function updateTargets()
 end
 
 function controlApproachVelocity(velocity, force)
+  -- The Starbound Lua interpreter does not appear to implement IEEE-754
+  -- semantics and fails the `x ~= x` test for detecting NANs. As a
+  -- workaround, look at the tostring values, but understand that this
+  -- is platform-specific, so it's only good for debugging on a specific
+  -- machine. On my machine, NANs stringify as "nan" or "-nan", but your
+  -- mileage may vary. As such, as well as for performance reasons, I'm
+  -- leaving this check commented out. If you experience buggy Swansong
+  -- movement, you will want to uncomment this and adapt the code for
+  -- your system.
+
+  -- if contains({"-nan", "nan"}, tostring(velocity[1])) or
+  --   contains({"-nan", "nan"}, tostring(velocity[2])) then
+  --
+  --   sb.logError("Invalid approachVelocity: " .. util.tableToString(velocity))
+  --   debug.traceback()
+  -- end
+
   self.approachVelocity = velocity
   self.approachForce = force
 end
@@ -295,19 +312,13 @@ function queryOphanims()
 end
 
 function breakAdds()
-  --SBPP - Filter out entities that do not exist in the world. Credit goes to Kherae for this.
-  local e = queryOphanims()
-  e = util.filter(e, world.entityExists)
-  for _, entityId in ipairs(e) do
+  for _, entityId in ipairs(util.filter(queryOphanims(), world.entityExists)) do
     world.sendEntityMessage(entityId, "break")
   end
 end
 
 function despawnAdds()
-  --SBPP - Filter out entities that do not exist in the world. Credit goes to Kherae for this.
-  local e = queryOphanims()
-  e = util.filter(e, world.entityExists)
-  for _, entityId in ipairs(e) do
+  for _, entityId in ipairs(util.filter(queryOphanims(), world.entityExists)) do
     world.sendEntityMessage(entityId, "despawn")
   end
 end
@@ -362,6 +373,7 @@ swansongBehavior = async(function(attackConfig)
       coroutine.yield(tick(active)) -- we don't expect the active state to finish
     end
     
+    sb.logWarn("Resetting Swansong due to lack of players in line-of-sight.")
     await(resetBoss())
     await(deactivateGravity())
   end
@@ -452,6 +464,10 @@ activeState = async(function(attackConfig)
   end
 
   resetAttacks()
+
+  -- Prevent Swansong from killing the player with contact damage during
+  -- its death throes.
+  monster.setDamageOnTouch(false)
   
   setMusicEnabled(false)
 
@@ -518,48 +534,73 @@ end)
 
 -- flyTo smoothly flies to a position
 flyTo = async(function(pos)
+  local failsafeTimer = 0.0
   local maxAcc = self.airForce / mcontroller.mass()
   local targetDir = vec2.norm(world.distance(pos, mcontroller.position()))
-  --SBPP - Added a failsafe so some attacks will not get stuck. Credit goes to Kherae for this.
-  local failsafeTimer = 0.0
-  local forceTeleport = false
   while true do
-    failsafeTimer = failsafeTimer + script.updateDt()
     local toTarget = world.distance(pos, mcontroller.position())
     local distance = world.magnitude(toTarget)
     if vec2.dot(toTarget, targetDir) < 0.0 or distance < 0.1 then
       -- passed the target, or is very close
       break 
     end
-
     if failsafeTimer > 10.0 then
-      forceTeleport=true
+      sb.logWarn("Swansong flyTo failsafeTimer invoked. This is a symptom of a movement bug.")
+      mcontroller.setPosition(pos)
       break
     end
 
     -- approach the max speed that allows braking to a stop on the target
     -- using the approximate distance one step ahead to err on the side of caution
     local step = vec2.mag(mcontroller.velocity()) * script.updateDt()
-    local targetSpeed = math.min(math.sqrt(2 * maxAcc * (distance - step)), self.flySpeed)
+
+    -- Avoid taking the square root of a negative number, which happens
+    -- if the next step will overshoot the target position. This was the
+    -- root cause of Swansong's most egregious bugs.
+    local diff = distance - step
+    if diff < 0 then diff = 0 end
+    local targetSpeed = math.min(math.sqrt(2 * maxAcc * diff), self.flySpeed)
 
     controlApproachVelocity(vec2.mul(vec2.norm(toTarget), targetSpeed), self.airForce)
     coroutine.yield()
-    if forceTeleport then
-      mcontroller.setPosition(pos)
-    end
+    failsafeTimer = failsafeTimer + script.updateDt()
   end
   mcontroller.setVelocity({0, 0})
 
   return true
 end)
 
--- stop smoothly comes to a stop
-stop = async(function(force)
-  while vec2.mag(mcontroller.velocity()) > 0.1 do
+-- stop smoothly decelerates below the threshold and optionally comes to
+-- a full stop afterward
+stop = async(function(force, fullStop, threshold)
+  if fullStop == nil then fullStop = true end
+  if threshold == nil then threshold = 0.1 end
+
+  -- In the presence of gravity, mcontroller.velocity() will return a
+  -- non-zero velocity even when an entity is stopped. To check an
+  -- entity's true velocity, compare previous and current positions.
+  local speed = vec2.mag(mcontroller.velocity())
+  if speed <= threshold then
+    if fullStop then mcontroller.setVelocity({0, 0}) end
+    return
+  end
+
+  local prevPosition
+  local currentPosition = mcontroller.position()
+  local failsafeTimer = 0.0
+  local tickTime = script.updateDt()
+  repeat
     controlApproachVelocity({0, 0}, force or self.airForce)
     coroutine.yield()
+    prevPosition = currentPosition
+    currentPosition = mcontroller.position()
+    speed = world.magnitude(prevPosition, currentPosition) / tickTime
+    failsafeTimer = failsafeTimer + tickTime
+  until speed <= threshold or failsafeTimer >= 5.0
+  if speed > threshold and failsafeTimer >= 5.0 then
+    sb.logWarn("Swansong stop failsafeTimer invoked. This is a symptom of a movement bug.")
   end
-  mcontroller.setVelocity({0, 0})
+  if fullStop then mcontroller.setVelocity({0, 0}) end
 end)
 
 -- moveLeftHand smoothly moves the left hand to the desired position
@@ -683,7 +724,6 @@ function resetAttacks()
   -- remove rockets and all boss damage
   local projectiles = world.entityQuery(mcontroller.position(), 50, {includedTypes={"projectile"}})
   projectiles = util.filter(projectiles, function(id) return world.entityName(id) == "swansongrocket" end)
-  --SBPP - Filter out entities that do not exist in the world. Credit goes to Kherae for this.
   projectiles = util.filter(projectiles, world.entityExists)
   for _, id in ipairs(projectiles) do
     world.sendEntityMessage(id, "explode")
@@ -983,7 +1023,6 @@ rocketSwarmAttack = async(function(conf)
               table.remove(projectiles, #projectiles),
               table.remove(projectiles, #projectiles)
             }
-            --SBPP - Filter out entities that do not exist in the world. Credit goes to Kherae for this.
             popped = util.filter(popped, world.entityExists)
             for _, e in ipairs(popped) do
               local targetPos = randomTargetPosition()
@@ -1155,38 +1194,42 @@ meleeChargeAttack = async(function(conf, bodyChargeState, bodyEndState)
   await(join(
     moveLeftHand({0.0, 0.0}, targetAngle, 6.0, 0.2),
     function()
-      local spawnedWallMelt = false
-      --SBPP - Added a failsafe so some attacks will not get stuck. Credit goes to Kherae for this.
       local failsafeTimer = 0.0
+      local spawnedWallMelt = false
       while true do
         local speed = 75
         local force = 400
         local swordStart = vec2.add(mcontroller.position(), animator.partPoint("lefthand", "swordStart"))
         local swordEnd = vec2.add(mcontroller.position(), animator.partPoint("lefthand", "swordEnd"))
         local normal
-        failsafeTimer = failsafeTimer + script.updateDt()
         wallPoint, normal = world.lineCollision(swordStart, swordEnd)
         if wallPoint then
           local wallDistance = world.magnitude(swordStart, wallPoint)
           speed = speed * (wallDistance / world.magnitude(swordStart, swordEnd))
           force = 2000
-          if (wallDistance < 0.1) or (failsafeTimer > 5.0) then
-            mcontroller.setVelocity({0.0, 0.0})
-            return
-          end
-          
           if normal ~= nil and spawnedWallMelt == false then
             world.spawnProjectile("wallmelt", wallPoint, entity.id(), vec2.mul(normal, {-1, -1}), false)
             spawnedWallMelt = true
             animator.playSound("chargeBrake")
           end
+
+          if wallDistance < 0.1 then
+            mcontroller.setVelocity({0.0, 0.0})
+            return
+          end
         else
           world.debugLine(swordStart, swordEnd, "green")
+        end
+        if failsafeTimer > 5.0 then
+          sb.logWarn("Swansong meleeChargeAttack failsafeTimer invoked. This is a symptom of a movement bug.")
+          mcontroller.setVelocity({0.0, 0.0})
+          return
         end
         
         controlApproachVelocity(vec2.mul(chargeDir, speed), force)
 
         coroutine.yield()
+        failsafeTimer = failsafeTimer + script.updateDt()
       end
     end
   ))
@@ -1217,15 +1260,7 @@ meleeDashAttack = async(function(conf, targetAngle)
   
   local rotateTime = conf.rotate
   await(join(
-    function()
-      --SBPP - Added a failsafe so some attacks will not get stuck. Credit goes to Kherae for this.
-      local failsafeTimer = 0.0
-      while (vec2.mag(mcontroller.velocity()) > 1.0) and (failsafeTimer < 5.0) do
-        mcontroller.controlApproachVelocity({0.0, 0.0}, self.airForce)
-        coroutine.yield()
-        failsafeTimer = failsafeTimer + script.updateDt()
-      end
-    end,
+    stop(self.airForce, false, 1.0),
     moveLeftHand(self.lhorig.anchor, targetAngle + util.toRadians(-170) * self.facing, self.lhorig.distance, rotateTime),
     function()
       local timer = 0.0
@@ -1242,9 +1277,21 @@ meleeDashAttack = async(function(conf, targetAngle)
     end
   ))
 
-  local dashPos = vec2.add(mcontroller.position(), vec2.withAngle(targetAngle, 30))
-  local dashMidPos = vec2.mul(vec2.add(mcontroller.position(), dashPos), 0.5)
-  local dashDir = vec2.norm(world.distance(dashPos, mcontroller.position()))
+  local currentPos = mcontroller.position()
+  -- In the beginning of the melee dash, the sword arm starts at the
+  -- back of Swansong, and then during the blink dash, the arm swings to
+  -- the front. We need to estimate the final position of the sword.
+  local swordPos = vec2.add(currentPos, vec2.add(self.lhorig.anchor, vec2.withAngle(targetAngle + util.toRadians(10) * self.facing, 6.0)))
+  local dashPos = vec2.add(currentPos, vec2.withAngle(targetAngle, 30))
+  local dashPosWithSword = vec2.add(swordPos, vec2.withAngle(targetAngle, 30))
+  local collisionPoint = world.lineTileCollisionPoint(swordPos, dashPosWithSword)
+  if collisionPoint then
+    -- This prevents Swansong from blink-dashing out of the room, which
+    -- would cause the fight to restart from the beginning.
+    dashPos = vec2.add(currentPos, vec2.withAngle(targetAngle, world.magnitude(swordPos, collisionPoint[1])))
+  end
+  local dashMidPos = vec2.mul(vec2.add(currentPos, dashPos), 0.5)
+  local dashDir = vec2.norm(world.distance(dashPos, currentPos))
 
   await(delay(conf.windup))
   await(blinkDash(
@@ -1281,7 +1328,7 @@ meleeSequenceAttack = async(function(conf)
         local targetToSpawn = world.distance(targetPosition, storage.spawnPosition)
         local distance = world.magnitude(targetToSpawn)
         
-        targetInner = distance < conf.dashArea
+        targetInner = distance <= conf.chargeArea
         targetOuter = distance > conf.chargeArea
         targetDistance = world.magnitude(targetPosition, mcontroller.position())
 
@@ -1291,6 +1338,7 @@ meleeSequenceAttack = async(function(conf)
     function()
       while true do
         if targetDistance < conf.slashRange then
+          -- If the player is within the "slashRange" radius of Swansong.
           attack = meleeSlashAttack(conf.slash)
           break
         end
@@ -1298,11 +1346,21 @@ meleeSequenceAttack = async(function(conf)
         local toTarget = world.distance(targetPosition, mcontroller.position())
         local toSpawn = world.distance(storage.spawnPosition, mcontroller.position())    
         local spawnDistance = world.magnitude(toSpawn)
-        if spawnDistance < conf.chargeArea and targetOuter then
+        if spawnDistance <= conf.chargeArea and targetOuter then
+          -- If Swansong is within the "chargeArea" radius of the center
+          -- point, and the player is outside that radius. In other
+          -- words, if Swansong is near the center and the player is
+          -- along the outer perimeter.
           attack = meleeChargeAttack(conf.charge, "idlegrav", "idle")
           break
         end
         if spawnDistance > conf.chargeArea and targetDistance < conf.dashArea and targetInner then
+          -- If Swansong is outside the "chargeArea" radius of the
+          -- center point, and the player is within the "dashArea"
+          -- radius of Swansong and the player is within the
+          -- "chargeArea" radius of the center point. In other words,
+          -- the player is near the center and Swansong is along the
+          -- outer perimeter.
           attack = meleeDashAttack(conf.dash, vec2.angle(toTarget))
           break
         end
@@ -1448,7 +1506,7 @@ finalFormMeleeAttack = async(function(conf)
     local spawnToTarget = world.distance(world.entityPosition(self.target), storage.spawnPosition)
     local distance = vec2.mag(spawnToTarget)
     if distance > 10 then
-      -- teleport to the outside of the area, placing the target between us and the center
+      -- teleport to the center of the area, placing the target between us and the outer edge
       await(blinkDash(storage.spawnPosition, 0.0, {body = "final", wings = "broken", lefthand = "idle", righthand = "idle"}))
       await(meleeChargeAttack(conf.charge, "final", "final"))
     end

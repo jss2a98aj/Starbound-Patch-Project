@@ -1,0 +1,18 @@
+[
+  [{
+      "op": "test",
+      "path": "/tooltipFields",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/tooltipFields",
+      "value": {}
+    }
+  ],
+  [{
+      "op": "add",
+      "path": "/tooltipFields/objectImage",
+      "value": "/objects/avian/screen3/screen3icon.png?replace;000=0000"
+    }
+  ]
+]
