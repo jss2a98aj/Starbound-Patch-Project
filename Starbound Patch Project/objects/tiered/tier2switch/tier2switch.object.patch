@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A robust tungesten lever. Demands to be pulled."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "A robust tungsten lever. Demands to be pulled."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A tall container full of bubbling of molten liquid."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "A tall container full of bubbling molten liquid."
+  }
+]
