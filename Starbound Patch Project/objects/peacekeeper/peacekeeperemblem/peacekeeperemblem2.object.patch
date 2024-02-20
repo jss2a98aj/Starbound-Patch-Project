@@ -1,22 +1,26 @@
 [
-  {
-    "op" : "test",
-    "path" : "/inventoryIcon",
-    "value" : "peacekeeperemblemicon.png"
-  },
-  {
-    "op" : "replace",
-    "path" : "/inventoryIcon",
-    "value" : "peacekeeperemblemicon2.png"
-  },
-  {
-    "op" : "test",
-    "path" : "/apexDescription",
-    "value" : "This emblem need some maintenence."
-  },
-  {
-    "op" : "replace",
-    "path" : "/apexDescription",
-    "value" : "This emblem needs some maintenence."
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/inventoryIcon",
+      "value" : "peacekeeperemblemicon.png"
+    },
+    {
+      "op" : "replace",
+      "path" : "/inventoryIcon",
+      "value" : "peacekeeperemblemicon2.png"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/apexDescription",
+      "value" : "This emblem need some maintenence."
+    },
+    {
+      "op" : "replace",
+      "path" : "/apexDescription",
+      "value" : "This emblem needs some maintenence."
+    }
+  ]
 ]

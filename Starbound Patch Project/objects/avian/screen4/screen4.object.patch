@@ -1,18 +1,21 @@
 [
-  [{
-      "op": "test",
-      "path": "/tooltipFields",
-      "inverse": true
-    }, {
-      "op": "add",
-      "path": "/tooltipFields",
-      "value": {}
+  [
+    {
+      "op" : "test",
+      "path" : "/tooltipFields",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/tooltipFields",
+      "value" : {}
     }
   ],
-  [{
-      "op": "add",
-      "path": "/tooltipFields/objectImage",
-      "value": "/objects/avian/screen4/screen4icon.png?replace;000=0000"
+  [
+    {
+      "op" : "add",
+      "path" : "/tooltipFields/objectImage",
+      "value" : "/objects/avian/screen4/screen4icon.png?replace;000=0000"
     }
   ]
 ]

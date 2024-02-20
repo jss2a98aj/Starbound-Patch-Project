@@ -1,22 +1,26 @@
 [
-  [{
-      "op": "test",
-      "path": "/description",
-      "value": "It's a spike"
-    }, {
-      "op": "replace",
-      "path": "/description",
-      "value": "It's a spike."
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "It's a spike"
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "It's a spike."
     }
   ],
-  [{
-      "op": "test",
-      "path": "/glitchDescription",
-      "inverse": true
-    }, {
-      "op": "add",
-      "path": "/glitchDescription",
-      "value": "Statement. A spike."
+  [
+    {
+      "op" : "test",
+      "path" : "/glitchDescription",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/glitchDescription",
+      "value" : "Statement. A spike."
     }
   ]
 ]
