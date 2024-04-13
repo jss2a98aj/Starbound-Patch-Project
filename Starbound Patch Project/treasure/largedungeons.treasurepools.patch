@@ -1,0 +1,16 @@
+[
+  {
+    "op" : "test",
+    "path" : "/glitchsewerChestTreasure/0/1/pool/3/pool",
+    "value" : "bomb"
+  },
+  {
+    "op" : "remove",
+    "path" : "/glitchsewerChestTreasure/0/1/pool/3/pool"
+  },
+  {
+    "op" : "add",
+    "path" : "/glitchsewerChestTreasure/0/1/pool/3/item",
+    "value" : ["bomb", 3]
+  }
+]
