@@ -1,0 +1,13 @@
+
+[
+	{
+		"op" : "test",
+		"path" : "/avianDescription",
+		"value" : "This is very comfortable place to rest my feathers."
+	},
+	{
+		"op" : "replace",
+		"path" : "/avianDescription",
+		"value" : "This is a very comfortable place to rest my feathers."
+	}
+]
