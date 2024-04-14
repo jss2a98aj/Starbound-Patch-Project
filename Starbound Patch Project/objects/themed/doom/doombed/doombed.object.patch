@@ -1,26 +1,26 @@
 [
-	[
-		{
-			"op" : "test",
-			"path" : "/apexDescription",
-			"value" : "A exceptionally nice, comfy bed. Unusually creepy to look at."
-		},
-		{
-			"op" : "replace",
-			"path" : "/apexDescription",
-			"value" : "An exceptionally nice, comfy bed. Unusually creepy to look at."
-		}
-	],
-	[
-		{
-			"op" : "test",
-			"path" : "/hylotlDescription",
-			"value" : "Great build quality. I like this. Not so sure about its appearance, though."
-		},
-		{
-			"op" : "replace",
-			"path" : "/hylotlDescription",
-			"value" : "Great build quality. I like this. Not so sure about its' appearance, though."
-		}
-	]
+  [
+    {
+      "op" : "test",
+      "path" : "/apexDescription",
+      "value" : "A exceptionally nice, comfy bed. Unusually creepy to look at."
+    },
+    {
+      "op" : "replace",
+      "path" : "/apexDescription",
+      "value" : "An exceptionally nice, comfy bed. Unusually creepy to look at."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/hylotlDescription",
+      "value" : "Great build quality. I like this. Not so sure about its appearance, though."
+    },
+    {
+      "op" : "replace",
+      "path" : "/hylotlDescription",
+      "value" : "Great build quality. I like this. Not so sure about its' appearance, though."
+    }
+  ]
 ]

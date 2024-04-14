@@ -1,26 +1,26 @@
 [
-	[
-		{
-			"op" : "test",
-			"path" : "/apexDescription",
-			"value" : "A exceptionally nice, comfy bed."
-		},
-		{
-			"op" : "replace",
-			"path" : "/apexDescription",
-			"value" : "An exceptionally nice, comfy bed."
-		}
-	],
-	[
-		{
-			"op" : "test",
-			"path" : "/avianDescription",
-			"value" : "This is hugely comfortable place to rest my feathers."
-		},
-		{
-			"op" : "replace",
-			"path" : "/avianDescription",
-			"value" : "This is a hugely comfortable place to rest my feathers."
-		}
-	]
+  [
+    {
+      "op" : "test",
+      "path" : "/apexDescription",
+      "value" : "A exceptionally nice, comfy bed."
+    },
+    {
+      "op" : "replace",
+      "path" : "/apexDescription",
+      "value" : "An exceptionally nice, comfy bed."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/avianDescription",
+      "value" : "This is hugely comfortable place to rest my feathers."
+    },
+    {
+      "op" : "replace",
+      "path" : "/avianDescription",
+      "value" : "This is a hugely comfortable place to rest my feathers."
+    }
+  ]
 ]

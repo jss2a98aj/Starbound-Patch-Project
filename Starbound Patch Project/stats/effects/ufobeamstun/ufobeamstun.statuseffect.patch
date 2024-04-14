@@ -1,12 +1,14 @@
 [
-  [{
-      "op": "test",
-      "path": "/label",
-      "value": "Ufo Abduction"
-    }, {
-      "op": "replace",
-      "path": "/label",
-      "value": "UFO Abduction"
+  [
+    {
+      "op" : "test",
+      "path" : "/label",
+      "value" : "Ufo Abduction"
+    },
+    {
+      "op" : "replace",
+      "path" : "/label",
+      "value" : "UFO Abduction"
     }
   ]
 ]
