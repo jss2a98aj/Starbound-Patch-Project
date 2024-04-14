@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "The tall collar hides you face as you enact nefarious deeds."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "The tall collar hides your face as you enact nefarious deeds."
+  }
+]
