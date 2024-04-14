@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/shortdescription",
+    "value" : "Medium Tentacle Capsule"
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "Small Tentacle Capsule"
+  }
+]
