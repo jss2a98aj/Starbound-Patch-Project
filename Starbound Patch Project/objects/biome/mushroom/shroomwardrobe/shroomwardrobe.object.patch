@@ -1,0 +1,38 @@
+[
+	[
+		{
+			"op" : "test",
+			"path" : "/apexDescription",
+			"value" : "What kind of mushroom did they used to build this wardrobe?"
+		},
+		{
+			"op" : "replace",
+			"path" : "/apexDescription",
+			"value" : "What kind of mushroom did they use to build this wardrobe?"
+		}
+	],
+	[
+		{
+			"op" : "test",
+			"path" : "/glitchDescription",
+			"value" : "Analysis. They had to used a lot of mushroom for build this wardrobe."
+		},
+		{
+			"op" : "replace",
+			"path" : "/glitchDescription",
+			"value" : "Analysis. They had to have used a lot of mushrooms to build this wardrobe."
+		}
+	],
+	[
+		{
+			"op" : "test",
+			"path" : "/hylotlDescription",
+			"value" : "Is this a mushroom which look like a wardrobe, or a wardrobe which look like a mushroom?"
+		},
+		{
+			"op" : "replace",
+			"path" : "/hylotlDescription",
+			"value" : "Is this a mushroom that looks like a wardrobe, or a wardrobe that looks like a mushroom?"
+		}
+	]
+]

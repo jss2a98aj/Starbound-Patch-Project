@@ -1,0 +1,14 @@
+[
+	[
+		{"op":"test","path":"/orientations/1/sitPosition/0","value":7},
+		{"op":"replace","path":"/orientations/1/sitPosition/0","value":5}
+	],
+	[
+		{"op":"test","path":"/orientations/0/sitPosition/0","value":1},
+		{"op":"replace","path":"/orientations/0/sitPosition/0","value":-1}
+	],
+	[
+		{"op":"test","path":"/sitCoverImage","inverse":true},
+		{"op":"add","path":"/sitCoverImage","value":"/objects/generic/eggchair/eggchaircover.png"}
+	]
+]
