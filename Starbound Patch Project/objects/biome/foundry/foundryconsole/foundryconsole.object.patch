@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A console with interesting looking levels and lightbulbs."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "A console with interesting looking levers and lightbulbs."
+  }
+]
