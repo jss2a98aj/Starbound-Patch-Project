@@ -9,15 +9,15 @@ Latest Changelog:
 -------- 1.5.6 --------
 Multiple major and minor fixes for the Swansong fight thanks to rl-starbound.
 
-The NPC in the Hylotl City Roof Dojo is now a Hylotl.
+The NPC in the Hylotl City Roof Dojo now spawns as a Hylotl.
 
 Instead of generating an error the glitchsewerChestTreasure treasure pool bomb entry now gives bombs.
 
 Sprint animation particle effects are now correctly aligned.
 
-Species specific flag icons now reflect their post beta sprites.
+Species specific flag icons now reflect their post-beta sprites.
 
-Layering on the Apex Flag pole is now consistent with other flag pole.
+Layering on the Apex Flag pole is now consistent with other flag poles.
 
 Random grey strips were colored on the Floran Flag.
 
@@ -33,7 +33,7 @@ The Polygon Platform is no longer missing a paint variant thanks to Silver.
 
 Sprite borders were fixed on the drizzle weather icon, Mochaccino icon, healing zone, and 3D Printer menu icon.
 
-Numerous typo fixes, many thanks to by Juni and Silver.
+Numerous typo fixes, many of them thanks to Juni and Silver.
 [/code]
 
 PNGGauntlet has been used on all textures modified by the SBPP to reduce file size and improve load times.
