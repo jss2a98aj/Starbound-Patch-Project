@@ -19,12 +19,16 @@ Misspelled words were corrected in the following:
   •converse.config Avian converse with Hylotl nine
   •converse.config Human converse with Apex seven
   •outpost.config Glitch converse with Hylotl one
+  •merchant.config Glitch severe default one
   •peacekeeper.config Floran out of sight default one
   •peacekeeper.config Glitch can't reach one
   //items
+  •novatier6ahead "Gambler's Hat" description
+  •novatier6mchest "Clockwork Jacket" description
   •alienwoodsap "Alien Wood Sap" description
   •cookedpoultry "Cooked Poultry" description
   //objects
+  •jumpbooster "Jump Booster" description
   •cider "Mulled Fruit Drink" Avian description
   •sandstonestatueapex "Apex Sandstone Statue" Apex description
   •obsidianbookcase "Large Obsidian Bookcase" description
@@ -36,6 +40,11 @@ Misspelled words were corrected in the following:
   •eyetable "Eye Table" Floran description
   •eyetable "Eye Table" Glitch description
   •eyetable "Eye Table" Hylotl description
+  •shroomwardrobe "Mushroom Wardrobe" Apex description
+  •shroomwardrobe "Mushroom Wardrobe" Glitch description
+  •shroomwardrobe "Mushroom Wardrobe" Hylotl description
+  •foundryconsole "Foundry Console" description
+  •hivelight2 "Small Hive Light" description
   •flowerspring "Spring Flower" Human description
   •wheatseed "Wheat Seed" Apex description
   •wildwheatseed "Wheat Seed" Apex description
@@ -52,6 +61,7 @@ Misspelled words were corrected in the following:
   •librarybookcaseN2damage "Damaged Bookcase" description
   •frontiercoffin "Frontier Coffin" Floran description
   •safe "Safe" description
+  •peacekeeperemblem2 "Peacekeeper Rusty Emblem" Apex description
   •officecomputer "Office Computer" Human description
   •protectoratesmokeprimer "smoke" Glitch description
   •sunmodel "Sol Model" Hylotl description
@@ -59,6 +69,7 @@ Misspelled words were corrected in the following:
   •geometricswitch "Geometric Console" description
   •opulentswitch "Opulent Console" description
   •sereneswitch "Serene Console" description
+  •tier2switch "Tungsten Lever" description
   •freezetrap "Cryogenic Blaster" Hylotl description
   //tiles
   •material 1666 tentacleblock "Tentacle Cluster" Glitch description
@@ -76,7 +87,14 @@ Incorrect capitalization was corrected in the following:
   //interface
   •Space station expansion GUI "Place" button
   //objects
+  •screen2 "Spaceship Screen" name
   •baguettebox "Box of Bread" name
+  //stats
+  •ufobeamstun "UFO Abduction" label
+
+Incorrect punctuation was corrected in the following:
+  //objects
+  •weaponupgradeanvil "Weapon Upgrade Anvil" Human description
 
 Erroneous or duplicated characters were removed from the following:
   //celestial
@@ -113,6 +131,8 @@ Erroneous or duplicated words were removed from the following:
   •apextier3head "Insurgent's Mask" description
   •currentcorn "Currentcorn" description
   //objects
+  •ladlelarge "Large Ladle" description
+  •ladlesmall "Small Ladle" description
   •geodechair "Geode Chair" Glitch description
   •hivetable "Hive Table" Apex description
   •copperbox1 "Copper Crate" Avian description
@@ -141,6 +161,12 @@ Missing words were added to the following:
   •saturnmodel "Saturn Model" Apex description
   •saturnmodel "Saturn Model" Floran description
   •uranusmodel "Uranus Model" Apex description
+  •doombed "Doom Bed" Apex description
+  •opulentbed "Opulent Bed" Apex description
+  •opulentbed "Opulent Bed" Avian description
+  •wavebed "Wave Bed" Avian description
+  •tier3bed "Titanium Bed" Avian description
+  •tier4bed "Durasteel Bed" Avian description
 
 Missing punctuation was added to the following:
   //codex
@@ -165,6 +191,8 @@ Missing punctuation was added to the following:
   //monsters
   •ballista "Ballista" description
   //objects
+  •largefloorspike "Large Floor Spike" description
+  •smallfloorspike "Small Floor Spike" description
   •ancientsmallconsole "Ancient Console" Human description
   •scorchedcitybrokenfridge "Rusty Stylish Fridge" Human description
   •weaponupgradeanvil "Weapon Upgrade Anvil" Human description
@@ -192,6 +220,7 @@ Missing punctuation was added to the following:
   •railstop "Rail Stop" description
   •railswitch "Rail Switch" description
   •railtramstop "Rail Tram Stop" description
+  •doombed "Doom Bed" Hylotl description
   •egyptiancrest "Egyptian Crest" description
   •wreckcrate1 "Wrecked Crate" description
   //tiles
@@ -226,6 +255,8 @@ Missing spaces were added to the following:
   •glitchmissionmanager firstBallista radio message
 
 Missing localization fields were added to the following:
+  •largefloorspike "Large Floor Spike" Glitch description
+  •smallfloorspike "Small Floor Spike" Glitch description
   •sandstonestatueglitch "Glitch Sandstone Statue" Avian description
   •dirtyfossil2 "Fossil" Apex description
   •dirtyfossil2 "Fossil" Avian description
@@ -308,6 +339,7 @@ The wording of the following was changed:
   •trilobitefossil "Trilobite Fossil" name now fits in with other fossils.
   •trilobitefossil "Trilobite Fossil" complete set name now fits in with other fossils sets.
   //objects
+  •tentaclepopsmall "Small Tentacle Capsule" name had medium changed to small.
   •sandstonestatuefloran "Floran Sandstone Statue" Floran description no longer references cut content.
   •sandstonestatuefloran "Floran Sandstone Statue" Glitch description no longer references cut content.
   •sandstonestatueglitch "Glitch Sandstone Statue" Glitch description no longer references cut content.
@@ -502,6 +534,10 @@ The category assigned to the following things have been corrected so values from
 
 ////////textures////////
 Problem with the following textures have been fixed:
+  //animations
+  •Sprint was allgined within its frame boundaries.
+  //codex
+  •aviancover5 inner bezel had missing pixels added.
   //cinematics
   •The starfield1 layer used in teleport cinematics had erroneous black pixels removed.
   //humanoid
@@ -511,7 +547,9 @@ Problem with the following textures have been fixed:
   •The Novakid back arm had a miscolored border pixel corrected.
   •The Novakid front arm had the coloration of a pixel changed so recoloring works correctly.
   //interface
+  •Drizzle weather icon had a missing pixel added to its outline.
   •Codex Library menu body drop shadow transparency and color were corrected to match its header and footer.
+  •3D Printer menu icon border had excess black pixels removed.
   •Ingredients Bottle tab icon had missing outline pixels added to the top.
   •Inventory food tab icons had elements shifted so they move like other tabs when pressed.
   •The Invite to Party menu header had a drop shadow added to match its body and footer.
@@ -537,6 +575,7 @@ Problem with the following textures have been fixed:
   •novakidsuspenderspants "Suspender Pants" had two missing pixels added to one frame.
   •armoredcultistchest "Cultist General Chestpiece" male and female torso had adjustments so body parts would not hang out on many frames.
   •fireblockaugment "Fire Resist Augment" has been shifted one pixel over so it is aligned correctly in EPP tooltips.
+  •mocha "Mochaccino" had a missing pixel added to its outline.
   •specialrice "Special Fried Rice" had a missing pixel added to its outline.
   //monsters
   •triplod "Triplod" had missing pixels filled in its hurt frame.
@@ -552,14 +591,21 @@ Problem with the following textures have been fixed:
   •avesmingoseed "Avesmingo Seed" had a missing pixel added to its icon outline.
   •pineappleseed "Pineapple Seed" had a missing pixel added to its icon outline.
   •thornplant "Thorny Plant" had a frame that was copy-pasted twice with one pixel of offset corrected.
+  •flagapex "Apex Flag" had cut off parts of the flag restored.
+  •flagfloran "Floran Flag" had grey pixels on some frames properly colored.
+  •torch "Torch" had parts of another sprite that were copied over to it removed and inconsistencies fixed.
   •bunkerposter2 "Calming Poster" had eyebrows that were the same color as seen on the Apex sprite sheet corrected.
   •peacekeeperemblem "Peacekeeper Emblem" icon was centered.
   •09back "Protectorate Background" had stairs removed because tile based stairs were also used in the starting mission.
   •14back "Protectorate Background" had stairs removed because tile based stairs were also used in the starting mission.
   •techstation "S.A.I.L" had several corrections made to its lighting texture.
+  //projectiles
+  •healingzone had pixels corrected in its outline.
   //tiles
   •material 7 darkwood "Timber" had a miscolored pixel on one yellow frame corrected.
   •material 174 matterblock "Matter Block" had frames for alternate colors added so it is visible when recolored.
+  •material 1187 tentaclepipe "Large Tentacle" had frames for alternate colors added so it is visible when recolored.
+  •platform 311 polygonplatform "Polygon Platform" had a missing alternate color frame added.
 
 Textures were created for the following things that had none:
   //ai
@@ -593,6 +639,11 @@ New icons were made for the following things with missing or placeholder icons:
   •armoredcultistchest "Cultist General Chestpiece"
   •armoredcultistlegs "Cultist General Leg Armour"
   //objects
+  •organictorch "Organic Torch"
+  •tentacleegg "Tentacle Monster Egg"
+  •tentaclepopbig "Large Tentacle Capsule"
+  •tentaclepopmed "Medium Tentacle Capsule"
+  •tentaclepopsmall "Small Tentacle Capsule"
   •copperrock "Copper Rock"
   •copperrocksmall "Small Copper Rock"
   •diamondrock "Diamond Rock"
@@ -635,8 +686,16 @@ Icons were improved for the following:
   //items
   •featherhead "Feather Headband"
   //objects
+  •flagapex "Apex Flag"
+  •flagavian "Avian Flag"
+  •flagfloran "Floran Flag"
+  •flagglitch "Glitch Flag"
+  •flaghuman "Human Flag"
+  •flaghylotl "Hylotl Flag"
+  •flagnovakid "Novakid Flag"
   •metalbarrel1 "Metal Barrel"
   •metalbarrel2 "Radioactive Barrel"
+  •torch "Torch"
   •wiredcustomsign "Sign"
 
 ////////sounds////////
@@ -646,13 +705,18 @@ Icons were improved for the following:
 •bottledhealingwater "Bottled Healing Water" had invalid recipe groups changed to valid ones so it can be made after learning its recipe from Healing Water.
 
 ////////treasure pools////////
-•quagmuttHuntinghad an invalid action figure drop replaced with a valid one.
+•quagmuttHunting had an invalid action figure drop replaced with a valid one.
+•glitchsewerChestTreasure had the invalid "bomb" pool reference replaced with bombs.
 
 ////////creatures and npcs////////
-•The Swansong fight had timers added to some attacks so they will not lock up.
 •sewerfly "Growfly" had a head windup frame assigned so its head would not disappear when making ranged attacks.
 •bonebird "Bone Bird" had its damage team removed so it will not attack other creatures.
 •electricyokat "Electric Yokat" had a wall crash sound added so it does not die when hitting a wall.
+
+Swansong fixes:
+  •Timers were added to some attacks so they will not lock up.
+  •Disabled contact damage during death.
+  •Prevent wansong blink-dasing out of the arena and restting the fight.
 
 Outfit items were added to the following NPC types:
   •villager Floran can now spawn with floransurvivalistchest "Survivalist Chest" chest items for consistency.
@@ -1007,7 +1071,6 @@ Unique descriptions were added to the following:
 //codex
 •humanhistory10 "It's Not a Bug, It's a Creature" is no longer missing two insects.
 //items
-•grapplinghook "Grappling Hook" had its tooltip type changed so its large icon is displayed.
 •wateringcan "Watering Can" stack size was limited to 1 for consistency and to prevent a rare save corrupting crash.
 •npcdeadbeataxe "NPC Deadbeat Axe" had its builder config blade variants number changed to two so both variations are used.
 •Weapons that use laserbeam.lua will no longer have thier laser show if the weapon body is in a wall but the muzzle is not.
@@ -1062,9 +1125,13 @@ Collision was added to the following:
   •barrel "Small Barrel" so that an ocean dungeon can generate correctly.
   •barrellarge "Large Barrel" to be consistent with barrel "Small Barrel"
 
-Cover layers were added to the following seats:
+Cover layers were added to the following:
   •apexarmchair "Standard Issue Armchair"
   •floranarmchair "Primitive Armchair"
+  •eggchair "Egg Chair"
+
+Cover layers were improved on the following:
+  •woodenbed2 "Wooden Bed"
 
 Item tags were added to the following:
   •platinumbar "Platinum Bar" had the "reagent" tag added.
@@ -1074,7 +1141,7 @@ Pickup radio messages were added to the following:
   •platinumore "Platinum Ore" had the "pickupore" message added.
 
 Anchors were changed on the following:
-  •medievallamp "Medieval Lamp" was changed to also allow wall placement as indicated by some racial descriptions and attempted use in a cut dungeon.
+  •medievallamp "Medieval Lamp" was changed to allow wall placement as indicated by some racial descriptions and attempted use in a cut dungeon.
 
 Stack size limits of 1000 were removed from the following so stack size mods will apply correctly:
   •climbingrope "Rope"
@@ -1084,8 +1151,9 @@ Stack size limits of 1000 were removed from the following so stack size mods wil
   •shroom "Mushroom"
   •sugar "Sugar"
   •wheat "Wheat"
-  
+
 Tooltip types were corrected on the following:
+  •grapplinghook "Grappling Hook" was set to "tool"
   •damageaugment1 "Damage I Augment" was set to "eppaugment"
   •damageaugment2 "Damage II Augment" was set to "eppaugment"
 
@@ -1139,8 +1207,15 @@ Hair masking accuracy was improved for the following headwear:
   •camohead "Camo Helmet"
   •voyagerhead "Voyager's Helm"
 
+Object image assignments were corrected on the following:
+  •screen1 "Data Screen"
+  •screen2 "Spaceship Screen"
+  •screen3 "Star Map Screen"
+  •screen4 "Glyph Screen"
+  •screen5 "Brain Activity Screen"
+
 ////////ships////////
-•Tier 4 Novakid ships textures had cutoff detailing fixed.
+•Tier 4 Novakid ships textures had cut off detailing fixed.
 
 Added missing hazard walls to the following:
   •floranT7blocks
@@ -1173,6 +1248,9 @@ Corrected additional discrepancies in the following:
 ////////dungeons////////
 •avianvillage object layer 3a had a curtain moved by one block so it would be in the proper spot and rotate the correct direction.
 
+NPC species were corrected in the following:
+  •hylotloceancity hylotlroofdojo1 Human to Hylotl
+
 Bookcases in the following dungeons now use lore loot pools:
   •apexcity building2
   •apexcity building2clue
@@ -1204,7 +1282,7 @@ Chests in the following dungeons now use chest loot pools:
 ////////user interface////////
 •The shine layer in the Vending Machine interface was set to click through so the items to purchase counter can be typed in.
 
-•The Tech Upgrade interface had incorrect casing fixed making selection overlays appear as intended.
+•The Tech Upgrade interface had incorrect casing fixed making selection overlays visible.
 
 •Interfaces using the techupgrade.lua script will no longer cause an error if new techs are unlocked after initialization.
 
