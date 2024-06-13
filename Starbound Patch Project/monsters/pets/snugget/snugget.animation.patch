@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/animatedParts/parts/body/properties/fullbright",
+    "inverse" :  true
+  },
+  {
+    "op" : "add",
+    "path" : "/animatedParts/parts/body/properties/fullbright",
+    "value" :  true
+  }
+]
