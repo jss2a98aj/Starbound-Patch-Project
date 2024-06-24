@@ -3,7 +3,8 @@
   "description" : "Welcome to the Starbound Patch Project!\nFixes hundreds of typos, incorrect item properties, texture issues, and even some rare crashes.\n\nPNGGauntlet has been used on all textures modified by SBPP to reduce file size and improve load times.\n\nStarbound Patch Project Github: https://github.com/jss2a98aj/Starbound-Patch-Project\n\nCredits:\nContributors: Armok, Clank8138, Dracyoshi, giantcavespider, Juni, Kherae, lunapanshiel, Nebulox, Prototype99, Ralek_Basa, rl-starbound, Silver Sokolova, VenZell, Xaliber, Yanazake\n",
   "friendlyName" : "Starbound Patch Project",
   "link" : "steam://url/CommunityFilePage/1543219534",
-  "priority" : -9980,
+  "priority" : -10000,
+  "requires" : ["base"],
   "steamContentId" : "1543219534",
   "tags" : "Crafting and Building|Miscellaneous|Planets and Environments|NPCs and Creatures|Weapons|Quests|Dungeons|Ships|Species|User Interface|Furniture and Objects|Food and Farming|Vehicles and Mounts|Armor and Clothes",
   "version" : "1.5.6"
