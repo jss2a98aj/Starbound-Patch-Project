@@ -1,1 +1,14 @@
-[[{ "op": "replace", "path": "/speed", "value": 23.0 }]]
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/speed",
+      "value" : -23
+    },
+    {
+      "op" : "replace",
+      "path" : "/speed",
+      "value" : 23
+    }
+  ]
+]
