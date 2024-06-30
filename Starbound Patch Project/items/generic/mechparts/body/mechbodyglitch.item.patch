@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A mighty Glitch-styled mech body, made from thick layers of plated violium."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "A mighty Glitch-styled mech body, made from thick layers of plated durasteel."
+  }
+]
