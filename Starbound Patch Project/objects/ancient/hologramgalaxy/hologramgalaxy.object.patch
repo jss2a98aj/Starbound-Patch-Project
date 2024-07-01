@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "An ancient holographic depiction of a galaxy."
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "An ancient holographic depiction of a solar system."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/apexDescription",
+      "value" : "This hologram seems to depict a galaxy of sorts."
+    },
+    {
+     "op" : "replace",
+      "path" : "/apexDescription",
+      "value" : "This hologram seems to depict a solar system of sorts."
+    }
+  ]
+]
