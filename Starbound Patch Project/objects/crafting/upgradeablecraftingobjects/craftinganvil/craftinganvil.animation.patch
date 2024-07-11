@@ -1,0 +1,42 @@
+[
+  [{
+      "op": "test",
+      "path": "/animatedParts/parts/chassis/partStates/stage/craftinganvil/properties",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/animatedParts/parts/chassis/partStates/stage/craftinganvil/properties",
+      "value": {}
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/animatedParts/parts/chassis/partStates/stage/craftinganvil2/properties",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/animatedParts/parts/chassis/partStates/stage/craftinganvil2/properties",
+      "value": {}
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/animatedParts/parts/chassis/partStates/stage/craftinganvil/properties/offset",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/animatedParts/parts/chassis/partStates/stage/craftinganvil/properties/offset",
+      "value": [0, 0.25]
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/animatedParts/parts/chassis/partStates/stage/craftinganvil2/properties/offset",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/animatedParts/parts/chassis/partStates/stage/craftinganvil2/properties/offset",
+      "value": [0, 0.25]
+    }
+  ]
+]
