@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "Gorgeous, vibrant feathers arranged like flowers"
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "Gorgeous, vibrant feathers arranged like flowers."
+  }
+]
