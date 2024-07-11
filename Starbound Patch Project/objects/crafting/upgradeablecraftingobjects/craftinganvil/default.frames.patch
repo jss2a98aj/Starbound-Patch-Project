@@ -1,0 +1,13 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/frameGrid/size/1",
+      "value": 24
+    }, {
+      "op": "replace",
+      "path": "/frameGrid/size/1",
+      "value": 28
+    }
+  ]
+]
