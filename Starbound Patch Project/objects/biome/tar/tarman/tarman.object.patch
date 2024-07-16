@@ -1,0 +1,13 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/humanDescription",
+      "value": "Who would make a man out this sticky stuff?"
+    }, {
+      "op": "replace",
+      "path": "/humanDescription",
+      "value": "Who would make a man out of this sticky stuff?"
+    }
+  ]
+]
