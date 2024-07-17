@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/frames",
+    "value" : "burning2.png"
+  },
+  {
+    "op" : "replace",
+    "path" : "/frames",
+    "value" : "frozen2.png"
+  }
+]
