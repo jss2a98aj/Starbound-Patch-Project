@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A large, luminous pod hanigng from a vine."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "A large, luminous pod hanging from a vine."
+  }
+]
