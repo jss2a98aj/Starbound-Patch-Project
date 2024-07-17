@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A slim golden deocrative vase."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "A slim golden decorative vase."
+  }
+]
