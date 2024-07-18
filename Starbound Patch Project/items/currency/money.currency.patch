@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/category",
+    "inverse" : true
+  },
+  {
+    "op" : "add",
+    "path" : "/category",
+    "value" : "currency"
+  }
+]
