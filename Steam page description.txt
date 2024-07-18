@@ -6,42 +6,51 @@ It is safe to install or uninstall this mod at any time.
 
 Latest Changelog:
 [code]
--------- 1.5.6 --------
-Multiple major and minor fixes for the Swansong fight thanks to rl-starbound.
+-------- 1.5.7 --------
+A soft conflict with OpenStarbound and xSB-2 has been fixed.
 
-The NPC in the Hylotl City Roof Dojo now spawns as a Hylotl.
+The doublethorns projectile no longer flies backwards.
 
-Instead of generating an error the glitchsewerChestTreasure treasure pool bomb entry now gives bombs.
+The Slime Mask no longer provides the lanternglow status effect.
 
-Sprint animation particle effects are now correctly aligned.
+Essence was given a tooltip type that doesn't overhang the description.
 
-Species specific flag icons now reflect their post-beta sprites.
+Pixels and Essence were assigned the currency category.
 
-Layering on the Apex Flag pole is now consistent with other flag poles.
+Snuggets are now fullbright like the Novakid.
 
-Random grey strips were colored on the Floran Flag.
+The Swamp Chest was moved down a pixel so it doesn't float.
 
-Inconsistencies and pixels from another sprite have been corrected in torch sprites.
+The Oxygen Tank no longer has hiles in its swim frames.
 
-An Avian codex cover had missing pixels added to its bezel.
+The Station Display is no longer missing a pixel in some frames.
 
-Several tentacle biome objects now have unique icons.
+The Large Masteroid no longer has some miscolored pixels.
 
-Paint now visibly effects Large Tentacle blocks thanks to Silver.
+The bunny critter eye color is now consistent on all frames.
 
-The Polygon Platform is no longer missing a paint variant thanks to Silver.
+Starter pet entities now have names assigned.
 
-Sprite borders were fixed on the drizzle weather icon, Mochaccino icon, healing zone, and 3D Printer menu icon.
+The Little Red Ball entity was assigned a name and description.
 
-Numerous typo fixes, many of them thanks to Juni and Silver.
+More typos have been fixed, special thanks to Silver and Armok.
 [/code]
 
-PNGGauntlet has been used on all textures modified by the SBPP to reduce file size and improve load times.
+Known conflicts:
+[code]
+Optimizebound - Reverts most texture fixes. Reintroduces bugs from previous game versions and breaks some retexture mods.
+
+Even MORE Optimized JSON! - Reverts many fixes and breaks some other mods.
+
+Mods similar to Optimizebound and Even MORE Optimized JSON! for the same reasons.
+[/code]
+
+Fully compatible with [url=https://github.com/OpenStarbound/OpenStarbound]OpenStarbound[/url] and [url=https://github.com/FezzedOne/xSB-2]xSB-2[/url] as of 1.5.7
 
 Find the Starbound Patch Project on:
 [url=https://www.nexusmods.com/starbound/mods/842]The Nexus[/url]
 [url=https://github.com/jss2a98aj/Starbound-Patch-Project]GitHub[/url]
-[url=https://community.playstarbound.com/resources/starbound-patch-project.5894/]Chucklefish Forums[/url]
+[url=https://community.playstarbound.com/resources/starbound-patch-project.5894/]The Chucklefish Forums[/url]
 [url=https://gamebanana.com/mods/396904]GameBanana[/url]
 
 Contributors: Armok, Clank8138, Dracyoshi, giantcavespider, Juni, Kherae, lunapanshiel, Nebulox, Prototype99, Ralek_Basa, rl-starbound, Silver Sokolova, VenZell, Xaliber, Yanazake

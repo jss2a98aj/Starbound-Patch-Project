@@ -1,3 +1,33 @@
+-------- 1.5.7 --------
+A soft conflict with OpenStarbound and xSB-2 has been fixed.
+
+The doublethorns projectile no longer flies backwards.
+
+The Slime Mask no longer provides the lanternglow status effect.
+
+Essence was given a tooltip type that doesn't overhang the description.
+
+Pixels and Essence were assigned the currency category.
+
+Snuggets are now fullbright like the Novakid.
+
+The Swamp Chest was moved down a pixel so it doesn't float.
+
+The Oxygen Tank no longer has hiles in its swim frames.
+
+The Station Display is no longer missing a pixel in some frames.
+
+The Large Masteroid no longer has some miscolored pixels.
+
+The bunny critter eye color is now consistent on all frames.
+
+Starter pet entities now have names assigned.
+
+The Little Red Ball entity was assigned a name and description.
+
+More typos have been fixed, special thanks to Silver and Armok.
+
+
 -------- 1.5.6 --------
 Multiple major and minor fixes for the Swansong fight thanks to rl-starbound.
 

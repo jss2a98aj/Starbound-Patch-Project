@@ -48,6 +48,7 @@ Misspelled words were corrected in the following:
   •flowerspring "Spring Flower" Human description
   •wheatseed "Wheat Seed" Apex description
   •wildwheatseed "Wheat Seed" Apex description
+  •huntinglight3 "Vine Pod Light" description
   •huntingbench "Crude Bench" description
   •dirtyfossil2 "Fossil" description
   •dirtyfossil3 "Fossil" description
@@ -57,6 +58,7 @@ Misspelled words were corrected in the following:
   •dirtyfossil7 "Fossil" description
   •dirtyfossil8 "Fossil" description
   •medievalfurnace "Medieval Furnace" description
+  •goldvase3 "Gold Slim Vase" description
   •hylotlstyleposter "Comedy Movie Poster" description
   •librarybookcaseN2damage "Damaged Bookcase" description
   •frontiercoffin "Frontier Coffin" Floran description
@@ -155,6 +157,7 @@ Missing words were added to the following:
   //dialog
   •alpaca.config default converse with default four
   //objects
+  •tarman "Tarman" Human description
   •barrellarge "Large Barrel" description
   •fridge "Full-Size Fridge" Apex description
   •jupitermodel "Jupiter Model" Apex description
@@ -194,6 +197,7 @@ Missing punctuation was added to the following:
   •largefloorspike "Large Floor Spike" description
   •smallfloorspike "Small Floor Spike" description
   •ancientsmallconsole "Ancient Console" Human description
+  •feathers1 "Vibrant Feather Bundle" description
   •scorchedcitybrokenfridge "Rusty Stylish Fridge" Human description
   •weaponupgradeanvil "Weapon Upgrade Anvil" Human description
   •birdgodemblem "Avian Emblem" description
@@ -329,6 +333,7 @@ The wording of the following was changed:
   •armoredcultistlegs "Cultist General Leg Armour" name now fits in with the other Cultist General armor.
   •armoredcultistlegs "Cultist General Leg Armour" description now fits in with the other Cultist General armor.
   •swimaugment "Swimming Augment" description now fits in with other augments.
+  •mechbodyglitch "Arthuria Mech Body" description now references the correct material.
   •sulphur "Sulphur" description now refers to itself as an element instead of a compound.
   •fungusstim "Fungus Stim Pack" name now fits in with other stimpacks.
   •fungusstim "Fungus Stim Pack" description now fits in with other stimpacks.
@@ -339,6 +344,8 @@ The wording of the following was changed:
   •trilobitefossil "Trilobite Fossil" name now fits in with other fossils.
   •trilobitefossil "Trilobite Fossil" complete set name now fits in with other fossils sets.
   //objects
+  •hologramgalaxy "Ancient Hologram" description galaxy corrected to solar system.
+  •hologramgalaxy "Ancient Hologram" Apex description galaxy corrected to solar system.
   •tentaclepopsmall "Small Tentacle Capsule" name had medium changed to small.
   •sandstonestatuefloran "Floran Sandstone Statue" Floran description no longer references cut content.
   •sandstonestatuefloran "Floran Sandstone Statue" Glitch description no longer references cut content.
@@ -405,6 +412,8 @@ The category assigned to the following things have been corrected so values from
   •cavedetector "Cave Detector" was set to "tool"
   •oredetector "Ore Detector" was set to "tool"
   •relocator "Relocator" was set to "tool"
+  •essence "Essence" was set to "currency"
+  •money "Pixels" was set to "currency"
   •platinumbar "Platinum Bar" was set to "craftingMaterial"
   •platinumore "Platinum Ore" was set to "craftingMaterial"
   •FTLrepairkit "FTL Repair Kit" was set to "upgradeComponent"
@@ -533,7 +542,7 @@ The category assigned to the following things have been corrected so values from
   •return_stolen.generated default request text two
 
 ////////textures////////
-Problem with the following textures have been fixed:
+The following textures had various issues fixed:
   //animations
   •Sprint was allgined within its frame boundaries.
   //codex
@@ -541,9 +550,10 @@ Problem with the following textures have been fixed:
   //cinematics
   •The starfield1 layer used in teleport cinematics had erroneous black pixels removed.
   //humanoid
-  •The Human hairstyle "fem41" had the coloration of a pixel changed so recoloring works correctly.
   •The Avian female body had a miscolored border pixel corrected.
+  •The Human hairstyle "fem41" had the coloration of a pixel changed so recoloring works correctly.
   •The Human female body had a miscolored border pixel corrected.
+  •Koichi had headphones added to frames that were missing them.
   •The Novakid back arm had a miscolored border pixel corrected.
   •The Novakid front arm had the coloration of a pixel changed so recoloring works correctly.
   //interface
@@ -561,6 +571,7 @@ Problem with the following textures have been fixed:
   •The button that opens the collections menu now has the correct border color when the UI is open.
   •The server info background had erroneous sections of the drop shadow and shine corrected.
   //items
+  •oxygentank "Oxygen Tank" texture had missing pixels in its swim frames filled in.
   •supernovaglove "Supernova Gauntlet" texture was shifted by one pixels so swoosh effect line up.
   •npcdeadbeataxe "NPC Deadbeat Axe" texture two was shifted by two pixels so it is held correctly.
   •tungstenaxe "Tungsten Axe had an erroneous pixel removed.
@@ -579,12 +590,15 @@ Problem with the following textures have been fixed:
   •specialrice "Special Fried Rice" had a missing pixel added to its outline.
   //monsters
   •triplod "Triplod" had missing pixels filled in its hurt frame.
-  •electricskimbus "Electric Skimbus" has a partially missing frame restored.
+  •bunnycritter had its eye color made consistent between frames.
+  •electricskimbus "Electric Skimbus" had a partially missing frame restored.
+  •masteroidlarge "Large Masteroid" had several miscolored pixels on two spikes corrected.
   •adultpoptop "Adult Poptop" and motherpoptop "Mother Poptop" had a few miscolored pixels near the mouth corrected.
   •albinoadultpoptop "Adult Albino Poptop" had several miscolored pixels near and in the mouth corrected.
   •nutmidge "Nutmidge" had reversed blink and hurt eyes corrected.
   •poisonnutmidge "Poison Nutmidge" had reversed blink and hurt eyes corrected.
   //objects
+  •swampchest "Swamp Chest" frames were shifted down one pixel so it doesn't float.
   •giantflowerchest "Giant Flower Chest" open frames were changed to match its closed state.
   •craftingfarm "Foraging Table" had a missing pixel added to its icon outline.
   •craftingwheel "Sewing Machine" had miscolored pixels on some frames corrected.
@@ -599,6 +613,7 @@ Problem with the following textures have been fixed:
   •09back "Protectorate Background" had stairs removed because tile based stairs were also used in the starting mission.
   •14back "Protectorate Background" had stairs removed because tile based stairs were also used in the starting mission.
   •techstation "S.A.I.L" had several corrections made to its lighting texture.
+  •stationdisplay "Station Display" had a missing pixel added to some frames.
   //projectiles
   •healingzone had pixels corrected in its outline.
   //tiles
@@ -624,7 +639,7 @@ Current teleporter textures were applied to the following starting quest ship te
   •Hylotl
   •Novakid
 
-Underlying layer were removed from the following story cinematic small ships:
+Parts of a template layer were removed from the following story cinematic small ships:
   •HumanShip2
   •HumanShip3
   •HylotlShip2
@@ -698,6 +713,17 @@ Icons were improved for the following:
   •torch "Torch"
   •wiredcustomsign "Sign"
 
+Invalid texture paths were corrected on the following:
+  //animations
+  •frozen2 animation
+  //ai
+  •Floran S.A.I.L. interface static
+  •Novakid S.A.I.L. interface static
+
+Frames and animations were adjusted prevent cutoff on the following:
+  •craftinganvil "Anvil"
+  •craftinganvil "Forge"
+
 ////////sounds////////
 •The glue spray projectile impact sound now uses the correct directory.
 
@@ -711,7 +737,9 @@ Icons were improved for the following:
 ////////creatures and npcs////////
 •sewerfly "Growfly" had a head windup frame assigned so its head would not disappear when making ranged attacks.
 •bonebird "Bone Bird" had its damage team removed so it will not attack other creatures.
+•snugget "Snugget" was set to fullbright to match the Novakid.
 •electricyokat "Electric Yokat" had a wall crash sound added so it does not die when hitting a wall.
+•The doublethorns projectile used by some monsters had its flight direction corrected to forwards.
 
 Swansong fixes:
   •Timers were added to some attacks so they will not lock up.
@@ -950,6 +978,16 @@ Unique names were added to the following:
   //mission
   •bigapehologram "Big Ape Hologram"
   •minidrone "Minidrone"
+  //pets
+  •petbunny "Bunny"
+  •petcat "Cat"
+  •petorbis "Orbis"
+  •crasberry "Crasberry"
+  •petball "Little Red Ball"
+  •piglett "Piglett"
+  •petsnake "Snake"
+  •snugget "Snugget"
+  •petweasel "Weasel"
   //unsorted
   •miningdrone "Mining Drone"
   //walkers
@@ -1059,6 +1097,8 @@ Unique descriptions were added to the following:
   //mission
   •bigapehologram "Big Ape Hologram"
   •minidrone "Minidrone"
+  //pets
+  •petball "Little Red Ball"
   //unsorted
   •miningdrone "Mining Drone"
   //walkers
@@ -1088,10 +1128,11 @@ Unique descriptions were added to the following:
 //tiles
 •Occlusion has been disabled on material 174 matterblock "Matter Block" because its texture is translucent.
 
-The Glow status effect was removed from the following non-glow armor pieces:
+Status effect were removed from the following armor pieces:
   •icearmorchest "Ice Armor Shirt"
   •icearmorhead "Ice Armor Mask"
   •icearmorlegs "Ice Armor Trousers"
+  •slimehead "Slime Mask"
 
 Rarities have been changed on the following things:
   •cardboardboxarmor "Cardboard Box Armor" to legendary to match cardboardhead "Cardboard Hat"
@@ -1156,6 +1197,7 @@ Tooltip types were corrected on the following:
   •grapplinghook "Grappling Hook" was set to "tool"
   •damageaugment1 "Damage I Augment" was set to "eppaugment"
   •damageaugment2 "Damage II Augment" was set to "eppaugment"
+  •essence "Essence" was set to "codex" (fits the longer descripton)
 
 The pixel values of the following items were adjusted:
   •platinumbar "Platinum Bar" from 0 to 50 matching similar bars.
@@ -1289,10 +1331,6 @@ Chests in the following dungeons now use chest loot pools:
 •Appropriate shine layers were assinged to thr following interfaces:
   •Pet Healing Station 
   •Refinery
-
-S.A.I.L. static paths were corrected on the following:
-  •Floran S.A.I.L. interface
-  •Novakid S.A.I.L. interface
 
 Alignment was fixed in the following:
   •Fist Weapon item descriptions
