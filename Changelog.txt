@@ -1,5 +1,5 @@
 -------- 1.5.7 --------
-A soft conflict with OpenStarbound and xSB-2 has been fixed.
+A soft conflict with OpenStarbound and xStarbound has been fixed.
 
 The doublethorns projectile no longer flies backwards.
 

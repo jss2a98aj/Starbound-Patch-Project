@@ -7,7 +7,7 @@ It is safe to install or uninstall this mod at any time.
 Latest Changelog:
 [code]
 -------- 1.5.7 --------
-A soft conflict with OpenStarbound and xSB-2 has been fixed.
+A soft conflict with OpenStarbound and xStarbound has been fixed.
 
 The doublethorns projectile no longer flies backwards.
 
@@ -45,7 +45,7 @@ Even MORE Optimized JSON! - Reverts many fixes and breaks some other mods.
 Mods similar to Optimizebound and Even MORE Optimized JSON! for the same reasons.
 [/code]
 
-Fully compatible with [url=https://github.com/OpenStarbound/OpenStarbound]OpenStarbound[/url] and [url=https://github.com/FezzedOne/xSB-2]xSB-2[/url] as of 1.5.7
+Fully compatible with [url=https://github.com/OpenStarbound/OpenStarbound]OpenStarbound[/url] and [url=https://github.com/xStarbound/xStarbound]xStarbound[/url] as of 1.5.7
 
 Find the Starbound Patch Project on:
 [url=https://www.nexusmods.com/starbound/mods/842]The Nexus[/url]
