@@ -1,10 +1,11 @@
 [
   {
-    "op": "test",
-    "path": "/statusEffects/0",
-    "value": "lanternglow"
-  }, {
-    "op": "remove",
-    "path": "/statusEffects/0"
+    "op" : "test",
+    "path" : "/statusEffects/0",
+    "value" : "lanternglow"
+  },
+  {
+    "op" : "remove",
+    "path" : "/statusEffects/0"
   }
 ]

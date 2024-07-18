@@ -1,24 +1,26 @@
 [
   [
     {
-      "op": "test",
-      "path": "/category",
-      "inverse": true
-    }, {
-      "op": "add",
-      "path": "/category",
-      "value": "currency"
+      "op" : "test",
+      "path" : "/category",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/category",
+      "value" : "currency"
     }
   ],
   [
     {
-      "op": "test",
-      "path": "/tooltipKind",
-      "inverse": true
-    }, {
-      "op": "add",
-      "path": "/tooltipKind",
-      "value": "codex"
+      "op" : "test",
+      "path" : "/tooltipKind",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/tooltipKind",
+      "value" : "codex"
     }
   ]
 ]
