@@ -1,0 +1,23 @@
+[
+  [{
+      "op": "test",
+      "path": "/scriptConfig/confiscateItems"
+    }, {
+      "op": "add",
+      "path": "/scriptConfig/confiscateItems/-",
+      "value": ["salve", 1000]
+    }, {
+      "op": "add",
+      "path": "/scriptConfig/confiscateItems/-",
+      "value": ["bandage", 1000]
+    }, {
+      "op": "add",
+      "path": "/scriptConfig/confiscateItems/-",
+      "value": ["soda", 1000]
+    }, {
+      "op": "add",
+      "path": "/scriptConfig/confiscateItems/-",
+      "value": ["rottenfood", 1000]
+    }
+  ]
+]
