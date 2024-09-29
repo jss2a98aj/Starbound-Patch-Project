@@ -1,0 +1,13 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/topLeftButtonTooltips/goToPeacekeeper",
+      "inverse": true
+    }, {
+      "op": "add",
+      "path": "/topLeftButtonTooltips/goToPeacekeeper",
+      "value": "View Peacekeeper HQ"
+    }
+  ]
+]
