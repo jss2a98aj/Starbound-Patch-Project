@@ -1,0 +1,12 @@
+[
+	{
+		"op" : "test",
+		"path" : "/description",
+		"value" : "The label reads, \"Its diet is made up of small amounts of water that it finds by digging into the ground.\""
+	},
+	{
+		"op" : "replace",
+		"path" : "/description",
+		"value" : "The label reads, \"Its' diet is made up of small amounts of water that it finds by digging into the ground.\""
+	}
+]
