@@ -1,0 +1,14 @@
+[
+    {
+        "op": "replace",
+        "path": "/sitStatusEffects/0",
+        "value": "bed1"
+    },
+    {
+        "op": "add",
+        "path": "/sitEffectEmitters",
+        "value": [
+            "sleepbubbles"
+        ]
+    }
+]
