@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "Pure pefection. Almost a shame to place on my head."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "Pure perfection. Almost a shame to place on my head."
+  }
+]
