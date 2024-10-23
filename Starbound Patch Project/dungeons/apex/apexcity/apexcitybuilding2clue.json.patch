@@ -1,12 +1,742 @@
 [
-  {
-    "op" : "test",
-    "path" : "/layers/3/objects/1/properties/parameters",
-    "value" : "{\"treasurePools\":[\"apexcityTreasure\"]}"
-  },
-  {
-    "op" : "replace",
-    "path" : "/layers/3/objects/1/properties/parameters",
-    "value" : "{\"treasurePools\":[\"apexcityLore\"]}"
-  }
+    {
+        "op": "remove",
+        "path": "/layers/3/objects/59"
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/58/y",
+        "value": 320
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/58/x",
+        "value": 176
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/58/width",
+        "value": 32
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/58/id",
+        "value": 1083
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/58/gid",
+        "value": 2477
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/57/x",
+        "value": 392
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/57/id",
+        "value": 1082
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/56/y",
+        "value": 328
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/56/x",
+        "value": 96
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/56/id",
+        "value": 1081
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/56/height",
+        "value": 40
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/56/gid",
+        "value": 5132
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/55/y",
+        "value": 104
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/55/x",
+        "value": 296
+    },
+    {
+        "op": "remove",
+        "path": "/layers/3/objects/55/properties/typeName"
+    },
+    {
+        "op": "remove",
+        "path": "/layers/3/objects/55/properties/npc"
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/55/id",
+        "value": 1080
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/55/height",
+        "value": 4
+    },
+    {
+        "op": "add",
+        "path": "/layers/3/objects/55/gid",
+        "value": 7124
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/54/y",
+        "value": 96
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/54/x",
+        "value": 176
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/54/width",
+        "value": 8
+    },
+    {
+        "op": "remove",
+        "path": "/layers/3/objects/54/properties/parameters"
+    },
+    {
+        "op": "add",
+        "path": "/layers/3/objects/54/properties/npc",
+        "value": "apex"
+    },
+    {
+        "op": "add",
+        "path": "/layers/3/objects/54/properties/typeName",
+        "value": "miniknogvillageguard"
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/54/id",
+        "value": 1079
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/54/height",
+        "value": 8
+    },
+    {
+        "op": "remove",
+        "path": "/layers/3/objects/54/gid"
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/53/y",
+        "value": 88
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/53/x",
+        "value": 128
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/53/id",
+        "value": 1078
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/53/gid",
+        "value": 2147484104
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/52/x",
+        "value": 136
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/52/id",
+        "value": 1077
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/51/x",
+        "value": 112
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/51/width",
+        "value": 24
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/51/id",
+        "value": 1076
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/51/height",
+        "value": 16
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/51/gid",
+        "value": 456
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/50/y",
+        "value": 104
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/50/x",
+        "value": 360
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/50/width",
+        "value": 32
+    },
+    {
+        "op": "add",
+        "path": "/layers/3/objects/50/properties/parameters",
+        "value": "{\"treasurePools\":[\"apexcityTreasure\"]}"
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/50/id",
+        "value": 1075
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/50/height",
+        "value": 24
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/50/gid",
+        "value": 507
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/49/x",
+        "value": 304
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/49/id",
+        "value": 1073
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/49/gid",
+        "value": 3410
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/48/y",
+        "value": 64
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/48/x",
+        "value": 176
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/48/width",
+        "value": 16
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/48/id",
+        "value": 1071
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/48/height",
+        "value": 16
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/48/gid",
+        "value": 5818
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/47/y",
+        "value": 320
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/47/x",
+        "value": 360
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/47/id",
+        "value": 1063
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/46/y",
+        "value": 312
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/46/x",
+        "value": 320
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/46/id",
+        "value": 1062
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/45/x",
+        "value": 296
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/45/id",
+        "value": 1061
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/44/y",
+        "value": 320
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/44/x",
+        "value": 136
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/44/width",
+        "value": 24
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/44/id",
+        "value": 1059
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/44/height",
+        "value": 32
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/44/gid",
+        "value": 2394
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/43/x",
+        "value": 344
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/43/width",
+        "value": 32
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/43/id",
+        "value": 1058
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/43/height",
+        "value": 16
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/43/gid",
+        "value": 2147485977
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/42/y",
+        "value": 272
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/42/x",
+        "value": 376
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/42/width",
+        "value": 14
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/42/id",
+        "value": 1056
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/42/height",
+        "value": 20
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/42/gid",
+        "value": 2147485963
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/41/y",
+        "value": 192
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/41/x",
+        "value": 360
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/41/width",
+        "value": 16
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/41/id",
+        "value": 1055
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/41/height",
+        "value": 16
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/41/gid",
+        "value": 2214
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/40/y",
+        "value": 216
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/40/x",
+        "value": 352
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/40/width",
+        "value": 40
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/40/id",
+        "value": 1053
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/40/height",
+        "value": 20
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/40/gid",
+        "value": 2147485827
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/39/y",
+        "value": 272
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/39/x",
+        "value": 304
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/39/id",
+        "value": 1052
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/39/height",
+        "value": 40
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/39/gid",
+        "value": 2270
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/38/y",
+        "value": 248
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/38/x",
+        "value": 120
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/38/width",
+        "value": 16
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/38/id",
+        "value": 1051
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/38/height",
+        "value": 16
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/38/gid",
+        "value": 2237
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/37/y",
+        "value": 272
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/37/id",
+        "value": 1050
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/36/x",
+        "value": 104
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/36/width",
+        "value": 48
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/36/id",
+        "value": 1049
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/36/height",
+        "value": 24
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/36/gid",
+        "value": 2147485986
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/35/x",
+        "value": 184
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/35/id",
+        "value": 1048
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/34/y",
+        "value": 216
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/34/id",
+        "value": 1047
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/33/y",
+        "value": 160
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/33/x",
+        "value": 272
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/33/width",
+        "value": 40
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/33/id",
+        "value": 1046
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/33/height",
+        "value": 40
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/33/gid",
+        "value": 5144
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/32/x",
+        "value": 80
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/32/id",
+        "value": 1045
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/32/gid",
+        "value": 4350
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/31/x",
+        "value": 400
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/31/width",
+        "value": 16
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/31/id",
+        "value": 1044
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/31/height",
+        "value": 16
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/31/gid",
+        "value": 2147487998
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/30/x",
+        "value": 288
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/30/id",
+        "value": 1043
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/29/y",
+        "value": 104
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/29/x",
+        "value": 200
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/29/width",
+        "value": 8
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/29/id",
+        "value": 1042
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/29/height",
+        "value": 40
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/29/gid",
+        "value": 5132
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/28/y",
+        "value": 184
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/28/x",
+        "value": 136
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/28/width",
+        "value": 16
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/28/id",
+        "value": 1041
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/28/height",
+        "value": 16
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/28/gid",
+        "value": 2303
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/27/y",
+        "value": 216
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/27/x",
+        "value": 304
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/27/width",
+        "value": 32
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/27/id",
+        "value": 1034
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/27/height",
+        "value": 20
+    },
+    {
+        "op": "replace",
+        "path": "/layers/3/objects/27/gid",
+        "value": 2169
+    }
 ]
