@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/inventoryIcon",
+        "value": "pethouseicon.png"
+    }
+]
