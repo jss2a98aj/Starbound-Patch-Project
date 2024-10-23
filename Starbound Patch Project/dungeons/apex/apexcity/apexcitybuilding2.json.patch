@@ -1,4 +1,14 @@
 [
+  {
+    "op" : "test",
+    "path" : "/layers/3/objects/1/properties/parameters",
+    "value" : "{\"treasurePools\":[\"apexcityTreasure\"]}"
+  },
+  {
+    "op" : "replace",
+    "path" : "/layers/3/objects/1/properties/parameters",
+    "value" : "{\"treasurePools\":[\"apexcityLore\"]}"
+  },
     {
         "op": "remove",
         "path": "/layers/3/objects/59"
