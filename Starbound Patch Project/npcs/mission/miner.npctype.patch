@@ -1,0 +1,11 @@
+[
+    [{
+        "op": "test",
+        "path": "/scriptConfig/dialog/converse/default/default/30",
+        "value": "How'd you get down here? the facility is on lockdown!"
+    },{
+        "op": "replace",
+        "path": "/scriptConfig/dialog/converse/default/default/30",
+        "value": "How'd you get down here? The facility is on lockdown!"
+    }]
+]
