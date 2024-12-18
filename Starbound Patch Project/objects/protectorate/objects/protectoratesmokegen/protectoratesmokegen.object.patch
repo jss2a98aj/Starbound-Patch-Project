@@ -1,0 +1,37 @@
+[
+    {
+        "op": "replace",
+        "path": "/novakidDescription",
+        "value": "Smoke."
+    },
+    {
+        "op": "replace",
+        "path": "/hylotlDescription",
+        "value": "Smoke."
+    },
+    {
+        "op": "replace",
+        "path": "/humanDescription",
+        "value": "Smoke."
+    },
+    {
+        "op": "replace",
+        "path": "/glitchDescription",
+        "value": "Observant. Smoke."
+    },
+    {
+        "op": "replace",
+        "path": "/floranDescription",
+        "value": "Sssmoke."
+    },
+    {
+        "op": "replace",
+        "path": "/avianDescription",
+        "value": "Smoke."
+    },
+    {
+        "op": "replace",
+        "path": "/apexDescription",
+        "value": "Smoke."
+    }
+]
