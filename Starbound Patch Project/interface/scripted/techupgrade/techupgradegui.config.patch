@@ -10,7 +10,7 @@
     "inverse" : true
   },
   {
-    "op" : "move",
+    "op" : "copy",
     "from" : "/gui/imgSelected/zLevel",
     "path" : "/gui/imgSelected/zlevel"
   }

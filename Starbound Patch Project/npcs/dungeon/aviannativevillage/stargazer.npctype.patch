@@ -22,7 +22,7 @@
       "inverse" : true
     },
     {
-      "op" : "move",
+      "op" : "copy",
       "from": "/behaviorConfig",
       "path": "/scriptConfig/behaviorConfig"
     }
@@ -39,7 +39,7 @@
       "inverse" : true
     },
     {
-      "op" : "move",
+      "op" : "copy",
       "from": "/dialog",
       "path": "/scriptConfig/dialog"
     }
