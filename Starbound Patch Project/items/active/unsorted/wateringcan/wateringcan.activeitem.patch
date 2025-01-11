@@ -5,7 +5,7 @@
       "op" : "test",
       "path" : "/maxStack",
       "value" : 175
-    }
+    },
     {
       "op" : "replace",
       "path" : "/maxStack",
