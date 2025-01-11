@@ -10,7 +10,7 @@
     "inverse" : true
   },
   {
-    "op" : "move",
+    "op" : "copy",
     "from" : "/dialog",
     "path" : "/scriptConfig/dialog"
   }

@@ -11,7 +11,7 @@
       "inverse" : true
     },
     {
-      "op" : "move",
+      "op" : "copy",
       "from": "/genericDescription",
       "path": "/avianDescription"
     }

@@ -10,7 +10,7 @@
 		"inverse" : true
 	},
 	{
-		"op" : "move",
+		"op" : "copy",
 		"from" : "/scriptConfig/dialog/converse/Hylotl",
 		"path" : "/scriptConfig/dialog/converse/hylotl"
 	}
