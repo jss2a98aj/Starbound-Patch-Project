@@ -2,7 +2,7 @@ require "/scripts/util.lua"
 require "/scripts/vec2.lua"
 
 function init()
-  interactRadius = root.assetJson("/player.config:interactRadius") * 2 --Extra range to account for vehicle size
+  interactRadius = root.assetJson("/player.config:interactRadius") * 4 --Extra range to account for vehicle size
   if config.getParameter("key") == nil then
     activeItem.setInstanceValue("key", sb.makeUuid())
   end
