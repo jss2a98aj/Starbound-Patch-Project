@@ -1,1 +1,24 @@
-[{"op":"remove","path":"/orientations/1/collisionSpaces"},{"op":"remove","path":"/orientations/0/collisionSpaces"}]
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/orientations/0/collisionSpaces",
+      "inverse" : false
+    },
+    {
+      "op" : "remove",
+      "path" : "/orientations/0/collisionSpaces"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/orientations/1/collisionSpaces",
+      "inverse" : false
+    },
+    {
+      "op" : "remove",
+      "path" : "/orientations/1/collisionSpaces"
+    }
+  ]
+]

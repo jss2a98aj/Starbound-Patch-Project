@@ -1,7 +1,12 @@
 [
-    {
-        "op": "replace",
-        "path": "/rarity",
-        "value": "Legendary"
-    }
+  {
+    "op" : "test",
+    "path" : "/rarity",
+    "value" : "Rare"
+  },
+  {
+    "op" : "replace",
+    "path" : "/rarity",
+    "value" : "Legendary"
+  }
 ]

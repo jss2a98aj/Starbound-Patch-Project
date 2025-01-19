@@ -1,37 +1,86 @@
 [
+  [
     {
-        "op": "replace",
-        "path": "/novakidDescription",
-        "value": "Smoke."
+      "op" : "test",
+      "path" : "/apexDescription",
+      "value" : "Smoke"
     },
     {
-        "op": "replace",
-        "path": "/hylotlDescription",
-        "value": "Smoke."
-    },
-    {
-        "op": "replace",
-        "path": "/humanDescription",
-        "value": "Smoke."
-    },
-    {
-        "op": "replace",
-        "path": "/glitchDescription",
-        "value": "Observant. Smoke."
-    },
-    {
-        "op": "replace",
-        "path": "/floranDescription",
-        "value": "Sssmoke."
-    },
-    {
-        "op": "replace",
-        "path": "/avianDescription",
-        "value": "Smoke."
-    },
-    {
-        "op": "replace",
-        "path": "/apexDescription",
-        "value": "Smoke."
+      "op" : "replace",
+      "path" : "/apexDescription",
+      "value" : "Smoke."
     }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/avianDescription",
+      "value" : "Smoke"
+    },
+    {
+      "op" : "replace",
+      "path" : "/avianDescription",
+      "value" : "Smoke."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/floranDescription",
+      "value" : "Smoke"
+    },
+    {
+      "op" : "replace",
+      "path" : "/floranDescription",
+      "value" : "Sssmoke."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/glitchDescription",
+      "value" : "Smoke"
+    },
+    {
+      "op" : "replace",
+      "path" : "/glitchDescription",
+      "value" : "Observant. Smoke."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/humanDescription",
+      "value" : "Smoke"
+    },
+    {
+      "op" : "replace",
+      "path" : "/humanDescription",
+      "value" : "Smoke."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/hylotlDescription",
+      "value" : "Smoke"
+    },
+    {
+      "op" : "replace",
+      "path" : "/hylotlDescription",
+      "value" : "Smoke."
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/novakidDescription",
+      "value" : "Smoke"
+    },
+    {
+      "op" : "replace",
+      "path" : "/novakidDescription",
+      "value" : "Smoke."
+    }
+  ]
 ]

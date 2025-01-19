@@ -1,12 +1,12 @@
 [
-	{
-		"op" : "test",
-		"path" : "/description",
-		"value" : "The label reads, \"An ancient species, know to be agile and mischievous. They have an intelligent look in their eye.\""
-	},
-	{
-		"op" : "replace",
-		"path" : "/description",
-		"value" : "The label reads, \"An ancient species, known to be agile and mischievous. They have an intelligent look in their eye.\""
-	}
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "The label reads, \"An ancient species, know to be agile and mischievous. They have an intelligent look in their eye.\""
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "The label reads, \"An ancient species, known to be agile and mischievous. They have an intelligent look in their eye.\""
+  }
 ]

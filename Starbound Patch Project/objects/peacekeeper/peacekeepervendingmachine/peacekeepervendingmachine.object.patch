@@ -1,37 +1,36 @@
 [
-  //Make shortdesscription fit tooltip
   [
     {
-      "op": "test",
-      "path": "/shortdescription",
-      "value": "Peacekeeper Vending Machine"
-    }, {
-      "op": "replace",
-      "path": "/shortdescription",
-      "value": "Donut Vending Machine"
-    }
-  ],
-
-  //Remove bugged manually-defined "top of vending machine" collision because its platform collision handles this
-  //Plus, the manually-defined ones are missing a spot
-  [
+      "op" : "test",
+      "path" : "/shortdescription",
+      "value" : "Peacekeeper Vending Machine"
+    },
     {
-      "op": "test",
-      "path": "/orientations/0/collisionSpaces",
-      "value": [[-1, 3], [0, 3]]
-    }, {
-      "op": "remove",
-      "path": "/orientations/0/collisionSpaces"
+      "op" : "replace",
+      "path" : "/shortdescription",
+      "value" : "Donut Vending Machine"
     }
   ],
   [
     {
-      "op": "test",
-      "path": "/orientations/1/collisionSpaces",
-      "value": [[-1, 3], [0, 3]]
-    }, {
-      "op": "remove",
-      "path": "/orientations/1/collisionSpaces"
+      "op" : "test",
+      "path" : "/orientations/0/collisionSpaces",
+      "value" : [[-1, 3], [0, 3]]
+    },
+    {
+      "op" : "remove",
+      "path" : "/orientations/0/collisionSpaces"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/orientations/1/collisionSpaces",
+      "value" : [[-1, 3], [0, 3]]
+    },
+    {
+      "op" : "remove",
+      "path" : "/orientations/1/collisionSpaces"
     }
   ]
 ]

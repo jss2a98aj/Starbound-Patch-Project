@@ -1,17 +1,19 @@
 [
   [
     {
-      "op": "test",
-      "path": "/inputNodes/0",
-      "value": [-1, 3]
-    }, {
-      "op": "test",
-      "path": "/inputNodes/1",
-      "inverse": true
-    }, {
-      "op": "replace",
-      "path": "/inputNodes/0",
-      "value": [0, 0]
+      "op" : "test",
+      "path" : "/inputNodes/0",
+      "value" : [-1, 3]
+    },
+    {
+      "op" : "test",
+      "path" : "/inputNodes/1",
+      "inverse" : true
+    },
+    {
+      "op" : "replace",
+      "path" : "/inputNodes/0",
+      "value" : [0, 0]
     }
   ]
 ]
