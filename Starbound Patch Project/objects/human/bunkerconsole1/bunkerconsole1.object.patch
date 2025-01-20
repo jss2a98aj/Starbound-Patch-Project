@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/glitchDescription",
+    "value" : "Observant. The more levers a console as, the more dangerous it is to fiddle with."
+  },
+  {
+    "op" : "replace",
+    "path" : "/glitchDescription",
+    "value" : "Observant. The more levers a console has, the more dangerous it is to fiddle with."
+  }
+]
