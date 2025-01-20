@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/scriptConfig/dialog/converse/apex/apex/1",
+    "value" : "I hope you aren not a defector. Either you are with the Miniknog, or against us."
+  },
+  {
+    "op" : "replace",
+    "path" : "/scriptConfig/dialog/converse/apex/apex/1",
+    "value" : "I hope you are not a defector. Either you are with the Miniknog, or against us."
+  }
+]
