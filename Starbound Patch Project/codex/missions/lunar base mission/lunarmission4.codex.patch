@@ -1,0 +1,15 @@
+[
+//Testing for original content page values does not work on Windows.
+//Other platforms appear to be unaffected.
+//Test operations will be added if this is ever fixed.
+  {
+    "op" : "replace",
+    "path" : "/contentPages/0",
+    "value" : "This facility has been put into full lockdown in accordance with procedure Alpha1a: Awakening.
+
+An Erchius lifeform has been awakened in your facility. We ask that employees remain calm. Letters will be sent to your families, thanking them for your services.
+
+We hope you have a nice day,
+The Letheia Corporation"
+  }
+]

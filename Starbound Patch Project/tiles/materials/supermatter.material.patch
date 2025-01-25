@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/novakidDescription",
+    "value" : "A big ol' erchius crystal."
+  },
+  {
+    "op" : "replace",
+    "path" : "/novakidDescription",
+    "value" : "A big ol' Erchius crystal."
+  }
+]
