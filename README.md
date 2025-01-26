@@ -15,4 +15,4 @@ Find releases here under [tags](https://github.com/jss2a98aj/Starbound-Patch-Pro
 - Even MORE Optimized JSON! - Reverts most non-texture fixes and breaks some other mods.
 - Mods similar to Optimizebound and Even MORE Optimized JSON! for the same reasons.
 
-Fully compatible with [OpenStarbound](https://github.com/OpenStarbound/OpenStarbound) and [xStarbound](https://github.com/xStarbound/xStarbound) as of 1.5.7
+Fully compatible with [OpenStarbound](https://github.com/OpenStarbound/OpenStarbound) and derivatives as of 1.5.7

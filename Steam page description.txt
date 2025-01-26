@@ -6,34 +6,32 @@ It is safe to install or uninstall this mod at any time.
 
 Latest Changelog:
 [code]
--------- 1.5.7 --------
-A soft conflict with OpenStarbound and xStarbound has been fixed.
+-------- 1.5.8 --------
+Some soft conflicts with some localization mods have been fixed.
 
-The doublethorns projectile no longer flies backwards.
+Mannequins can now display equipment with absolute texture paths.
 
-The Slime Mask no longer provides the lanternglow status effect.
+Incorrect armor/clothing frame usage when sleeping clothed was fixed.
 
-Essence was given a tooltip type that doesn't overhang the description.
+The cockpit interface Peacekeeper HQ button now has a tooltip.
 
-Pixels and Essence were assigned the currency category.
+The swimming effect will now check for Water or Healing Water instead of Water or Lava for setWet.
 
-Snuggets are now fullbright like the Novakid.
+All items obtainable during the intro quest are now in its confiscate items list.
 
-The Swamp Chest was moved down a pixel so it doesn't float.
+Vehicle controller range is now a multiple of the player interaction range.
 
-The Oxygen Tank no longer has hiles in its swim frames.
+Some wrongly sized and missing object icons were fixed.
 
-The Station Display is no longer missing a pixel in some frames.
+Some item icons with breaks in the outline were fixed.
 
-The Large Masteroid no longer has some miscolored pixels.
+Cultist Set parts were given an uncommon rarity and 250 pixel value.
 
-The bunny critter eye color is now consistent on all frames.
+The Watering Can was given a value of 175 pixels.
 
-Starter pet entities now have names assigned.
+Even more typos have been fixed.
 
-The Little Red Ball entity was assigned a name and description.
-
-More typos have been fixed, special thanks to Silver and Armok.
+Special thanks to Juni, Silver, Patman, and Godeps for substantial contributions to this update.
 [/code]
 
 Known conflicts:
@@ -45,7 +43,7 @@ Even MORE Optimized JSON! - Reverts many fixes and breaks some other mods.
 Mods similar to Optimizebound and Even MORE Optimized JSON! for the same reasons.
 [/code]
 
-Fully compatible with [url=https://github.com/OpenStarbound/OpenStarbound]OpenStarbound[/url] and [url=https://github.com/xStarbound/xStarbound]xStarbound[/url] as of 1.5.7
+Fully compatible with [url=https://github.com/OpenStarbound/OpenStarbound]OpenStarbound[/url] and derivatives as of 1.5.7
 
 Find the Starbound Patch Project on:
 [url=https://www.nexusmods.com/starbound/mods/842]The Nexus[/url]
@@ -53,4 +51,4 @@ Find the Starbound Patch Project on:
 [url=https://community.playstarbound.com/resources/starbound-patch-project.5894/]The Chucklefish Forums[/url]
 [url=https://gamebanana.com/mods/396904]GameBanana[/url]
 
-Contributors: Armok, Clank8138, Dracyoshi, giantcavespider, Juni, Kherae, lunapanshiel, Nebulox, Prototype99, Ralek_Basa, rl-starbound, Silver Sokolova, VenZell, Xaliber, Yanazake
+Contributors: Armok, Chofranc, Clank8138, Dracyoshi, giantcavespider, Godeps, Juni, Kherae, lunapanshiel, MajorPoison, Nebulox, Ohrwerk, Patman, Prototype99, Ralek_Basa, rl-starbound, Silver Sokolova, Tea-Loving Lad, VenZell, Xaliber, Yanazake

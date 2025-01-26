@@ -3,7 +3,7 @@
 ////////special thanks////////
 Dracyoshi and Xaliber for allowing fixes from the Parallax Fixes mod to be included.
 Silver Sokolova for providing missing help command documentation and much more.
-Armok, Clank8138, giantcavespider, Juni, Kherae, lunapanshiel, Nebulox, Prototype99, Ralek_Basa, rl-starbound, VenZell, and Yanazake for additional contributions.
+Armok, Chofranc, Clank8138, giantcavespider, Godeps, Juni, Kherae, lunapanshiel, MajorPoison, Nebulox, Ohrwerk, Patman, Prototype99, Ralek_Basa, rl-starbound, Tea-Loving Lad, VenZell, and Yanazake for additional contributions.
 
 ////////typos////////
 Misspelled words were corrected in the following:
@@ -23,10 +23,15 @@ Misspelled words were corrected in the following:
   •peacekeeper.config Floran out of sight default one
   •peacekeeper.config Glitch can't reach one
   //items
+  •monopusaf "Monopus Figurine" description
   •novatier6ahead "Gambler's Hat" description
   •novatier6mchest "Clockwork Jacket" description
+  •perfecthead "Perfect Helm" description
   •alienwoodsap "Alien Wood Sap" description
   •cookedpoultry "Cooked Poultry" description
+  //npcs
+  •miner default converse with default thirty-one
+  •apexresearchlab Apex converse with Apex two
   //objects
   •jumpbooster "Jump Booster" description
   •cider "Mulled Fruit Drink" Avian description
@@ -59,6 +64,7 @@ Misspelled words were corrected in the following:
   •dirtyfossil8 "Fossil" description
   •medievalfurnace "Medieval Furnace" description
   •goldvase3 "Gold Slim Vase" description
+  •bunkerconsole1 "Command Console" Glitch description
   •hylotlstyleposter "Comedy Movie Poster" description
   •librarybookcaseN2damage "Damaged Bookcase" description
   •frontiercoffin "Frontier Coffin" Floran description
@@ -84,6 +90,8 @@ Misspelled words were corrected in the following:
   •spacestation_peacekeeper4 "Peacekeeper Station" description
 
 Incorrect capitalization was corrected in the following:
+  //codex
+  •lunarmission4-codex "Emergency Lockdown" page one
   //dialog
   •bountytarget.config Hylotl attack default one
   //interface
@@ -91,11 +99,17 @@ Incorrect capitalization was corrected in the following:
   //objects
   •screen2 "Spaceship Screen" name
   •baguettebox "Box of Bread" name
+  •protectoratestorage2 "Status Pod Storage Unit" Apex description
+  //radiomessages
+  •exploration erchiussickness
   //stats
   •ufobeamstun "UFO Abduction" label
+  //tiles
+  •material 1164 supermatter "Erchius Crystal" Novakid description
 
 Incorrect punctuation was corrected in the following:
   //objects
+  •ancientlightplatform "Ancient Light Platform" Hylotl description
   •weaponupgradeanvil "Weapon Upgrade Anvil" Human description
 
 Erroneous or duplicated characters were removed from the following:
@@ -157,6 +171,7 @@ Missing words were added to the following:
   //dialog
   •alpaca.config default converse with default four
   //objects
+  •ancientlightplatform "Ancient Light Platform" Avian description
   •tarman "Tarman" Human description
   •barrellarge "Large Barrel" description
   •fridge "Full-Size Fridge" Apex description
@@ -219,6 +234,11 @@ Missing punctuation was added to the following:
   •customsign "Sign" description
   •wiredcustomsign "Sign" description
   •peacekeeperpainting "Peacekeeper Painting" Human description
+  •protectoratesmokegen "Smoke" Apex description
+  •protectoratesmokegen "Smoke" Avian description
+  •protectoratesmokegen "Smoke" Human description
+  •protectoratesmokegen "Smoke" Hylotl description
+  •protectoratesmokegen "Smoke" Novakid description
   •railbumper "Rail Bumper" description
   •railsensor "Rail Sensor" description
   •railstop "Rail Stop" description
@@ -226,6 +246,7 @@ Missing punctuation was added to the following:
   •railtramstop "Rail Tram Stop" description
   •doombed "Doom Bed" Hylotl description
   •egyptiancrest "Egyptian Crest" description
+  •retroscifidresser "Retro Dresser" description
   •wreckcrate1 "Wrecked Crate" description
   //tiles
   •material 1451 brainsblock "Brains" description
@@ -381,11 +402,14 @@ Replaced the following placeholder values:
   •shipT7 "Eagle Upgrade" description
   •shipT8 "Condor Upgrade" name
   •shipT8 "Condor Upgrade" description
+  •protectoratesmokegen "Smoke" Floran description
+  •protectoratesmokegen "Smoke" Glitch description
   //stats
   •nova "Nova" label
   •enemynova "Nova" label
 
 Shortned the following to not hang off of tooltips:
+  •peacekeepervendingmachine "Donut Vending Machine" name
   •protectoratedormtoiletroll "Toilet Roll Holder" name
   •protectoratefigures "Turtle And Poptop Toys" name
   •protectorategamesconsole "Games Console" name
@@ -571,6 +595,7 @@ The following textures had various issues fixed:
   •The button that opens the collections menu now has the correct border color when the UI is open.
   •The server info background had erroneous sections of the drop shadow and shine corrected.
   //items
+  •wedding1legs "Elegant Wedding Skirt" texture had accent colors corrected on one frame.
   •oxygentank "Oxygen Tank" texture had missing pixels in its swim frames filled in.
   •supernovaglove "Supernova Gauntlet" texture was shifted by one pixels so swoosh effect line up.
   •npcdeadbeataxe "NPC Deadbeat Axe" texture two was shifted by two pixels so it is held correctly.
@@ -587,7 +612,8 @@ The following textures had various issues fixed:
   •armoredcultistchest "Cultist General Chestpiece" male and female torso had adjustments so body parts would not hang out on many frames.
   •fireblockaugment "Fire Resist Augment" has been shifted one pixel over so it is aligned correctly in EPP tooltips.
   •mocha "Mochaccino" had a missing pixel added to its outline.
-  •specialrice "Special Fried Rice" had a missing pixel added to its outline.
+  •specialrice "Special Fried Rice" had a missing pixel added to its outline
+  •cottonwool "Cotton Wool" had a missing pixel added to its outline
   //monsters
   •triplod "Triplod" had missing pixels filled in its hurt frame.
   •bunnycritter had its eye color made consistent between frames.
@@ -608,6 +634,7 @@ The following textures had various issues fixed:
   •flagapex "Apex Flag" had cut off parts of the flag restored.
   •flagfloran "Floran Flag" had grey pixels on some frames properly colored.
   •torch "Torch" had parts of another sprite that were copied over to it removed and inconsistencies fixed.
+  •lunarbasecrate "Lunar Base Crate" had a missing pixel added to its icon outline.
   •bunkerposter2 "Calming Poster" had eyebrows that were the same color as seen on the Apex sprite sheet corrected.
   •peacekeeperemblem "Peacekeeper Emblem" icon was centered.
   •09back "Protectorate Background" had stairs removed because tile based stairs were also used in the starting mission.
@@ -654,6 +681,7 @@ New icons were made for the following things with missing or placeholder icons:
   •armoredcultistchest "Cultist General Chestpiece"
   •armoredcultistlegs "Cultist General Leg Armour"
   //objects
+  •shirtchest "Shirt Top"
   •organictorch "Organic Torch"
   •tentacleegg "Tentacle Monster Egg"
   •tentaclepopbig "Large Tentacle Capsule"
@@ -670,6 +698,8 @@ New icons were made for the following things with missing or placeholder icons:
   •silverrock "Silver Rock"
   •silverrocksmall "Small Silver Rock"
   •thornplant "Thorny Plant"
+  •pethouse "Pet House"
+  •unicornplush "Unicorn Plushie"
   •peacekeeperemblem2 "Peacekeeper Rusty Emblem"
   •protectorateamp "Protectorate Amp"
   •protectoratebooks "Protectorate Books"
@@ -732,19 +762,26 @@ Frames and animations were adjusted prevent cutoff on the following:
 
 ////////treasure pools////////
 •quagmuttHunting had an invalid action figure drop replaced with a valid one.
+
 •glitchsewerChestTreasure had the invalid "bomb" pool reference replaced with bombs.
 
 ////////creatures and npcs////////
+•The swimming effect will now check for Water or Healing Water instead of Water or Lava for setWet.
+
 •sewerfly "Growfly" had a head windup frame assigned so its head would not disappear when making ranged attacks.
+
 •bonebird "Bone Bird" had its damage team removed so it will not attack other creatures.
+
 •snugget "Snugget" was set to fullbright to match the Novakid.
+
 •electricyokat "Electric Yokat" had a wall crash sound added so it does not die when hitting a wall.
+
 •The doublethorns projectile used by some monsters had its flight direction corrected to forwards.
 
 Swansong fixes:
   •Timers were added to some attacks so they will not lock up.
   •Disabled contact damage during death.
-  •Prevent wansong blink-dasing out of the arena and restting the fight.
+  •Prevent Swansong blink-dasing out of the arena and resetting the fight.
 
 Outfit items were added to the following NPC types:
   •villager Floran can now spawn with floransurvivalistchest "Survivalist Chest" chest items for consistency.
@@ -1123,8 +1160,9 @@ Unique descriptions were added to the following:
 //objects
 •Unupgraded objects using upgradeablecraftingobject.lua will now stack with unplaced ones after being placed.
 •cultistchestlarge "Cultist Chest" had its slot count changed from 16 to 24 to match other large chests.
-•wiredcustomsign "Sign" now hides its edges when placed next to a customsign "Sign" or itself.
+•mannequin "Mannequin"  can now display armor using absolute texture paths.
 •holidaycraftingtable "Toymaker's Table" name color matches other crafting stations.
+•wiredcustomsign "Sign" now hides its edges when placed next to a customsign "Sign" or itself.
 //tiles
 •Occlusion has been disabled on material 174 matterblock "Matter Block" because its texture is translucent.
 
@@ -1135,11 +1173,15 @@ Status effect were removed from the following armor pieces:
   •slimehead "Slime Mask"
 
 Rarities have been changed on the following things:
+  •lightbow "Light Bow" to legendary to match other unique weapons.
   •cardboardboxarmor "Cardboard Box Armor" to legendary to match cardboardhead "Cardboard Hat"
-  •armoredcultistback "Cultist General Tentacles" to uncommon to match other instance dungeon armors.
-  •armoredcultistchest "Cultist General Chestpiece" to uncommon to match other instance dungeon armors.
-  •armoredcultisthead "Cultist General Hood" to uncommon to match other instance dungeon armors.
-  •armoredcultistlegs "Cultist General Leg Armour" to uncommon to match other instance dungeon armors.
+  •armoredcultistback "Cultist General Tentacles" to uncommon to match other mission sets.
+  •armoredcultistchest "Cultist General Chestpiece" to uncommon to match other mission sets.
+  •armoredcultisthead "Cultist General Hood" to uncommon to match other mission sets.
+  •armoredcultistlegs "Cultist General Leg Armour" to uncommon to match other mission sets.
+  •cultisthead "Cultist Hood" to uncommon matching similar cosmetic sets.
+  •cultistchest "Cultist Chestpiece"  uncommon similar cosmetic sets.
+  •cultistlegs "Cultist Leg Armour" to uncommon similar cosmetic sets.
 
 Drops have been changed on the following things:
   //objects
@@ -1161,10 +1203,13 @@ Wiring nodes are now correctly placed on the following:
   •clubceilinglightsgreen "Green Club Lights"
   •clubceilinglightsred "Red Club Lights"
   •clubceilinglightsyellow "Yellow Club Lights"
+  •officelamp "Office Desk Lamp"
 
-Collision was added to the following:
+Collisions were fixed or adjusted on the following:
   •barrel "Small Barrel" so that an ocean dungeon can generate correctly.
   •barrellarge "Large Barrel" to be consistent with barrel "Small Barrel"
+  •frontiervault "Frontier Vault"
+  •peacekeepervendingmachine "Donut Vending Machine"
 
 Cover layers were added to the following:
   •apexarmchair "Standard Issue Armchair"
@@ -1199,26 +1244,32 @@ Tooltip types were corrected on the following:
   •damageaugment2 "Damage II Augment" was set to "eppaugment"
   •essence "Essence" was set to "codex" (fits the longer descripton)
 
-The pixel values of the following items were adjusted:
+The prices of the following items were adjusted:
+  •wateringcan "Watering Can" from 0 to 175 assuming the vanilla stack size was intended to be price.
   •platinumbar "Platinum Bar" from 0 to 50 matching similar bars.
   •platinumore "Platinum Ore" from 0 to 25 matching similar ores.
-  •volatilepowder "Volatile Powder" from 0 to 40 like similar materials.
+  •volatilepowder "Volatile Powder" from 0 to 40 matching similar materials.
   •dyeremover "Dye Remover" from 0 to 25 matching dyes.
   •fungusstim "Fungus Stim Pack" from 0 to 100 matching other stimpacks.
   •orangestim "Orange Stim Pack" from 20 to 100 matching other stimpacks.
   •synthesisstim "Synthesis Stim Pack" from 0 to 100 matching other stimpacks.
-  •trexfossil2 "T. rex Torso" from 0 to 200 matching other fossils.
-  •trexfossil3 "T. rex Legs" from 0 to 200 matching other fossils.
-  •trexfossil4 "T. rex Upper Tail" from 0 to 200 matching other fossils.
-  •trexfossil5 "T. rex Lower Tail" from 0 to 200 matching other fossils.
   •barrelchest "Barrel" from 0 to 2500 matching other rare cosmetic armors.
   •barrelhead "Barrel Lid" from 0 to 2500 matching other rare cosmetic armors.
   •cardboardboxarmor "Cardboard Box Armor" from 0 to 5000 matching other legendary cosmetic armors.
   •georgedevhead "George's Foxy Glasses" from 0 to 5000 matching other legendary cosmetic armors.
-  •armoredcultistback "Cultist General Tentacles" from 0 to 250 matching other instance dungeon armors.
-  •armoredcultistchest "Cultist General Chestpiece" from 0 to 250 matching other instance dungeon armors.
-  •armoredcultisthead "Cultist General Hood" from 0 to 250 matching other instance dungeon armors.
-  •armoredcultistlegs "Cultist General Leg Armour" from 0 to 250 matching other instance dungeon armors.
+  •conceptchest "Casual Cardigan" from 0 to 75 matching other starter clothing.
+  •conceptlegs "Casual Shorts"  from 0 to 35 matching other starter clothing.
+  •armoredcultistback "Cultist General Tentacles" from 0 to 250 matching other mission sets.
+  •armoredcultistchest "Cultist General Chestpiece" from 0 to 250 matching other mission sets.
+  •armoredcultisthead "Cultist General Hood" from 0 to 250 matching other mission sets.
+  •armoredcultistlegs "Cultist General Leg Armour" from 0 to 250 matching other mission sets.
+  •cultisthead "Cultist Hood" from 0 to 250 matching other uncommon sets.
+  •cultistchest "Cultist Chestpiece" from 0 to 250 matching other uncommon sets.
+  •cultistlegs "Cultist Leg Armour" from 0 to 250 matching other uncommon sets.
+  •trexfossil2 "T. rex Torso" from 0 to 200 matching other fossils.
+  •trexfossil3 "T. rex Legs" from 0 to 200 matching other fossils.
+  •trexfossil4 "T. rex Upper Tail" from 0 to 200 matching other fossils.
+  •trexfossil5 "T. rex Lower Tail" from 0 to 200 matching other fossils.
 
 Bad hand positions were corrected on the following:
   •grassremedy "Grass Remedy"
@@ -1255,6 +1306,15 @@ Object image assignments were corrected on the following:
   •screen3 "Star Map Screen"
   •screen4 "Glyph Screen"
   •screen5 "Brain Activity Screen"
+
+Armor and clothing frame assignments were fixed on the following:
+  •bsleeve hidden.1
+  •bsleeve lay.1 alias
+  •bsleevef hidden.1
+  •bsleevef lay.1 alias
+  •pants lay.1 alias
+  •pantsf lay.1 alias
+  •pantsm lay.1 alias
 
 ////////ships////////
 •Tier 4 Novakid ships textures had cut off detailing fixed.
@@ -1322,7 +1382,9 @@ Chests in the following dungeons now use chest loot pools:
   •volcanicmicrodungeons volcanotalltreasure
 
 ////////user interface////////
-•The shine layer in the Vending Machine interface was set to click through so the items to purchase counter can be typed in.
+•The cockpit interface Peacekeeper HQ button now has a tooltip.
+
+•The Vending Machine interface shine layer was set to click through so the items to purchase counter can be typed in.
 
 •The Tech Upgrade interface had incorrect casing fixed making selection overlays visible.
 
@@ -1389,5 +1451,11 @@ Added help documentation for the following undocumented commands:
   •setdungeonid
 
 ////////vehicles////////
+•Vehicle controller range is now a multiple of the player interaction range.
+
 •Mech weapons using dasharm.lua will now work even with gravity.
+
 •Non-drill mech weapons from the base game using beamarm.lua will no longer be able to fire while the weapon body is in a wall even if the muzzle is not.
+
+////////quests////////
+•protectorate "The Protectorate" obtainable items not in the confiscate items list were added.

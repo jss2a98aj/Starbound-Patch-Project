@@ -1,5 +1,33 @@
+-------- 1.5.8 --------
+Some soft conflicts with some localization mods have been fixed.
+
+Mannequins can now display equipment with absolute texture paths.
+
+Incorrect armor/clothing frame usage when sleeping clothed was fixed.
+
+The cockpit interface Peacekeeper HQ button now has a tooltip.
+
+The swimming effect will now check for Water or Healing Water instead of Water or Lava for setWet.
+
+All items obtainable during the intro quest are now in its confiscate items list.
+
+Vehicle controller range is now a multiple of the player interaction range.
+
+Some wrongly sized and missing object icons were fixed.
+
+Some item icons with breaks in the outline were fixed.
+
+Cultist Set parts were given an uncommon rarity and 250 pixel value.
+
+The Watering Can was given a value of 175 pixels.
+
+Even more typos have been fixed.
+
+Special thanks to Juni, Silver, Patman, and Godeps for substantial contributions to this update.
+
+
 -------- 1.5.7 --------
-A soft conflict with OpenStarbound and xStarbound has been fixed.
+A soft conflict with OpenStarbound and derivatives has been fixed.
 
 The doublethorns projectile no longer flies backwards.
 
@@ -13,7 +41,7 @@ Snuggets are now fullbright like the Novakid.
 
 The Swamp Chest was moved down a pixel so it doesn't float.
 
-The Oxygen Tank no longer has hiles in its swim frames.
+The Oxygen Tank no longer has holes in its swim frames.
 
 The Station Display is no longer missing a pixel in some frames.
 
