@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/statusList/position/1",
+    "value" : 168
+  },
+  {
+    "op" : "replace",
+    "path" : "/statusList/position/1",
+    "value" : 171
+  }
+]
