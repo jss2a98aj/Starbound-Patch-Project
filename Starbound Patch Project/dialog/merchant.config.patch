@@ -1,12 +1,50 @@
 [
-  {
-    "op": "test",
-    "path": "/severe/glitch/default/0",
-    "value": "Aggrevated. You need to improve these conditions, it is impossible to work here."
-  },
-  {
-    "op": "replace",
-    "path": "/severe/glitch/default/0",
-    "value": "Aggravated. You need to improve these conditions, it is impossible to work here."
-  }
+  [
+    {
+      "op": "test",
+      "path": "/severe/glitch/default/0",
+      "value": "Aggrevated. You need to improve these conditions, it is impossible to work here."
+    },
+    {
+      "op": "replace",
+      "path": "/severe/glitch/default/0",
+      "value": "Aggravated. You need to improve these conditions, it is impossible to work here."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/beacon/floran/default/1",
+      "value": "Do you need me for sssomething?"
+    },
+    {
+      "op": "replace",
+      "path": "/beacon/floran/default/1",
+      "value": "Do you need Floran for sssomething?"
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/tagCriteria/floran/default/1",
+      "value": "Put my shop back how it wasss."
+    },
+    {
+      "op": "replace",
+      "path": "/tagCriteria/floran/default/1",
+      "value": "Put Floran's shop back how it wasss."
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/welcome/floran/default/0",
+      "value": "Here'sss my shop. What did you need?"
+    },
+    {
+      "op": "replace",
+      "path": "/welcome/floran/default/0",
+      "value": "Here'sss Floran's shop. What did you need?"
+    }
+  ]
 ]
