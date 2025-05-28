@@ -22,5 +22,17 @@
       "path" : "/description",
       "value" : "It is said that dogs are a man's best friend, but this one doesn't seem to discriminate."
     }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/baseParameters/damageTeamType",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/baseParameters/damageTeamType",
+      "value" : "friendly"
+    }
   ]
 ]
