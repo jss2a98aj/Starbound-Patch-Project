@@ -1,0 +1,10 @@
+[
+  {
+    "op" : "test",
+    "path" : "/uniqueId"
+  },
+  {
+    "op" : "remove",
+    "path" : "/uniqueId"
+  }
+]
