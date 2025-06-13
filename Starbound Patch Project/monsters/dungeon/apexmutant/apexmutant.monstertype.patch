@@ -22,5 +22,16 @@
       "path" : "/description",
       "value" : "This mutated Apex appears to be an unsuccessful attempt to further advance Apex intellect."
     }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/baseParameters/movementSettings/collisionPoly"
+    },
+    {
+      "op" : "add",
+      "path" : "/baseParameters/movementSettings/collisionPoly",
+      "value" : [ [-1.0, -0.9], [-0.9, -1.0], [0.9, -1.0], [1.0, -0.9], [1.0, 0.9], [0.9, 1.0], [-0.9, 1.0], [-1.0, 0.9] ]
+    }
   ]
 ]
