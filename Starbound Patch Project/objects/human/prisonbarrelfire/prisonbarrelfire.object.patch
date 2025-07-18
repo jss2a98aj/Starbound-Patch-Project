@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/category",
+      "value" : "crafting"
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "decorative"
+    }
+  ]
+]
