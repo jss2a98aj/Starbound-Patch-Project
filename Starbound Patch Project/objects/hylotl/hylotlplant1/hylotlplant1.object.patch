@@ -1,7 +1,12 @@
 [
-    {
-        "op": "replace",
-        "path": "/floranDescription",
-        "value": "Floran hate plassstic plant!"
-    }
+  {
+    "op" : "test",
+    "path" : "/floranDescription",
+    "value" : "Floran hat plassstic plant!"
+  },
+  {
+    "op" : "replace",
+    "path" : "/floranDescription",
+    "value" : "Floran hate plassstic plant!"
+  }
 ]
