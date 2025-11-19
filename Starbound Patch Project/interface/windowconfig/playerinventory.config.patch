@@ -1,0 +1,32 @@
+[
+  [{
+      "op": "test",
+      "path": "/paneLayout/techHeadDisabled/position/1",
+      "value": 145
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/techHeadDisabled/position/1",
+      "value": 144
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/paneLayout/techBodyDisabled/position/1",
+      "value": 145
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/techBodyDisabled/position/1",
+      "value": 144
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/paneLayout/techLegsDisabled/position/1",
+      "value": 145
+    }, {
+      "op": "replace",
+      "path": "/paneLayout/techLegsDisabled/position/1",
+      "value": 144
+    }
+  ]
+]
