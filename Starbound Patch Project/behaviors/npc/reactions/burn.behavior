@@ -1,0 +1,7 @@
+[
+    {
+        "op": "replace",
+        "path": "/root/children/0/parameters/name/value",
+        "value": "reaction-burning"
+    }
+]
