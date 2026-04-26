@@ -1,0 +1,39 @@
+[
+  {
+    "op": "remove",
+    "path": "/apexmission1Reward/0/1/pool/1"
+  },
+  {
+    "op": "add",
+    "path": "/apexmission1Reward/0/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": [
+        "refinedviolium",
+        20
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/apexmission1Reward/0/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": [
+        "refinedaegisalt",
+        20
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/apexmission1Reward/0/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": [
+        "refinedferozium",
+        20
+      ]
+    }
+  }
+]
