@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/glitchDescription",
+    "value" : "Impressed. This cuts to shape this ice are very precise."
+  },
+  {
+    "op" : "replace",
+    "path" : "/glitchDescription",
+    "value" : "Impressed. The cuts that shaped this ice were very precise."
+  }
+]
