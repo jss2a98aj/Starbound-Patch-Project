@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A shimmering block of made from crystals."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "A shimmering block made of crystals."
+  }
+]
