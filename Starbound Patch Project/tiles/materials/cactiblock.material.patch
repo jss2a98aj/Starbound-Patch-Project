@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/floranDescription",
+    "value" : "Floran like pickly cactuss blocksss."
+  },
+  {
+    "op" : "replace",
+    "path" : "/floranDescription",
+    "value" : "Floran like prickly cactuss blocksss."
+  }
+]
