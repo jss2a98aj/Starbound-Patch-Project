@@ -1,3 +1,61 @@
+-------- 1.5.9 --------
+Avian Village merchants sell items based on stall type once again.
+
+Ceremonial Hunting Caverns now correctly places the Figure Cave Art object.
+
+Avian feet now retain their distinct look during walk, run, and swim animations.
+
+Matter Manipulator Upgrade menu icon and HUD widgets have been improved.
+
+Apex Mutants, Brainy Apex Mutants, Penguin Tanks, and Swarpions can now walk up single block inclines.
+
+Floran Bongo icons now properly reflect their sizes.
+
+Glow Vine lights are now properly positioned below rather than above thier anchor.
+
+Pinfriend had its damage team set to friendly so it will not have a hostile indicator.
+
+Fozen Bow now uses its unique perfect release sound.
+
+Glow Vine lighting is now properly positioned.
+
+Base game S.A.I.L. terminals will no longer cause a crash if multiple are placed in the player ship.
+
+Researchship space encounter is now breathable like other ship encounters.
+
+Sunglasses had a pixel value added.
+
+The /w and /nick commands are now documented.
+
+Some instances of Floran using first person descriptors have been fixed.
+
+Barrel Fire is not correctly categorized as decorative.
+
+The Electric Yokat had its alert eye palette changed from the default Yokat palette.
+
+The Medical Station had inadequate lit screen line cutouts corrected.
+
+The Premier Chestpiece had incorrect back sleeve hold and fall frames corrected.
+
+Fixed a character being placed one pixel into the ground during part of the finale cinematic.
+
+The Protectorate Fire Extinguisher now has a proper icon.
+
+The Armor item tool-tip status list are now correctly aligned.
+
+Player inventory tech disabled indicators are now correctly aligned.
+
+Fixes allowing creatures to walk up single blocks inclines have been improved.
+
+Multiple textures with outline issues were fixed.
+
+Many more typos have been fixed.
+
+Added 'starboundPatchProject' to 'versioning.config' so other mods can detect the Patch Project easier.
+
+Thanks to Armok, Azure-Fang, Juni, Lofty, Patman, ShyDispatch, and Silver Sokolova for making contributions to this update.
+
+
 -------- 1.5.8 --------
 Some soft conflicts with some localization mods have been fixed.
 

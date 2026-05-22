@@ -3,7 +3,7 @@
 ////////special thanks////////
 Dracyoshi and Xaliber for allowing fixes from the Parallax Fixes mod to be included.
 Silver Sokolova for providing missing help command documentation and much more.
-Armok, Chofranc, Clank8138, giantcavespider, Godeps, Juni, Kherae, lunapanshiel, MajorPoison, Nebulox, Ohrwerk, Patman, Prototype99, Ralek_Basa, rl-starbound, Tea-Loving Lad, VenZell, and Yanazake for additional contributions.
+Armok, Azure-Fang, Chofranc, Clank8138, giantcavespider, Godeps, Juni, Kherae, Lofty, lunapanshiel, MajorPoison, Nebulox, Ohrwerk, Patman, Prototype99, Ralek_Basa, rl-starbound, ShyDispatch, Tea-Loving Lad, VenZell, and Yanazake for additional contributions.
 
 ////////typos////////
 Misspelled words were corrected in the following:
@@ -30,6 +30,7 @@ Misspelled words were corrected in the following:
   •alienwoodsap "Alien Wood Sap" description
   •cookedpoultry "Cooked Poultry" description
   //npcs
+  •crewmembermechanic "Mechanic" crewmember role description one
   •miner default converse with default thirty-one
   •apexresearchlab Apex converse with Apex two
   //objects
@@ -63,8 +64,10 @@ Misspelled words were corrected in the following:
   •dirtyfossil7 "Fossil" description
   •dirtyfossil8 "Fossil" description
   •medievalfurnace "Medieval Furnace" description
+  •medievalswitchhidden "Grey Hidden Switch" Glitch description
   •goldvase3 "Gold Slim Vase" description
   •bunkerconsole1 "Command Console" Glitch description
+  •hylotlplant1 "Plastic Fake Plant" Floran description
   •hylotlstyleposter "Comedy Movie Poster" description
   •librarybookcaseN2damage "Damaged Bookcase" description
   •frontiercoffin "Frontier Coffin" Floran description
@@ -80,6 +83,8 @@ Misspelled words were corrected in the following:
   •tier2switch "Tungsten Lever" description
   •freezetrap "Cryogenic Blaster" Hylotl description
   //tiles
+  •material 11 gravel "Gravel" Glitch description
+  •material 407 "Cacti Block" Floran description
   •material 1666 tentacleblock "Tentacle Cluster" Glitch description
   //quests
   •kill_npc.generated default request text two
@@ -99,6 +104,7 @@ Incorrect capitalization was corrected in the following:
   //objects
   •screen2 "Spaceship Screen" name
   •baguettebox "Box of Bread" name
+  •frogfurnishing "Frögg Furnishing" window title
   •protectoratestorage2 "Status Pod Storage Unit" Apex description
   //radiomessages
   •exploration erchiussickness
@@ -108,6 +114,8 @@ Incorrect capitalization was corrected in the following:
   •material 1164 supermatter "Erchius Crystal" Novakid description
 
 Incorrect punctuation was corrected in the following:
+  //items
+  •rawfish "Raw Fish" description
   //objects
   •ancientlightplatform "Ancient Light Platform" Hylotl description
   •weaponupgradeanvil "Weapon Upgrade Anvil" Human description
@@ -168,6 +176,8 @@ Erroneous or duplicated words were removed from the following:
   •hylotl_mission1 "Find Clues to Locate the Hylotl Artifact" complete at start text
 
 Missing words were added to the following:
+  //codex
+  •protectorate2-codex page one
   //dialog
   •alpaca.config default converse with default four
   //objects
@@ -340,12 +350,17 @@ The wording of the following was changed:
   //collections
   •ammonite "Ammonite Fossil" collection entry now fits in with other entries.
   •trilobite "Trilobite Fossil" collection entry now fits in with other entries.
+  //dialog
+  •merchant.config Floran default beacon two no longer uses first person wording.
+  •merchant.config Floran default housing status complaint two no longer uses first person wording.
+  •merchant.config Floran default welcome two no longer uses first person wording.
   //dungeons
   •tjuncNWE "T Junction N-W-E" description was changed to be slightly more descriptive.
   •tjuncNSE "T Junction N-S-E" description was changed to be slightly more descriptive.
   •tjuncNSW "T Junction N-S-W" description was changed to be slightly more descriptive.
   •tjuncSWE "T Junction S-W-E" description was changed to be slightly more descriptive.
   //items
+  •mechblueprint6 "Experimental Mech Blueprint" description now matches other mech blueprints tiers.
   •alpacaguardchest "Alien Alpaca Guard Real Chest" name now fits in with the other Alien Alpaca Real armor.
   •alpacaguardhead "Alien Alpaca Guard Real Head" name now fits in with the other Alien Alpaca Real armor.
   •alpacaguardlegs "Alien Alpaca Guard Real Legs" name now fits in with the other Alien Alpaca Real armor.
@@ -364,6 +379,7 @@ The wording of the following was changed:
   •ammonitefossil "Ammonite Fossil" complete set name now fits in with other fossils sets.
   •trilobitefossil "Trilobite Fossil" name now fits in with other fossils.
   •trilobitefossil "Trilobite Fossil" complete set name now fits in with other fossils sets.
+  •crystalblock "Crystal Block" description was changed to be more coherent.
   //objects
   •hologramgalaxy "Ancient Hologram" description galaxy corrected to solar system.
   •hologramgalaxy "Ancient Hologram" Apex description galaxy corrected to solar system.
@@ -381,6 +397,9 @@ The wording of the following was changed:
   •jupitermodel "Jupiter Model" Hylotl description was changed to be slightly more coherent.
   •uranusmodel "Uranus Model" Human description was changed to be slightly more coherent.
   •venusmodel "Venus Model" Hylotl description was changed to be slightly more coherent.
+  //tiles
+  •material 130 iceblock "Ice Block" Glitch description was changed to be more coherent.
+  •material 164 crystalblock "Crystal Block" description was changed to be more coherent.
 
 Replaced the following placeholder values:
   //dialog
@@ -408,6 +427,9 @@ Replaced the following placeholder values:
   •nova "Nova" label
   •enemynova "Nova" label
 
+Adjusted tooltip type on the following to accomidate long names:
+  •mechblueprint6 "Experimental Mech Blueprint"
+
 Shortned the following to not hang off of tooltips:
   •peacekeepervendingmachine "Donut Vending Machine" name
   •protectoratedormtoiletroll "Toilet Roll Holder" name
@@ -419,6 +441,9 @@ Shortned the following to not hang off of tooltips:
 The following missing categories were added to categories.config:
   •blueprint
   •drone
+
+The category assigned to the following things have been set to something more accurate:
+  •prisonbarrelfire "Barrel Fire" was set to "decorative"
 
 The category assigned to the following things have been corrected so values from categories.config are used:
   •The blueprint template config was set to "blueprint"
@@ -569,21 +594,27 @@ The category assigned to the following things have been corrected so values from
 The following textures had various issues fixed:
   //animations
   •Sprint was allgined within its frame boundaries.
+  //cinematics
+  •finale New Garden scene no longer has Koichi sunk into the ground.
   //codex
   •aviancover5 inner bezel had missing pixels added.
   //cinematics
   •The starfield1 layer used in teleport cinematics had erroneous black pixels removed.
   //humanoid
   •The Avian female body had a miscolored border pixel corrected.
+  •The Avian female body had the run, walk, and swim foot apperance adjusted to match idle poses.
+  •The Avian male body had the run, walk, and swim foot apperance adjusted to match idle poses.
   •The Human hairstyle "fem41" had the coloration of a pixel changed so recoloring works correctly.
   •The Human female body had a miscolored border pixel corrected.
   •Koichi had headphones added to frames that were missing them.
   •The Novakid back arm had a miscolored border pixel corrected.
   •The Novakid front arm had the coloration of a pixel changed so recoloring works correctly.
+  •The Novakid front arm had erroneous pixels removed from the swimming frames.
   //interface
   •Drizzle weather icon had a missing pixel added to its outline.
   •Codex Library menu body drop shadow transparency and color were corrected to match its header and footer.
   •3D Printer menu icon border had excess black pixels removed.
+  •The sides tab icon had a missing pixel added to its outline.
   •Ingredients Bottle tab icon had missing outline pixels added to the top.
   •Inventory food tab icons had elements shifted so they move like other tabs when pressed.
   •The Invite to Party menu header had a drop shadow added to match its body and footer.
@@ -595,10 +626,11 @@ The following textures had various issues fixed:
   •The button that opens the collections menu now has the correct border color when the UI is open.
   •The server info background had erroneous sections of the drop shadow and shine corrected.
   //items
-  •wedding1legs "Elegant Wedding Skirt" texture had accent colors corrected on one frame.
-  •oxygentank "Oxygen Tank" texture had missing pixels in its swim frames filled in.
-  •supernovaglove "Supernova Gauntlet" texture was shifted by one pixels so swoosh effect line up.
-  •npcdeadbeataxe "NPC Deadbeat Axe" texture two was shifted by two pixels so it is held correctly.
+  •premierchest "Premier Chestpiece" had incorrect back sleeve hold and fall frames corrected.
+  •wedding1legs "Elegant Wedding Skirt" had accent colors corrected on one frame.
+  •oxygentank "Oxygen Tank" had missing pixels in its swim frames filled in.
+  •supernovaglove "Supernova Gauntlet" was shifted by one pixels so swoosh effect line up.
+  •npcdeadbeataxe "NPC Deadbeat Axe" variant two was shifted by two pixels so it is held correctly.
   •tungstenaxe "Tungsten Axe had an erroneous pixel removed.
   •copperarmorhead "Copper Goggles" had its icon colors changes to show applied dyes.
   •eyehead2 "Terrifying Eye Hat" had its icon shifted by one pixel so it does not get cut off.
@@ -610,12 +642,26 @@ The following textures had various issues fixed:
   •humantier5mpants "Trailblazer's Greaves" had the coloration of several pixel changed so recoloring works correctly.
   •novakidsuspenderspants "Suspender Pants" had two missing pixels added to one frame.
   •armoredcultistchest "Cultist General Chestpiece" male and female torso had adjustments so body parts would not hang out on many frames.
+  •peacekeeperhead "Peacekeeper Hat" had its icon outline fixed.
   •fireblockaugment "Fire Resist Augment" has been shifted one pixel over so it is aligned correctly in EPP tooltips.
   •mocha "Mochaccino" had a missing pixel added to its outline.
   •specialrice "Special Fried Rice" had a missing pixel added to its outline
   •cottonwool "Cotton Wool" had a missing pixel added to its outline
   //monsters
+  •apexmutant "Apex Mutant" had missing pixels added to some attack frame head outlines.
   •triplod "Triplod" had missing pixels filled in its hurt frame.
+  •kluextotem "Kluex Totem" had a partially misaligned wing on one frame corrected.
+  •piglett "Piglett" base variant had a missing eye pixels added to some frames.
+  •piglett "Piglett" black variant had a missing eye pixels added to some frames.
+  •piglett "Piglett" black and pink variant had a missing eye pixels added to some frames.
+  •piglett "Piglett" brown variant had a missing eye pixels added to some frames.
+  •piglett "Piglett" brown and pink variant had a missing eye pixels added to some frames.
+  •piglett "Piglett" full black variant had a missing eye pixels added to some frames.
+  •piglett "Piglett" full brown variant had a missing eye pixels added to some frames.
+  •piglett "Piglett" full pink variant had a missing eye pixels added to some frames.
+  •piglett "Piglett" full white variant had a missing eye pixels added to some frames.
+  •piglett "Piglett" pink variant had a missing eye pixels added to some frames.
+  •piglett "Piglett" pink and black variant had a missing eye pixels added to some frames.
   •bunnycritter had its eye color made consistent between frames.
   •electricskimbus "Electric Skimbus" had a partially missing frame restored.
   •masteroidlarge "Large Masteroid" had several miscolored pixels on two spikes corrected.
@@ -623,10 +669,12 @@ The following textures had various issues fixed:
   •albinoadultpoptop "Adult Albino Poptop" had several miscolored pixels near and in the mouth corrected.
   •nutmidge "Nutmidge" had reversed blink and hurt eyes corrected.
   •poisonnutmidge "Poison Nutmidge" had reversed blink and hurt eyes corrected.
+  •electricyokat "Electric Yokat" had its alert eye palette changed from the default Yokat palette.
   //objects
   •swampchest "Swamp Chest" frames were shifted down one pixel so it doesn't float.
   •giantflowerchest "Giant Flower Chest" open frames were changed to match its closed state.
   •craftingfarm "Foraging Table" had a missing pixel added to its icon outline.
+  •craftingmedical "Medical Station" had inadequate lit screen line cutouts corrected.
   •craftingwheel "Sewing Machine" had miscolored pixels on some frames corrected.
   •avesmingoseed "Avesmingo Seed" had a missing pixel added to its icon outline.
   •pineappleseed "Pineapple Seed" had a missing pixel added to its icon outline.
@@ -706,6 +754,7 @@ New icons were made for the following things with missing or placeholder icons:
   •protectoratebooks2 "Protectorate Books"
   •protectorateclock "Protectorate Clock"
   •protectoratedormtoiletroll "Toilet Roll Holder"
+  •protectorateextinguisher "Protectorate Fire Extinguisher"
   •protectoratefbannertorn1 "Torn Protectorate Wall Banner"
   •protectoratefbannertorn2 "Torn Protectorate Wall Banner"
   •protectoratefigures "Turtle And Poptop Toys"
@@ -728,9 +777,15 @@ New icons were made for the following things with missing or placeholder icons:
   •toxickelp sapling stem
 
 Icons were improved for the following:
+  //interface
+  •Matter Manipulator Upgrade interface icon
+  •M.M. Upgrade HUD widget icon
   //items
   •featherhead "Feather Headband"
   //objects
+  •florandrum1 "Medium Bongo"
+  •florandrum2 "Large Bongo"
+  •florandrum3 "Small Bongo"
   •flagapex "Apex Flag"
   •flagavian "Avian Flag"
   •flagfloran "Floran Flag"
@@ -750,11 +805,20 @@ Invalid texture paths were corrected on the following:
   •Floran S.A.I.L. interface static
   •Novakid S.A.I.L. interface static
 
+Texture positions were corrected on the following:
+  •biovine1 "Glow Vine"
+  •biovine2 "Glow Vine"
+  •biovine3 "Glow Vine"
+  •biovine4 "Glow Vine"
+  •biovine5 "Glow Vine"
+
 Frames and animations were adjusted prevent cutoff on the following:
   •craftinganvil "Anvil"
   •craftinganvil "Forge"
 
 ////////sounds////////
+•frozenbow "Fozen Bow" now uses its unique perfect release sound.
+
 •The glue spray projectile impact sound now uses the correct directory.
 
 ////////recipes////////
@@ -767,6 +831,8 @@ Frames and animations were adjusted prevent cutoff on the following:
 
 ////////creatures and npcs////////
 •The swimming effect will now check for Water or Healing Water instead of Water or Lava for setWet.
+
+•pinfriend "Pinfriend" had its damage team set to friendly so it will not have a hostile indicator.
 
 •sewerfly "Growfly" had a head windup frame assigned so its head would not disappear when making ranged attacks.
 
@@ -825,6 +891,10 @@ Collision polygons were fixed on the following so they can go over one block inc
   •penguingeneral "Penguin General"
   •penguinrockettrooper "Penguin Rocket Trooper"
   •penguintrooper "Penguin Trooper"
+  //dungeon
+  •apexbrainmutant "Brainy Apex Mutant"
+  •apexmutant "Apex Mutant"
+  •swarpion "Swarpion"
   //critter
   •apexscabcritter
   •armadillocritter
@@ -921,6 +991,8 @@ Collision polygons were fixed on the following so they can go over one block inc
   •poisonfluffalobaby "Poison Fluffalo Calf"
   •henbaby "Baby Hen"
   •robothenbaby "Baby Robot Hen"
+  //walkers
+  •tank "Penguin Tank"
 
 Unique names were added to the following:
   //boss
@@ -1205,6 +1277,13 @@ Wiring nodes are now correctly placed on the following:
   •clubceilinglightsyellow "Yellow Club Lights"
   •officelamp "Office Desk Lamp"
 
+Lights  now correctly placed on the following:
+  •biovine1 "Glow Vine"
+  •biovine2 "Glow Vine"
+  •biovine3 "Glow Vine"
+  •biovine4 "Glow Vine"
+  •biovine5 "Glow Vine"
+
 Collisions were fixed or adjusted on the following:
   •barrel "Small Barrel" so that an ocean dungeon can generate correctly.
   •barrellarge "Large Barrel" to be consistent with barrel "Small Barrel"
@@ -1257,6 +1336,7 @@ The prices of the following items were adjusted:
   •barrelhead "Barrel Lid" from 0 to 2500 matching other rare cosmetic armors.
   •cardboardboxarmor "Cardboard Box Armor" from 0 to 5000 matching other legendary cosmetic armors.
   •georgedevhead "George's Foxy Glasses" from 0 to 5000 matching other legendary cosmetic armors.
+  •sunglasses1head "Sunglasses" from 0 to 2500 matching other rare cosmetic armors.
   •conceptchest "Casual Cardigan" from 0 to 75 matching other starter clothing.
   •conceptlegs "Casual Shorts"  from 0 to 35 matching other starter clothing.
   •armoredcultistback "Cultist General Tentacles" from 0 to 250 matching other mission sets.
@@ -1316,6 +1396,15 @@ Armor and clothing frame assignments were fixed on the following:
   •pantsf lay.1 alias
   •pantsm lay.1 alias
 
+The following will no longer crash if placed after other S.A.I.L. terminals:
+  •aviantechstation
+  •florantechstation
+  •glitchtechstation
+  •humantechstation
+  •hylotltechstation
+  •novakidtechstation
+  •techstation
+
 ////////ships////////
 •Tier 4 Novakid ships textures had cut off detailing fixed.
 
@@ -1348,7 +1437,15 @@ Corrected additional discrepancies in the following:
   •floranT8blocks
 
 ////////dungeons////////
+•avianvillage merchants sell items based on stall type once again.
+
 •avianvillage object layer 3a had a curtain moved by one block so it would be in the proper spot and rotate the correct direction.
+
+•glitchvillage object layer 14 had doors moved by one block so they would be in the proper spot to be placed.
+
+•floranmission1 "Ceremonial Hunting Caverns" now correctly spawns the caveart3 "Figure Cave Art" object.
+
+•researchship space encounter is now breathable like other ship encounters.
 
 NPC species were corrected in the following:
   •hylotloceancity hylotlroofdojo1 Human to Hylotl
@@ -1390,11 +1487,12 @@ Chests in the following dungeons now use chest loot pools:
 
 •Interfaces using the techupgrade.lua script will no longer cause an error if new techs are unlocked after initialization.
 
-•Appropriate shine layers were assinged to thr following interfaces:
+•Appropriate shine layers were assinged to the following interfaces:
   •Pet Healing Station 
   •Refinery
 
 Alignment was fixed in the following:
+  •Armor item status list
   •Fist Weapon item descriptions
   •Shield item descriptions
   •Options menu SFX label
@@ -1405,6 +1503,7 @@ Alignment was fixed in the following:
   •Options menu graphics button
   •Fist Weapon tooltip pixel value
   •Shield tooltip pixel value
+  •Player inventory tech disabled indicators
 
 Handedness labels were added to the following things that were missing it:
   •Fist Weapon item descriptions
@@ -1449,6 +1548,8 @@ Added help documentation for the following undocumented commands:
   •updateplanettype
   •setenvironmentbiome
   •setdungeonid
+  •w
+  •nick
 
 ////////vehicles////////
 •Vehicle controller range is now a multiple of the player interaction range.
