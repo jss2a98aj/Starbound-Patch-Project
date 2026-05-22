@@ -7,6 +7,6 @@
   {
     "op" : "replace",
     "path" : "/price", 
-    "value":200
+    "value" :200
   }
 ]

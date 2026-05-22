@@ -1,26 +1,26 @@
 [
   [
     {
-      "op": "test",
-      "path": "/attack/floran/default/0",
-      "value": "asdasd"
+      "op" : "test",
+      "path" : "/attack/floran/default/0",
+      "value" : "asdasd"
     },
     {
-      "op": "replace",
-      "path": "/attack/floran/default/0",
-      "value": "Criminal prey!"
+      "op" : "replace",
+      "path" : "/attack/floran/default/0",
+      "value" : "Criminal prey!"
     }
   ],
   [
     {
-      "op": "test",
-      "path": "/outOfSight/floran/default/0",
-      "value": "Floran iss good protector, will find prey!"
+      "op" : "test",
+      "path" : "/outOfSight/floran/default/0",
+      "value" : "Floran iss good protector, will find prey!"
     },
     {
-      "op": "replace",
-      "path": "/outOfSight/floran/default/0",
-      "value": "Floran iss good peacekeeper, will find prey!"
+      "op" : "replace",
+      "path" : "/outOfSight/floran/default/0",
+      "value" : "Floran iss good peacekeeper, will find prey!"
     }
   ],
   [

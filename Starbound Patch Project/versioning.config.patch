@@ -1,6 +1,7 @@
-[{
-    "op": "add",
-    "path": "/starboundPatchProject",
-    "value": 1
+[
+  {
+    "op" : "add",
+    "path" : "/starboundPatchProject",
+    "value" : 1
   }
 ]
