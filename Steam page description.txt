@@ -61,7 +61,7 @@ Many more typos have been fixed.
 
 Added 'starboundPatchProject' to 'versioning.config' so other mods can detect the Patch Project easier.
 
-Thanks to Armok, Azure-Fang, Juni, Lofty, Patman, ShyDispatch, and Silver Sokolova for making contributions to this update.
+Thanks to Armok, Azure-Fang, Juni, Lofty, patman, ShyDispatch, and Silver Sokolova for making contributions to this update.
 [/code]
 
 Known conflicts:
@@ -81,4 +81,4 @@ Find the Starbound Patch Project on:
 [url=https://community.playstarbound.com/resources/starbound-patch-project.5894/]The Chucklefish Forums[/url]
 [url=https://gamebanana.com/mods/396904]GameBanana[/url]
 
-Contributors: Armok, Azure-Fang, Chofranc, Clank8138, Dracyoshi, giantcavespider, Godeps, Juni, Kherae, Lofty, lunapanshiel, MajorPoison, Nebulox, Ohrwerk, Patman, Prototype99, Ralek_Basa, rl-starbound, ShyDispatch, Silver Sokolova, Tea-Loving Lad, VenZell, Xaliber, Yanazake
+Contributors: Armok, Azure-Fang, Chofranc, Clank8138, Dracyoshi, giantcavespider, Godeps, Juni, Kherae, Lofty, lunapanshiel, MajorPoison, Nebulox, Ohrwerk, patman, Prototype99, Ralek_Basa, rl-starbound, ShyDispatch, Silver Sokolova, Tea-Loving Lad, VenZell, Xaliber, Yanazake

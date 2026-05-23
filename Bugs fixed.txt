@@ -3,7 +3,7 @@
 ////////special thanks////////
 Dracyoshi and Xaliber for allowing fixes from the Parallax Fixes mod to be included.
 Silver Sokolova for providing missing help command documentation and much more.
-Armok, Azure-Fang, Chofranc, Clank8138, giantcavespider, Godeps, Juni, Kherae, Lofty, lunapanshiel, MajorPoison, Nebulox, Ohrwerk, Patman, Prototype99, Ralek_Basa, rl-starbound, ShyDispatch, Tea-Loving Lad, VenZell, and Yanazake for additional contributions.
+Armok, Azure-Fang, Chofranc, Clank8138, giantcavespider, Godeps, Juni, Kherae, Lofty, lunapanshiel, MajorPoison, Nebulox, Ohrwerk, patman, Prototype99, Ralek_Basa, rl-starbound, ShyDispatch, Tea-Loving Lad, VenZell, and Yanazake for additional contributions.
 
 ////////typos////////
 Misspelled words were corrected in the following:
