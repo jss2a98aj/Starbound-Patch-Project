@@ -106,6 +106,16 @@ Incorrect capitalization was corrected in the following:
   •baguettebox "Box of Bread" name
   •frogfurnishing "Frögg Furnishing" window title
   •protectoratestorage2 "Status Pod Storage Unit" Apex description
+  //quests
+  •quests.config female pronoun capital subject
+  •quests.config female pronoun capital object
+  •quests.config female pronoun capital possessive determiner
+  •quests.config female pronoun capital capital possessive
+  •quests.config female pronoun capital capital reflexive
+  •quests.config male pronoun capital object
+  •quests.config male pronoun capital possessive determiner
+  •quests.config male pronoun capital capital possessive
+  •quests.config male pronoun capital capital reflexive
   //radiomessages
   •exploration erchiussickness
   //stats
@@ -1395,15 +1405,6 @@ Armor and clothing frame assignments were fixed on the following:
   •pants lay.1 alias
   •pantsf lay.1 alias
   •pantsm lay.1 alias
-
-The following will no longer crash if placed after other S.A.I.L. terminals:
-  •aviantechstation
-  •florantechstation
-  •glitchtechstation
-  •humantechstation
-  •hylotltechstation
-  •novakidtechstation
-  •techstation
 
 ////////ships////////
 •Tier 4 Novakid ships textures had cut off detailing fixed.

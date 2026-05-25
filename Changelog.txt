@@ -1,3 +1,10 @@
+-------- 1.5.10 --------
+Reverted "Base game S.A.I.L. terminals will no longer cause a crash if multiple are placed in the player ship."
+This was the source of a mod conflict.
+
+Fixed uncapitalized capital* pronouns fields in quests.config
+
+
 -------- 1.5.9 --------
 Avian Village merchants sell items based on stall type once again.
 
