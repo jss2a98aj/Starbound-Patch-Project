@@ -5,12 +5,8 @@
       "value": [[-1.0, -1.0], [1.0, -1.0], [1.0, 1.0], [-1.0, 1.0]]
     }, {
       "op": "replace",
-      "path": "/baseParameters/movementSettings/collisionPoly/0/0",
-      "value": -0.25
-    }, {
-      "op": "replace",
-      "path": "/baseParameters/movementSettings/collisionPoly/1/0",
-      "value": 0.25
+      "path": "/baseParameters/movementSettings/collisionPoly",
+      "value": [[-0.75, 1], [0.75, 1], [1, 0.75], [1, -0.75], [0.75, -1], [-0.75, -1], [-1, -0.75], [-1, 0.75]]
     }
   ]
 ]
