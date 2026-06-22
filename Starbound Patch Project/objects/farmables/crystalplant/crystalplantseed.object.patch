@@ -1,0 +1,22 @@
+[
+  [{
+      "op": "test",
+      "path": "/novakidDescription",
+      "value": "A famrable crystal! Now we're talkin'!"
+    }, {
+      "op": "replace",
+      "path": "/novakidDescription",
+      "value": "A farmable crystal! Now we're talkin'!"
+    }
+  ],
+  [{
+      "op": "test",
+      "path": "/description",
+      "value": "A Crystal plant. Truns out money does grow on trees."
+    }, {
+      "op": "replace",
+      "path": "/description",
+      "value": "A crystal plant. Turns out money does grow on trees."
+    }
+  ]
+]
