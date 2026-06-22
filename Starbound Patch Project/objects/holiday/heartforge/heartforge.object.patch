@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/shortdescription",
+    "value" : "Heart Forge"
+  },
+  {
+    "op" : "replace",
+    "path" : "/shortdescription",
+    "value" : "^orange;Heart Forge^reset;"
+  }
+]
