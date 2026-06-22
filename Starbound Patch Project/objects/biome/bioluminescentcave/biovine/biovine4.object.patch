@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/orientations/0/lightPosition/1",
+      "value" : 2
+    },
+    {
+      "op" : "replace",
+      "path" : "/orientations/0/lightPosition/1",
+      "value" : -2
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/orientations/1/imagePosition/1",
+      "value" : 2
+    },
+    {
+      "op" : "replace",
+      "path" : "/orientations/1/imagePosition/1",
+      "value" : -2
+    }
+  ]
+]

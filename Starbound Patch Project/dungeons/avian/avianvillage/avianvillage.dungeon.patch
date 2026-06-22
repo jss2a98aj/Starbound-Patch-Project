@@ -1,0 +1,63 @@
+/*
+By Silver Sokolova
+Restore merchants having items based on the stall they spawn by
+Add `randomguns` to the weapon merchant since every merchant who sells `randomswords` also sells it
+Remove non-existent `avianweaponblueprints`
+*/
+[
+    //Food merchant
+    [{
+        "op" : "test",
+        "path" : "/tiles/376/brush/0/1/parameters/scriptConfig/merchant/categories/override",
+        "inverse" : true
+    },
+    {
+        "op" : "copy",
+        "from" : "/tiles/376/brush/0/1/parameters/scriptConfig/merchant/categories/default",
+        "path" : "/tiles/376/brush/0/1/parameters/scriptConfig/merchant/categories/override"
+    }],
+
+    //Weapons merchant
+    [{
+        "op" : "test",
+        "path" : "/tiles/377/brush/0/1/parameters/scriptConfig/merchant/categories/default"
+    },
+    {
+        "op" : "add",
+        "path" : "/tiles/377/brush/0/1/parameters/scriptConfig/merchant/categories/default/-",
+        "value" : "randomguns"
+    }],
+
+    [{
+        "op" : "test",
+        "path" : "/tiles/377/brush/0/1/parameters/scriptConfig/merchant/categories/default/0",
+        "value" : "avianweaponblueprints"
+    },
+    {
+        "op" : "remove",
+        "path" : "/tiles/377/brush/0/1/parameters/scriptConfig/merchant/categories/default/0"
+    }],
+
+    [{
+        "op" : "test",
+        "path" : "/tiles/377/brush/0/1/parameters/scriptConfig/merchant/categories/override",
+        "inverse" : true
+    },
+    {
+        "op" : "copy",
+        "from" : "/tiles/377/brush/0/1/parameters/scriptConfig/merchant/categories/default",
+        "path" : "/tiles/377/brush/0/1/parameters/scriptConfig/merchant/categories/override"
+    }],
+
+    //Armor/clothes merchant
+    [{
+        "op" : "test",
+        "path" : "/tiles/378/brush/0/1/parameters/scriptConfig/merchant/categories/override",
+        "inverse" : true
+    },
+    {
+        "op" : "copy",
+        "from" : "/tiles/378/brush/0/1/parameters/scriptConfig/merchant/categories/default",
+        "path" : "/tiles/378/brush/0/1/parameters/scriptConfig/merchant/categories/override"
+    }]
+]

@@ -12,8 +12,8 @@
     },
     {
       "op" : "copy",
-      "from": "/genericDescription",
-      "path": "/avianDescription"
+      "from" : "/genericDescription",
+      "path" : "/avianDescription"
     }
   ],
   [

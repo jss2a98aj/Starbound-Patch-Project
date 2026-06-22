@@ -22,5 +22,16 @@
       "path" : "/description",
       "value" : "Penguins may look cute, but this one has a tank and thirsts for war."
     }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/baseParameters/movementSettings/collisionPoly"
+    },
+    {
+      "op" : "add",
+      "path" : "/baseParameters/movementSettings/collisionPoly",
+      "value" : [ [-2.5, -1.84], [-2.4, -1.94], [2.4, -1.94], [2.5, -1.84], [1.3, 2.15], [1.2, 2.25], [-1.2, 2.25], [-1.3, 2.15] ]
+    }
   ]
 ]

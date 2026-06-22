@@ -6,32 +6,69 @@ It is safe to install or uninstall this mod at any time.
 
 Latest Changelog:
 [code]
--------- 1.5.8 --------
-Some soft conflicts with some localization mods have been fixed.
+-------- 1.5.10 --------
+Reverted "Base game S.A.I.L. terminals will no longer cause a crash if multiple are placed in the player ship."
+This was the source of a mod conflict.
 
-Mannequins can now display equipment with absolute texture paths.
+Fixed uncapitalized capital* pronouns fields in quests.config
 
-Incorrect armor/clothing frame usage when sleeping clothed was fixed.
 
-The cockpit interface Peacekeeper HQ button now has a tooltip.
+-------- 1.5.9 --------
+Avian Village merchants sell items based on stall type once again.
 
-The swimming effect will now check for Water or Healing Water instead of Water or Lava for setWet.
+Ceremonial Hunting Caverns now correctly places the Figure Cave Art object.
 
-All items obtainable during the intro quest are now in its confiscate items list.
+Avian feet now retain their distinct look during walk, run, and swim animations.
 
-Vehicle controller range is now a multiple of the player interaction range.
+Matter Manipulator Upgrade menu icon and HUD widgets have been improved.
 
-Some wrongly sized and missing object icons were fixed.
+Apex Mutants, Brainy Apex Mutants, Penguin Tanks, and Swarpions can now walk up single block inclines.
 
-Some item icons with breaks in the outline were fixed.
+Floran Bongo icons now properly reflect their sizes.
 
-Cultist Set parts were given an uncommon rarity and 250 pixel value.
+Glow Vine lights are now properly positioned below rather than above thier anchor.
 
-The Watering Can was given a value of 175 pixels.
+Pinfriend had its damage team set to friendly so it will not have a hostile indicator.
 
-Even more typos have been fixed.
+Fozen Bow now uses its unique perfect release sound.
 
-Special thanks to Juni, Silver, Patman, and Godeps for substantial contributions to this update.
+Glow Vine lighting is now properly positioned.
+
+Base game S.A.I.L. terminals will no longer cause a crash if multiple are placed in the player ship.
+
+Researchship space encounter is now breathable like other ship encounters.
+
+Sunglasses had a pixel value added.
+
+The /w and /nick commands are now documented.
+
+Some instances of Floran using first person descriptors have been fixed.
+
+Barrel Fire is not correctly categorized as decorative.
+
+The Electric Yokat had its alert eye palette changed from the default Yokat palette.
+
+The Medical Station had inadequate lit screen line cutouts corrected.
+
+The Premier Chestpiece had incorrect back sleeve hold and fall frames corrected.
+
+Fixed a character being placed one pixel into the ground during part of the finale cinematic.
+
+The Protectorate Fire Extinguisher now has a proper icon.
+
+The Armor item tool-tip status list are now correctly aligned.
+
+Player inventory tech disabled indicators are now correctly aligned.
+
+Fixes allowing creatures to walk up single blocks inclines have been improved.
+
+Multiple textures with outline issues were fixed.
+
+Many more typos have been fixed.
+
+Added 'starboundPatchProject' to 'versioning.config' so other mods can detect the Patch Project easier.
+
+Thanks to Armok, Azure-Fang, Juni, Lofty, patman, ShyDispatch, and Silver Sokolova for making contributions to this update.
 [/code]
 
 Known conflicts:
@@ -43,7 +80,7 @@ Even MORE Optimized JSON! - Reverts many fixes and breaks some other mods.
 Mods similar to Optimizebound and Even MORE Optimized JSON! for the same reasons.
 [/code]
 
-Fully compatible with [url=https://github.com/OpenStarbound/OpenStarbound]OpenStarbound[/url] and derivatives as of 1.5.7
+Fully compatible with [url=https://github.com/OpenStarbound/OpenStarbound]OpenStarbound[/url] and derivatives.
 
 Find the Starbound Patch Project on:
 [url=https://www.nexusmods.com/starbound/mods/842]The Nexus[/url]
@@ -51,4 +88,4 @@ Find the Starbound Patch Project on:
 [url=https://community.playstarbound.com/resources/starbound-patch-project.5894/]The Chucklefish Forums[/url]
 [url=https://gamebanana.com/mods/396904]GameBanana[/url]
 
-Contributors: Armok, Chofranc, Clank8138, Dracyoshi, giantcavespider, Godeps, Juni, Kherae, lunapanshiel, MajorPoison, Nebulox, Ohrwerk, Patman, Prototype99, Ralek_Basa, rl-starbound, Silver Sokolova, Tea-Loving Lad, VenZell, Xaliber, Yanazake
+Contributors: Armok, Azure-Fang, Chofranc, Clank8138, Dracyoshi, giantcavespider, Godeps, Juni, Kherae, Lofty, lunapanshiel, MajorPoison, Nebulox, Ohrwerk, patman, Prototype99, Ralek_Basa, rl-starbound, ShyDispatch, Silver Sokolova, Tea-Loving Lad, VenZell, Xaliber, Yanazake

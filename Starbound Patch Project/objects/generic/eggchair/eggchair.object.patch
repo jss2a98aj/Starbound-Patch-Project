@@ -27,7 +27,7 @@
     {
       "op" : "test",
       "path" : "/sitCoverImage",
-      "inverse":true
+      "inverse" :true
     },
     {
       "op" : "add",

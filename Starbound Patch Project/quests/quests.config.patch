@@ -1,0 +1,110 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/pronouns/female/capitalSubject",
+      "value" : "she"
+    },
+    {
+      "op" : "replace",
+      "path" : "/pronouns/female/capitalSubject",
+      "value" : "She"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/pronouns/female/capitalObject",
+      "value" : "her"
+    },
+    {
+      "op" : "replace",
+      "path" : "/pronouns/female/capitalObject",
+      "value" : "Her"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/pronouns/female/capitalPossessiveDet",
+      "value" : "her"
+    },
+    {
+      "op" : "replace",
+      "path" : "/pronouns/female/capitalPossessiveDet",
+      "value" : "Her"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/pronouns/female/capitalPossessive",
+      "value" : "hers"
+    },
+    {
+      "op" : "replace",
+      "path" : "/pronouns/female/capitalPossessive",
+      "value" : "Hers"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/pronouns/female/capitalReflexive",
+      "value" : "herself"
+    },
+    {
+      "op" : "replace",
+      "path" : "/pronouns/female/capitalReflexive",
+      "value" : "Herself"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/pronouns/male/capitalObject",
+      "value" : "him"
+    },
+    {
+      "op" : "replace",
+      "path" : "/pronouns/male/capitalObject",
+      "value" : "Him"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/pronouns/male/capitalPossessiveDet",
+      "value" : "his"
+    },
+    {
+      "op" : "replace",
+      "path" : "/pronouns/male/capitalPossessiveDet",
+      "value" : "His"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/pronouns/male/capitalPossessive",
+      "value" : "his"
+    },
+    {
+      "op" : "replace",
+      "path" : "/pronouns/male/capitalPossessive",
+      "value" : "His"
+    }
+  ],
+  [
+    {
+      "op" : "test",
+      "path" : "/pronouns/male/capitalReflexive",
+      "value" : "himself"
+    },
+    {
+      "op" : "replace",
+      "path" : "/pronouns/male/capitalReflexive",
+      "value" : "Himself"
+    }
+  ]
+]

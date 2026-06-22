@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "A fillet of raw fish...slimy."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "A fillet of raw fish... slimy."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  [{
+      "op": "test",
+      "path": "/description",
+      "value": "An inscription on the blade reads,\"High-five for expressing yourself!\""
+    }, {
+      "op": "replace",
+      "path": "/description",
+      "value": "An inscription on the blade reads, \"High-five for expressing yourself!\""
+    }
+  ]
+]

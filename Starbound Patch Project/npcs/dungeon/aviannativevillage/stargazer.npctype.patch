@@ -23,8 +23,8 @@
     },
     {
       "op" : "copy",
-      "from": "/behaviorConfig",
-      "path": "/scriptConfig/behaviorConfig"
+      "from" : "/behaviorConfig",
+      "path" : "/scriptConfig/behaviorConfig"
     }
   ],
   [
@@ -40,8 +40,8 @@
     },
     {
       "op" : "copy",
-      "from": "/dialog",
-      "path": "/scriptConfig/dialog"
+      "from" : "/dialog",
+      "path" : "/scriptConfig/dialog"
     }
   ]
 ]

@@ -1,12 +1,40 @@
 [
-  {
-    "op" : "test",
-    "path" : "/category",
-    "value" : "Blueprint"
-  },
-  {
-    "op" : "replace",
-    "path" : "/category",
-    "value" : "blueprint"
-  }
+  [
+    {
+      "op" : "test",
+      "path" : "/category",
+      "value" : "Blueprint"
+    },
+    {
+      "op" : "replace",
+      "path" : "/category",
+      "value" : "blueprint"
+    }
+  ],
+  //Change tooltip to account for shortdescription's length
+  [
+    {
+      "op" : "test",
+      "path" : "/tooltipKind",
+      "value" : "base"
+    },
+    {
+      "op" : "replace",
+      "path" : "/tooltipKind",
+      "value" : "codex"
+    }
+  ],
+  //Other mech blueprints don't inherit descriptors from past tiers. Drop 'high-tech' for consistency
+  [
+    {
+      "op" : "test",
+      "path" : "/description",
+      "value" : "A blueprint for an experimental high-tech mech part."
+    },
+    {
+      "op" : "replace",
+      "path" : "/description",
+      "value" : "A blueprint for an experimental mech part."
+    }
+  ]
 ]

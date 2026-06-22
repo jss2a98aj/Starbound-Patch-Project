@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/interactData/paneLayoutOverride/windowtitle/title",
+    "value" : "Frögg furnishing"
+  },
+  {
+    "op" : "replace",
+    "path" : "/interactData/paneLayoutOverride/windowtitle/title",
+    "value" : "Frögg Furnishing"
+  }
+]
