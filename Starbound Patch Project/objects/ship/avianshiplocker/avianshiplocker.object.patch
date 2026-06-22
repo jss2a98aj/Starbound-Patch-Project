@@ -1,0 +1,12 @@
+[
+  [{
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shiplocker"
+    }, {
+      "op": "add",
+      "path": "/shortdescription",
+      "value": "Avian Ship Locker"
+    }
+  ]
+]
