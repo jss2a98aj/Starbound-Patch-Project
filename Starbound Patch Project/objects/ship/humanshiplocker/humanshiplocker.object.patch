@@ -4,7 +4,7 @@
       "path": "/shortdescription",
       "value": "Ship Locker"
     }, {
-      "op": "add",
+      "op": "replace",
       "path": "/shortdescription",
       "value": "Human Ship Locker"
     }
