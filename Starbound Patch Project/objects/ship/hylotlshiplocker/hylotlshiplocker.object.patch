@@ -4,7 +4,7 @@
       "path": "/shortdescription",
       "value": "Shiplocker"
     }, {
-      "op": "add",
+      "op": "replace",
       "path": "/shortdescription",
       "value": "Hylotl Ship Locker"
     }
