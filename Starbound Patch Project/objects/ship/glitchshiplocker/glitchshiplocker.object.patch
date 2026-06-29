@@ -1,0 +1,12 @@
+[
+  [{
+      "op": "test",
+      "path": "/shortdescription",
+      "value": "Shiplocker"
+    }, {
+      "op": "replace",
+      "path": "/shortdescription",
+      "value": "Glitch Ship Locker"
+    }
+  ]
+]
