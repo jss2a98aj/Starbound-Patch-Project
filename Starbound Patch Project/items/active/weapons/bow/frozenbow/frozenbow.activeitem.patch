@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/animationCustom/sounds/perfectRelease/0",
+      "value" : "/sfx/gun/bow_loose_perfect.ogg"
+    },
+    {
+      "op" : "replace",
+      "path" : "/animationCustom/sounds/perfectRelease/0",
+      "value" : "/sfx/gun/frozenbow_loose_perfect.ogg"
+    }
+  ]
+]
