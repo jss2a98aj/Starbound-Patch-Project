@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "test",
+    "path" : "/description",
+    "value" : "It's Silt. It's very silty."
+  },
+  {
+    "op" : "replace",
+    "path" : "/description",
+    "value" : "It's silt. It's very silty."
+  }
+]
