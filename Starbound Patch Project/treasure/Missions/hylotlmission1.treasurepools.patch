@@ -1,0 +1,7 @@
+[
+  {
+    "op": "replace",
+    "path": "/hylotlmissionReward/0/1/pool/1/item/0",
+    "value": "titaniumbar"
+  }
+]
