@@ -1,0 +1,86 @@
+[
+    [{
+        "op": "test",
+        "path": "/bribeWait/glitch/default/2",
+        "value": "Desperate. Please, here my offer and you may think twice about arresting me!"
+    },
+    {
+        "op": "replace",
+        "path": "/bribeWait/glitch/default/2",
+        "value": "Desperate. Please, hear my offer and you may think twice about arresting me!"
+    }],
+
+    [{
+        "op": "test",
+        "path": "/crazy/avian/default/7",
+        "value": "THE STARGAZERS SHOWED ME THE TRUTH! I KNOW THE SECRET TRUTHES OF THIS UNIVERSE!"
+    },
+    {
+        "op": "replace",
+        "path": "/crazy/avian/default/7",
+        "value": "THE STARGAZERS SHOWED ME THE TRUTH! I KNOW THE SECRET TRUTHS OF THIS UNIVERSE!"
+    }],
+
+    [{
+        "op": "test",
+        "path": "/tricked/novakid/default/3",
+        "value": "You've been decieved by my fake handcuffs! Yee-haw"
+    },
+    {
+        "op": "replace",
+        "path": "/tricked/novakid/default/3",
+        "value": "You've been deceived by my fake handcuffs! Yee-haw!"
+    }],
+
+    [{
+        "op": "test",
+        "path": "/tricked/hylotl/default/3",
+        "value": "You've been decieved by my fake handcuffs! I'm as slippery as an eel!"
+    },
+    {
+        "op": "replace",
+        "path": "/tricked/hylotl/default/3",
+        "value": "You've been deceived by my fake handcuffs! I'm as slippery as an eel!"
+    }],
+
+    [{
+        "op": "test",
+        "path": "/tricked/avian/default/3",
+        "value": "You've been decieved by my fake handcuffs! I'm still a FREE BIRD!"
+    },
+    {
+        "op": "replace",
+        "path": "/tricked/avian/default/3",
+        "value": "You've been deceived by my fake handcuffs! I'm still a FREE BIRD!"
+    }],
+
+    [{
+        "op": "test",
+        "path": "/tricked/apex/default/3",
+        "value": "You've been decieved by my fake handcuffs! I'm still a free ape!"
+    },{
+        "op": "replace",
+        "path": "/tricked/apex/default/3",
+        "value": "You've been deceived by my fake handcuffs! I'm still a free ape!"
+    }],
+
+    [{
+        "op": "test",
+        "path": "/tricked/default/default/3",
+        "value": "You've been decieved by my fake handcuffs! I'm still as free as a bird!"
+    },{
+        "op": "replace",
+        "path": "/tricked/default/default/3",
+        "value": "You've been deceived by my fake handcuffs! I'm still as free as a bird!"
+    }],
+
+    [{
+        "op": "test",
+        "path": "/deceptiveEnd/default/default/5",
+        "value": "It was a trick! I decieved you!"
+    },{
+        "op": "replace",
+        "path": "/deceptiveEnd/default/default/5",
+        "value": "It was a trick! I deceived you!"
+    }]
+]
