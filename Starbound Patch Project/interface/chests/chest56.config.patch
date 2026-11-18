@@ -1,0 +1,16 @@
+[
+  [{
+      "op": "test",
+      "path": "/gui/itemGrid/position",
+      "value": [81, 138]
+    }, {
+      "op": "test",
+      "path": "/gui/itemGrid2/position",
+      "value": [4, 44]
+    }, {
+      "op": "replace",
+      "path": "/gui/itemGrid2/position",
+      "value": [5, 43]
+    }
+  ]
+]
