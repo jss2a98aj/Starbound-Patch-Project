@@ -1,0 +1,22 @@
+[
+    {
+        "op": "replace",
+        "path": "/root/children/1/parameters/scalePower/value",
+        "value": false
+    },
+    {
+        "op": "add",
+        "path": "/root/children/1/parameters/projectileConfig/value/power",
+        "value": 0
+    },
+    {
+        "op": "replace",
+        "path": "/root/children/0/children/1/parameters/scalePower/value",
+        "value": false
+    },
+    {
+        "op": "add",
+        "path": "/root/children/0/children/1/parameters/projectileConfig/value/power",
+        "value": 0
+    }
+]

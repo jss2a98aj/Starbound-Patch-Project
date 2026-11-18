@@ -1,0 +1,16 @@
+{
+  "name" : "reaction-burning",
+  "blockingStat" : "fireStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "burning.lua"
+  ],
+
+  "animationConfig" : "/stats/effects/burning/burning.animation",
+
+  "label" : "Burning",
+  "icon" : "/interface/statuses/fire.png"
+}
